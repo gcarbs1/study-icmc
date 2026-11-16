@@ -143,7 +143,10 @@ Tabela~\ref{tab:cobertura} resume essa cobertura.
 Cada disciplina coletada contém identificação, departamento, créditos, carga
 horária, ementa, objetivos, conteúdo programático e docentes. As grades e as
 relações de requisito são armazenadas em tabelas separadas e vinculadas pelos
-códigos das disciplinas.
+códigos das disciplinas. As variáveis são de quatro tipos: textuais (ementa,
+objetivos e conteúdo programático), categóricas (departamento, curso e tipo de
+disciplina), numéricas (créditos, carga horária e semestre ideal) e relacionais
+(requisitos entre disciplinas).
 
 \newpage  
 
@@ -170,6 +173,8 @@ disciplina, formado pela concatenação de ementa, objetivos e conteúdo
 programático. Nome, departamento, carga horária e requisitos não participam da
 representação, do agrupamento nem das medidas de similaridade. Esses atributos
 são anexados depois, para identificar, filtrar e interpretar os resultados.
+Quatro registros sem texto em nenhum desses campos foram excluídos, restando 632
+códigos com texto.
 
 \subsection{Disciplinas únicas}
 
@@ -265,7 +270,9 @@ página D3 Graph Gallery \cite{scherer,holtz}.
 
 \subsection{Mapa de agrupamentos}
 
-A Figura~\ref{fig:mapa} representa disciplinas por pontos e tópicos por cores.
+Como a similaridade define relações entre pares de disciplinas, a primeira
+questão é representada por uma rede sobre uma projeção bidimensional, que mostra
+ao mesmo tempo os grupos e as vizinhanças. A Figura~\ref{fig:mapa} representa disciplinas por pontos e tópicos por cores.
 As posições resultam de uma segunda execução do UMAP, em duas dimensões,
 independente da redução usada no agrupamento. As coordenadas são giradas para
 que o eixo de maior variância fique na horizontal e reescaladas por um único
@@ -328,7 +335,9 @@ permite comparar tópicos em uma escala comum.
 
 \subsection{Grade e requisitos}
 
-A Figura~\ref{fig:grade} organiza a grade escolhida em colunas de semestre ideal.
+Como requisitos são relações dirigidas que se distribuem ao longo do curso, a
+grade dispõe as disciplinas por semestre ideal, de modo que a ordem curricular
+fique visível. A Figura~\ref{fig:grade} organiza a grade escolhida em colunas de semestre ideal.
 Disciplinas obrigatórias têm preenchimento intenso, e optativas têm
 preenchimento claro e contorno tracejado. Ao selecionar uma disciplina, o usuário vê seus
 requisitos diretos e indiretos e as disciplinas que ela libera. São consideradas
@@ -347,7 +356,12 @@ causariam sobreposição.
   \label{fig:grade}
 \end{figure}
 
-\section{Resultados}
+\section{Resultados e discussão}
+
+Esta seção responde às três questões levantadas na introdução e discute o
+alcance de cada resposta.
+
+\subsection{Agrupamento das disciplinas}
 
 Os 24 tópicos têm entre 8 e 37 disciplinas. A associação entre tópico e
 departamento, identificado pelo prefixo do código, é moderada, com informação
@@ -357,16 +371,42 @@ Probabilidade e estatística, com 30 de 32 disciplinas do SME, e tópicos que
 atravessam unidades, como Física, mecânica e termodinâmica, que reúne
 disciplinas de dez siglas, entre elas IFSC, SLC, SEM e SEL.
 
+A associação apenas moderada indica que departamentos e tópicos organizam as
+disciplinas por critérios diferentes. Os departamentos refletem a estrutura
+administrativa e a área dos docentes, enquanto os tópicos refletem o conteúdo
+descrito nas ementas. Assim, os tópicos que atravessam unidades evidenciam
+conteúdos compartilhados que a organização departamental não mostra, como a
+física ensinada pelo IFSC, por departamentos da EESC e pela Licenciatura em
+Ciências Exatas. Os tópicos, porém, descrevem o texto das ementas, e não o que é
+efetivamente ensinado em sala.
+
+\subsection{Similaridade entre disciplinas}
+
 Na comparação de similaridade, as cinco disciplinas mais próximas de Cálculo I
 pertencem ao mesmo tópico e têm similaridade entre 0,75 e 0,79: Análise I,
 Cálculo II, Análise para Licenciatura, Análise e Análise II. A comparação
 aproxima ementas de conteúdo comum, e não apenas sequências de mesmo nome.
+
+O mesmo exemplo mostra o limite da medida. Cálculo I supera o limiar com 136
+disciplinas de 18 tópicos, pois o vocabulário de funções, limites e derivadas
+aparece em ementas de muitas áreas. Além disso, a similaridade mede proximidade
+textual, e não equivalência curricular: Cálculo II é a segunda disciplina mais
+próxima de Cálculo I, mas depende dela como requisito. A visão indica, portanto,
+disciplinas comparáveis, e não substituíveis.
+
+\subsection{Encadeamentos curriculares}
 
 Os 897 pares de requisito têm similaridade mediana de 0,64, acima da mediana da
 mesma grade (0,56) e do conjunto (0,54): requisitos tendem a ligar textos
 próximos. As cadeias mais longas têm de quatro a sete etapas, e as disciplinas
 de maior alcance são Cálculo I, em matemática e estatística, e as introdutórias
 de programação, em computação.
+
+Como a comparação com a mesma grade controla a proximidade temática de cada
+curso, a diferença não decorre apenas de os pares pertencerem ao mesmo
+currículo. Ainda assim, a similaridade não determina os requisitos: disciplinas
+introdutórias liberam conteúdos aplicados com vocabulário diferente, e os
+requisitos também expressam decisões pedagógicas.
 
 \section{Limitações}
 
@@ -376,6 +416,24 @@ tópicos influenciam os agrupamentos. Além disso, 74 disciplinas (14\%) foram
 classificadas como ruído pelo HDBSCAN e atribuídas ao tópico de centroide mais
 próximo. Disciplinas homônimas com sobreposição parcial, como Física II do IFSC e
 Física 2 da Licenciatura em Ciências Exatas, permanecem unidas.
+
+\section{Lições aprendidas}
+
+A preparação dos identificadores mostrou-se a etapa mais decisiva. Sem a
+consolidação dos códigos, Cálculo I apareceria seis vezes e distorceria tópicos,
+similaridades e requisitos, e uma consolidação apenas pelo nome uniria
+disciplinas distintas, como Física III e Física 3.
+
+A escolha do modelo de linguagem também afetou os resultados. Um modelo com
+janela de 128 tokens exigiria dividir os textos em blocos, e o BGE-M3 permitiu
+representar cada disciplina por inteiro. Como a escala da similaridade muda de
+um modelo para outro, os limiares passaram a ser definidos por percentis, e não
+por valores fixos.
+
+Por fim, a legibilidade exigiu decisões de projeto em cada visão: a repulsão
+entre pontos e a numeração das vizinhas no mapa, a exibição sob demanda dos
+requisitos na grade e o uso de rótulos junto às cores. Esses ajustes foram mais
+úteis que efeitos de animação para tornar as visualizações interpretáveis.
 
 \section{Próximas etapas}
 
