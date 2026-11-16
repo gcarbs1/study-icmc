@@ -1,0 +1,3804 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+<title>Jupiterweb</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css"
+	type=text/css rel=stylesheet>
+</head>
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style>
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;" /></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;" /></a>
+		</td>
+	</tr>
+</table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css"
+	title="Vertical 'Earth'" />
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="stylesheet" type="text/css" id="fsmenu-fallback"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" />
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href='#' title=''><span>Calendário Escolar</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920'
+		title=''>2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863'
+		title=''>2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='jupCarreira.jsp?codmnu=8275'
+		title=''>Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Disciplina</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=D&amp;codmnu=6755'
+		title=''>Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=T&amp;codmnu=6756'
+		title=''>Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>Editais</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872'
+		title=''>Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502'
+		title=''>Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?page_id=399?codmnu=6762'
+		title=''>PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://prg.usp.br/programas-e-bolsas/?codmnu=10838'
+		title=''>PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>FAQ</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Matrícula Interativa</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='FAQ.jsp?codmnu=9326'
+		title=''>FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='grdMatriculainterativaInformacoes.jsp?codmnu=9327'
+		title=''>Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='graduacaoAjudaNovaMatricula?codmnu=8946'
+		title='Liberar próximo da matricula'>TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?p=20746&amp;codmnu=6749'
+		title=''>Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='http://www.prg.usp.br/?p=20741&amp;codmnu=8063'
+		title=''>Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		</li>
+	
+
+
+
+</ul>
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href='webLogin.jsp'>Entrar</a></li>
+		<li><a href='esqueciSenha'>Esqueci a Senha</a></li>
+		<li><a href='primeiroAcesso'>Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+<html>
+<head>
+<title>Grade Curricular</title>
+
+<style type="text/css">
+table#tabelaCargaHoraria td:not([data-vazio]) {
+	width: 0;
+	white-space: nowrap;
+	min-width: fit-content;
+}
+</style>
+
+</head>
+<body>
+ 
+
+
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css"/>
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css" >
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/engine.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/util.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/comum.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<STYLE>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</STYLE>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+</head>
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Grade Curricular
+</div>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+	<br>
+ 
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+		 
+			
+		</td>
+	</tr>
+ 
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+ 
+	<tr>
+		
+    <td> 
+      <div align="center"> </div>
+    </td>
+	</tr>
+	<tr>
+		<td>
+			<form name="form1" method="GET" action="">
+			<table width="100%" border="0">
+				<tr>
+					<td> 
+					
+				 
+
+
+
+
+<script language="Javascript">
+function OpenWindowToPrint() {
+	var mylink;
+	
+	if('default' == 'default'){
+		mylink = document.location.href;
+	} else {
+		mylink = 'default';
+	}
+	
+	if(mylink.indexOf("?") > 0){
+		mylink += "&";
+	} else {
+		mylink += "?";
+	}
+	
+	mylink += "print=true";
+	
+	window.open(mylink , "_blank", "toolbar=no,location=no,directories=no,status=no,menubar=yes,titlebar=yes,scrollbars=yes,resizable=yes");
+}
+</script>
+
+<table width="538" border="0" cellpadding="1" cellspacing="1" align="center">
+  
+  <tr> 
+    <td align="right">
+	<a href="javascript:OpenWindowToPrint()" class="mail_footer"><img src="images/print_edit.gif" width="16" height="16" border="0">
+	<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">&nbsp;Preparar para impressão&nbsp;</font>
+	</a>
+	</td>
+  </tr>
+  
+</table>
+
+ 
+
+
+
+  <table align="center" width="400">
+   <tr>
+     <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black">
+         <b>Licenciatura em Ciências Exatas - São Carlos </b>
+      </span></font></td>
+   </tr>
+ </table> 
+ <BR>
+<table border="0" align="center" width="400">
+<tr>
+  <td align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Curso:</span></font>
+  <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Licenciatura em Ciências Exatas</span></font></td>
+</tr>
+
+<tr>
+  <td align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><span class="txt_verdana_8pt_white">Curso:</span></font>
+  <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Habilitação em Física</span></font></td>
+</tr>
+
+</table>
+<BR>
+
+    <table align="center" width="400">
+	  <tr>
+	    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_10pt_black">Observações:</span></font></td>
+	  </tr>
+	  <tr>
+	              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">currículo reformulado</span></font></td>
+	  </tr>
+	 </table>  	
+<BR>
+
+<table align="center" width="400">
+ <tr>
+   <td align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+         Informa&ccedil;&otilde;es B&aacute;sicas do Curr&iacute;culo</span></font></b></td>
+ </tr>
+</table>		 
+<BR>
+<table align="center" width="400">
+<tr>
+  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+      Data de In&iacute;cio:</span></font></td>
+                  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                    01/01/2027  </span></font></td>
+  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dura&ccedil;&atilde;o</span></font></td>
+  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+      Ideal</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                    8 semestres</span></font></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+      M&iacute;nima</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                    8 semestres</span></font></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+      M&aacute;xima</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                    12 semestres</span></font></td>
+</tr>
+<tr>
+</table>
+<BR>
+<table id="tabelaCargaHoraria" border="0" align="center" width="100%" style="min-width: 700px">
+  <tr  bgcolor="#FFFFFF"> 
+	<td data-vazio></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"><b>Carga 
+      Hor&aacute;ria</b></span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"><b>Aula</b></span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"><b>Trabalho</b></span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"><b>Subtotal</b></span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Obrigat&oacute;ria</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">2010</span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">1770</span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">3780</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Optativa 
+      Livre</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Optativa 
+      Eletiva&nbsp;&nbsp;&nbsp;&nbsp;</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">0</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Total de carga hor&aacute;ria em disciplinas da grade</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">2010</span></font></td>
+    <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 1770</span></font></td>
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">3780</span></font></td>
+    <td>
+		
+                    <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">(Est&aacute;gio: 
+                      400)</span></font>
+		
+		
+                    <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">(AAC: 
+                      30)</span></font>
+		
+		
+		
+    </td>
+	<td data-vazio></td>
+  </tr>
+  <tr>
+	<td data-vazio></td>
+    <td colspan="5"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td colspan="3"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Subtotal (*Total de carga hor&aacute;ria em disciplinas da grade + AAC):</span></font></b></td>
+                  
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">3810</span></font></td>
+  </tr>
+  <tr>
+	<td data-vazio></td>
+    <td colspan="3"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Total geral de carga horária exigida em extensão:</span></font></b></td>
+                  
+                  <td ALIGN=RIGHT>
+					<font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+						381
+						(0.1)
+					</span></font>
+				  </td>
+	<td data-vazio></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td colspan="5"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td colspan="3"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Total Geral (*Total de carga hor&aacute;ria em disciplinas da grade + AAC + AEX Apolo + Extens&atilde;o exigida em optativas):</span></font></b></td>
+                  
+                  <td ALIGN=RIGHT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">3810</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td colspan="5"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td>
+  </tr>
+  <tr> 
+	<td data-vazio></td>
+    <td colspan="5" data-vazio>
+		<font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">
+			* A carga hor&aacute;ria de est&aacute;gio e a carga hor&aacute;ria de atividades de extens&atilde;o inclu&iacute;das nas disciplinas obrigat&oacute;rias j&aacute; est&atilde;o somadas no Total de carga hor&aacute;ria em disciplinas.
+		</span></font>
+	</td>
+	<td data-vazio></td>
+  </tr>
+
+</table>
+<BR>
+
+ <table border="0" align="center" width="400">
+ <tr>
+                  <td ALIGN=center><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"><b>Informações 
+                    Específicas</b></span></font></td>
+ </tr>
+ <tr>
+  <td ALIGN=center><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">&nbsp;</span></font></td>
+ </tr>
+ <tr>
+  <td ALIGN=left><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+     <p>A op&ccedil;&atilde;o por esta habilita&ccedil;&atilde;o ser&aacute; feita ao final do QUINTO&nbsp;per&iacute;odo do curso.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+  </span></font></td>
+ </tr>
+ </table>
+ <BR>
+ 
+ <table width="100%">
+   <tr>
+     <td align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+          Grade Curricular</span></font></b></td>
+	<tr>	
+	<tr>
+     <td nowrap align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">
+          <b>Legenda:</b> CH=Carga horária Total; CE=Carga horária de Estágio; CP=Carga horária de Práticas como Componentes Curriculares;</span></font></td>
+	<tr>
+ 
+	<tr>
+     <td nowrap align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ATPA=Carga horária em Atividades Teórico-Práticas de Aprofundamento; EXT=Carga hor&aacute;ria em Atividades Extensionistas</span></font></td>
+	<tr>
+  </table>
+	<table cellspacing=0 cellpadding=0 border=0 align="center" width="100%" bgcolor="#FFFFFF">
+                <tr>			
+                  <td> 
+                    <table cellspacing=2 cellpadding=0 width="100%" border=0>
+                       
+                      <tr valign="top" bgcolor="#658CCF" class="txt_verdana_10pt_white" > 
+                        <td class="txt_verdana_8pt_white" colspan="9"><b>Disciplinas 
+                          Obrigatórias</b></td>
+                      </tr>
+                        
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">1º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0601&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0601</a></td>
+                        <td> Elementos de Matemática</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0605&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0605</a></td>
+                        <td> Introdução aos Estudos da Educação: aspectos históricos, filosóficos e sociais</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0620&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0620</a></td>
+                        <td> Biologia 1</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0627&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0627</a></td>
+                        <td> Metodologia da Pesquisa e Redação Científica para Licenciatura</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0691&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0691</a></td>
+                        <td> Química 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">14</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">5</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">360</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">90</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">15</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">2º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0606&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0606</a></td>
+                        <td> Introdução aos Estudos da Educação: ciência, sociologia e imprensa</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0607&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0607</a></td>
+                        <td> Cálculo 1</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0601 
+                          - Elementos de Matemática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0621&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0621</a></td>
+                        <td> Biologia 2</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0620 
+                          - Biologia 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0630&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0630</a></td>
+                        <td> Psicologia da Educação 1</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">120</div>
+                        </td>
+						  <td> <div align="right">5</div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">30</div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0654&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0654</a></td>
+                        <td> Ensino e Divulgação de Astronomia e Astrofísica 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0692&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0692</a></td>
+                        <td> Química 2</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0691 
+                          - Química 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">20</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">6</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">480</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">5</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">120</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">45</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">3º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0602&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0602</a></td>
+                        <td> Matrizes e Geometria Analítica</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0601 
+                          - Elementos de Matemática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0615&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0615</a></td>
+                        <td> Estrutura e Funcionamento do Ensino Fundamental e Médio</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right">10</div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">30</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0606 
+                          - Introdução aos Estudos da Educação: ciência, sociologia e imprensa </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0622&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0622</a></td>
+                        <td> Biologia 3</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0620 
+                          - Biologia 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0624&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0624</a></td>
+                        <td> Física 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0607 
+                          - Cálculo 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0631&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0631</a></td>
+                        <td> Psicologia da Educação 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0662&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0662</a></td>
+                        <td> Laboratório de Química 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0693 
+                          - Química 3 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0693&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0693</a></td>
+                        <td> Química 3</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">18</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">5</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">420</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">10</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">90</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">45</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">4º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=9010001&codcur=90011&codhab=104" class="link_gray"> 
+                          9010001</a></td>
+                        <td> Atividades Teórico-Práticas de Aprofundamento (ATPA) - I</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0608&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0608</a></td>
+                        <td> Cálculo II</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0607 
+                          - Cálculo 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito fraco    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0623&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0623</a></td>
+                        <td> Biologia 4</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0620 
+                          - Biologia 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0625&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0625</a></td>
+                        <td> Física 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0624 
+                          - Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0626&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0626</a></td>
+                        <td> Laboratório de Física 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0634&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0634</a></td>
+                        <td> Diretrizes Curriculares para o Ensino de Ciências e Matemática</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right">15</div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">10</div> </td>
+                      </tr>
+                          
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">14</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">4</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">330</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">15</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">30</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">10</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">5º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0610&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0610</a></td>
+                        <td> Computação e Tecnologias Aplicadas na Educação</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">30</div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0614&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0614</a></td>
+                        <td> Didática</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">3</div>
+                        </td>
+                        <td> 
+                          <div align="right">150</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">30</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0630 
+                          - Psicologia da Educação 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0628&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0628</a></td>
+                        <td> Física 3</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito fraco    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0624 
+                          - Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0639&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0639</a></td>
+                        <td> Instrumentação para o Ensino 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0614 
+                          - Didática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0601 
+                          - Elementos de Matemática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0621 
+                          - Biologia 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0624 
+                          - Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0657&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0657</a></td>
+                        <td> Estágio Supervisionado em Ensino de Ciências 1</td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">135</div>
+                        </td>
+						  <td> <div align="right">70</div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">20</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0614 
+                          - Didática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0681 
+                          - Metodologia para o Ensino de Ciências 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0606 
+                          - Introdução aos Estudos da Educação: ciência, sociologia e imprensa </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0621 
+                          - Biologia 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0663&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0663</a></td>
+                        <td> Ciências do Ambiente</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0681&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0681</a></td>
+                        <td> Metodologia para o Ensino de Ciências 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0614 
+                          - Didática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0657 
+                          - Estágio Supervisionado em Ensino de Ciências 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0606 
+                          - Introdução aos Estudos da Educação: ciência, sociologia e imprensa </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0621 
+                          - Biologia 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">17</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">11</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">585</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">70</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">90</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">95</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">6º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=9010002&codcur=90011&codhab=104" class="link_gray"> 
+                          9010002</a></td>
+                        <td> Atividades Teórico-práticas de Aprofundamento (ATPA) II</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0629&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0629</a></td>
+                        <td> Laboratório de Fluidos, Termodinâmica, Oscilações e Ondas</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0632 
+                          - Oscilações e Ondas </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0628 
+                          - Física 3 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0632&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0632</a></td>
+                        <td> Oscilações e Ondas</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0635&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0635</a></td>
+                        <td> Eletricidade e Magnetismo</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0608 
+                          - Cálculo II </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0636&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0636</a></td>
+                        <td> Laboratório de Eletricidade e Magnetismo</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0635 
+                          - Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0640&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0640</a></td>
+                        <td> Instrumentação para o Ensino 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0639 
+                          - Instrumentação para o Ensino 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0645&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0645</a></td>
+                        <td> Panorama das Pesquisas na Área de Ensino de Ciências</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0658&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0658</a></td>
+                        <td> Estágio Supervisionado em Ensino de Ciências 2</td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">135</div>
+                        </td>
+						  <td> <div align="right">100</div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">20</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0682 
+                          - Metodologia para o Ensino de Ciências 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0657 
+                          - Estágio Supervisionado em Ensino de Ciências 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0682&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0682</a></td>
+                        <td> Metodologia para o Ensino de Ciências 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0658 
+                          - Estágio Supervisionado em Ensino de Ciências 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0681 
+                          - Metodologia para o Ensino de Ciências 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">19</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">8</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">525</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">100</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">60</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">20</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">7º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0641&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0641</a></td>
+                        <td> Óptica</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0635 
+                          - Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0642&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0642</a></td>
+                        <td> Laboratório de Óptica</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0641 
+                          - Óptica </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0646&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0646</a></td>
+                        <td> História da Ciência 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">15</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0601 
+                          - Elementos de Matemática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0620 
+                          - Biologia 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0627 
+                          - Metodologia da Pesquisa e Redação Científica para Licenciatura </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0634 
+                          - Diretrizes Curriculares para o Ensino de Ciências e Matemática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0692 
+                          - Química 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0648&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0648</a></td>
+                        <td> Física Moderna</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0635 
+                          - Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0656&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0656</a></td>
+                        <td> Laboratório de Aplicação de Sensores, Ferramentas Digitais e Robótica ao Ensino de Ciências</td>
+                        <td> 
+                          <div align="right">4</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0635 
+                          - Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0636 
+                          - Laboratório de Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0685&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0685</a></td>
+                        <td> Metodologia para o Ensino de Física 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0688 
+                          - Estágio Supervisionado em Ensino de Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0682 
+                          - Metodologia para o Ensino de Ciências 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0688&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0688</a></td>
+                        <td> Estágio Supervisionado em Ensino de Física 1</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">5</div>
+                        </td>
+                        <td> 
+                          <div align="right">180</div>
+                        </td>
+						  <td> <div align="right">100</div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">45</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0685 
+                          - Metodologia para o Ensino de Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0606 
+                          - Introdução aos Estudos da Educação: ciência, sociologia e imprensa </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0614 
+                          - Didática </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0628 
+                          - Física 3 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0629 
+                          - Laboratório de Fluidos, Termodinâmica, Oscilações e Ondas </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0632 
+                          - Oscilações e Ondas </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0658 
+                          - Estágio Supervisionado em Ensino de Ciências 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">18</span></font></td>
+                        <td width="7%" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">9</span></font></td>
+                        <td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">540</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">100</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">15</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">75</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td width="13%">&nbsp;</td>
+                        <td width="48%">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+					     
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">8º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						 
+							<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td> 
+                      </tr>
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=9010003&codcur=90011&codhab=104" class="link_gray"> 
+                          9010003</a></td>
+                        <td> Atividades Teórico-práticas de Aprofundamento (ATPA) - III</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0647&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0647</a></td>
+                        <td> História da Ciência 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">30</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">15</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0646 
+                          - História da Ciência 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0650&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0650</a></td>
+                        <td> Laboratório de Estrutura da Matéria</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0648 
+                          - Física Moderna </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito fraco    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0651&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0651</a></td>
+                        <td> Física do Cotidiano - Teoria e Experimento</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">90</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right">30</div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0635 
+                          - Eletricidade e Magnetismo </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0628 
+                          - Física 3 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0632 
+                          - Oscilações e Ondas </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0648 
+                          - Física Moderna </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0655&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0655</a></td>
+                        <td> Ensino e Divulgação de Astronomia e Astrofísica 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0625 
+                          - Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0628 
+                          - Física 3 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0632 
+                          - Oscilações e Ondas </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0680&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0680</a></td>
+                        <td> Língua Brasileira de Sinais para a Licenciatura</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right"></div> </td>
+                      </tr>
+                          
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0686&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0686</a></td>
+                        <td> Metodologia para o Ensino de Física 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">1</div>
+                        </td>
+                        <td> 
+                          <div align="right">60</div>
+                        </td>
+						  <td> <div align="right"></div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">15</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0689 
+                          - Estágio Supervisionado em Ensino de Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0685 
+                          - Metodologia para o Ensino de Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                        
+                       
+                       
+					   
+					   
+					   
+					  
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0689&codcur=90011&codhab=204" class="link_gray"> 
+                          SLC0689</a></td>
+                        <td> Estágio Supervisionado em Ensino de Física 2</td>
+                        <td> 
+                          <div align="right">2</div>
+                        </td>
+                        <td> 
+                          <div align="right">5</div>
+                        </td>
+                        <td> 
+                          <div align="right">180</div>
+                        </td>
+						  <td> <div align="right">100</div> </td> 
+						   <td> <div align="right"></div> </td> 
+						  <td> <div align="right"></div> </td> 					
+						  <td> <div align="right">45</div> </td>
+                      </tr>
+                        	
+                          
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0686 
+                          - Metodologia para o Ensino de Física 2 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">   Indicação 
+                            de Conjunto   </div>
+                        </td>
+                      </tr>
+                      	
+                        
+                      <tr> 
+                  
+                        <td colspan="4" align=LEFT><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_red"> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SLC0688 
+                          - Estágio Supervisionado em Ensino de Física 1 </span></font></td>
+                        <td class="txt_verdana_8pt_red" colspan="5"> 
+                          <div align="left">  
+                            &nbsp;&nbsp;Requisito    </div>
+                        </td>
+                      </tr>
+                        
+                      <tr> 
+                        <td colspan="2" align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">Subtotal:</span></font></td>
+                        <td align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">14</span></font></td>
+                        <td align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">11</span></font></td>
+                        <td align=RIGHT valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">540</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">100</span></font></td>
+				  		<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">45</span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+						<td align=RIGHT   valign=TOP><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">75</span></font></td>
+                      </tr>
+                      <tr> 
+                        <td height="18">&nbsp;</td>
+                        <td height="18">&nbsp;</td>
+                        <td height="18">&nbsp;</td>
+                        <td height="18">&nbsp;</td>
+                      </tr>
+                          
+                      <tr valign="top" bgcolor="#658CCF"" class="txt_verdana_8pt_gray" > 
+                        <td colspan="9"><font color="#FFFFFF"><b>Disciplinas Optativas 
+                          Livres</b></font></td>
+                      </tr>
+                        
+                         
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">5º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td>
+                      </tr>
+                       
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0700&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0700</a></td>
+                        <td> Atividades de Extensão para Licenciatura 1</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right">30</div> </td>
+                      </tr>
+                          
+                        
+                      <tr> 
+                        <td colspan="2">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">6º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td>
+                      </tr>
+                       
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0701&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0701</a></td>
+                        <td> Atividades de Extensão para Licenciatura 2</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right">60</div> </td>
+                      </tr>
+                          
+                        
+                      <tr> 
+                        <td colspan="2">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">7º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td>
+                      </tr>
+                       
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0702&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0702</a></td>
+                        <td> Atividades de Extensão para Licenciatura 3</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right">90</div> </td>
+                      </tr>
+                          
+                        
+                      <tr> 
+                        <td colspan="2">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                        
+                      <tr bgcolor="#CCCCCC"> 
+                        <td colspan="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">8º 
+                          Período Ideal</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Aula</span></font></td>
+                        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Cr&eacute;d.<br>
+                          Trab.</span></font></td>
+                        <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CH</span></font></td>
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CE</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">CP</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">ATPA</span></font></td> 
+						<td width="4.8%" align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">EXT</span></font></td>
+                      </tr>
+                       
+                      <tr valign="top" bgcolor="#FFFFFF" class="txt_verdana_8pt_gray" > 
+                        <td><a href="obterDisciplina?sgldis=SLC0703&codcur=90011&codhab=104" class="link_gray"> 
+                          SLC0703</a></td>
+                        <td> Atividades de Extensão para Licenciatura 4</td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+                        <td> 
+                          <div align="right">0</div>
+                        </td>
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right"></div> </td> 
+						<td> <div align="right">120</div> </td>
+                      </tr>
+                          
+                       
+                    </table>
+                  </td>
+				</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr> 
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+					<tr> 
+						<td>&nbsp;</td>
+					</tr>
+	    </table>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css"/>
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href='creditos.jsp' class="link_olive" target="_self">Cr&eacute;ditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      &copy; 1999 - 2026 - Superintend&ecirc;ncia de Tecnologia da Informa&ccedil;&atilde;o/USP</font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+			
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

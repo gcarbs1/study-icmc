@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore quais disciplinas do ICMC-USP têm conteúdo parecido."
+    />
+    <title>Estudo de disciplinas semelhantes · ICMC</title>
+    <link rel="stylesheet" href="html/styles.css" />
+  </head>
+  <body>
+    <!-- 1. Identidade e contexto do projeto -->
+    <header class="band band-top">
+      <div class="wrap brand">
+        <img
+          class="logo"
+          src="html/assets/logo-icmc.png"
+          alt="ICMC · USP São Carlos"
+        />
+        <div class="titles">
+          <h1>Estudo de disciplinas <em>semelhantes</em></h1>
+          <p class="deck">
+            Uma exploração inicial das disciplinas de graduação do ICMC-USP a
+            partir do texto de suas ementas.
+          </p>
+          <ul class="authors" aria-label="Autores">
+            <li>
+              Gabriel Carbinatto
+              <span>(12725411)</span>
+            </li>
+            <li>
+              Enzo Castelo Branco Biondi
+              <span>(14568142)</span>
+            </li>
+            <li>
+              Matheus Rodrigues Ferreira
+              <span>(14762149)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. Busca global; a lista de resultados é preenchida pelo JavaScript -->
+    <nav class="statebar" aria-label="Busca de disciplinas">
+      <div class="wrap">
+        <div class="find" role="search">
+          <label for="find">Encontrar disciplina</label>
+          <input
+            id="find"
+            type="search"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="nome ou código"
+            aria-controls="find-list"
+            aria-expanded="false"
+          />
+          <ul id="find-list" class="find-list" role="listbox" hidden></ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="wrap grid">
+      <!-- Ficha da disciplina encontrada na busca (independente das visualizações) -->
+      <section
+        class="detail span-12"
+        id="detail"
+        aria-label="Disciplina encontrada na busca"
+        hidden
+      >
+        <div class="panel">
+          <button
+            type="button"
+            class="close"
+            id="detail-close"
+            aria-label="Fechar"
+          >
+            ×
+          </button>
+          <article class="card" id="card" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <!-- 3. Q1: agrupamentos de assunto -->
+      <h2 class="question span-12">
+        <span class="q-label">Q1</span
+        ><span class="question-text"
+          >Como as disciplinas se agrupam a partir de suas ementas?</span
+        >
+      </h2>
+
+      <section class="panel span-12" aria-labelledby="q1-map-title">
+        <header class="panel-head">
+          <h3 id="q1-map-title">Mapa das disciplinas</h3>
+        </header>
+        <div class="panel-body flush"><div id="net" class="net"></div></div>
+      </section>
+
+
+      <!-- 4. Q2: comparação de similaridade textual -->
+      <h2 class="question span-12">
+        <span class="q-label">Q2</span
+        ><span class="question-text"
+          >Quais disciplinas são mais semelhantes a uma disciplina de
+          interesse?</span
+        >
+      </h2>
+
+      <section class="panel span-12" aria-labelledby="q2-similarity-title">
+        <header class="panel-head">
+          <h3 id="q2-similarity-title">Similaridade entre ementas</h3>
+          <p class="hint" id="similarity-note"></p>
+        </header>
+        <div class="panel-body">
+          <div class="similarity-picker">
+            <label for="similarity-find">Disciplina de referência</label>
+            <div class="find" role="search">
+              <input
+                id="similarity-find"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="nome ou código"
+                aria-controls="similarity-find-list"
+                aria-expanded="false"
+              />
+              <ul
+                id="similarity-find-list"
+                class="find-list"
+                role="listbox"
+                hidden
+              ></ul>
+            </div>
+          </div>
+          <div id="similarity" class="similarity"></div>
+        </div>
+      </section>
+
+      <!-- 5. Q3: grade curricular e relações de requisito -->
+      <h2 class="question span-12">
+        <span class="q-label">Q3</span
+        ><span class="question-text"
+          >Como as disciplinas de cada curso se encadeiam por requisitos?</span
+        >
+      </h2>
+
+      <section class="panel span-12" aria-labelledby="q3-grid-title">
+        <header class="panel-head">
+          <h3 id="q3-grid-title">Grade e requisitos</h3>
+          <label class="sr-only" for="grid-course">Curso</label>
+          <select class="pick" id="grid-course"></select>
+          <div class="toggle" id="grid-kind">
+            <button type="button" data-kind="all" aria-pressed="true">
+              todas
+            </button>
+            <button type="button" data-kind="mand" aria-pressed="false">
+              obrigatórias
+            </button>
+          </div>
+          <p class="hint" id="grid-note"></p>
+        </header>
+        <div class="panel-body"><div id="grid"></div></div>
+      </section>
+    </main>
+
+    <!-- 6. Proveniência dos dados e referências visuais -->
+    <footer class="foot">
+      <div class="wrap">
+        <p>
+          Fonte:
+          <a
+            href="https://uspdigital.usp.br/jupiterweb/"
+            target="_blank"
+            rel="noopener"
+            >JúpiterWeb</a
+          >, Pró-Reitoria de Graduação da USP<br />
+          Referências:
+          <a href="https://github.com/holtzy" target="_blank" rel="noopener"
+            >Yan Holtz</a
+          >
+          e
+          <a href="https://github.com/z3tt" target="_blank" rel="noopener"
+            >Cédric Scherer</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Elemento compartilhado por todas as dicas flutuantes -->
+    <div class="tip" id="tip" role="tooltip" hidden></div>
+
+    <!-- Dependências carregadas na ordem: D3, dados e aplicação -->
+    <script src="html/vendor/d3.v7.min.js"></script>
+    <script src="html/data/disciplinas.js"></script>
+    <script src="html/app.js"></script>
+  </body>
+</html>

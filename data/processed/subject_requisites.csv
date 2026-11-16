@@ -1,0 +1,703 @@
+source,target,n_courses,strong,relations
+1800040,1800043,5,False,requisito fraco
+7500004,7500053,2,True,requisito
+7500012,SMM0193,4,False,requisito fraco
+7500017,SMM0193,2,False,requisito fraco
+7600005,7600006,3,True,requisito; requisito fraco
+7600005,7600107,1,True,requisito
+7600005,7600116,2,True,requisito
+7600005,SEL0450,2,False,requisito fraco
+7600005,SEL0633,4,False,requisito fraco
+7600005,SEM0403,1,True,requisito
+7600005,SLC0628,1,True,requisito
+7600005,SLC0639,1,True,requisito
+7600006,SEL0403,1,False,requisito fraco
+7600006,SEL0606,1,False,requisito fraco
+7600006,SEM0233,3,False,requisito fraco
+7600006,SEM0403,3,True,requisito; requisito fraco
+7600006,SHS0619,1,False,requisito fraco
+7600006,SLC0626,1,False,indicação de conjunto
+7600006,SLC0628,1,False,requisito fraco
+7600006,SLC0632,1,True,requisito
+7600006,SLC0635,1,True,requisito
+7600006,SLC0646,1,True,requisito
+7600006,SLC0651,1,True,requisito
+7600006,SLC0655,1,True,requisito
+7600006,SLC0657,1,True,requisito
+7600006,SLC0681,1,True,requisito
+7600008,7600019,4,False,requisito fraco
+7600016,7600020,4,True,requisito
+7600019,7600022,4,True,requisito
+7600020,7600022,4,True,requisito
+7600022,7600074,2,True,requisito
+7600108,SMA0328,1,False,requisito fraco
+7600116,7600117,2,True,requisito
+7600117,7500053,2,True,requisito
+7600205,7600206,4,True,requisito
+7600206,7600008,4,True,requisito
+IAU0314,IAU0315,2,True,requisito; requisito fraco
+IAU0678,SEM0587,1,False,requisito fraco
+SAA0180,SAA0356,1,False,requisito fraco
+SCC0201,SCC0202,1,False,indicação de conjunto
+SCC0201,SCC0205,1,False,requisito fraco
+SCC0201,SCC0210,1,False,requisito fraco
+SCC0201,SCC0215,2,True,requisito; requisito fraco
+SCC0201,SCC0220,1,False,indicação de conjunto
+SCC0201,SCC0230,2,False,requisito fraco
+SCC0201,SCC0251,1,False,requisito fraco
+SCC0201,SCC0261,1,False,requisito fraco
+SCC0201,SCC0273,1,False,requisito fraco
+SCC0201,SSC0723,2,False,requisito fraco
+SCC0201,SSC0724,1,False,requisito fraco
+SCC0201,SSC0951,1,False,requisito fraco
+SCC0202,SCC0203,2,False,requisito fraco
+SCC0202,SCC0204,2,False,requisito fraco
+SCC0202,SCC0210,1,False,requisito fraco
+SCC0202,SCC0215,2,True,requisito; requisito fraco
+SCC0202,SCC0216,2,True,requisito; requisito fraco
+SCC0202,SCC0251,1,False,requisito fraco
+SCC0202,SCC0282,2,False,requisito fraco
+SCC0202,SCC0283,1,False,requisito fraco
+SCC0202,SCC0284,1,False,requisito fraco
+SCC0202,SCC0303,1,True,requisito
+SCC0202,SME0231,1,True,requisito
+SCC0202,SSC0140,2,False,requisito fraco
+SCC0202,SSC0158,1,False,requisito fraco
+SCC0202,SSC0160,1,False,requisito fraco
+SCC0202,SSC0960,2,False,requisito fraco
+SCC0203,SCC0240,1,False,requisito fraco
+SCC0203,SCC0261,1,False,requisito fraco
+SCC0203,SME0130,1,False,requisito fraco
+SCC0204,SCC0225,1,False,requisito fraco
+SCC0204,SCC0250,4,True,requisito; requisito fraco
+SCC0204,SCC0252,5,True,requisito; requisito fraco
+SCC0204,SCC0260,2,False,requisito fraco
+SCC0204,SME0231,1,True,requisito
+SCC0204,SSC0124,2,False,requisito fraco
+SCC0204,SSC0534,1,False,requisito fraco
+SCC0204,SSC0621,1,False,requisito fraco
+SCC0204,SSC0770,3,False,requisito fraco
+SCC0204,SSC0959,1,False,requisito fraco
+SCC0204,SSC0961,2,False,requisito fraco
+SCC0205,SCC0217,1,False,requisito fraco
+SCC0210,SCC0211,1,False,requisito fraco
+SCC0215,SCC0240,2,False,requisito fraco
+SCC0215,SCC0271,1,False,requisito fraco
+SCC0215,SCC0370,1,False,requisito fraco
+SCC0216,SCC0218,1,False,requisito fraco
+SCC0216,SCC0271,1,False,requisito fraco
+SCC0216,SCC0276,1,False,requisito fraco
+SCC0216,SCC0283,1,False,requisito fraco
+SCC0216,SCC0370,1,False,requisito fraco
+SCC0216,SME0130,2,False,requisito fraco
+SCC0221,SCC0201,2,False,requisito fraco
+SCC0221,SCC0202,1,False,requisito fraco
+SCC0221,SCC0204,1,False,requisito fraco
+SCC0221,SCC0223,2,False,requisito fraco
+SCC0221,SCC0230,2,False,requisito fraco
+SCC0221,SCC0240,1,False,requisito fraco
+SCC0221,SCC0252,1,False,requisito fraco
+SCC0221,SCC0505,1,False,requisito fraco
+SCC0221,SEL0631,2,False,indicação de conjunto; requisito fraco
+SCC0221,SME0130,3,False,requisito fraco
+SCC0221,SME0205,1,False,requisito fraco
+SCC0221,SME0212,3,True,requisito; requisito fraco
+SCC0221,SME0300,3,False,requisito fraco
+SCC0221,SME0827,1,True,requisito
+SCC0221,SME0878,3,True,requisito
+SCC0221,SME0879,1,True,requisito
+SCC0221,SME0892,2,True,requisito
+SCC0222,SME0300,2,False,requisito fraco
+SCC0222,SME0827,1,True,requisito
+SCC0223,SCC0204,3,True,requisito; requisito fraco
+SCC0223,SCC0210,1,True,requisito
+SCC0223,SCC0211,1,True,requisito
+SCC0223,SCC0215,1,False,requisito fraco
+SCC0223,SCC0216,1,False,requisito fraco
+SCC0223,SCC0219,1,False,requisito fraco
+SCC0223,SCC0220,1,False,indicação de conjunto
+SCC0223,SCC0224,3,True,requisito; requisito fraco
+SCC0223,SCC0230,2,False,requisito fraco
+SCC0223,SCC0240,2,False,requisito fraco
+SCC0223,SCC0251,2,False,requisito fraco
+SCC0223,SCC0261,1,False,requisito fraco
+SCC0223,SCC0282,1,False,requisito fraco
+SCC0223,SCC0284,1,False,requisito fraco
+SCC0223,SME0231,2,True,requisito
+SCC0223,SME0860,1,False,requisito fraco
+SCC0223,SME0861,1,False,requisito fraco
+SCC0223,SME0862,1,False,requisito fraco
+SCC0223,SSC0140,2,False,requisito fraco
+SCC0223,SSC0158,1,False,requisito fraco
+SCC0223,SSC0952,2,False,requisito fraco
+SCC0224,SCC0210,1,True,requisito
+SCC0224,SCC0211,1,True,requisito
+SCC0224,SCC0215,1,False,indicação de conjunto
+SCC0224,SCC0218,2,True,requisito; requisito fraco
+SCC0224,SCC0219,2,True,requisito; requisito fraco
+SCC0224,SCC0251,2,False,requisito fraco
+SCC0224,SCC0271,1,False,requisito fraco
+SCC0224,SCC0273,1,False,requisito fraco
+SCC0224,SCC0283,1,False,requisito fraco
+SCC0224,SCC0605,1,False,requisito fraco
+SCC0224,SCC0607,1,False,requisito fraco
+SCC0224,SME0130,1,False,requisito fraco
+SCC0227,SCC0228,2,False,requisito fraco
+SCC0228,SCC0229,2,False,requisito fraco
+SCC0230,SCC0231,1,False,requisito fraco
+SCC0230,SCC0233,1,False,requisito fraco
+SCC0230,SCC0244,7,False,requisito fraco
+SCC0230,SCC0270,7,False,indicação de conjunto; requisito fraco
+SCC0230,SCC0275,5,False,indicação de conjunto; requisito fraco
+SCC0230,SCC0276,6,False,indicação de conjunto; requisito fraco
+SCC0230,SCC0277,1,False,requisito fraco
+SCC0230,SCC0287,2,False,requisito fraco
+SCC0230,SCC0570,1,False,requisito fraco
+SCC0230,SCC0632,1,False,indicação de conjunto
+SCC0230,SCC0633,3,False,indicação de conjunto; requisito fraco
+SCC0230,SCC0634,1,False,requisito fraco
+SCC0230,SME0206,1,False,requisito fraco
+SCC0230,SSC0956,1,False,requisito fraco
+SCC0240,SCC0241,4,False,requisito fraco
+SCC0240,SCC0243,2,False,requisito fraco
+SCC0240,SCC0244,7,False,requisito fraco
+SCC0240,SCC0245,2,False,requisito fraco
+SCC0240,SCC0247,2,False,requisito fraco
+SCC0240,SCC0252,1,False,requisito fraco
+SCC0250,SCC0252,1,False,requisito fraco
+SCC0251,SEL0339,1,False,requisito fraco
+SCC0260,SCC0580,1,False,requisito fraco
+SCC0275,SCC0244,1,False,requisito fraco
+SCC0275,SCC0276,1,True,requisito
+SCC0275,SCC0277,1,False,requisito fraco
+SCC0275,SCC0287,1,False,requisito fraco
+SCC0275,SCC0802,1,False,requisito fraco
+SCC0275,SME0852,1,False,requisito fraco
+SCC0276,SCC0270,1,False,requisito fraco
+SCC0289,SCC0290,2,True,requisito; requisito fraco
+SCC0291,SCC0292,2,True,requisito; requisito fraco
+SCC0293,SCC0294,2,True,requisito; requisito fraco
+SCC0607,SCC0240,1,False,requisito fraco
+SCC0607,SCC0661,1,False,requisito fraco
+SEL0301,SEL0313,2,False,requisito fraco
+SEL0301,SEL0360,2,False,requisito fraco
+SEL0301,SEL0383,2,False,requisito fraco
+SEL0309,SEL0310,3,False,requisito fraco
+SEL0310,SEL0344,2,False,requisito fraco
+SEL0310,SEL0366,3,False,requisito fraco
+SEL0310,SEL0369,3,False,requisito fraco
+SEL0310,SEL0371,2,False,requisito fraco
+SEL0310,SEL0459,3,False,requisito fraco
+SEL0310,SEL0460,3,False,requisito fraco
+SEL0310,SEL0462,3,False,requisito fraco
+SEL0310,SEL0463,3,False,requisito fraco
+SEL0310,SEL0464,3,False,requisito fraco
+SEL0313,SEL0314,3,False,requisito fraco
+SEL0313,SEL0610,1,False,requisito fraco
+SEL0314,SEL0470,3,False,requisito fraco
+SEL0314,SEL0618,2,False,requisito fraco
+SEL0326,SEL0367,2,False,requisito fraco
+SEL0327,SEL0328,2,False,requisito fraco
+SEL0337,SEL0373,2,False,requisito fraco
+SEL0343,SEL0356,3,False,requisito fraco
+SEL0343,SEL0631,2,False,indicação de conjunto; requisito fraco
+SEL0346,SEL0347,1,False,requisito fraco
+SEL0346,SEL0370,1,False,requisito fraco
+SEL0356,SEL0631,1,False,indicação de conjunto
+SEL0360,SEL0346,1,False,requisito fraco
+SEL0360,SEL0361,2,False,requisito fraco
+SEL0360,SEL0371,2,True,requisito; requisito fraco
+SEL0360,SEL0386,1,False,requisito fraco
+SEL0360,SEL0619,1,False,requisito fraco
+SEL0360,SEL0623,1,False,requisito fraco
+SEL0383,SEL0343,2,False,requisito fraco
+SEL0383,SEL0360,2,False,requisito fraco
+SEL0383,SEL0417,2,False,requisito fraco
+SEL0383,SEL0459,2,False,requisito fraco
+SEL0383,SEL0460,2,False,requisito fraco
+SEL0383,SEL0464,2,False,requisito fraco
+SEL0383,SEL0471,2,False,requisito fraco
+SEL0386,SEL0387,2,False,indicação de conjunto
+SEL0388,SEL0429,3,False,requisito fraco
+SEL0397,SEL0398,3,False,requisito fraco
+SEL0397,SEL0434,3,False,requisito fraco
+SEL0403,SEL0356,1,False,requisito fraco
+SEL0406,SEL0431,2,False,requisito fraco
+SEL0415,SEL0338,1,False,requisito fraco
+SEL0415,SEL0433,2,False,requisito fraco
+SEL0417,SEL0326,3,False,requisito fraco
+SEL0417,SEL0327,2,False,indicação de conjunto
+SEL0417,SEL0328,1,False,requisito fraco
+SEL0417,SEL0620,1,False,requisito fraco
+SEL0433,SEL0337,3,False,requisito fraco
+SEL0433,SEL0629,1,False,requisito fraco
+SEL0449,SEL0339,3,False,requisito fraco
+SEL0450,SEL0460,3,False,requisito fraco
+SEL0450,SEL0617,2,False,requisito fraco
+SEL0452,SEL0441,2,False,requisito fraco
+SEL0460,7600074,3,True,requisito
+SEL0460,SEL0461,3,False,requisito fraco
+SEL0460,SEL0467,3,False,indicação de conjunto; requisito fraco
+SEL0460,SEL0468,3,False,requisito fraco
+SEL0461,7600074,2,False,requisito fraco
+SEL0461,SEL0467,3,False,indicação de conjunto
+SEL0602,SEL0313,1,False,requisito fraco
+SEL0602,SEL0360,1,False,requisito fraco
+SEL0602,SEL0604,1,False,requisito fraco
+SEL0604,SEL0343,1,False,requisito fraco
+SEL0604,SEL0360,1,False,requisito fraco
+SEL0604,SEL0417,1,False,requisito fraco
+SEL0604,SEL0459,1,False,requisito fraco
+SEL0604,SEL0460,1,False,requisito fraco
+SEL0604,SEL0464,1,False,requisito fraco
+SEL0604,SEL0471,1,False,requisito fraco
+SEL0606,SEL0415,1,False,requisito fraco
+SEL0618,SEL0621,2,False,requisito fraco
+SEL0619,SEL0347,1,False,requisito fraco
+SEL0619,SEL0370,1,False,requisito fraco
+SEL0621,SEL0622,2,False,indicação de conjunto
+SEL0628,SEL0406,3,False,requisito fraco
+SEL0628,SEL0415,2,False,requisito fraco
+SEL0628,SEL0606,1,False,requisito fraco
+SEL0628,SEL0632,2,False,requisito fraco
+SEL0628,SSC0108,1,False,indicação de conjunto
+SEL0628,SSC0902,2,False,requisito fraco
+SEL0633,SEL0634,2,False,indicação de conjunto
+SEL0637,SEL0602,1,False,requisito fraco
+SEM0233,SEM0550,2,False,requisito fraco
+SEM0343,SEM0587,1,False,requisito fraco
+SEM0388,SEM0567,1,False,requisito fraco
+SEM0388,SEM0587,3,False,requisito fraco
+SEM0403,SEM0550,3,True,requisito; requisito fraco
+SEM0564,SEM0565,4,False,requisito fraco
+SEM0565,SEM0587,4,False,requisito fraco
+SEM0567,SEM0587,1,False,requisito fraco
+SEP0272,SEM0343,1,False,requisito fraco
+SEP0284,SEM0587,1,False,requisito fraco
+SEP0284,SEP0285,1,False,indicação de conjunto
+SEP0285,SEP0284,1,False,indicação de conjunto
+SEP0405,SME0213,1,False,requisito fraco
+SEP0405,SME0216,1,False,requisito fraco
+SLC0531,SLC0534,1,True,requisito
+SLC0601,SLC0602,1,True,requisito
+SLC0601,SLC0639,1,True,requisito
+SLC0601,SLC0646,1,True,requisito
+SLC0601,SMA0392,1,True,requisito
+SLC0605,SMA0327,1,True,requisito
+SLC0605,SMA0383,1,True,requisito
+SLC0605,SMA0384,1,True,requisito
+SLC0606,SLC0615,1,True,requisito
+SLC0606,SLC0657,1,True,requisito
+SLC0606,SLC0681,1,True,requisito
+SLC0606,SLC0688,1,True,requisito
+SLC0606,SMA0327,1,True,requisito
+SLC0606,SMA0370,1,True,requisito
+SLC0606,SMA0383,1,True,requisito
+SLC0606,SMA0384,1,True,requisito
+SLC0606,SMA0398,1,True,requisito
+SLC0609,SLC0532,1,True,requisito
+SLC0609,SLC0687,1,True,requisito
+SLC0614,SLC0618,1,True,requisito
+SLC0614,SLC0639,1,False,indicação de conjunto
+SLC0614,SLC0657,1,False,indicação de conjunto
+SLC0614,SLC0675,1,True,requisito
+SLC0614,SLC0681,1,False,indicação de conjunto
+SLC0614,SLC0683,1,True,requisito
+SLC0614,SLC0684,1,True,requisito
+SLC0614,SLC0688,1,True,requisito
+SLC0614,SMA0346,1,True,requisito
+SLC0614,SMA0367,1,True,requisito
+SLC0614,SMA0370,2,True,requisito
+SLC0618,SLC0684,2,False,indicação de conjunto
+SLC0620,SLC0621,1,True,requisito
+SLC0620,SLC0622,1,True,requisito
+SLC0620,SLC0623,1,True,requisito
+SLC0620,SLC0646,1,True,requisito
+SLC0621,SLC0639,1,True,requisito
+SLC0621,SLC0657,1,True,requisito
+SLC0621,SLC0681,1,True,requisito
+SLC0627,SLC0646,1,True,requisito
+SLC0628,SLC0629,1,True,requisito
+SLC0628,SLC0651,1,True,requisito
+SLC0628,SLC0655,1,True,requisito
+SLC0628,SLC0688,1,True,requisito
+SLC0629,SLC0688,1,True,requisito
+SLC0630,5500003,1,True,requisito
+SLC0630,SLC0610,1,True,requisito
+SLC0630,SLC0614,2,True,indicação de conjunto; requisito
+SLC0630,SMA0328,1,False,requisito fraco
+SLC0630,SMA0345,1,True,requisito
+SLC0630,SMA0350,1,False,indicação de conjunto; requisito fraco
+SLC0632,SLC0629,1,False,indicação de conjunto
+SLC0632,SLC0651,1,True,requisito
+SLC0632,SLC0655,1,True,requisito
+SLC0632,SLC0688,1,True,requisito
+SLC0634,SLC0646,1,True,requisito
+SLC0635,SLC0636,1,False,indicação de conjunto
+SLC0635,SLC0641,1,True,requisito
+SLC0635,SLC0648,1,True,requisito
+SLC0635,SLC0651,1,True,requisito
+SLC0635,SLC0656,1,True,requisito
+SLC0636,SLC0656,1,True,requisito
+SLC0639,SLC0640,1,True,requisito
+SLC0641,SLC0642,1,False,indicação de conjunto
+SLC0646,SLC0647,1,True,requisito
+SLC0648,SLC0650,1,False,requisito fraco
+SLC0648,SLC0651,1,True,requisito
+SLC0657,SLC0658,1,True,requisito
+SLC0657,SLC0681,1,False,indicação de conjunto
+SLC0658,SLC0682,1,False,indicação de conjunto
+SLC0658,SLC0688,1,True,requisito
+SLC0658,SLC0695,1,True,requisito
+SLC0658,SMA0370,1,True,requisito
+SLC0662,SLC0669,1,True,requisito
+SLC0662,SLC0674,1,True,requisito
+SLC0662,SLC0675,1,True,requisito
+SLC0666,SLC0667,1,False,indicação de conjunto
+SLC0668,SLC0669,1,False,indicação de conjunto
+SLC0678,SLC0679,1,True,requisito
+SLC0678,SLC0695,1,False,indicação de conjunto
+SLC0679,SLC0696,1,False,indicação de conjunto
+SLC0681,SLC0657,1,False,indicação de conjunto
+SLC0681,SLC0682,1,True,requisito
+SLC0682,SLC0658,1,False,indicação de conjunto
+SLC0682,SLC0678,1,True,requisito
+SLC0682,SLC0683,1,True,requisito
+SLC0682,SLC0685,1,True,requisito
+SLC0683,SLC0684,1,True,requisito
+SLC0683,SMA0370,2,False,indicação de conjunto
+SLC0684,SLC0618,2,False,indicação de conjunto
+SLC0685,SLC0686,1,True,requisito
+SLC0685,SLC0688,1,False,indicação de conjunto
+SLC0686,SLC0689,1,False,indicação de conjunto
+SLC0688,SLC0685,1,False,indicação de conjunto
+SLC0688,SLC0689,1,True,requisito
+SLC0689,SLC0686,1,False,indicação de conjunto
+SLC0691,SLC0692,1,True,requisito
+SLC0692,SLC0639,1,True,requisito
+SLC0692,SLC0646,1,True,requisito
+SLC0692,SLC0657,1,True,requisito
+SLC0692,SLC0662,1,True,requisito
+SLC0692,SLC0675,1,True,requisito
+SLC0692,SLC0681,1,True,requisito
+SLC0692,SLC0693,1,True,requisito
+SLC0693,SLC0662,1,False,indicação de conjunto
+SLC0693,SLC0665,1,True,requisito
+SLC0693,SLC0666,1,True,requisito
+SLC0693,SLC0667,1,True,requisito
+SLC0693,SLC0668,1,True,requisito
+SLC0693,SLC0670,1,True,requisito
+SLC0693,SLC0671,1,True,requisito
+SLC0693,SLC0673,1,True,requisito
+SLC0693,SLC0694,1,True,requisito
+SLC0695,SLC0678,1,False,indicação de conjunto
+SLC0695,SLC0696,1,True,requisito
+SLC0696,SLC0679,1,False,indicação de conjunto
+SMA0171,SMA0192,1,False,requisito fraco
+SMA0171,SMA0344,1,True,requisito; requisito fraco
+SMA0171,SMA0378,1,True,requisito
+SMA0171,SMA0388,1,False,requisito fraco
+SMA0175,SMA0192,1,False,requisito fraco
+SMA0175,SMA0387,1,False,requisito fraco
+SMA0180,SCC0230,1,False,indicação de conjunto
+SMA0180,SCC0283,2,True,requisito; requisito fraco
+SMA0305,SMA0193,1,True,requisito; requisito fraco
+SMA0305,SMA0306,1,False,requisito fraco
+SMA0305,SMA0329,1,False,requisito fraco
+SMA0305,SMA0388,1,False,requisito fraco
+SMA0306,SMA0125,1,True,requisito
+SMA0306,SMA0173,1,True,requisito; requisito fraco
+SMA0308,SMA0125,1,True,requisito
+SMA0308,SMA0143,3,True,requisito
+SMA0340,SMA0327,1,False,requisito fraco
+SMA0343,SMA0120,3,True,requisito; requisito fraco
+SMA0343,SMA0171,1,True,requisito
+SMA0350,SMA0404,1,True,requisito
+SMA0354,7500004,2,False,requisito fraco
+SMA0354,7600016,4,True,requisito
+SMA0354,SEL0450,2,False,requisito fraco
+SMA0354,SEM0575,1,False,requisito fraco
+SMA0354,SLC0635,1,True,requisito
+SMA0354,SMA0169,1,True,requisito
+SMA0354,SMA0175,2,True,requisito; requisito fraco
+SMA0354,SMA0308,3,True,requisito
+SMA0354,SMA0329,1,False,requisito fraco
+SMA0354,SMA0343,2,True,requisito; requisito fraco
+SMA0354,SMA0356,4,True,requisito
+SMA0354,SMA0370,1,True,requisito
+SMA0354,SMA0393,12,True,requisito; requisito fraco
+SMA0354,SME0123,1,False,requisito fraco
+SMA0354,SME0212,5,True,requisito; requisito fraco
+SMA0354,SME0245,1,True,requisito; requisito fraco
+SMA0354,SME0250,1,True,requisito
+SMA0354,SME0300,2,False,requisito fraco
+SMA0354,SME0305,1,False,requisito fraco
+SMA0354,SME0320,5,False,requisito fraco
+SMA0354,SME0801,2,True,requisito
+SMA0356,SEL0460,1,False,requisito fraco
+SMA0356,SMA0169,1,True,requisito
+SMA0356,SMA0307,1,False,requisito fraco
+SMA0356,SMA0308,1,True,requisito
+SMA0356,SMA0343,1,True,requisito
+SMA0356,SMA0380,1,True,requisito
+SMA0356,SME0245,1,True,requisito
+SMA0370,SLC0618,1,True,requisito
+SMA0370,SLC0683,2,False,indicação de conjunto
+SMA0375,7600022,4,True,requisito
+SMA0375,SEL0460,2,False,requisito fraco
+SMA0375,SEL0633,3,False,requisito fraco
+SMA0375,SMA0120,2,True,requisito; requisito fraco
+SMA0375,SMA0173,1,True,requisito
+SMA0375,SMA0175,2,True,requisito; requisito fraco
+SMA0375,SMA0193,1,True,requisito; requisito fraco
+SMA0375,SMA0378,1,True,requisito
+SMA0375,SME0205,2,True,requisito; requisito fraco
+SMA0375,SME0211,2,True,requisito; requisito fraco
+SMA0375,SME0212,1,False,requisito fraco
+SMA0375,SME0231,2,True,requisito
+SMA0375,SME0240,2,True,requisito; requisito fraco
+SMA0375,SME0243,1,True,requisito
+SMA0375,SME0300,6,False,requisito fraco
+SMA0380,SMA0169,2,False,requisito fraco
+SMA0380,SMA0308,1,True,requisito
+SMA0380,SMA0344,1,True,requisito; requisito fraco
+SMA0380,SMA0357,1,True,requisito; requisito fraco
+SMA0380,SMA0389,1,False,requisito fraco
+SMA0380,SME0245,2,False,requisito fraco
+SMA0386,SLC0532,1,True,requisito
+SMA0386,SMA0305,2,True,requisito
+SMA0386,SMA0326,1,True,requisito
+SMA0386,SMA0337,1,True,requisito
+SMA0386,SMA0343,2,True,requisito
+SMA0392,7600005,3,True,requisito; requisito fraco
+SMA0392,SEM0575,5,False,requisito fraco
+SMA0392,SEM0576,6,False,requisito fraco
+SMA0392,SLC0609,1,False,requisito fraco
+SMA0392,SMA0354,16,True,requisito; requisito fraco
+SMA0392,SMA0356,5,True,requisito
+SMA0392,SMA0380,2,True,requisito
+SMA0392,SMA0393,1,False,requisito fraco
+SMA0392,SMA0803,2,True,requisito
+SMA0392,SME0130,3,False,requisito fraco
+SMA0392,SME0220,3,True,requisito; requisito fraco
+SMA0392,SME0240,4,True,requisito; requisito fraco
+SMA0392,SME0300,4,False,requisito fraco
+SMA0392,SME0320,6,False,requisito fraco
+SMA0392,SME0520,1,False,requisito fraco
+SMA0392,SME0800,2,True,requisito
+SMA0392,SME0892,2,True,requisito
+SMA0393,SEL0309,3,False,requisito fraco
+SMA0393,SEL0460,1,False,requisito fraco
+SMA0393,SMA0308,1,False,requisito fraco
+SMA0393,SMA0356,1,False,requisito fraco
+SMA0394,SMA0175,1,True,requisito
+SMA0394,SMA0375,1,True,requisito
+SMA0505,SME0231,1,True,requisito
+SMA0508,SCC0283,1,False,requisito fraco
+SMA0803,SMA0307,2,True,requisito
+SMA0803,SMA0308,2,True,requisito
+SMA0804,SME0212,2,True,requisito
+SMA0804,SME0231,1,True,requisito
+SMA0804,SME0240,1,True,requisito
+SMA0804,SME0854,1,False,requisito fraco
+SMA0804,SME0892,2,True,requisito
+SME0123,SME0121,1,False,requisito fraco
+SME0123,SME0806,1,True,requisito
+SME0123,SME0808,1,True,requisito
+SME0123,SME0822,1,True,requisito
+SME0123,SME0823,1,True,requisito
+SME0123,SME0878,1,True,requisito
+SME0142,SMA0120,1,False,requisito fraco
+SME0142,SME0205,1,False,requisito fraco
+SME0142,SME0211,1,False,requisito fraco
+SME0142,SME0212,1,False,requisito fraco
+SME0142,SME0231,2,True,requisito
+SME0142,SME0240,1,False,requisito fraco
+SME0142,SME0243,1,False,requisito fraco
+SME0142,SME0300,1,False,requisito fraco
+SME0205,SME0251,1,True,requisito
+SME0205,SME0253,1,True,requisito
+SME0205,SME0254,1,False,requisito fraco
+SME0206,SME0251,1,True,requisito
+SME0206,SME0253,1,True,requisito
+SME0206,SME0256,1,True,requisito
+SME0211,SME0213,2,False,requisito fraco
+SME0211,SME0214,1,False,requisito fraco
+SME0211,SME0216,2,False,requisito fraco
+SME0220,SME0121,2,True,requisito; requisito fraco
+SME0220,SME0221,3,True,requisito; requisito fraco
+SME0220,SME0878,1,True,requisito
+SME0221,SME0262,1,True,requisito
+SME0221,SME0806,3,True,indicação de conjunto; requisito
+SME0221,SME0807,1,True,requisito
+SME0221,SME0808,3,True,requisito
+SME0221,SME0809,2,True,requisito
+SME0221,SME0810,1,True,requisito
+SME0221,SME0811,1,True,requisito
+SME0221,SME0812,1,True,requisito
+SME0221,SME0816,2,True,requisito
+SME0221,SME0820,3,True,indicação de conjunto; requisito
+SME0221,SME0821,1,True,requisito
+SME0221,SME0822,3,True,requisito
+SME0221,SME0823,3,True,requisito
+SME0221,SME0824,1,True,requisito
+SME0221,SME0826,1,False,requisito fraco
+SME0221,SME0870,1,True,requisito
+SME0221,SME0875,1,True,requisito
+SME0221,SME0878,2,True,requisito
+SME0230,5500003,1,True,requisito
+SME0230,SCC0201,1,True,requisito
+SME0230,SCC0202,1,True,requisito
+SME0230,SCC0223,1,True,requisito
+SME0230,SCC0230,1,False,requisito fraco
+SME0230,SME0205,2,True,requisito; requisito fraco
+SME0230,SME0206,2,True,requisito; requisito fraco
+SME0230,SME0212,1,False,requisito fraco
+SME0230,SME0231,1,True,requisito
+SME0230,SME0878,2,True,requisito
+SME0240,SAA0180,1,False,requisito fraco
+SME0240,SEL0417,3,False,requisito fraco
+SME0240,SMA0136,1,True,requisito; requisito fraco
+SME0240,SMA0169,2,True,requisito; requisito fraco
+SME0240,SMA0379,1,False,requisito fraco
+SME0240,SME0202,2,False,requisito fraco
+SME0240,SME0206,3,False,indicação de conjunto; requisito fraco
+SME0240,SME0300,1,False,indicação de conjunto
+SME0300,SAA0356,4,False,requisito fraco
+SME0300,SEL0460,1,False,requisito fraco
+SME0300,SME0110,2,False,requisito fraco
+SME0300,SME0510,1,False,requisito fraco
+SME0305,SME0306,1,False,requisito fraco
+SME0306,SAA0356,2,False,indicação de conjunto; requisito fraco
+SME0320,SEL0367,2,False,requisito fraco
+SME0320,SME0121,1,False,requisito fraco
+SME0320,SME0130,1,False,requisito fraco
+SME0320,SME0806,1,False,indicação de conjunto
+SME0320,SME0808,1,False,requisito fraco
+SME0320,SME0820,1,False,indicação de conjunto
+SME0320,SME0822,1,False,requisito fraco
+SME0320,SME0823,1,False,requisito fraco
+SME0320,SME0878,1,False,requisito fraco
+SME0332,SCC0240,1,True,requisito
+SME0341,SEL0633,1,False,requisito fraco
+SME0341,SME0212,1,False,requisito fraco
+SME0341,SME0300,1,False,requisito fraco
+SME0520,SME0806,1,True,requisito
+SME0520,SME0808,1,True,requisito
+SME0520,SME0822,1,True,requisito
+SME0520,SME0823,1,True,requisito
+SME0520,SME0878,1,True,requisito
+SME0800,SME0121,2,True,requisito
+SME0800,SME0801,2,True,requisito
+SME0800,SME0818,2,True,requisito
+SME0800,SME0878,2,True,requisito
+SME0800,SME0879,1,True,requisito
+SME0801,SME0809,1,True,requisito
+SME0803,SME0871,3,True,requisito
+SME0808,SME0262,3,True,requisito; requisito fraco
+SME0808,SME0873,1,True,requisito
+SME0809,SME0876,2,True,requisito
+SME0818,SME0262,2,True,requisito
+SME0818,SME0806,2,True,requisito
+SME0818,SME0807,2,True,requisito
+SME0818,SME0808,2,True,requisito
+SME0818,SME0809,2,True,requisito
+SME0818,SME0810,2,True,requisito
+SME0818,SME0811,2,True,requisito
+SME0818,SME0812,2,True,requisito
+SME0818,SME0814,1,True,requisito
+SME0818,SME0816,2,True,requisito
+SME0818,SME0820,2,True,requisito
+SME0818,SME0821,2,True,requisito
+SME0818,SME0822,2,True,requisito
+SME0818,SME0823,2,True,requisito
+SME0818,SME0824,2,True,requisito
+SME0818,SME0826,1,True,requisito
+SME0818,SME0870,2,True,requisito
+SME0818,SME0875,2,True,requisito
+SME0818,SME0876,2,True,requisito
+SME0818,SME0878,2,True,requisito
+SME0818,SME0880,1,True,requisito
+SME0818,SME0882,2,True,requisito
+SME0820,SCC0802,1,False,requisito fraco
+SME0820,SME0852,1,False,requisito fraco
+SME0820,SME0871,4,True,requisito; requisito fraco
+SME0820,SME0873,1,True,requisito
+SME0820,SME0878,5,True,requisito
+SME0820,SSC0957,1,False,requisito fraco
+SME0822,SME0871,2,True,requisito; requisito fraco
+SME0822,SME0878,8,True,requisito; requisito fraco
+SME0822,SSC0956,1,False,requisito fraco
+SME0825,SME0826,2,True,requisito; requisito fraco
+SME0827,SCC0230,1,False,requisito fraco
+SME0827,SCC0240,1,False,requisito fraco
+SME0827,SCC0251,1,False,requisito fraco
+SME0827,SCC0252,1,False,requisito fraco
+SME0827,SCC0275,1,True,requisito
+SME0827,SME0231,1,True,requisito
+SME0892,SME0510,2,True,requisito
+SMM0193,SMM0194,3,False,requisito fraco
+SMM0194,SEM0567,1,False,requisito fraco
+SSC0117,SEL0628,1,False,requisito fraco
+SSC0124,SSC0130,2,False,requisito fraco
+SSC0124,SSC0725,1,False,requisito fraco
+SSC0130,SCC0580,1,False,requisito fraco
+SSC0130,SSC0120,2,False,requisito fraco
+SSC0130,SSC0123,1,False,requisito fraco
+SSC0130,SSC0720,2,False,requisito fraco
+SSC0130,SSC0726,2,False,requisito fraco
+SSC0130,SSC0959,3,False,requisito fraco
+SSC0140,SSC0141,1,False,requisito fraco
+SSC0140,SSC0142,4,False,requisito fraco
+SSC0140,SSC0154,1,False,requisito fraco
+SSC0140,SSC0158,2,False,requisito fraco
+SSC0140,SSC0160,1,False,requisito fraco
+SSC0140,SSC0743,1,False,requisito fraco
+SSC0140,SSC0745,2,False,requisito fraco
+SSC0140,SSC0746,1,False,requisito fraco
+SSC0140,SSC0903,3,False,requisito fraco
+SSC0140,SSC0904,3,False,requisito fraco
+SSC0140,SSC0950,1,False,requisito fraco
+SSC0142,SSC0152,2,False,requisito fraco
+SSC0142,SSC0158,3,False,requisito fraco
+SSC0142,SSC0748,2,False,requisito fraco
+SSC0142,SSC0900,4,False,requisito fraco
+SSC0142,SSC0904,3,False,indicação de conjunto; requisito fraco
+SSC0142,SSC0950,1,False,requisito fraco
+SSC0142,SSC0954,1,False,requisito fraco
+SSC0304,SME0212,1,False,requisito fraco
+SSC0304,SME0300,4,False,requisito fraco
+SSC0304,SME0305,2,False,requisito fraco
+SSC0304,SME0306,1,False,requisito fraco
+SSC0304,SME0320,2,False,requisito fraco
+SSC0512,SSC0902,1,False,requisito fraco
+SSC0530,SSC0531,1,False,requisito fraco
+SSC0530,SSC0570,1,False,requisito fraco
+SSC0532,SSC0533,1,False,requisito fraco
+SSC0533,SCC0260,1,False,requisito fraco
+SSC0533,SSC0534,1,False,requisito fraco
+SSC0534,SEP0172,1,False,requisito fraco
+SSC0534,SEP0301,1,False,requisito fraco
+SSC0534,SSC0535,1,False,requisito fraco
+SSC0534,SSC0725,1,False,requisito fraco
+SSC0534,SSC0726,1,False,requisito fraco
+SSC0535,SSC0536,1,False,requisito fraco
+SSC0595,SSC0596,1,False,requisito fraco
+SSC0621,SSC0130,1,True,requisito
+SSC0621,SSC0725,1,False,requisito fraco
+SSC0676,SSC0675,1,False,requisito fraco
+SSC0740,SSC0741,2,False,requisito fraco
+SSC0900,SSC0901,3,False,requisito fraco
+SSC0902,SEL0338,1,False,requisito fraco
+SSC0902,SEL0433,1,False,requisito fraco
+SSC0902,SSC0119,1,False,indicação de conjunto
+SSC0902,SSC0140,3,False,requisito fraco
+SSC0902,SSC0643,2,False,requisito fraco
+SSC0902,SSC0740,2,False,requisito fraco
+SSC0902,SSC0903,2,False,requisito fraco
+SSC0902,SSC0951,1,False,requisito fraco
+SSC0903,SSC0744,1,False,requisito fraco
+SSC0904,SSC0744,2,False,requisito fraco
+SSC0955,SSC0140,1,False,requisito fraco
+SSC0955,SSC0903,1,False,requisito fraco
+SSC0959,SSC0536,1,False,requisito fraco

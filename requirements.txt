@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+sentence-transformers
+bertopic
+umap-learn
+hdbscan
+networkx
+tqdm
+ipykernel
+nbconvert
+jupyterlab>=4.2

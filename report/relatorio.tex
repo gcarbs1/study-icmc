@@ -1,0 +1,435 @@
+\documentclass[
+  12pt,
+  oneside,
+  a4paper,
+  article,
+  brazil
+]{USPSC-classe/USPSC}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{amsmath,amssymb}
+\usepackage[section]{placeins}
+
+\hypersetup{
+  pdftitle={Estudo de disciplinas ICMC-USP},
+  pdfauthor={Gabriel Carbinatto, Enzo Castelo Branco Biondi e Matheus Rodrigues Ferreira},
+  pdfsubject={SCC5836 Visualização Computacional},
+  pdfkeywords={visualização computacional, disciplinas, currículo, requisitos, tópicos, ICMC},
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black
+}
+
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\renewcommand{\ABNTEXsectionfontsize}{\fontsize{12}{14}\bfseries}
+\renewcommand{\ABNTEXsubsectionfontsize}{\fontsize{12}{14}\bfseries}
+\renewcommand{\ABNTEXsubsubsectionfontsize}{\fontsize{12}{14}\normalfont}
+\renewcommand{\ABNTEXcaptiondelim}{:~}
+\captiondelim{:~}
+\setlength{\cftlastnumwidth}{2.2em}
+\cftsetindents{section}{0em}{\cftlastnumwidth}
+\cftsetindents{subsection}{0em}{\cftlastnumwidth}
+
+\begin{document}
+\selectlanguage{brazil}
+\frenchspacing
+
+\hypersetup{pageanchor=false}
+\begin{titlingpage}
+  \begin{center}
+    {\large Universidade de São Paulo\par}
+    \vspace{0.15cm}
+    {\large Instituto de Ciências Matemáticas e de Computação\par}
+
+    \vspace*{3.3cm}
+
+    {\Large\bfseries Estudo de disciplinas ICMC-USP\par}
+
+    \vspace{0.8cm}
+
+    {\large SCC5836 Visualização Computacional\par}
+
+    \vfill
+
+    {\large\bfseries Gabriel Carbinatto\par}
+    {\normalsize Número USP: 12725411\par}
+
+    \vspace{0.45cm}
+
+    {\large\bfseries Enzo Castelo Branco Biondi\par}
+    {\normalsize Número USP: 14568142\par}
+
+    \vspace{0.45cm}
+
+    {\large\bfseries Matheus Rodrigues Ferreira\par}
+    {\normalsize Número USP: 14762149\par}
+
+    \vfill
+
+    {\normalsize São Carlos\par}
+    {\normalsize 10 de novembro de 2026\par}
+  \end{center}
+\end{titlingpage}
+\hypersetup{pageanchor=true}
+\setcounter{page}{2}
+
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\thispagestyle{empty}
+\clearpage
+\pagestyle{simple}
+
+\section{Introdução}
+
+As grades de graduação do Instituto de Ciências Matemáticas e de Computação
+(ICMC-USP) reúnem disciplinas de computação, matemática, estatística e áreas
+relacionadas. A consulta a essas grades pelo JúpiterWeb é adequada para localizar
+uma disciplina ou acompanhar um curso específico, mas não oferece uma visão
+conjunta do conteúdo das ementas, das relações de requisito e da distribuição da
+carga horária entre assuntos. Como consequência, perguntas e análises
+comparativas exigem percorrer várias páginas de maneira manual.
+
+Este projeto organiza essas informações em um conjunto de dados único e propõe
+uma exploração visual das disciplinas do ICMC. A primeira entrega tem
+dois objetivos: documentar a criação e o processamento desse conjunto e avaliar
+se três visualizações interativas permitem reconhecer agrupamentos temáticos,
+comparar diretamente a similaridade entre ementas e examinar encadeamentos
+curriculares. O sistema foi implementado como uma página em D3, publicado no
+github pages.
+
+\subsection{Coleta dos dados}
+
+A coleta parte das 12 grades curriculares selecionadas no JúpiterWeb. Para cada
+código encontrado, são consultadas as páginas da disciplina
+e de seus requisitos. Novos códigos identificados nesse percurso são adicionados
+à coleta até que nenhuma disciplina permaneça pendente. As respostas HTML são
+mantidas em cache para que a extração possa ser reproduzida sem repetir as
+consultas ao sistema.
+
+As grades reúnem 1.089 registros curriculares, correspondentes a 582 códigos
+distintos. O percurso pelas relações de requisito acrescenta 54 códigos que não
+aparecem diretamente nas grades. Ao final, foram coletadas 636 disciplinas. A
+Tabela~\ref{tab:cobertura} resume essa cobertura.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Disciplinas coletadas no JúpiterWeb.}
+  \label{tab:cobertura}
+  \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X r}
+    \toprule
+    \textbf{Origem} & \textbf{Disciplinas} \\
+    \midrule
+    Disciplinas presentes nas grades & 582 \\
+    Disciplinas adicionadas pelas relações de requisito & 54 \\
+    \textbf{Total coletado} & \textbf{636} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Cada disciplina coletada contém identificação, departamento, créditos, carga
+horária, ementa, objetivos, conteúdo programático e docentes. As grades e as
+relações de requisito são armazenadas em tabelas separadas e vinculadas pelos
+códigos das disciplinas.
+
+\newpage  
+
+\subsection{Perguntas de pesquisa}
+
+A análise foi organizada em torno de três questões:
+
+\begin{enumerate}
+  \item Como as disciplinas se agrupam a partir de suas ementas?
+  \item Quais disciplinas são mais semelhantes a uma disciplina de interesse?
+  \item Como as disciplinas de cada curso se encadeiam por requisitos?
+\end{enumerate}
+
+A primeira questão trata da estrutura global das emantas das disciplinas. A segunda torna
+explícitos os valores de similaridade em torno de uma disciplina. E A terceira,
+introduz a ordem curricular e as relações dirigidas.
+
+\section{Metodologia}
+
+A metodologia converte os registros coletados em disciplinas únicas, representa
+seus textos em um espaço vetorial comum e deriva desse espaço as medidas usadas
+pelas três visualizações. A análise utiliza exclusivamente o texto de cada
+disciplina, formado pela concatenação de ementa, objetivos e conteúdo
+programático. Nome, departamento, carga horária e requisitos não participam da
+representação, do agrupamento nem das medidas de similaridade. Esses atributos
+são anexados depois, para identificar, filtrar e interpretar os resultados.
+
+\subsection{Disciplinas únicas}
+
+Um mesmo conteúdo pode estar cadastrado sob códigos diferentes, como as versões
+presencial e semipresencial de Cálculo I. Para que essas cópias não sejam
+contadas mais de uma vez, os códigos são reunidos em disciplinas únicas. Seja
+$s_{\mathrm{tf}}(a,b)$ o cosseno entre os vetores TF-IDF dos textos dos códigos
+$a$ e $b$. Os dois códigos são reunidos quando
+
+\begin{equation}
+  \bigl[\,n(a)=n(b)\ \wedge\ s_{\mathrm{tf}}(a,b)\geq\tau_{\mathrm{nome}}\,\bigr]
+  \ \vee\
+  \bigl[\,\nu(a)=\nu(b)\ \wedge\ s_{\mathrm{tf}}(a,b)\geq0{,}90\,\bigr],
+  \label{eq:duplicidade}
+\end{equation}
+
+em que $n(a)$ é o nome normalizado e $\nu(a)$, a numeração (I, II, III). O nome
+atua apenas como identificador do registro: ele propõe candidatos, e a fusão
+exige confirmação pelo texto. O limiar $\tau_{\mathrm{nome}}=0{,}099$ é o
+percentil 99 de $s_{\mathrm{tf}}$ entre todos os pares. Assim, homônimas de
+conteúdos distintos, como Física III do IFSC e Física 3 da Licenciatura em
+Ciências Exatas, permanecem separadas. A condição sobre a numeração impede a
+fusão de disciplinas sequenciais com textos quase idênticos.
+
+Os pares aceitos são fechados transitivamente por união-busca, o que reduz 632
+códigos com texto a 528 disciplinas únicas. O texto de cada disciplina única
+reúne os textos distintos de seus códigos, e os requisitos são reescritos com os
+novos identificadores.
+
+\subsection{Representação textual}
+
+Os textos são representados pelo modelo multilíngue BGE-M3 \cite{chen2024},
+que produz vetores de 1.024 dimensões e lê até 8.192 tokens por entrada. Como o
+maior texto do conjunto tem 1.523 tokens, cada disciplina é codificada
+integralmente em uma única entrada, sem divisão em blocos.
+
+Seja $f(x_d)$ a saída do modelo para o texto $x_d$ da disciplina $d$. O vetor da
+disciplina e a similaridade entre as disciplinas $a$ e $b$ são
+
+\begin{equation}
+  \boldsymbol{e}_d=\frac{f(x_d)}{\lVert f(x_d)\rVert_2},
+  \qquad
+  s(a,b)=\boldsymbol{e}_a^{\mathsf T}\boldsymbol{e}_b.
+  \label{eq:embedding}
+\end{equation}
+
+Entre os 139.128 pares de disciplinas, a mediana de $s$ é 0,54. Como a escala do
+cosseno depende do modelo, os limiares usados nas visualizações são percentis
+dessa distribuição, e não valores fixos.
+
+\subsection{Agrupamento temático}
+
+Os tópicos são obtidos com BERTopic \cite{grootendorst2022}, aplicado aos
+embeddings de~\eqref{eq:embedding} e aos textos das disciplinas. O UMAP
+\cite{mcinnes2018} reduz os vetores a cinco dimensões, e o HDBSCAN
+\cite{mcinnes2017} identifica grupos com pelo menos oito disciplinas. Foram
+encontrados 24 tópicos. As 74 disciplinas classificadas como ruído recebem o
+tópico de centroide mais próximo no espaço de 1.024 dimensões.
+
+Cada tópico é descrito pelos termos que o distinguem dos demais, segundo o
+c-TF-IDF. O peso do termo $t$ no tópico $c$ é
+
+\begin{equation}
+  w_{t,c}=\operatorname{tf}_{t,c}
+  \log\!\left(1+\frac{A}{f_t}\right),
+  \label{eq:ctfidf}
+\end{equation}
+
+em que $\operatorname{tf}_{t,c}$ é a frequência relativa de $t$ no conjunto dos
+textos de $c$, $f_t$ é a frequência de $t$ em todos os tópicos e $A$ é o número
+médio de palavras por tópico. O peso cresce com a presença do termo no tópico e
+diminui com sua presença no restante do conjunto. Palavras funcionais e termos
+genéricos de ementa, como ``disciplina'' e ``objetivo'', são excluídos antes do
+cálculo. Os nomes dos
+tópicos foram atribuídos após a inspeção dos termos de maior peso e das
+disciplinas de cada grupo. Eles resumem o conteúdo e não são produzidos pelo
+modelo.
+
+\newpage
+
+\section{Visualizações interativas}
+
+O sistema é uma página web construída com D3 \cite{bostock2011} e reúne três
+visualizações, uma para cada questão: um mapa de agrupamentos, uma comparação de
+similaridade a partir de uma disciplina de referência e a grade curricular com
+seus requisitos. As três compartilham uma paleta de 24 cores, uma por tópico,
+ordenada para que tópicos próximos recebam matizes vizinhos, de modo que cada
+disciplina mantém a mesma cor em todas as visões.
+
+O projeto visual tomou como referência, de maneira geral, trabalhos de
+visualização e design da informação de Cédric Scherer e de Yan Holtz, como a
+página D3 Graph Gallery \cite{scherer,holtz}.
+
+\subsection{Mapa de agrupamentos}
+
+A Figura~\ref{fig:mapa} representa disciplinas por pontos e tópicos por cores.
+As posições resultam de uma segunda execução do UMAP, em duas dimensões,
+independente da redução usada no agrupamento. As coordenadas são giradas para
+que o eixo de maior variância fique na horizontal e reescaladas por um único
+fator, preservando as proporções da projeção. Textos idênticos são projetados
+uma única vez e compartilham a coordenada, pois, caso contrário, o UMAP os
+isolaria como componente desconexo. Para evitar sobreposição, cada ponto é
+afastado de seus vizinhos por uma repulsão de colisão, presa à posição original.
+O deslocamento mediano é de 1 pixel e o máximo, de 12 pixels, em um mapa de
+1.234 pixels de largura.
+
+As linhas ligam disciplinas semelhantes. Seja $\mathcal{N}_4(a)$ o conjunto das
+quatro disciplinas mais semelhantes a $a$ e $\operatorname{nn}(a)$ a mais
+semelhante. As arestas são
+
+\begin{equation}
+  \mathcal{E}=\bigl\{\{a,b\}: b\in\mathcal{N}_4(a),\ s(a,b)\geq\tau_{\mathrm{rede}}\bigr\}
+  \cup\bigl\{\{a,\operatorname{nn}(a)\}\bigr\},
+  \label{eq:arestas}
+\end{equation}
+
+em que $\tau_{\mathrm{rede}}=0{,}603$ é o percentil 85 de $s$. A segunda parcela
+impede pontos isolados, e a rede resultante possui 1.499 arestas.
+
+Ao selecionar uma disciplina, suas cinco vizinhas mais semelhantes recebem
+números no mapa, repetidos com seus nomes em um índice abaixo dele, e as demais
+são esmaecidas. O mapa favorece a leitura de vizinhanças, mas não é uma escala
+métrica: o UMAP preserva sobretudo relações locais, e distâncias visuais iguais
+podem corresponder a similaridades diferentes. Por isso, os valores informados
+ao usuário são sempre calculados nos embeddings.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/mapa.png}
+  \caption{Mapa das 528 disciplinas únicas em seu estado inicial. As cores
+  indicam os 24 tópicos e as linhas representam relações de vizinhança textual.}
+  \label{fig:mapa}
+\end{figure}
+
+\newpage
+
+\subsection{Similaridade entre disciplinas}
+
+A Figura~\ref{fig:similaridade} mostra, para uma referência escolhida pelo
+usuário, as disciplinas com similaridade de pelo menos 0,619, o percentil 90 de
+$s$, uma linha por tópico. A posição horizontal é a similaridade $s$, e o
+deslocamento vertical apenas evita a sobreposição. As linhas são ordenadas pela
+maior similaridade de cada tópico, e as cinco disciplinas mais próximas recebem
+numeração e um índice textual, sendo exibidas mesmo abaixo do limiar. Em
+relação ao mapa, o \emph{beeswarm} explicita a magnitude da similaridade e
+permite comparar tópicos em uma escala comum.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/similaridade.png}
+  \caption{Distribuição exibida após selecionar Cálculo I como referência,
+  agrupada por tópico. A posição horizontal representa a similaridade de
+  cosseno, e o índice identifica as cinco disciplinas mais próximas.}
+  \label{fig:similaridade}
+\end{figure}
+
+\subsection{Grade e requisitos}
+
+A Figura~\ref{fig:grade} organiza a grade escolhida em colunas de semestre ideal.
+Disciplinas obrigatórias têm preenchimento intenso, e optativas têm
+preenchimento claro e contorno tracejado. Ao selecionar uma disciplina, o usuário vê seus
+requisitos diretos e indiretos e as disciplinas que ela libera. São consideradas
+as relações de requisito e de requisito fraco entre disciplinas da grade.
+Indicações de conjunto são excluídas, pois pedem que duas disciplinas sejam
+cursadas juntas e não estabelecem precedência. As relações não
+são desenhadas permanentemente, pois 897 pares distribuídos por 12 grades
+causariam sobreposição.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/grade.png}
+  \caption{Grade exibida após selecionar Ciência de Dados, antes de destacar
+  uma disciplina. As colunas representam os semestres ideais e as cores indicam
+  os tópicos das disciplinas.}
+  \label{fig:grade}
+\end{figure}
+
+\section{Resultados}
+
+Os 24 tópicos têm entre 8 e 37 disciplinas. A associação entre tópico e
+departamento, identificado pelo prefixo do código, é moderada, com informação
+mútua normalizada de 0,47 e, ajustada ao acaso, de 0,40: o texto recupera parte
+da organização departamental, mas não a reproduz. Há tópicos concentrados, como
+Probabilidade e estatística, com 30 de 32 disciplinas do SME, e tópicos que
+atravessam unidades, como Física, mecânica e termodinâmica, que reúne
+disciplinas de dez siglas, entre elas IFSC, SLC, SEM e SEL.
+
+Na comparação de similaridade, as cinco disciplinas mais próximas de Cálculo I
+pertencem ao mesmo tópico e têm similaridade entre 0,75 e 0,79: Análise I,
+Cálculo II, Análise para Licenciatura, Análise e Análise II. A comparação
+aproxima ementas de conteúdo comum, e não apenas sequências de mesmo nome.
+
+Os 897 pares de requisito têm similaridade mediana de 0,64, acima da mediana da
+mesma grade (0,56) e do conjunto (0,54): requisitos tendem a ligar textos
+próximos. As cadeias mais longas têm de quatro a sete etapas, e as disciplinas
+de maior alcance são Cálculo I, em matemática e estatística, e as introdutórias
+de programação, em computação.
+
+\section{Limitações}
+
+Os resultados dependem do conteúdo do JúpiterWeb e da redação das ementas. Os
+limiares de consolidação, os parâmetros do UMAP e do HDBSCAN e os nomes dos
+tópicos influenciam os agrupamentos. Além disso, 74 disciplinas (14\%) foram
+classificadas como ruído pelo HDBSCAN e atribuídas ao tópico de centroide mais
+próximo. Disciplinas homônimas com sobreposição parcial, como Física II do IFSC e
+Física 2 da Licenciatura em Ciências Exatas, permanecem unidas.
+
+\section{Próximas etapas}
+
+A próxima entrega prevê três extensões:
+
+\begin{itemize}
+  \item Uma nuvem de palavras por tópico, construída com os pesos
+  de~\eqref{eq:ctfidf}, para explicitar o vocabulário que caracteriza cada
+  grupo.
+  \item Um treemap tópico $\rightarrow$ disciplina que mostre quanto de cada
+  curso cada tópico ocupa, separando carga obrigatória e oferta optativa.
+  \item Ferramentas de \emph{brushing and linking}, para que uma seleção em uma
+  visão destaque as mesmas disciplinas e tópicos nas demais, complementadas por
+  consultas dinâmicas sobre curso, departamento, tipo, semestre e similaridade.
+\end{itemize}
+
+\begin{thebibliography}{11}
+
+\bibitem{jupiterweb}
+UNIVERSIDADE DE SÃO PAULO. \textbf{JúpiterWeb: Sistema de Gestão Acadêmica da
+Pró-Reitoria de Graduação}. Disponível em:
+\url{https://uspdigital.usp.br/jupiterweb/}. Acesso em: 7 nov. 2026.
+
+\bibitem{chen2024}
+CHEN, J., XIAO, S., ZHANG, P., LUO, K., LIAN, D. e LIU, Z. BGE M3-Embedding:
+multi-lingual, multi-functionality, multi-granularity text embeddings through
+self-knowledge distillation. \textbf{arXiv preprint arXiv:2402.03216}, 2024.
+
+\bibitem{grootendorst2022}
+GROOTENDORST, M. BERTopic: neural topic modeling with a class-based TF-IDF
+procedure. \textbf{arXiv preprint arXiv:2203.05794}, 2022.
+
+\bibitem{mcinnes2018}
+MCINNES, L., HEALY, J. e MELVILLE, J. UMAP: uniform manifold approximation and
+projection for dimension reduction. \textbf{arXiv preprint arXiv:1802.03426},
+2018.
+
+\bibitem{mcinnes2017}
+MCINNES, L., HEALY, J. e ASTELS, S. hdbscan: hierarchical density based
+clustering. \textbf{Journal of Open Source Software}, v. 2, n. 11, p. 205, 2017.
+
+\bibitem{bostock2011}
+BOSTOCK, M., OGIEVETSKY, V. e HEER, J. D3: data-driven documents.
+\textbf{IEEE Transactions on Visualization and Computer Graphics}, v. 17,
+n. 12, p. 2301 a 2309, 2011.
+
+\bibitem{scherer}
+SCHERER, C. \textbf{Data Visualization \& Information Design}. Disponível em:
+\url{https://www.cedricscherer.com/}. Acesso em: 10 nov. 2026.
+
+\bibitem{holtz}
+HOLTZ, Y. \textbf{The D3 Graph Gallery}. Disponível em:
+\url{https://d3-graph-gallery.com/}. Acesso em: 10 nov. 2026.
+
+\end{thebibliography}
+
+\end{document}

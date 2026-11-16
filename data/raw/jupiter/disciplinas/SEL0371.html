@@ -1,0 +1,1065 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+<title>Jupiterweb</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css"
+	type=text/css rel=stylesheet>
+</head>
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style>
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;" /></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;" /></a>
+		</td>
+	</tr>
+</table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css"
+	title="Vertical 'Earth'" />
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="stylesheet" type="text/css" id="fsmenu-fallback"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" />
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href='#' title=''><span>Calendário Escolar</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920'
+		title=''>2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863'
+		title=''>2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='jupCarreira.jsp?codmnu=8275'
+		title=''>Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Disciplina</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=D&amp;codmnu=6755'
+		title=''>Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=T&amp;codmnu=6756'
+		title=''>Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>Editais</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872'
+		title=''>Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502'
+		title=''>Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?page_id=399?codmnu=6762'
+		title=''>PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://prg.usp.br/programas-e-bolsas/?codmnu=10838'
+		title=''>PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>FAQ</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Matrícula Interativa</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='FAQ.jsp?codmnu=9326'
+		title=''>FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='grdMatriculainterativaInformacoes.jsp?codmnu=9327'
+		title=''>Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='graduacaoAjudaNovaMatricula?codmnu=8946'
+		title='Liberar próximo da matricula'>TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?p=20746&amp;codmnu=6749'
+		title=''>Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='http://www.prg.usp.br/?p=20741&amp;codmnu=8063'
+		title=''>Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		</li>
+	
+
+
+
+</ul>
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href='webLogin.jsp'>Entrar</a></li>
+		<li><a href='esqueciSenha'>Esqueci a Senha</a></li>
+		<li><a href='primeiroAcesso'>Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+<html>
+ <style>
+      pre {
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+<head>
+<title></title>
+
+</head>
+<body>
+<!-- cabecalho
+ -->
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css"/>
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css" >
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/engine.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/util.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/comum.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<STYLE>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</STYLE>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+</head>
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Informa&ccedil;&otilde;es da Disciplina
+</div>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+	<br>
+ 
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!-- operacoes -->
+			
+		</td>
+	</tr>
+	<!-- titulos da pagina -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<!-- navegacao -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form name="form1" method="GET" action="">
+			<table width="100%" border="0">
+				<tr>
+					<td> 
+						<!-- tabela
+					 	--> 
+
+
+
+
+<script language="Javascript">
+function OpenWindowToPrint() {
+	var mylink;
+	
+	if('default' == 'default'){
+		mylink = document.location.href;
+	} else {
+		mylink = 'default';
+	}
+	
+	if(mylink.indexOf("?") > 0){
+		mylink += "&";
+	} else {
+		mylink += "?";
+	}
+	
+	mylink += "print=true";
+	
+	window.open(mylink , "_blank", "toolbar=no,location=no,directories=no,status=no,menubar=yes,titlebar=yes,scrollbars=yes,resizable=yes");
+}
+</script>
+
+<table width="538" border="0" cellpadding="1" cellspacing="1" align="center">
+  
+  <tr> 
+    <td align="right">
+	<a href="javascript:OpenWindowToPrint()" class="mail_footer"><img src="images/print_edit.gif" width="16" height="16" border="0">
+	<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">&nbsp;Preparar para impressão&nbsp;</font>
+	</a>
+	</td>
+  </tr>
+  
+</table>
+
+ 
+
+<table>
+  <tr> 
+    <td> 
+      <div align="left"><img src="https://uspdigital.usp.br/comumwebdev/imagens/logos/BrasaoUSP.gif" style="height: 80px;"></div>
+    </td>
+    <td style="vertical-align: middle;">
+		<h2 style="margin-left: 1em; display: inline-block; white-space: nowrap; font-size: medium" class="txt_verdana_10pt_black">
+			J&uacute;piter - Sistema de Gest&atilde;o Acad&ecirc;mica da Pr&oacute;-Reitoria de Gradua&ccedil;&atilde;o
+		</h2>
+    </td>
+  </tr>
+</table>
+<BR>						
+ 
+ 
+ 
+ 
+ 
+   
+
+    <table cellspacing=0 cellpadding=0 border=0 align="center" width="100%" bgcolor="#FFFFFF">
+      <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Escola de Engenharia de São Carlos</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Engenharia Elétrica e de Computação</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+        <b>Disciplina: SEL0371 - Sistemas de Comunicação: Teoria e Laboratório</b></span></font>
+		</td>
+    </tr>
+	
+	<tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+         Communication Systems: Theory and Laboratory </span></font>
+		</td>
+    </tr>
+	
+</table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="3">  
+  
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Cr&eacute;ditos Aula:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        4
+		</span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Cr&eacute;ditos Trabalho:</span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        0</span></font></td>
+    </tr>
+
+	<tr VALIGN="TOP" ALIGN="LEFT">
+		<td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+			Carga Hor&aacute;ria Total: </span></font></b></td>
+		<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+			60 h
+			
+		</span></font></td>
+	</tr>
+
+	
+	
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Tipo:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+	   
+	   
+	   Semestral
+	   
+	   
+	   	   
+	   </span></font></td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Ativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        15/07/2025</span></font>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Desativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                  </span></font>
+      </td>
+    </tr>
+
+  </table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Ementa</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Teoria vinculada<br>A disciplina aborda os mecanismos de propagação de ondas eletromagnéticas, fundamentais para compreender a transmissão de sinais em diversos meios, com aplicações em radioenlaces, que conectam sistemas em curtas ou longas distâncias. O estudo das técnicas de acesso ao meio assegura a eficiência na utilização de canais de comunicação compartilhados, integrando- se a sistemas avançados como os de radares, utilizados para detecção e monitoramento. A comunicação via satélite é explorada como uma aplicação prática de propagação em longas distâncias, enquanto as hierarquias de transmissão são analisadas para organizar fluxos de dados em redes complexas. Por fim, a compatibilidade eletromagnética garante a operação harmônica de dispositivos no ambiente de comunicação, minimizando interferências entre os diferentes sistemas.<br><br>Prática vinculada<br>Do ponto de vista prático, a disciplina aborda a caracterização da atenuação de percurso, essencial para avaliar a perda de sinal em diferentes cenários de propagação. O estudo da modulação digital IQ é explorado como base para a geração e análise de sinais digitais, com destaque para a magnitude de vetor de erro (EVM) em sinais GSM, que mede a qualidade da modulação. Além disso, é realizada a verificação de potência em canais adjacentes em sinais GSM, garantindo conformidade espectral e minimização de interferências. Também são analisadas as medições de sistemas digitais modulados e curvas de Complementary Contribution Distribution Function (CCDF), que avaliam o comportamento estatístico da potência de pico dos sinais. Complementando, o curso introduz técnicas para medidas de seção transversal de radar, fundamentais para o entendimento da detecção de alvos, e explora o projeto<br>e aplicação de amplificadores para fotodetectores e drivers de corrente para fontes ópticas, essenciais em sistemas ópticos de precisão.</pre></span></font></td>
+    </tr>
+   	
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Linked theory:<br>The course covers the mechanisms of electromagnetic wave propagation, fundamental for understanding signal transmission across various media, with applications in radio links, which connect systems over short or long distances. The study of medium access techniques ensures efficiency in the use of shared communication channels, integrating with advanced systems such as radars, used for detection and monitoring. Satellite communication is explored as a practical application of long-distance propagation, while transmission hierarchies are analyzed to organize data flows in complex networks. Finally, electromagnetic compatibility ensures the harmonious operation of devices within the communication environment, minimizing interference between different systems.<br><br>Linked practice:<br>From a practical perspective, the course addresses the characterization of path attenuation, essential for evaluating signal loss in different propagation scenarios. The study of digital IQ modulation is explored as a foundation for generating and analyzing digital signals, with an emphasis on the Error Vector Magnitude (EVM) in GSM signals, which measures modulation quality. Additionally, the course covers the power verification in adjacent channels in GSM signals, ensuring spectral compliance and minimizing interference. The measurements of digitally modulated systems and Complementary Cumulative Distribution Function (CCDF) curves are also analyzed to assess the statistical behavior of signal peak power. Complementing these topics, the course introduces techniques for radar cross-section measurements, fundamental for understanding target detection, and explores the design and application of amplifiers for photodetectors and current drivers for optical sources, which are essential in precision optical<br>systems.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Objetivos </b></span></font></td>
+    </tr>
+    <tr VALIGN="bottom" ALIGN="LEFT"> 
+      <td valign="bottom"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Esta disciplina visa estabelecer um ambiente para que os alunos tenham oportunidade de aprender conceitos de sistemas de comunicação e desenvolver projetos.<br><br>Ao final do curso o(a) aluno(a) deverá ter adquirido as seguintes competências específicas, de acordo com o Projeto Pedagógico do Curso (PPC) de Engenharia Elétrica &#x2013; Ênfase em Eletrônica:<br><br>&#x2022; Identificar e absorver os avanços tecnológicos nas grandes áreas de controle e automação, sistemas digitais, engenharia biomédica e telecomunicações, adaptando ou criando novos processos e soluções que se beneficiem desses avanços;<br>&#x2022; Aplicar ferramentas matemáticas, computacionais, modelos experimentais em escala reduzida para resolver problemas de Engenharia Elétrica referentes aos sistemas eletrônicos nas suas diversas aplicações;<br>&#x2022; Compreender e representar adequadamente os fenômenos de interesse na Engenharia Elétrica por meio de modelos matemáticos, físicos e computacionais;<br>&#x2022; Trabalhar de maneira colaborativa e proativa, coordenando equipes multidisciplinares, com comunicação clara e efetiva, e aplicando ferramentas de gestão de projetos/processos para implantar, supervisionar e controlar projetos em Engenharia Elétrica;<br>&#x2022; Identificar problemas/desafios da Engenharia Elétrica e formular soluções criativas e inovadoras para os mesmos, observando aspectos de multidisciplinaridade, praticidade e sustentabilidade, sempre respeitando a legislação vigente;<br>&#x2022; Expressar-se adequadamente nas formas escrita, oral e gráfica nas diferentes frentes de atuação profissional;<br>&#x2022; Aprender continuamente e de forma autônoma, com vistas à atualização de conhecimentos, pesquisa e inovação;<br><br>Para alcançar as competências listadas acima, o aluno deverá desenvolver as seguintes habilidades:<br><br>&#x2022; Projetar e implementar sistemas de telecomunicações;<br>&#x2022; Compreender detalhadamente os fenômenos envolvidos em sistemas eletroeletrônicos<br>e sistemas digitais;<br>&#x2022; Projetar e implementar equipamentos e sistemas eletrônicos;<br>&#x2022; Analisar de maneira crítica dados obtidos de forma analítica, numérica e/ou<br>experimental;<br>&#x2022; Gerenciar projetos multidisciplinares para implantação de novas tecnologias/soluções em sistemas eletrônicos;</pre></span></font></td>
+    </tr>
+	
+     <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">  <i>The following specific competences, according to the Electrical Engineering &#x2013; Emphasis in Electronics Course Pedagogic Project, must be achieved by students at the end of course:<br><br>&#x2022; Identify and absorb technological advances in the major areas of control and automation, digital systems, biomedical engineering, and telecommunications, adapting or creating new processes and solutions that benefit from these advances;<br>&#x2022; Apply mathematical tools, computational methods, and reduced-scale experimental models to solve Electrical Engineering problems related to electronic systems in their various applications;<br>&#x2022; Comprehend and adequately represent phenomena of interest in Electrical Engineering through mathematical, physical, and computational models;<br>&#x2022; Work collaboratively and proactively, coordinating multidisciplinary teams, with clear and effective communication, and applying project/process management tools to implement, supervise, and control projects in Electrical Engineering;<br>&#x2022; Identify problems/challenges in Electrical Engineering and formulate creative and innovative solutions for them, considering aspects of multidisciplinarity, practicality, and sustainability, always respecting current legislation;<br>&#x2022; Express oneself adequately in written, oral, and graphic forms across different areas of professional activity;<br>&#x2022; Learn continuously and autonomously, with a view to updating knowledge, research, and innovation;<br>To achieve these competences, the students will develop the following abilities:<br>&#x2022; Design and implement telecommunication systems;<br>&#x2022; Understand in detail the phenomena involved in electro-electronic systems and digital systems;<br>&#x2022; Design and implement electronic equipments and systems;<br>&#x2022; Critically analyze data obtained through analytical, numerical, and/or experimental methods;<br>&#x2022; Manage multidisciplinary projects for the implementation of new technologies/solutions in electronic systems;</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Conteúdo Programático</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Teoria vinculada:<br>1. Mecanismos de propagação de ondas eletromagnéticas: Zonas de Fresnel, atenuação, difração, modelos de predição;<br>2. Radioenlaces: balanço de potência, desvanecimento, EIRP, figura de ruído, temperatura equivalente de ruído, relação ganho temperatura de ruído, relação portadora ruído;<br>3. Técnicas de acesso ao meio: FDMA (frequency division multiple access), TDMA (time division multiple access), CDMA (code division multiple access), Aloha;<br>4. Sistemas de radares: faixas de frequências de operação, operação pulsada, faixa de detecção, mapeamento, radar de vigilância e rastreio, radar Doppler, sar (synthetic array radar), radar meteorológico;<br>5. Comunicação via satélite: sistemas com satélites, órbitas, cobertura, enlaces espaciais, serviços;<br>6. Hierarquias de transmissão: digital quase síncrona (PDH), digital síncrona (SDH), formato Ethernet (IEEE 802.3);<br>7. Compatibilidade eletromagnética: fontes de interferência, imunidade de circuitos e sistemas à interferência, controle de interferências, blindagem, especificações, medidas, modelagem;Teoria  vinculada.<br><br>Prática vinculada<br>1. Caracterização da atenuação de percurso: verificação da equação de Friss e modelos plano-terra;<br>2. Modulação digital IQ: modulações QPSK e QAM;<br>3. Magnitude de vetor de erro em sinais GSM: erro em sistemas de modulação por constelação, erro dinâmico, erro instantâneo em sinais GSM;<br>4. Verificação de potência em canais adjacentes em sinais GSM: interferência em canais adjacentes, nível de potência, verificação em sinais GSM;<br>5. Medição de sistemas digitais modulados e curvas de CCDF: função densidade de probabilidade, função de distribuição cumulativa, função complementar, aplicação em sistemas com modulação IQ;<br>6. Medidas de seção transversal de radar: caracterização de espalhadores em diferentes posições e frequências;<br>7. Amplificadores para fotodetectores e drivers de corrente para fontes ópticas: resposta em frequência, estabilidade, sistemas em malha fechada.</pre></span></font></td>
+    </tr>
+    
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Linked theory:<br>1. Propagation mechanisms: Fresnel Zones, path loss, diffraction, prediction models;. <br>2. Radio links: Power balance, fading, EIRP, noise figure, noise equivalent temperature, gain-noise temperature ratio, carrier to noise ratio;<br>3. Medium access techniques: FDMA (frequency division multiple access), TDMA (time division multiple access), CDMA (code division multiple access), Aloha;<br>4. Radar systems: operating frequency ranges, pulsed operation, detection range, mapping, surveillance and tracking radar, Doppler radar, SAR (synthetic array radar), weather radar;<br>5. Satellite communications: satellite systems, orbit, coverage, special links, services;<br>6. Transmission hierarchies: Plesiochronous Digital Hierarchy (PDH), Synchronous Digital Hierarchy (SDH), Ethernet standard (IEEE 802.3);<br>7. Electromagnetic compatibility: interference sources, circuits and systems interference immunity, interference control, shielding, specifications, measurements, modelling;<br><br>Linked practice:<br>1. Path loss characterization: verification of the Friss equation and plane-ground models;<br>2. IQ digital modulation: QPSK and QAM modulation;<br>3. Error vector magnitude for GSM signals: error in constellation modulation systems, dynamic error, instantaneous error in GSM signals;<br>4. Adjacent power ratio measurement for GSM signals: adjacent channel interference, power level, verification in GSM signals;<br>5. Digitally modulated systems and complementary cumulative density function (CCDF) curves<br>measurements: probability density function, cumulative distribution function, complementary function, application in systems with IQ modulation;<br>6. Radar cross section measurements: charcaterizaiton of scatterers in different positions and frequencies;<br>7. Photodetector amplifiers and current drivers for optical sources: frequency response, stability, close-loop systems.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+
+
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Instrumentos e Critérios de Avaliação</b></span></font></td>
+	</tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >
+	    
+	  <tr  > 
+        
+       <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Método de Avaliação</b></span></font></td>
+      </tr>         
+           <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Avaliação:<br>Teoria vinculada:<br>Uma prova (peso 3) e listas de exercícios (peso 1). Será também oferecida uma prova substitutiva para alunos com nota na prova inferior a 5.0.<br><br>Prática vinculada:<br>Relatórios das atividades práticas realizadas (peso 1) e um projeto final (peso 1).<br><br>Método:<br>Cada habilidade ou competência será avaliada baseada em diferentes metodolgias como segue:<br>&#x2022; Aprendizagem individual avaliada por prova;<br>&#x2022; Aprendizagem individual avaliada por listas de exercícios;<br>&#x2022; Aprendizagem em duplas baseada na solução de problemas práticos com entrega de relatórios;<br>&#x2022; Aprendizagem baseada na solução de problemas, avaliada via projeto final.</span></font></td>
+    </tr>
+		<tr>           
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Critério de Avaliação</b></span></font></td>
+		</tr>
+  
+	  <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        A média final será a média aritmética entre a teoria vinculada e a prática vinculada. Esta média deve ser igual ou superior a 5,0 para aprovação na disciplina.</span></font></td>
+      </tr>
+	
+	  <tr>		   
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Norma de Recuperação</b></span></font></td>
+          </tr> 
+		   <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Os critérios de avaliação da recuperação devem ser similares aos aplicados durante o semestre regular do oferecimento da disciplina; <br>1)	A nota final (MF) do aluno que realizou provas de recuperação dependerá da média do semestre (MS) e da média das provas de recuperação (MR), como segue:<br>a)	MF=5 se 5 &#8804;MR &#8804; (10 - MS); <br>b)	MF = (MS + MR) / 2 se MR > (10  MS)<br>c)	MF = MS se MR < 5.<br>2)	O período de recuperação das disciplinas deve se estender do início até um mês antes do final do semestre subsequente ao da reprovação do aluno em primeira avaliação.</span></font></td>
+    </tr>
+	     
+		</table>		  
+	     </td>
+    </tr>        
+  </table>
+  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        
+        	<b>Bibliografia</b>
+        
+        
+        </span></font></td>
+    </tr>
+	  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >	               
+        <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              <pre>[1] Simon Haykin e Michael Moher, Sistemas de Comunicação, editora Bookman, 2011, ISBN: 8577807258, ISBN-13: 9788577807253.<br>[2] B. P. Lathi e Zhi Ding, Modern Digital and Analog Communication Systems, Oxford University Press, 4a edição, 2009, ISBN-l0: 0195331451, ISBN-13: 978-0195331455.<br>[3] José Antônio Justino Ribeiro, Propagação das Ondas Eletromagnéticas: Princípios e Aplicações, editora Érica, 2008, ISBN: 978-85-7194-993-5.<br>[4] Geraldo Gil Raimundo Gomes, Sistemas de Radioenlaces Digitais: Terrestres e por Satélites, editora Érica, 2013, ISBN: 978-85-365-0447-6.<br>[5] Bruce R. Elbert, Introduction to Satellite Communication, Artech House, 2008, 3a edição, ISBN- 10: 1596932104, ISBN-13: 978-1596932104.<br>[6] Mark A. Richards, James A. Scheer e William A. Holm, Principies of Modern Radar: Basic Principies, SciTech Publishing, 2010, ISBN-l0: 1891121529, ISBN-13: 978-1891121524.<br>[7] Henry W. Ott, Electromagnetic Compatibility Engineering, Wiley, 2009, ISBN-l0:0470189304, ISBN-13: 978-0470189306.<br>[8] Kits Educacionais DreamCatcher<br>[9] Roteiro dos kits Educacionais DreamCatcher<br>[10] Roteiros desenvolvidos pelo ministrante<br><br>Complementar:<br>[1] Edson Mitsugo Miyoshi e Carlos Alberto Sanches, Projetos de Sistemas Rádio, editora Érica, 2008, ISBN: 978-85-7194-868-6.<br>[2] Gerard Maral, Michel Bousquet e Zhili Sun, Satellite Communications Systems: Systems, Techniques and Technology, Wiley, 5a edição, 2010, ISBN-l0: 0470714581, ISBN-13: 978-0470714584.<br>[3] B. Razavi, Design of Integrated Circuits for Optical Communications, Wiley, 2 ed, 2012, ISBN-10: 1118336941, ISBN-13: 978-1118336946;</pre></span></font></td>
+          </tr>		 	     
+		</table>		  
+	   </td>
+    </tr>        
+  </table> 
+
+
+
+</table>
+
+
+
+
+
+
+
+
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Docente(s) Responsável(eis)</b></span></font></td>
+    </tr>
+    <tr>
+      <td> 
+        <table border="0" >
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              7656450 - Vinicius Marrara Pepino</span></font></td>
+          </tr>
+	    		  
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+  <BR>
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="listarCursosRequisitos?coddis=SEL0371" class="link_gray">Clique 
+        para consultar os requisitos para SEL0371</A> </font></td>
+    </tr>
+  </table>
+
+  <BR>
+  <table>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="obterTurma?sgldis=SEL0371" class="link_gray">Clique 
+        para consultar o oferecimento para SEL0371</A> </font></td>
+    </tr>
+  </table>
+
+						
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- hidden
+							
+							 -->
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- acoes
+							<table width="100%" border="0">
+								<tr>
+									
+								</tr>
+							</table>
+							 -->
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- submit
+							
+							 -->
+						</td>
+					</tr>
+	    </table>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css"/>
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href='creditos.jsp' class="link_olive" target="_self">Cr&eacute;ditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      &copy; 1999 - 2026 - Superintend&ecirc;ncia de Tecnologia da Informa&ccedil;&atilde;o/USP</font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+			
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

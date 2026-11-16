@@ -1,0 +1,1130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+<title>Jupiterweb</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css"
+	type=text/css rel=stylesheet>
+</head>
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style>
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;" /></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;" /></a>
+		</td>
+	</tr>
+</table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css"
+	title="Vertical 'Earth'" />
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="stylesheet" type="text/css" id="fsmenu-fallback"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" />
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href='#' title=''><span>Calendário Escolar</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920'
+		title=''>2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863'
+		title=''>2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='jupCarreira.jsp?codmnu=8275'
+		title=''>Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Disciplina</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=D&amp;codmnu=6755'
+		title=''>Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=T&amp;codmnu=6756'
+		title=''>Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>Editais</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872'
+		title=''>Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502'
+		title=''>Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?page_id=399?codmnu=6762'
+		title=''>PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://prg.usp.br/programas-e-bolsas/?codmnu=10838'
+		title=''>PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>FAQ</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Matrícula Interativa</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='FAQ.jsp?codmnu=9326'
+		title=''>FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='grdMatriculainterativaInformacoes.jsp?codmnu=9327'
+		title=''>Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='graduacaoAjudaNovaMatricula?codmnu=8946'
+		title='Liberar próximo da matricula'>TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?p=20746&amp;codmnu=6749'
+		title=''>Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='http://www.prg.usp.br/?p=20741&amp;codmnu=8063'
+		title=''>Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		</li>
+	
+
+
+
+</ul>
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href='webLogin.jsp'>Entrar</a></li>
+		<li><a href='esqueciSenha'>Esqueci a Senha</a></li>
+		<li><a href='primeiroAcesso'>Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+<html>
+ <style>
+      pre {
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+<head>
+<title></title>
+
+</head>
+<body>
+<!-- cabecalho
+ -->
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css"/>
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css" >
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/engine.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/util.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/comum.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<STYLE>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</STYLE>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+</head>
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Informa&ccedil;&otilde;es da Disciplina
+</div>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+	<br>
+ 
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!-- operacoes -->
+			
+		</td>
+	</tr>
+	<!-- titulos da pagina -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<!-- navegacao -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form name="form1" method="GET" action="">
+			<table width="100%" border="0">
+				<tr>
+					<td> 
+						<!-- tabela
+					 	--> 
+
+
+
+
+<script language="Javascript">
+function OpenWindowToPrint() {
+	var mylink;
+	
+	if('default' == 'default'){
+		mylink = document.location.href;
+	} else {
+		mylink = 'default';
+	}
+	
+	if(mylink.indexOf("?") > 0){
+		mylink += "&";
+	} else {
+		mylink += "?";
+	}
+	
+	mylink += "print=true";
+	
+	window.open(mylink , "_blank", "toolbar=no,location=no,directories=no,status=no,menubar=yes,titlebar=yes,scrollbars=yes,resizable=yes");
+}
+</script>
+
+<table width="538" border="0" cellpadding="1" cellspacing="1" align="center">
+  
+  <tr> 
+    <td align="right">
+	<a href="javascript:OpenWindowToPrint()" class="mail_footer"><img src="images/print_edit.gif" width="16" height="16" border="0">
+	<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">&nbsp;Preparar para impressão&nbsp;</font>
+	</a>
+	</td>
+  </tr>
+  
+</table>
+
+ 
+
+<table>
+  <tr> 
+    <td> 
+      <div align="left"><img src="https://uspdigital.usp.br/comumwebdev/imagens/logos/BrasaoUSP.gif" style="height: 80px;"></div>
+    </td>
+    <td style="vertical-align: middle;">
+		<h2 style="margin-left: 1em; display: inline-block; white-space: nowrap; font-size: medium" class="txt_verdana_10pt_black">
+			J&uacute;piter - Sistema de Gest&atilde;o Acad&ecirc;mica da Pr&oacute;-Reitoria de Gradua&ccedil;&atilde;o
+		</h2>
+    </td>
+  </tr>
+</table>
+<BR>						
+ 
+ 
+ 
+ 
+ 
+   
+
+    <table cellspacing=0 cellpadding=0 border=0 align="center" width="100%" bgcolor="#FFFFFF">
+      <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Escola de Engenharia de São Carlos</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Disciplinas Interdepartamentais da EESC</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+        <b>Disciplina: 1800122 - Estágio Supervisionado</b></span></font>
+		</td>
+    </tr>
+	
+	<tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+         Supervised Internship </span></font>
+		</td>
+    </tr>
+	
+</table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="3">  
+  
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Cr&eacute;ditos Aula:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        0
+		</span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Cr&eacute;ditos Trabalho:</span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        6</span></font></td>
+    </tr>
+
+	<tr VALIGN="TOP" ALIGN="LEFT">
+		<td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+			Carga Hor&aacute;ria Total: </span></font></b></td>
+		<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+			180 h
+			
+		</span></font></td>
+	</tr>
+
+	
+		<tr VALIGN="TOP" ALIGN="LEFT">
+			<td>
+				<b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">Carga Hor&aacute;ria de Extens&atilde;o: </span></font></b>
+			</td>
+			<td>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+					120 h
+				</span></font>
+			</td>
+		</tr>
+	
+	
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Tipo:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+	   
+	   
+	   Semestral
+	   
+	   
+	   	   
+	   </span></font></td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Ativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        01/01/2025</span></font>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Desativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                  </span></font>
+      </td>
+    </tr>
+
+  </table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Ementa</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Atividades programadas em centros capacitados para proporcionar treinamento em setores profissionais específicos.<br>Atividades junto às instituições de ensino e pesquisa, ou a órgãos a elas ligados, visando a prestação de serviços.<br>Atividades de iniciação científica com participação no desenvolvimento de pesquisas básicas ou tecnológicas.<br>Atividades de estágio em empresas e órgãos públicos.</pre></span></font></td>
+    </tr>
+   	
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Activities in specialized centers that contribute by training in specific professional sectors.<br>Activities with teaching and research institutions or organizations linked to them aimed at providing services.<br>Scientific initiation activities include participation in the development of primary or technological research.<br>Internship activities in companies and public organizations.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Objetivos </b></span></font></td>
+    </tr>
+    <tr VALIGN="bottom" ALIGN="LEFT"> 
+      <td valign="bottom"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Proporcionar meios para adaptação psicológica e social do estudante visando a sua futura atividade profissional. Complementar a formação profissional do estudante. Treinar o estudante visando facilitar a absorção de conhecimentos tecnológicos na profissão. Orientar o estudante na escolha de sua especialização. Atuar nos diferentes cenários da prática profissional. Desenvolver Atividades Extensionistas. <br>Competências que podem ser desenvolvidas dependendo das atividades realizadas e que são aderentes ao perfil do estudante de Engenharia:<br>Planejar e gerir estrategicamente;<br>Atuar em equipes multidisciplinares;<br>Comunicar de modo mais eficiente, escrita, oral e graficamente;<br>Exercer a cidadania como engenheiro;<br>Aplicar conhecimentos de matemática, ciência e engenharia;<br>Analisar e compreender fenômenos físicos e químicos;<br>Projetar e conduzir experimentos, bem como analisar e interpretar dados;<br>Formular, analisar e resolver problemas;<br>Conceber soluções de Engenharia, analisando e compreendendo a necessidade dos usuários e seu contexto;<br>Conhecer e aplicar com ética a legislação e os atos normativos compreendendo o impacto das soluções nos setores global, econômico, ambiental e contexto social;<br>Criar, projetar e implementar soluções tecnológicas e inovadoras para os problemas de Engenharia;<br>Acompanhar o ritmo de desenvolvimento técnico-científico do setor e adaptar-se às constantes transformações estimulando o aprendizado autônomo.</pre></span></font></td>
+    </tr>
+	
+     <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">  <i>To provide the means for the student&#39;s psychological and social adaptation with a view to their future professional activity. To complement the student&#39;s professional training. To prepare the student to facilitate the absorption of technological knowledge in the profession.<br>To guide students in their choice of specialization. To work in the different scenarios of professional practice. Additionally, they should cultivate extension activities to enrich their learning experience further.<br>Competences (C) that can be developed depending on the activities carried out and that are in line with the profile of the engineering student:<br>C1: Plan and manage strategically;<br>C2: Working in multidisciplinary teams;<br>C3: Communicate more efficiently in written, oral, and graphic form;<br>C4: Exercise citizenship as an engineer;<br>C5: Apply knowledge of mathematics, Science and Engineering;C6: Analyze and understand physical and chemical phenomena;<br>C7: Design and conduct experiments, as well as analyze and interpret data;<br>C8: Formulate, analyze, and solve problems;<br>C9: Design engineering solutions, analyzing, and understanding user needs and their context;<br>C10: Know and apply legislation and regulations ethically, understanding the impact of solutions on the global, economic, and environmental sectors and the social context;<br>C11: Create, design, and implement technological and innovative solutions to engineering<br>problems;<br>C12: Keep pace with the sector&#39;s technical and scientific development and adapt to constant<br>changes, encouraging independent learning.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Conteúdo Programático</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Atividades programadas em centros capacitados para proporcionar treinamento em setores<br>profissionais específicos.<br><br>Atividades junto às Instituições de ensino e pesquisa, ou aos órgãos a elas ligados, visando a prestação de serviços.<br>Atividades de iniciação científica com a participação no desenvolvimento de pesquisas básicas ou tecnológicas.<br>Atividades relacionadas com a realização de trabalho de graduação ou projeto final de curso.<br>Atividades de estágio em empresas e órgãos públicos.<br>Nos períodos em que não estão programadas outras disciplinas, o estudante poderá ter jornada de até 40 horas semanais de estágio.<br>Nos períodos em que o aluno cursar disciplinas, o número máximo de horas de estágio será de 6 horas diárias e 30 horas/semana, não podendo haver superposição dos horários do estágio com os horários das disciplinas matriculadas.</pre></span></font></td>
+    </tr>
+    
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Programmed activities in centers able to provide training in specific professional sectors. <br>Activities with teaching and research institutions or organizations linked to them aimed at providing services.<br>Scientific Initiation activities involve participation in the development of primary or technological research.<br>Activities related to undergraduate work or final course projects Internship activities in companies and public organizations.<br>During periods in which no other subjects are scheduled, students may work up to 40 hours a week on internships. In periods in which the student is studying subjects, the maximum number of hours of internship will be 6 hours a day and 30 hours a week, and there must be no overlap between the internship timetable and the timetable for the subjects enrolled.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+
+
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Instrumentos e Critérios de Avaliação</b></span></font></td>
+	</tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >
+	    
+	  <tr  > 
+        
+       <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Método de Avaliação</b></span></font></td>
+      </tr>         
+           <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        O estágio será supervisionado individualmente por um docente e por um profissional da empresa concedente e poderá ser realizado em uma ou mais empresas.<br>ATIVIDADES DISCENTES: frequentar a empresa e realizar as atividades previstas no plano de estágio. As atividades são diversas e têm como exemplos: realizar projeto relacionado às sub-áreas de Engenharia sob a orientação do docente supervisor de estágio e do profissional responsável da empresa concedente; colaborar em trabalhos práticos, pesquisa programada, realizar visitas a obras, empresas ou indústrias, realizar ensaios, experiências, testes; participar e organizar estudo de casos e entrevistas. ATIVIDADES DE EXTENSÃO: 120 h são destinadas à realização de atividades de extensão.</span></font></td>
+    </tr>
+		<tr>           
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Critério de Avaliação</b></span></font></td>
+		</tr>
+  
+	  <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Apresentar relatório final acompanhado de atestado de frequência. No relatório deverão constar as atividades e as competências desenvolvidas durante o cumprimento do estágio, relacionar as atividades realizadas com o curso de graduação e como as disciplinas e as atividades realizadas durante o curso contribuíram para a efetividade das tarefas do estágio. Apresentar relatório de avaliação das atividades de extensão. A avaliação das atividades de extensão deverá ser feita pelo supervisor de estágio ou representante da comunidade, conforme formulário disponibilizado.<br>A avaliação será feita através dos relatórios ou projetos apresentados, com nota maior ou<br>igual a 5.00 (cinco).</span></font></td>
+      </tr>
+	
+	  <tr>		   
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Norma de Recuperação</b></span></font></td>
+          </tr> 
+		   <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Não haverá atividade de recuperação.</span></font></td>
+    </tr>
+	     
+		</table>		  
+	     </td>
+    </tr>        
+  </table>
+  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        
+        	<b>Bibliografia</b>
+        
+        
+        </span></font></td>
+    </tr>
+	  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >	               
+        <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              <pre>Sugerida pelo docente supervisor, de acordo com a atividade escolhida.</pre></span></font></td>
+          </tr>		 	     
+		</table>		  
+	   </td>
+    </tr>        
+  </table> 
+
+
+
+</table>
+
+
+
+
+
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT">
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+        <b>Atividades de Extens&atilde;o</b></span></font></td>
+    </tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr VALIGN="TOP" ALIGN="LEFT">
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td>
+	      <table BORDER="0" >
+
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>Grupo social alvo da atividade</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Pessoas jurídicas de direito privado e os órgãos da administração pública direta, autárquica e fundacional de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, ONG, bem como profissionais liberais de nível superior devidamente registrados em seus respectivos conselhos de fiscalização profissional.</span></font></td>
+	      </tr>
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>Objetivos da atividade</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Objetiva contribuir com a formação do estudante diante da realidade profissional, constituindo-se num instrumento de aperfeiçoamento técnico- científico e de treinamento prático. Para o grupo social, o objetivo é avançar com soluções inovadoras para os problemas apresentados.</span></font></td>
+	      </tr>
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>Descri&ccedil;&atilde;o da atividade</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Supervisão, coordenação e orientação técnica;<br>Estudo, planejamento, projeto e especificação;<br>Estudo de viabilidade técnico-econômica;<br>Assistência, assessoria e consultoria;<br>Vistoria, perícia, avaliação, laudo e parecer técnico;<br>Ensino, pesquisa, análise, experimentação, ensaio e divulgação técnica;<br>Elaboração de orçamento;<br>Padronização, mensuração e controle de qualidade;<br>Produção técnica e especializada;<br>Condução de equipe de instalação, montagem, operação, reparo ou manutenção;<br>Execução de instalação, montagem e reparo;<br>Operação e manutenção de equipamento e instalação;<br>Execução de desenho técnico.<br>Todas as atividades serão realizadas pelos estudantes de graduação que serão acompanhados pelo profissional supervisor e por um docente da EESC.</span></font></td>
+	      </tr>
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>Indicadores de avalia&ccedil;&atilde;o da atividade</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Os alunos participantes serão avaliados pelo supervisor de estágio da empresa, considerando aspectos como responsabilidade, proposição, desenvolvimento de trabalho individual e em equipe.</span></font></td>
+	      </tr>
+
+	      </table>
+	  </td>
+    </tr>
+  </table>
+
+
+
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Docente(s) Responsável(eis)</b></span></font></td>
+    </tr>
+    <tr>
+      <td> 
+        <table border="0" >
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              2535612 - Luciana Montanari</span></font></td>
+          </tr>
+	    		  
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+  <BR>
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="listarCursosRequisitos?coddis=1800122" class="link_gray">Clique 
+        para consultar os requisitos para 1800122</A> </font></td>
+    </tr>
+  </table>
+
+  <BR>
+  <table>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="obterTurma?sgldis=1800122" class="link_gray">Clique 
+        para consultar o oferecimento para 1800122</A> </font></td>
+    </tr>
+  </table>
+
+						
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- hidden
+							
+							 -->
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- acoes
+							<table width="100%" border="0">
+								<tr>
+									
+								</tr>
+							</table>
+							 -->
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- submit
+							
+							 -->
+						</td>
+					</tr>
+	    </table>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css"/>
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href='creditos.jsp' class="link_olive" target="_self">Cr&eacute;ditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      &copy; 1999 - 2026 - Superintend&ecirc;ncia de Tecnologia da Informa&ccedil;&atilde;o/USP</font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+			
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

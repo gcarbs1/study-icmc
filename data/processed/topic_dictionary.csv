@@ -1,0 +1,721 @@
+topic,topic_name,rank,word,weight
+0,"Algoritmos, otimização e aprendizado de máquina",1,algoritmos,0.0817
+0,"Algoritmos, otimização e aprendizado de máquina",2,aprendizado,0.0459
+0,"Algoritmos, otimização e aprendizado de máquina",3,árvores,0.0459
+0,"Algoritmos, otimização e aprendizado de máquina",4,busca,0.0448
+0,"Algoritmos, otimização e aprendizado de máquina",5,objetos,0.0424
+0,"Algoritmos, otimização e aprendizado de máquina",6,problemas,0.0351
+0,"Algoritmos, otimização e aprendizado de máquina",7,programação,0.0334
+0,"Algoritmos, otimização e aprendizado de máquina",8,grafos,0.0328
+0,"Algoritmos, otimização e aprendizado de máquina",9,métodos,0.0296
+0,"Algoritmos, otimização e aprendizado de máquina",10,avançados,0.0293
+0,"Algoritmos, otimização e aprendizado de máquina",11,aplicações,0.0288
+0,"Algoritmos, otimização e aprendizado de máquina",12,ordenação,0.028
+0,"Algoritmos, otimização e aprendizado de máquina",13,classes,0.027
+0,"Algoritmos, otimização e aprendizado de máquina",14,redes,0.0266
+0,"Algoritmos, otimização e aprendizado de máquina",15,análise,0.0262
+0,"Algoritmos, otimização e aprendizado de máquina",16,listas,0.0244
+0,"Algoritmos, otimização e aprendizado de máquina",17,dados,0.0239
+0,"Algoritmos, otimização e aprendizado de máquina",18,modelos,0.0231
+0,"Algoritmos, otimização e aprendizado de máquina",19,herança,0.023
+0,"Algoritmos, otimização e aprendizado de máquina",20,arquivos,0.0225
+0,"Algoritmos, otimização e aprendizado de máquina",21,aprendizado máquina,0.0225
+0,"Algoritmos, otimização e aprendizado de máquina",22,máquina,0.0205
+0,"Algoritmos, otimização e aprendizado de máquina",23,paradigmas,0.0203
+0,"Algoritmos, otimização e aprendizado de máquina",24,baseados,0.0202
+0,"Algoritmos, otimização e aprendizado de máquina",25,otimização,0.02
+0,"Algoritmos, otimização e aprendizado de máquina",26,método,0.0193
+0,"Algoritmos, otimização e aprendizado de máquina",27,projeto,0.0189
+0,"Algoritmos, otimização e aprendizado de máquina",28,filas,0.0188
+0,"Algoritmos, otimização e aprendizado de máquina",29,estruturas,0.0183
+0,"Algoritmos, otimização e aprendizado de máquina",30,resolução problemas,0.0178
+1,"Controle, robótica e sistemas embarcados",1,sistemas,0.061
+1,"Controle, robótica e sistemas embarcados",2,controle,0.0476
+1,"Controle, robótica e sistemas embarcados",3,robôs,0.035
+1,"Controle, robótica e sistemas embarcados",4,embarcados,0.0301
+1,"Controle, robótica e sistemas embarcados",5,navegação,0.0268
+1,"Controle, robótica e sistemas embarcados",6,sistemas embarcados,0.0243
+1,"Controle, robótica e sistemas embarcados",7,autônomos,0.0238
+1,"Controle, robótica e sistemas embarcados",8,robótica,0.0236
+1,"Controle, robótica e sistemas embarcados",9,sensores,0.0225
+1,"Controle, robótica e sistemas embarcados",10,sinais,0.0222
+1,"Controle, robótica e sistemas embarcados",11,tempo,0.0201
+1,"Controle, robótica e sistemas embarcados",12,filtros,0.0197
+1,"Controle, robótica e sistemas embarcados",13,sistemas dinâmicos,0.0184
+1,"Controle, robótica e sistemas embarcados",14,dinâmicos,0.0181
+1,"Controle, robótica e sistemas embarcados",15,ferramentas,0.0177
+1,"Controle, robótica e sistemas embarcados",16,móveis,0.0168
+1,"Controle, robótica e sistemas embarcados",17,controladores,0.0167
+1,"Controle, robótica e sistemas embarcados",18,aplicações,0.0163
+1,"Controle, robótica e sistemas embarcados",19,implementação,0.0161
+1,"Controle, robótica e sistemas embarcados",20,digital,0.0159
+1,"Controle, robótica e sistemas embarcados",21,automação,0.0155
+1,"Controle, robótica e sistemas embarcados",22,sistemas controle,0.0154
+1,"Controle, robótica e sistemas embarcados",23,competências,0.0154
+1,"Controle, robótica e sistemas embarcados",24,transformada,0.0151
+1,"Controle, robótica e sistemas embarcados",25,atuadores,0.0149
+1,"Controle, robótica e sistemas embarcados",26,discretos,0.0135
+1,"Controle, robótica e sistemas embarcados",27,função,0.0132
+1,"Controle, robótica e sistemas embarcados",28,fourier,0.0132
+1,"Controle, robótica e sistemas embarcados",29,função transferência,0.013
+1,"Controle, robótica e sistemas embarcados",30,processos,0.0127
+2,Programação e sistemas computacionais,1,programas,0.0499
+2,Programação e sistemas computacionais,2,linguagens,0.0473
+2,Programação e sistemas computacionais,3,programação,0.042
+2,Programação e sistemas computacionais,4,computação,0.0395
+2,Programação e sistemas computacionais,5,linguagem,0.0326
+2,Programação e sistemas computacionais,6,desempenho,0.0303
+2,Programação e sistemas computacionais,7,alto,0.0296
+2,Programação e sistemas computacionais,8,sistemas,0.0296
+2,Programação e sistemas computacionais,9,dados,0.0283
+2,Programação e sistemas computacionais,10,computadores,0.0275
+2,Programação e sistemas computacionais,11,arquivos,0.0263
+2,Programação e sistemas computacionais,12,sistemas computacionais,0.0263
+2,Programação e sistemas computacionais,13,computacionais,0.0238
+2,Programação e sistemas computacionais,14,alto desempenho,0.0235
+2,Programação e sistemas computacionais,15,problemas,0.0232
+2,Programação e sistemas computacionais,16,aplicações,0.0226
+2,Programação e sistemas computacionais,17,segurança,0.0208
+2,Programação e sistemas computacionais,18,kernel,0.0206
+2,Programação e sistemas computacionais,19,hardware,0.0199
+2,Programação e sistemas computacionais,20,algoritmos,0.0197
+2,Programação e sistemas computacionais,21,design,0.0195
+2,Programação e sistemas computacionais,22,software,0.0193
+2,Programação e sistemas computacionais,23,contexto,0.0192
+2,Programação e sistemas computacionais,24,python,0.0185
+2,Programação e sistemas computacionais,25,ferramentas,0.0179
+2,Programação e sistemas computacionais,26,acessibilidade,0.0177
+2,Programação e sistemas computacionais,27,computador,0.0174
+2,Programação e sistemas computacionais,28,técnicas,0.0167
+2,Programação e sistemas computacionais,29,sistemas operacionais,0.0164
+2,Programação e sistemas computacionais,30,acesso,0.0164
+3,Engenharia de software e gestão,1,software,0.1114
+3,Engenharia de software e gestão,2,requisitos,0.0505
+3,Engenharia de software e gestão,3,gerenciamento,0.0503
+3,Engenharia de software e gestão,4,sistemas,0.0431
+3,Engenharia de software e gestão,5,teste,0.0427
+3,Engenharia de software e gestão,6,processo,0.041
+3,Engenharia de software e gestão,7,qualidade,0.0403
+3,Engenharia de software e gestão,8,gestão,0.0353
+3,Engenharia de software e gestão,9,informação,0.0348
+3,Engenharia de software e gestão,10,projeto,0.0311
+3,Engenharia de software e gestão,11,técnicas,0.031
+3,Engenharia de software e gestão,12,sistemas informação,0.0306
+3,Engenharia de software e gestão,13,colaborativos,0.0292
+3,Engenharia de software e gestão,14,negócio,0.0263
+3,Engenharia de software e gestão,15,mercado,0.0254
+3,Engenharia de software e gestão,16,negócios,0.0241
+3,Engenharia de software e gestão,17,organizações,0.0224
+3,Engenharia de software e gestão,18,projetos,0.0221
+3,Engenharia de software e gestão,19,engenharia software,0.0216
+3,Engenharia de software e gestão,20,apoio,0.0192
+3,Engenharia de software e gestão,21,engenharia,0.0184
+3,Engenharia de software e gestão,22,métodos técnicas,0.0182
+3,Engenharia de software e gestão,23,planejamento,0.0182
+3,Engenharia de software e gestão,24,qualidade software,0.0181
+3,Engenharia de software e gestão,25,software qualidade,0.0179
+3,Engenharia de software e gestão,26,indústria,0.0172
+3,Engenharia de software e gestão,27,decisão,0.017
+3,Engenharia de software e gestão,28,organizacional,0.0169
+3,Engenharia de software e gestão,29,financeiro,0.0169
+3,Engenharia de software e gestão,30,validação,0.0165
+4,"Cálculo, análise e equações",1,funções,0.0741
+4,"Cálculo, análise e equações",2,equações,0.0738
+4,"Cálculo, análise e equações",3,séries,0.0532
+4,"Cálculo, análise e equações",4,números,0.0463
+4,"Cálculo, análise e equações",5,teorema,0.0447
+4,"Cálculo, análise e equações",6,método,0.0432
+4,"Cálculo, análise e equações",7,equações diferenciais,0.0397
+4,"Cálculo, análise e equações",8,integral,0.0387
+4,"Cálculo, análise e equações",9,diferenciais,0.0373
+4,"Cálculo, análise e equações",10,reais,0.0361
+4,"Cálculo, análise e equações",11,newton,0.0331
+4,"Cálculo, análise e equações",12,métodos,0.0307
+4,"Cálculo, análise e equações",13,variáveis,0.0302
+4,"Cálculo, análise e equações",14,integração,0.0296
+4,"Cálculo, análise e equações",15,gauss,0.0287
+4,"Cálculo, análise e equações",16,continuidade,0.0285
+4,"Cálculo, análise e equações",17,lineares,0.0275
+4,"Cálculo, análise e equações",18,ordem,0.0268
+4,"Cálculo, análise e equações",19,várias,0.0257
+4,"Cálculo, análise e equações",20,mínimos,0.0256
+4,"Cálculo, análise e equações",21,soluções equações,0.0251
+4,"Cálculo, análise e equações",22,equações lineares,0.0245
+4,"Cálculo, análise e equações",23,aplicações,0.024
+4,"Cálculo, análise e equações",24,fourier,0.0234
+4,"Cálculo, análise e equações",25,ordinárias,0.0233
+4,"Cálculo, análise e equações",26,cálculo,0.0232
+4,"Cálculo, análise e equações",27,métodos numéricos,0.023
+4,"Cálculo, análise e equações",28,convergência,0.0228
+4,"Cálculo, análise e equações",29,numéricos,0.0226
+4,"Cálculo, análise e equações",30,conjuntos,0.0217
+5,"Álgebra, geometria e topologia",1,espaços,0.0687
+5,"Álgebra, geometria e topologia",2,lineares,0.0534
+5,"Álgebra, geometria e topologia",3,teorema,0.0526
+5,"Álgebra, geometria e topologia",4,matrizes,0.0489
+5,"Álgebra, geometria e topologia",5,grupos,0.0417
+5,"Álgebra, geometria e topologia",6,produto,0.039
+5,"Álgebra, geometria e topologia",7,geometria,0.0357
+5,"Álgebra, geometria e topologia",8,linear,0.0355
+5,"Álgebra, geometria e topologia",9,vetoriais,0.0317
+5,"Álgebra, geometria e topologia",10,álgebra,0.0296
+5,"Álgebra, geometria e topologia",11,autovalores,0.0286
+5,"Álgebra, geometria e topologia",12,autovetores,0.0277
+5,"Álgebra, geometria e topologia",13,diferenciais,0.0276
+5,"Álgebra, geometria e topologia",14,grupo,0.0275
+5,"Álgebra, geometria e topologia",15,dimensão,0.0272
+5,"Álgebra, geometria e topologia",16,malhas,0.027
+5,"Álgebra, geometria e topologia",17,autovalores autovetores,0.0266
+5,"Álgebra, geometria e topologia",18,pontos,0.0266
+5,"Álgebra, geometria e topologia",19,transformações lineares,0.0265
+5,"Álgebra, geometria e topologia",20,métricos,0.0265
+5,"Álgebra, geometria e topologia",21,coordenadas,0.0262
+5,"Álgebra, geometria e topologia",22,planos,0.0255
+5,"Álgebra, geometria e topologia",23,finitos,0.0246
+5,"Álgebra, geometria e topologia",24,extensões,0.0245
+5,"Álgebra, geometria e topologia",25,matriz,0.0238
+5,"Álgebra, geometria e topologia",26,equações,0.0234
+5,"Álgebra, geometria e topologia",27,elementos,0.0232
+5,"Álgebra, geometria e topologia",28,anéis,0.0231
+5,"Álgebra, geometria e topologia",29,complexos,0.0228
+5,"Álgebra, geometria e topologia",30,decomposição,0.0224
+6,Probabilidade e estatística,1,modelos,0.0861
+6,Probabilidade e estatística,2,testes,0.0642
+6,Probabilidade e estatística,3,regressão,0.0534
+6,Probabilidade e estatística,4,estatística,0.0528
+6,Probabilidade e estatística,5,variáveis,0.0454
+6,Probabilidade e estatística,6,estimação,0.0445
+6,Probabilidade e estatística,7,probabilidade,0.0443
+6,Probabilidade e estatística,8,distribuições,0.0438
+6,Probabilidade e estatística,9,métodos,0.0433
+6,Probabilidade e estatística,10,análise,0.0378
+6,Probabilidade e estatística,11,aplicações,0.0343
+6,Probabilidade e estatística,12,aleatórias,0.034
+6,Probabilidade e estatística,13,variáveis aleatórias,0.0305
+6,Probabilidade e estatística,14,variância,0.0301
+6,Probabilidade e estatística,15,estatísticos,0.03
+6,Probabilidade e estatística,16,simulação,0.0297
+6,Probabilidade e estatística,17,poisson,0.0283
+6,Probabilidade e estatística,18,independência,0.0268
+6,Probabilidade e estatística,19,distribuição,0.026
+6,Probabilidade e estatística,20,amostras,0.0258
+6,Probabilidade e estatística,21,hipóteses,0.0258
+6,Probabilidade e estatística,22,teste,0.0257
+6,Probabilidade e estatística,23,markov,0.025
+6,Probabilidade e estatística,24,estocástica,0.0246
+6,Probabilidade e estatística,25,parâmetro,0.0243
+6,Probabilidade e estatística,26,inferência,0.0238
+6,Probabilidade e estatística,27,dados,0.0235
+6,Probabilidade e estatística,28,estatísticas,0.0231
+6,Probabilidade e estatística,29,estocásticos,0.0224
+6,Probabilidade e estatística,30,processos estocásticos,0.0211
+7,"Circuitos, eletricidade e sistemas digitais",1,circuitos,0.1259
+7,"Circuitos, eletricidade e sistemas digitais",2,corrente,0.0682
+7,"Circuitos, eletricidade e sistemas digitais",3,elétricos,0.0434
+7,"Circuitos, eletricidade e sistemas digitais",4,transistores,0.0403
+7,"Circuitos, eletricidade e sistemas digitais",5,elétrico,0.0341
+7,"Circuitos, eletricidade e sistemas digitais",6,sequenciais,0.0339
+7,"Circuitos, eletricidade e sistemas digitais",7,tensão,0.0325
+7,"Circuitos, eletricidade e sistemas digitais",8,potência,0.0303
+7,"Circuitos, eletricidade e sistemas digitais",9,transistor,0.0297
+7,"Circuitos, eletricidade e sistemas digitais",10,campo,0.0297
+7,"Circuitos, eletricidade e sistemas digitais",11,lógicas,0.0294
+7,"Circuitos, eletricidade e sistemas digitais",12,resposta,0.0287
+7,"Circuitos, eletricidade e sistemas digitais",13,análise,0.0277
+7,"Circuitos, eletricidade e sistemas digitais",14,magnético,0.0277
+7,"Circuitos, eletricidade e sistemas digitais",15,fontes,0.0272
+7,"Circuitos, eletricidade e sistemas digitais",16,dispositivos,0.0264
+7,"Circuitos, eletricidade e sistemas digitais",17,amplificadores,0.026
+7,"Circuitos, eletricidade e sistemas digitais",18,combinacionais,0.0256
+7,"Circuitos, eletricidade e sistemas digitais",19,elétrica,0.0256
+7,"Circuitos, eletricidade e sistemas digitais",20,contínua,0.0253
+7,"Circuitos, eletricidade e sistemas digitais",21,análise circuitos,0.0248
+7,"Circuitos, eletricidade e sistemas digitais",22,carga,0.0247
+7,"Circuitos, eletricidade e sistemas digitais",23,diodos,0.0238
+7,"Circuitos, eletricidade e sistemas digitais",24,operação,0.0237
+7,"Circuitos, eletricidade e sistemas digitais",25,semicondutores,0.0235
+7,"Circuitos, eletricidade e sistemas digitais",26,comum,0.0225
+7,"Circuitos, eletricidade e sistemas digitais",27,portas,0.0225
+7,"Circuitos, eletricidade e sistemas digitais",28,lei,0.0212
+7,"Circuitos, eletricidade e sistemas digitais",29,digital,0.021
+7,"Circuitos, eletricidade e sistemas digitais",30,energia,0.0209
+8,"Física, mecânica e termodinâmica",1,momento,0.0504
+8,"Física, mecânica e termodinâmica",2,mecânica,0.0498
+8,"Física, mecânica e termodinâmica",3,movimento,0.0481
+8,"Física, mecânica e termodinâmica",4,energia,0.0466
+8,"Física, mecânica e termodinâmica",5,calor,0.0428
+8,"Física, mecânica e termodinâmica",6,lei,0.0405
+8,"Física, mecânica e termodinâmica",7,conservação,0.0403
+8,"Física, mecânica e termodinâmica",8,massa,0.0377
+8,"Física, mecânica e termodinâmica",9,angular,0.035
+8,"Física, mecânica e termodinâmica",10,termodinâmica,0.0341
+8,"Física, mecânica e termodinâmica",11,semanas,0.0334
+8,"Física, mecânica e termodinâmica",12,oscilações,0.0297
+8,"Física, mecânica e termodinâmica",13,princípio,0.0295
+8,"Física, mecânica e termodinâmica",14,fluidos,0.0281
+8,"Física, mecânica e termodinâmica",15,equação,0.0267
+8,"Física, mecânica e termodinâmica",16,ondas,0.0262
+8,"Física, mecânica e termodinâmica",17,harmônico,0.0252
+8,"Física, mecânica e termodinâmica",18,temperatura,0.0243
+8,"Física, mecânica e termodinâmica",19,quântica,0.0233
+8,"Física, mecânica e termodinâmica",20,transferência,0.0227
+8,"Física, mecânica e termodinâmica",21,partículas,0.0223
+8,"Física, mecânica e termodinâmica",22,lei termodinâmica,0.0223
+8,"Física, mecânica e termodinâmica",23,transferência calor,0.0216
+8,"Física, mecânica e termodinâmica",24,cinemática,0.0216
+8,"Física, mecânica e termodinâmica",25,mecânica quântica,0.0212
+8,"Física, mecânica e termodinâmica",26,dinâmica,0.0209
+8,"Física, mecânica e termodinâmica",27,newton,0.0208
+8,"Física, mecânica e termodinâmica",28,corpos,0.0205
+8,"Física, mecânica e termodinâmica",29,escoamento,0.0205
+8,"Física, mecânica e termodinâmica",30,velocidade,0.0196
+9,Química e biologia,1,química,0.0966
+9,Química e biologia,2,reações,0.0478
+9,Química e biologia,3,ensino,0.0442
+9,Química e biologia,4,estágio,0.0315
+9,Química e biologia,5,escola,0.0308
+9,Química e biologia,6,químicas,0.0302
+9,Química e biologia,7,atividades,0.0293
+9,Química e biologia,8,equilíbrio,0.0264
+9,Química e biologia,9,biologia,0.0262
+9,Química e biologia,10,médio,0.0218
+9,Química e biologia,11,ensino médio,0.0215
+9,Química e biologia,12,estrutura,0.0211
+9,Química e biologia,13,substâncias,0.0206
+9,Química e biologia,14,conteúdo,0.0204
+9,Química e biologia,15,compostos,0.0204
+9,Química e biologia,16,base,0.0196
+9,Química e biologia,17,gestão,0.0183
+9,Química e biologia,18,crítica,0.0181
+9,Química e biologia,19,biomateriais,0.018
+9,Química e biologia,20,desenvolvidas,0.0177
+9,Química e biologia,21,fundamentais,0.0172
+9,Química e biologia,22,ambiental,0.0171
+9,Química e biologia,23,propriedades,0.017
+9,Química e biologia,24,exercício,0.017
+9,Química e biologia,25,conteúdos,0.0167
+9,Química e biologia,26,visando,0.0164
+9,Química e biologia,27,reações químicas,0.0163
+9,Química e biologia,28,análise crítica,0.0161
+9,Química e biologia,29,ciências,0.0159
+9,Química e biologia,30,matéria,0.0159
+10,Ensino de matemática e ciências,1,ensino,0.0988
+10,Ensino de matemática e ciências,2,matemática,0.0808
+10,Ensino de matemática e ciências,3,educação,0.0447
+10,Ensino de matemática e ciências,4,escolar,0.0417
+10,Ensino de matemática e ciências,5,aprendizagem,0.0385
+10,Ensino de matemática e ciências,6,ensino matemática,0.0367
+10,Ensino de matemática e ciências,7,ensino médio,0.0361
+10,Ensino de matemática e ciências,8,médio,0.0355
+10,Ensino de matemática e ciências,9,didáticos,0.0341
+10,Ensino de matemática e ciências,10,atividades,0.0329
+10,Ensino de matemática e ciências,11,ensino aprendizagem,0.0312
+10,Ensino de matemática e ciências,12,física,0.0297
+10,Ensino de matemática e ciências,13,estágio,0.0278
+10,Ensino de matemática e ciências,14,materiais didáticos,0.0255
+10,Ensino de matemática e ciências,15,ensino física,0.0251
+10,Ensino de matemática e ciências,16,curriculares,0.0247
+10,Ensino de matemática e ciências,17,materiais,0.0243
+10,Ensino de matemática e ciências,18,matemática ensino,0.0239
+10,Ensino de matemática e ciências,19,anos finais,0.0235
+10,Ensino de matemática e ciências,20,educação matemática,0.0233
+10,Ensino de matemática e ciências,21,anos,0.0229
+10,Ensino de matemática e ciências,22,finais,0.0224
+10,Ensino de matemática e ciências,23,escola,0.0205
+10,Ensino de matemática e ciências,24,análise,0.0203
+10,Ensino de matemática e ciências,25,currículo,0.0202
+10,Ensino de matemática e ciências,26,história,0.0192
+10,Ensino de matemática e ciências,27,tendências,0.019
+10,Ensino de matemática e ciências,28,sala,0.0189
+10,Ensino de matemática e ciências,29,experiências,0.0171
+10,Ensino de matemática e ciências,30,supervisionado,0.0171
+11,"Bases de dados, mineração e ciência de dados",1,dados,0.1728
+11,"Bases de dados, mineração e ciência de dados",2,mineração,0.0626
+11,"Bases de dados, mineração e ciência de dados",3,ciência dados,0.0599
+11,"Bases de dados, mineração e ciência de dados",4,visualização,0.0572
+11,"Bases de dados, mineração e ciência de dados",5,técnicas,0.0565
+11,"Bases de dados, mineração e ciência de dados",6,bases dados,0.0555
+11,"Bases de dados, mineração e ciência de dados",7,mineração dados,0.0519
+11,"Bases de dados, mineração e ciência de dados",8,bases,0.0509
+11,"Bases de dados, mineração e ciência de dados",9,ciência,0.0482
+11,"Bases de dados, mineração e ciência de dados",10,processamento,0.0344
+11,"Bases de dados, mineração e ciência de dados",11,multimídia,0.0338
+11,"Bases de dados, mineração e ciência de dados",12,compressão,0.0325
+11,"Bases de dados, mineração e ciência de dados",13,mídia,0.0312
+11,"Bases de dados, mineração e ciência de dados",14,visualização dados,0.0295
+11,"Bases de dados, mineração e ciência de dados",15,visual,0.0288
+11,"Bases de dados, mineração e ciência de dados",16,dados técnicas,0.0241
+11,"Bases de dados, mineração e ciência de dados",17,gerenciadores,0.0229
+11,"Bases de dados, mineração e ciência de dados",18,sistemas gerenciadores,0.0229
+11,"Bases de dados, mineração e ciência de dados",19,processamento dados,0.0224
+11,"Bases de dados, mineração e ciência de dados",20,problemas reais,0.0216
+11,"Bases de dados, mineração e ciência de dados",21,aplicações,0.0216
+11,"Bases de dados, mineração e ciência de dados",22,problemas,0.0216
+11,"Bases de dados, mineração e ciência de dados",23,pré processamento,0.0208
+11,"Bases de dados, mineração e ciência de dados",24,técnicas ferramentas,0.0195
+11,"Bases de dados, mineração e ciência de dados",25,descoberta,0.0195
+11,"Bases de dados, mineração e ciência de dados",26,modelagem,0.0191
+11,"Bases de dados, mineração e ciência de dados",27,pré,0.019
+11,"Bases de dados, mineração e ciência de dados",28,modelo,0.0188
+11,"Bases de dados, mineração e ciência de dados",29,dados mineração,0.0185
+11,"Bases de dados, mineração e ciência de dados",30,escrito,0.0185
+12,"Estágios, projetos e metodologia científica",1,projeto,0.1275
+12,"Estágios, projetos e metodologia científica",2,empresa,0.1175
+12,"Estágios, projetos e metodologia científica",3,pesquisa,0.0782
+12,"Estágios, projetos e metodologia científica",4,computação,0.0564
+12,"Estágios, projetos e metodologia científica",5,elaboração projeto,0.0509
+12,"Estágios, projetos e metodologia científica",6,docente,0.0466
+12,"Estágios, projetos e metodologia científica",7,escrita,0.0455
+12,"Estágios, projetos e metodologia científica",8,profissional,0.0424
+12,"Estágios, projetos e metodologia científica",9,elaboração,0.0417
+12,"Estágios, projetos e metodologia científica",10,final,0.0407
+12,"Estágios, projetos e metodologia científica",11,icmc,0.0379
+12,"Estágios, projetos e metodologia científica",12,supervisão,0.0373
+12,"Estágios, projetos e metodologia científica",13,deverá,0.0362
+12,"Estágios, projetos e metodologia científica",14,responsabilidade,0.0351
+12,"Estágios, projetos e metodologia científica",15,projeto pesquisa,0.0341
+12,"Estágios, projetos e metodologia científica",16,atuante,0.0316
+12,"Estágios, projetos e metodologia científica",17,profissão,0.0303
+12,"Estágios, projetos e metodologia científica",18,orientação,0.03
+12,"Estágios, projetos e metodologia científica",19,realização,0.0297
+12,"Estágios, projetos e metodologia científica",20,empreendedor,0.0295
+12,"Estágios, projetos e metodologia científica",21,sócio,0.0292
+12,"Estágios, projetos e metodologia científica",22,possibilidade,0.029
+12,"Estágios, projetos e metodologia científica",23,prática profissional,0.0284
+12,"Estágios, projetos e metodologia científica",24,espírito,0.0283
+12,"Estágios, projetos e metodologia científica",25,trabalho,0.0281
+12,"Estágios, projetos e metodologia científica",26,abrangente,0.0279
+12,"Estágios, projetos e metodologia científica",27,atividades,0.0275
+12,"Estágios, projetos e metodologia científica",28,desenvolvendo,0.0274
+12,"Estágios, projetos e metodologia científica",29,junto,0.0274
+12,"Estágios, projetos e metodologia científica",30,global,0.0272
+13,Educação,1,educação,0.081
+13,Educação,2,ciências,0.0568
+13,Educação,3,ensino,0.039
+13,Educação,4,ensino ciências,0.036
+13,Educação,5,professores,0.0358
+13,Educação,6,aprendizagem,0.0354
+13,Educação,7,educação especial,0.0317
+13,Educação,8,especial,0.0311
+13,Educação,9,natureza,0.0304
+13,Educação,10,práticas,0.0284
+13,Educação,11,história,0.0264
+13,Educação,12,relações,0.0261
+13,Educação,13,educacionais,0.026
+13,Educação,14,teorias,0.0258
+13,Educação,15,psicologia,0.0255
+13,Educação,16,formação,0.0225
+13,Educação,17,sociais,0.0225
+13,Educação,18,cidadania,0.0224
+13,Educação,19,escola,0.0215
+13,Educação,20,relação,0.0212
+13,Educação,21,cultura,0.0211
+13,Educação,22,avaliação,0.0207
+13,Educação,23,questões,0.0206
+13,Educação,24,teóricos,0.0205
+13,Educação,25,filosofia,0.0204
+13,Educação,26,público,0.0203
+13,Educação,27,nacional,0.0202
+13,Educação,28,horas,0.02
+13,Educação,29,escolar,0.0199
+13,Educação,30,ciência,0.019
+14,Seminários e tópicos especiais,1,computação,0.1134
+14,Seminários e tópicos especiais,2,oferecimento,0.0779
+14,Seminários e tópicos especiais,3,assuntos,0.0731
+14,Seminários e tópicos especiais,4,bacharelado,0.0674
+14,Seminários e tópicos especiais,5,aproveitamento,0.066
+14,Seminários e tópicos especiais,6,seminários,0.0595
+14,Seminários e tópicos especiais,7,tutoriais,0.0591
+14,Seminários e tópicos especiais,8,anterior,0.0583
+14,Seminários e tópicos especiais,9,atividades extracurriculares,0.0549
+14,Seminários e tópicos especiais,10,coc,0.0534
+14,Seminários e tópicos especiais,11,matemática,0.0525
+14,Seminários e tópicos especiais,12,semestre,0.0503
+14,Seminários e tópicos especiais,13,extracurriculares,0.0495
+14,Seminários e tópicos especiais,14,formação,0.0463
+14,Seminários e tópicos especiais,15,departamento,0.0427
+14,Seminários e tópicos especiais,16,acadêmica,0.0389
+14,Seminários e tópicos especiais,17,pós graduação,0.0387
+14,Seminários e tópicos especiais,18,curricular,0.0364
+14,Seminários e tópicos especiais,19,graduação,0.0357
+14,Seminários e tópicos especiais,20,deverá,0.0343
+14,Seminários e tópicos especiais,21,atividades,0.0343
+14,Seminários e tópicos especiais,22,pós,0.0341
+14,Seminários e tópicos especiais,23,possibilitar,0.0338
+14,Seminários e tópicos especiais,24,escolhidos,0.0338
+14,Seminários e tópicos especiais,25,profissional sistemas,0.0338
+14,Seminários e tópicos especiais,26,adicionais,0.0338
+14,Seminários e tópicos especiais,27,requerer,0.033
+14,Seminários e tópicos especiais,28,departamento matemática,0.033
+14,Seminários e tópicos especiais,29,participar atividades,0.033
+14,Seminários e tópicos especiais,30,usuais,0.033
+15,Ondas e telecomunicações,1,ondas,0.0406
+15,Ondas e telecomunicações,2,quântica,0.0396
+15,Ondas e telecomunicações,3,ópticas,0.0341
+15,Ondas e telecomunicações,4,modulação,0.0329
+15,Ondas e telecomunicações,5,onda,0.0312
+15,Ondas e telecomunicações,6,dispositivos,0.0298
+15,Ondas e telecomunicações,7,propagação,0.0287
+15,Ondas e telecomunicações,8,comunicações,0.0277
+15,Ondas e telecomunicações,9,transmissão,0.0272
+15,Ondas e telecomunicações,10,sistemas,0.027
+15,Ondas e telecomunicações,11,guias,0.0265
+15,Ondas e telecomunicações,12,eletromagnética,0.0259
+15,Ondas e telecomunicações,13,antenas,0.0256
+15,Ondas e telecomunicações,14,micro,0.0243
+15,Ondas e telecomunicações,15,ópticos,0.0235
+15,Ondas e telecomunicações,16,engenharia,0.0231
+15,Ondas e telecomunicações,17,quânticos,0.0225
+15,Ondas e telecomunicações,18,engenharia elétrica,0.0217
+15,Ondas e telecomunicações,19,telecomunicações,0.0209
+15,Ondas e telecomunicações,20,deverá,0.0206
+15,Ondas e telecomunicações,21,comunicação,0.0194
+15,Ondas e telecomunicações,22,princípios,0.019
+15,Ondas e telecomunicações,23,guias onda,0.0186
+15,Ondas e telecomunicações,24,linhas,0.018
+15,Ondas e telecomunicações,25,elétrica,0.0178
+15,Ondas e telecomunicações,26,aplicações,0.0176
+15,Ondas e telecomunicações,27,ruído,0.0173
+15,Ondas e telecomunicações,28,frequências,0.0173
+15,Ondas e telecomunicações,29,incluindo,0.0171
+15,Ondas e telecomunicações,30,dielétricos,0.017
+16,Atividades complementares e tutoria,1,atividades,0.07
+16,Atividades complementares e tutoria,2,iniciação,0.0533
+16,Atividades complementares e tutoria,3,extensão,0.0512
+16,Atividades complementares e tutoria,4,usp,0.0505
+16,Atividades complementares e tutoria,5,engenharia,0.0467
+16,Atividades complementares e tutoria,6,iniciação científica,0.0389
+16,Atividades complementares e tutoria,7,horas,0.0383
+16,Atividades complementares e tutoria,8,estágio,0.0339
+16,Atividades complementares e tutoria,9,participação,0.0315
+16,Atividades complementares e tutoria,10,obrigatório,0.0303
+16,Atividades complementares e tutoria,11,científica,0.0297
+16,Atividades complementares e tutoria,12,social,0.0289
+16,Atividades complementares e tutoria,13,coc,0.0277
+16,Atividades complementares e tutoria,14,palestras,0.0272
+16,Atividades complementares e tutoria,15,viagem didática,0.0268
+16,Atividades complementares e tutoria,16,viagem,0.0268
+16,Atividades complementares e tutoria,17,seminários palestras,0.0264
+16,Atividades complementares e tutoria,18,designado,0.026
+16,Atividades complementares e tutoria,19,curricular,0.0256
+16,Atividades complementares e tutoria,20,monitorias,0.0256
+16,Atividades complementares e tutoria,21,mediante,0.0256
+16,Atividades complementares e tutoria,22,comissão,0.0249
+16,Atividades complementares e tutoria,23,estágio curricular,0.0249
+16,Atividades complementares e tutoria,24,profissional,0.0245
+16,Atividades complementares e tutoria,25,sociais,0.0244
+16,Atividades complementares e tutoria,26,engenheiro,0.0243
+16,Atividades complementares e tutoria,27,docente usp,0.0243
+16,Atividades complementares e tutoria,28,ética,0.0243
+16,Atividades complementares e tutoria,29,extracurriculares,0.0238
+16,Atividades complementares e tutoria,30,docência,0.0227
+17,Extensão universitária,1,extensão,0.1408
+17,Extensão universitária,2,discente,0.1281
+17,Extensão universitária,3,protagonismo,0.1124
+17,Extensão universitária,4,participação,0.1094
+17,Extensão universitária,5,atividades extensão,0.0936
+17,Extensão universitária,6,atividades,0.0883
+17,Extensão universitária,7,sociedade,0.0849
+17,Extensão universitária,8,promoção,0.0721
+17,Extensão universitária,9,interação,0.0686
+17,Extensão universitária,10,eventos,0.0654
+17,Extensão universitária,11,difusão,0.0635
+17,Extensão universitária,12,aplicação prática,0.0613
+17,Extensão universitária,13,socialmente,0.0594
+17,Extensão universitária,14,participação ativa,0.0594
+17,Extensão universitária,15,proporcionar,0.055
+17,Extensão universitária,16,atualização,0.055
+17,Extensão universitária,17,externa,0.055
+17,Extensão universitária,18,ativa,0.0541
+17,Extensão universitária,19,organização,0.0539
+17,Extensão universitária,20,demandas,0.0533
+17,Extensão universitária,21,supervisionada,0.0533
+17,Extensão universitária,22,extensão universitária,0.0533
+17,Extensão universitária,23,comunidade,0.0526
+17,Extensão universitária,24,universitária,0.0501
+17,Extensão universitária,25,projetos,0.0448
+17,Extensão universitária,26,aplicação,0.043
+17,Extensão universitária,27,iniciativas,0.0419
+17,Extensão universitária,28,congressos,0.0419
+17,Extensão universitária,29,proporcionar oportunidade,0.0419
+17,Extensão universitária,30,relevantes,0.0413
+18,"Desenho técnico, materiais e fabricação",1,desenho,0.1215
+18,"Desenho técnico, materiais e fabricação",2,técnico,0.0686
+18,"Desenho técnico, materiais e fabricação",3,materiais,0.0618
+18,"Desenho técnico, materiais e fabricação",4,processos,0.061
+18,"Desenho técnico, materiais e fabricação",5,manufatura,0.0518
+18,"Desenho técnico, materiais e fabricação",6,corte,0.0498
+18,"Desenho técnico, materiais e fabricação",7,vistas,0.045
+18,"Desenho técnico, materiais e fabricação",8,aditiva,0.0446
+18,"Desenho técnico, materiais e fabricação",9,representação,0.0433
+18,"Desenho técnico, materiais e fabricação",10,material,0.0424
+18,"Desenho técnico, materiais e fabricação",11,fabricação,0.0388
+18,"Desenho técnico, materiais e fabricação",12,propriedades,0.0373
+18,"Desenho técnico, materiais e fabricação",13,aplicar,0.0356
+18,"Desenho técnico, materiais e fabricação",14,manufatura aditiva,0.0351
+18,"Desenho técnico, materiais e fabricação",15,montagem,0.0329
+18,"Desenho técnico, materiais e fabricação",16,normas,0.0319
+18,"Desenho técnico, materiais e fabricação",17,microestrutura,0.0318
+18,"Desenho técnico, materiais e fabricação",18,projeções,0.0293
+18,"Desenho técnico, materiais e fabricação",19,conjunto,0.0285
+18,"Desenho técnico, materiais e fabricação",20,polímeros,0.0284
+18,"Desenho técnico, materiais e fabricação",21,corrosão,0.0284
+18,"Desenho técnico, materiais e fabricação",22,mecânicos,0.0273
+18,"Desenho técnico, materiais e fabricação",23,técnica,0.0271
+18,"Desenho técnico, materiais e fabricação",24,final,0.0258
+18,"Desenho técnico, materiais e fabricação",25,mecânico,0.0249
+18,"Desenho técnico, materiais e fabricação",26,propriedades aplicações,0.0249
+18,"Desenho técnico, materiais e fabricação",27,instrumentos,0.0244
+18,"Desenho técnico, materiais e fabricação",28,fases,0.0244
+18,"Desenho técnico, materiais e fabricação",29,técnicos,0.0242
+18,"Desenho técnico, materiais e fabricação",30,tratamentos,0.0238
+19,Óptica e fotônica,1,difração,0.0768
+19,Óptica e fotônica,2,óptica,0.0739
+19,Óptica e fotônica,3,lentes,0.0674
+19,Óptica e fotônica,4,luz,0.0565
+19,Óptica e fotônica,5,equipamentos,0.0545
+19,Óptica e fotônica,6,ópticos,0.054
+19,Óptica e fotônica,7,sol,0.0494
+19,Óptica e fotônica,8,fotônicos,0.0486
+19,Óptica e fotônica,9,fibras,0.042
+19,Óptica e fotônica,10,fourier,0.0407
+19,Óptica e fotônica,11,astronomia,0.0407
+19,Óptica e fotônica,12,teoria difração,0.0407
+19,Óptica e fotônica,13,hologramas,0.0356
+19,Óptica e fotônica,14,telescópios,0.0356
+19,Óptica e fotônica,15,refração,0.0348
+19,Óptica e fotônica,16,ópticas,0.0348
+19,Óptica e fotônica,17,microscópio,0.0335
+19,Óptica e fotônica,18,fibras ópticas,0.0324
+19,Óptica e fotônica,19,brasil,0.0294
+19,Óptica e fotônica,20,cavidades,0.0285
+19,Óptica e fotônica,21,ótica,0.027
+19,Óptica e fotônica,22,estrelas,0.0251
+19,Óptica e fotônica,23,teoria,0.0248
+19,Óptica e fotônica,24,ressonadores,0.0244
+19,Óptica e fotônica,25,transformada fourier,0.024
+19,Óptica e fotônica,26,fotônica,0.0232
+19,Óptica e fotônica,27,olho,0.0228
+19,Óptica e fotônica,28,empresas,0.0225
+19,Óptica e fotônica,29,voltados,0.022
+19,Óptica e fotônica,30,matéria,0.0219
+20,Redes de computadores,1,redes,0.1831
+20,Redes de computadores,2,móveis,0.0823
+20,Redes de computadores,3,iot,0.0653
+20,Redes de computadores,4,serviços,0.0546
+20,Redes de computadores,5,protocolos,0.0537
+20,Redes de computadores,6,tecnologias,0.0528
+20,Redes de computadores,7,acesso,0.0512
+20,Redes de computadores,8,central,0.0468
+20,Redes de computadores,9,internet,0.0467
+20,Redes de computadores,10,comunicação,0.0436
+20,Redes de computadores,11,camada,0.0407
+20,Redes de computadores,12,gerenciamento,0.0399
+20,Redes de computadores,13,aplicações,0.0381
+20,Redes de computadores,14,internet coisas,0.0381
+20,Redes de computadores,15,coisas,0.0368
+20,Redes de computadores,16,fio,0.0362
+20,Redes de computadores,17,web,0.0338
+20,Redes de computadores,18,transmissão,0.0336
+20,Redes de computadores,19,rede,0.0322
+20,Redes de computadores,20,móvel,0.0319
+20,Redes de computadores,21,estrutura,0.0304
+20,Redes de computadores,22,instalação,0.0297
+20,Redes de computadores,23,dispositivos,0.0294
+20,Redes de computadores,24,coisas iot,0.0291
+20,Redes de computadores,25,locais,0.029
+20,Redes de computadores,26,tcp,0.0272
+20,Redes de computadores,27,recursos,0.0268
+20,Redes de computadores,28,instalação configuração,0.0267
+20,Redes de computadores,29,configuração,0.0266
+20,Redes de computadores,30,telecomunicações,0.0258
+21,Produção e sistemas operacionais,1,produção,0.0848
+21,Produção e sistemas operacionais,2,sistemas,0.0748
+21,Produção e sistemas operacionais,3,logística,0.0504
+21,Produção e sistemas operacionais,4,gestão,0.0492
+21,Produção e sistemas operacionais,5,complexos,0.0483
+21,Produção e sistemas operacionais,6,operacionais,0.0417
+21,Produção e sistemas operacionais,7,sistemas operacionais,0.0413
+21,Produção e sistemas operacionais,8,planejamento controle,0.0381
+21,Produção e sistemas operacionais,9,analisar,0.0362
+21,Produção e sistemas operacionais,10,planejamento,0.0347
+21,Produção e sistemas operacionais,11,cadeia suprimentos,0.0338
+21,Produção e sistemas operacionais,12,suprimentos,0.0338
+21,Produção e sistemas operacionais,13,tempo real,0.0336
+21,Produção e sistemas operacionais,14,módulo,0.0336
+21,Produção e sistemas operacionais,15,projetar,0.0335
+21,Produção e sistemas operacionais,16,soluções,0.0328
+21,Produção e sistemas operacionais,17,cadeia,0.0327
+21,Produção e sistemas operacionais,18,programação,0.031
+21,Produção e sistemas operacionais,19,produção sistemas,0.0307
+21,Produção e sistemas operacionais,20,gestão cadeia,0.0307
+21,Produção e sistemas operacionais,21,tempo,0.0305
+21,Produção e sistemas operacionais,22,real,0.0302
+21,Produção e sistemas operacionais,23,conceber,0.0301
+21,Produção e sistemas operacionais,24,manufatura,0.0286
+21,Produção e sistemas operacionais,25,adaptativos,0.0276
+21,Produção e sistemas operacionais,26,processos,0.0273
+21,Produção e sistemas operacionais,27,planejar,0.0267
+21,Produção e sistemas operacionais,28,operacional,0.0261
+21,Produção e sistemas operacionais,29,gerenciar,0.025
+21,Produção e sistemas operacionais,30,programação linear,0.025
+22,Processamento de imagens e visão,1,imagens,0.2389
+22,Processamento de imagens e visão,2,processamento,0.0884
+22,Processamento de imagens e visão,3,imagem,0.0729
+22,Processamento de imagens e visão,4,processamento imagens,0.066
+22,Processamento de imagens e visão,5,digital,0.0648
+22,Processamento de imagens e visão,6,características,0.0629
+22,Processamento de imagens e visão,7,segmentação,0.0553
+22,Processamento de imagens e visão,8,domínio,0.0458
+22,Processamento de imagens e visão,9,formação,0.0435
+22,Processamento de imagens e visão,10,extração características,0.0391
+22,Processamento de imagens e visão,11,formação imagens,0.0349
+22,Processamento de imagens e visão,12,imagens médicas,0.0336
+22,Processamento de imagens e visão,13,raios,0.0334
+22,Processamento de imagens e visão,14,computacional,0.0331
+22,Processamento de imagens e visão,15,médicas,0.033
+22,Processamento de imagens e visão,16,domínio frequência,0.033
+22,Processamento de imagens e visão,17,extração,0.0314
+22,Processamento de imagens e visão,18,cinza,0.0306
+22,Processamento de imagens e visão,19,reconhecimento padrões,0.0306
+22,Processamento de imagens e visão,20,filtragem,0.0304
+22,Processamento de imagens e visão,21,digitais,0.0301
+22,Processamento de imagens e visão,22,aquisição,0.0286
+22,Processamento de imagens e visão,23,digitalização,0.0283
+22,Processamento de imagens e visão,24,classificadores,0.0279
+22,Processamento de imagens e visão,25,ótica,0.0279
+22,Processamento de imagens e visão,26,sistemas,0.0278
+22,Processamento de imagens e visão,27,técnicas,0.0273
+22,Processamento de imagens e visão,28,frequência,0.0268
+22,Processamento de imagens e visão,29,diagnóstico,0.0267
+22,Processamento de imagens e visão,30,reconhecimento,0.0264
+23,Microcontroladores e arquitetura,1,microcontroladores,0.0841
+23,Microcontroladores e arquitetura,2,projetos,0.0596
+23,Microcontroladores e arquitetura,3,linguagem,0.0546
+23,Microcontroladores e arquitetura,4,controle,0.0541
+23,Microcontroladores e arquitetura,5,arquitetura,0.0532
+23,Microcontroladores e arquitetura,6,organização,0.0493
+23,Microcontroladores e arquitetura,7,comunicação,0.0482
+23,Microcontroladores e arquitetura,8,motores,0.0457
+23,Microcontroladores e arquitetura,9,hardware,0.0432
+23,Microcontroladores e arquitetura,10,programação,0.0398
+23,Microcontroladores e arquitetura,11,logic,0.0377
+23,Microcontroladores e arquitetura,12,arrays,0.0377
+23,Microcontroladores e arquitetura,13,risc,0.0377
+23,Microcontroladores e arquitetura,14,assembly,0.0368
+23,Microcontroladores e arquitetura,15,programas,0.0364
+23,Microcontroladores e arquitetura,16,gate,0.0354
+23,Microcontroladores e arquitetura,17,projetos sistemas,0.0354
+23,Microcontroladores e arquitetura,18,embarcados,0.0349
+23,Microcontroladores e arquitetura,19,pilha,0.0338
+23,Microcontroladores e arquitetura,20,sistemas embarcados,0.0329
+23,Microcontroladores e arquitetura,21,arquiteturas,0.0326
+23,Microcontroladores e arquitetura,22,funcionais,0.0321
+23,Microcontroladores e arquitetura,23,organização arquitetura,0.0314
+23,Microcontroladores e arquitetura,24,memória,0.0305
+23,Microcontroladores e arquitetura,25,sistemas,0.0297
+23,Microcontroladores e arquitetura,26,microprocessadores,0.0295
+23,Microcontroladores e arquitetura,27,projeto,0.029
+23,Microcontroladores e arquitetura,28,estruturais,0.0286
+23,Microcontroladores e arquitetura,29,lógicas,0.0279
+23,Microcontroladores e arquitetura,30,processadores,0.0274

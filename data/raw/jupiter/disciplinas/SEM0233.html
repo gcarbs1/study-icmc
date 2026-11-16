@@ -1,0 +1,1077 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+<title>Jupiterweb</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css"
+	type=text/css rel=stylesheet>
+</head>
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style>
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;" /></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;" /></a>
+		</td>
+	</tr>
+</table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css"
+	title="Vertical 'Earth'" />
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="stylesheet" type="text/css" id="fsmenu-fallback"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" />
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href='#' title=''><span>Calendário Escolar</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920'
+		title=''>2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863'
+		title=''>2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='jupCarreira.jsp?codmnu=8275'
+		title=''>Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Disciplina</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=D&amp;codmnu=6755'
+		title=''>Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=T&amp;codmnu=6756'
+		title=''>Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>Editais</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872'
+		title=''>Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502'
+		title=''>Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?page_id=399?codmnu=6762'
+		title=''>PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://prg.usp.br/programas-e-bolsas/?codmnu=10838'
+		title=''>PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>FAQ</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Matrícula Interativa</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='FAQ.jsp?codmnu=9326'
+		title=''>FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='grdMatriculainterativaInformacoes.jsp?codmnu=9327'
+		title=''>Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='graduacaoAjudaNovaMatricula?codmnu=8946'
+		title='Liberar próximo da matricula'>TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?p=20746&amp;codmnu=6749'
+		title=''>Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='http://www.prg.usp.br/?p=20741&amp;codmnu=8063'
+		title=''>Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		</li>
+	
+
+
+
+</ul>
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href='webLogin.jsp'>Entrar</a></li>
+		<li><a href='esqueciSenha'>Esqueci a Senha</a></li>
+		<li><a href='primeiroAcesso'>Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+<html>
+ <style>
+      pre {
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+<head>
+<title></title>
+
+</head>
+<body>
+<!-- cabecalho
+ -->
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css"/>
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css" >
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/engine.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/util.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/comum.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<STYLE>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</STYLE>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+</head>
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Informa&ccedil;&otilde;es da Disciplina
+</div>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+	<br>
+ 
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!-- operacoes -->
+			
+		</td>
+	</tr>
+	<!-- titulos da pagina -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<!-- navegacao -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form name="form1" method="GET" action="">
+			<table width="100%" border="0">
+				<tr>
+					<td> 
+						<!-- tabela
+					 	--> 
+
+
+
+
+<script language="Javascript">
+function OpenWindowToPrint() {
+	var mylink;
+	
+	if('default' == 'default'){
+		mylink = document.location.href;
+	} else {
+		mylink = 'default';
+	}
+	
+	if(mylink.indexOf("?") > 0){
+		mylink += "&";
+	} else {
+		mylink += "?";
+	}
+	
+	mylink += "print=true";
+	
+	window.open(mylink , "_blank", "toolbar=no,location=no,directories=no,status=no,menubar=yes,titlebar=yes,scrollbars=yes,resizable=yes");
+}
+</script>
+
+<table width="538" border="0" cellpadding="1" cellspacing="1" align="center">
+  
+  <tr> 
+    <td align="right">
+	<a href="javascript:OpenWindowToPrint()" class="mail_footer"><img src="images/print_edit.gif" width="16" height="16" border="0">
+	<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">&nbsp;Preparar para impressão&nbsp;</font>
+	</a>
+	</td>
+  </tr>
+  
+</table>
+
+ 
+
+<table>
+  <tr> 
+    <td> 
+      <div align="left"><img src="https://uspdigital.usp.br/comumwebdev/imagens/logos/BrasaoUSP.gif" style="height: 80px;"></div>
+    </td>
+    <td style="vertical-align: middle;">
+		<h2 style="margin-left: 1em; display: inline-block; white-space: nowrap; font-size: medium" class="txt_verdana_10pt_black">
+			J&uacute;piter - Sistema de Gest&atilde;o Acad&ecirc;mica da Pr&oacute;-Reitoria de Gradua&ccedil;&atilde;o
+		</h2>
+    </td>
+  </tr>
+</table>
+<BR>						
+ 
+ 
+ 
+ 
+ 
+   
+
+    <table cellspacing=0 cellpadding=0 border=0 align="center" width="100%" bgcolor="#FFFFFF">
+      <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Escola de Engenharia de São Carlos</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Engenharia Mecânica</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+        <b>Disciplina: SEM0233 - Termodinâmica I</b></span></font>
+		</td>
+    </tr>
+	
+	<tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+         Thermodynamics I </span></font>
+		</td>
+    </tr>
+	
+</table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="3">  
+  
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Cr&eacute;ditos Aula:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        4
+		</span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Cr&eacute;ditos Trabalho:</span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        0</span></font></td>
+    </tr>
+
+	<tr VALIGN="TOP" ALIGN="LEFT">
+		<td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+			Carga Hor&aacute;ria Total: </span></font></b></td>
+		<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+			60 h
+			
+		</span></font></td>
+	</tr>
+
+	
+	
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Tipo:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+	   
+	   
+	   Semestral
+	   
+	   
+	   	   
+	   </span></font></td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Ativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        15/07/2025</span></font>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Desativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                  </span></font>
+      </td>
+    </tr>
+
+  </table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Ementa</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>1. Conceitos e definições;<br>2. Propriedades de uma substância pura;<br>3. Calor e trabalho;<br>4. Primeira lei da termodinâmica;<br>5. Segunda lei da termodinâmica.</pre></span></font></td>
+    </tr>
+   	
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        1. Concepts and definitions;<br>2. Properties of a pure substance;<br>3. Heat and work;<br>4. First law of thermodynamics;<br>5. Second law of thermodynamics.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Objetivos </b></span></font></td>
+    </tr>
+    <tr VALIGN="bottom" ALIGN="LEFT"> 
+      <td valign="bottom"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>A disciplina visa fornecer ao aluno fundamentos e ferramentas da termodinâmica necessários ao projeto, análise e diagnóstico de sistemas térmicos; prover parte significativa da formação e da informação nas áreas termo-fluido-dinâmicas num contexto multidisciplinar em complemento aos conceitos da mecânica dos fluídos e transferência de calor e massa.<br><br>Ao final do curso o aluno deverá ter adquirido as seguintes competências específicas (C) sobre a ciência Termodinâmica:<br>C1. Conhecer e compreender os conceitos básicos da ciência termodinâmica;<br>C2. Conhecer e compreender propriedades termodinâmicos, processos termodinâmicos, e leis termodinâmicas, incluindo aspectos físicos, matemáticos e dedutivos envolvidos; <br>C3. Aplicar o conhecimento adquirido para solução de processos termodinâmicos em máquinas térmicas e componentes de máquinas térmicas;<br>C4. Realizar análises de performance em máquinas térmicas e em componentes de máquinas térmicas.<br><br>Para alcançar as competências (C) listadas acima, o aluno deverá desenvolver as seguintes<br>habilidades (H):<br>H1. Estudar os fundamentos da ciência termodinâmica, com ênfase nos aspectos físicos, matemáticos e dedutivos envolvidos;<br>H2. Equacionar problemas termodinâmicos em máquinas térmicas e em componentes de máquinas térmicas a partir do conhecimento dos processos e transformações envolvidos;<br>H3. Analisar soluções termodinâmicas tendo em vista projeto e otimização de performance de máquinas térmicas e componentes de máquinas térmicas.</pre></span></font></td>
+    </tr>
+	
+     <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">  <i>The discipline aims to provide the student with thermodynamic fundamentals and tools that are required for design, analysis and diagnostic of thermal systems; aims to keep with a significant share of formation and information in thermo-fluid-dynamics areas in a multidisciplinary context in complement to concepts of fluid mechanics and heat and mass transfer.<br><br>At the end of the course the student must have had acquired the following specific competencies (C) about the science thermodynamics:<br><br>C1. To know and understand the basic concepts of the science thermodynamics;<br>C2. To know and understand thermodynamic properties, thermodynamic processes, and thermodynamic laws, including aspects physical, mathematical and deductive that are involved;<br>C3. To apply the acquired knowledge to the solution of thermodynamic processes in thermal machines and components of thermal machines;<br>C4. To carry out performance analyses in thermal machines and components of thermal machines.<br>In order to reach for the above listed competencies (C) the student must develop the following abilities (H):<br>H1. To study the fundamentals of the science thermodynamics, with emphasis on aspects physical, mathematical and deductive that are involved;<br>H2. To equate thermodynamic problems in thermal machines and in components of thermal machines departing from the knowledge of processes and transformations that are involved;<br>H3. To analyze thermodynamic solutions having in view design and performance optimization of thermal machines and components of thermal machines.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Conteúdo Programático</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>1. Conceitos e definições: leis termodinâmicas; sistema; volume de controle; meio; abordagens microscópica, estatística, macroscópica; propriedades de substâncias puras; estado; fase; classes de propriedades; equilíbrio termodinâmico; processos; ciclos; sistemas de unidades; energia; volume específico; pressão; temperatura;<br>2. Propriedades de uma substância pura: substância pura; equilíbrio de fases; pressão e temperatura de saturação; ponto crítico; ponto triplo; propriedades independentes; superfícies termodinâmicas; tabelas de propriedades; título; equações de estado; gases ideais; fator de compressibilidade;<br>3. Calor e trabalho: formas de transferência de energia; funções de ponto e funções de linha; trabalho ou energia potencial molecular em trânsito; trabalho em sistema simples compressível; experimento de Joule; calor ou energia cinética molecular em trânsito; fenômenos de fronteira; condução, convecção e radiação; convenções de sinais;<br>4. Primeira lei da termodinâmica: primeira lei para ciclos termodinâmicos; energia total; energia potencial macroscópica; energia cinética macroscópica; energia interna; primeira lei para processos em sistemas; primeira lei em termos de potências; entalpia; calores específicos a volume e a pressão constantes; conservação de massa em volumes de controle; primeira lei para processos em volumes de controle, regime permanente, regime uniforme, regime transiente;<br>5. Segunda lei da termodinâmica: processos reversíveis e irreversíveis; motores térmicos; refrigeradores; rendimento térmico de motor térmico; eficiência térmica de refrigerador; segunda lei para ciclos termodinâmicos, enunciado clássico de Kelvin-Planck, enunciado clássico de Clausius; moto perpétuo; fontes de irreversibilidade; ciclo de Carnot; temperatura absoluta; rendimento térmico do motor térmico de Carnot; eficiência térmica do refrigerador de Carnot; desigualdade de Clausius; entropia; segunda lei para processos em sistemas; princípio do aumento de entropia em sistemas; geração de entropia; variação de entropia de gases ideais; entropia absoluta; processos politrópicos reversíveis; taxa de geração de entropia; segunda lei para processos em volumes de controle, regime<br>permanente, regime uniforme; regime transiente, princípio do aumento de entropia em volumes de controle; eficiências isoentrópicas.</pre></span></font></td>
+    </tr>
+    
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        1. Concepts and definitions: thermodynamic laws; system; control volume; surroundings; points of view microscopic, statistical, macroscopic; properties of pure substances; state; phase; classes of properties; thermodynamic equilibrium; processes; cycles; units system; energy; specific volume; pressure; temperature;<br>2. Properties of a pure substance: pure substance; phase equilibrium; pressure and temperature of saturation; critical point; triple point; independent properties; thermodynamic surfaces; tables of properties; quality; equations of state; ideal gases; compressibility factor;<br>3. Heat and work: forms of energy transfer; point and line functions; work or molecular potential energy in transit; work in simple compressible system; Joule experiment; heat or molecular kinetic energy in transit; boundary phenomena; conduction, convection and radiation; signal conventions;<br>4. First law of thermodynamics: first law for thermodynamic cycles; total energy; potential macroscopic energy; kinetic macroscopic energy; internal energy; first law for processes in systems; first law in power terms; enthalpy; specific heats at constant volume and pressure; mass conservation in control volumes; first law for processes in control volumes, steady-state regime, uniform regime, transient state;<br>5. Second law of thermodynamics: reversible and irreversible processes; thermal engines; refrigerators; efficiency of thermal engines; efficiency of refrigerators; second law for thermodynamic cycles; Kelvin-Plack classical statement; Clausius classical statement; perpetual motion machine; sources of irreversibility; Carnot cycle; absolute temperature; thermal efficiency of Carnot&#x2019;s thermal engine; thermal efficiency of Carnot&#x2019;s refrigerator; inequality of Clausius; entropy; second law for processes in systems; principle of entropy increase in systems; entropy generation; entropy variation in ideal gases; absolute entropy; polytropic reversible processes; rate of entropy generation; second law for processes in control volumes, steady-state regime, uniform regime; transient state, principle of entropy increase in control volumes; isentropic efficiencies.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+
+
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Instrumentos e Critérios de Avaliação</b></span></font></td>
+	</tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >
+	    
+	  <tr  > 
+        
+       <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Método de Avaliação</b></span></font></td>
+      </tr>         
+           <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Avaliação:<br>Listas de exercícios, provas, relatórios, trabalhos entre outros métodos serão utilizados para avaliação.<br><br>Método:<br>Cada habilidade (H) será avaliada baseada no uso de uma ou mais de uma das seguintes metodologias ativas, de acordo com a preferência do docente responsável:<br><br>H1: Provas específicas e individuais realizadas em sala de aula;<br>H2: Aprendizagem baseada em problema e estudo de caso com entrega de avaliação.<br>H3: Aprendizagem entre pares com entrega de trabalhos.</span></font></td>
+    </tr>
+		<tr>           
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Critério de Avaliação</b></span></font></td>
+		</tr>
+  
+	  <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Média ponderada das notas atribuídas ao aluno. Esta média deverá ser maior ou igual a 5,00 (cinco).</span></font></td>
+      </tr>
+	
+	  <tr>		   
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Norma de Recuperação</b></span></font></td>
+          </tr> 
+		   <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Os critérios de avaliação da recuperação devem ser similares aos aplicados durante o semestre regular do oferecimento da disciplina; <br>1)	A nota final (MF) do aluno que realizou provas de recuperação dependerá da média do semestre (MS) e da média das provas de recuperação (MR), como segue:<br>a)	MF=5 se 5 &#8804;MR &#8804; (10 - MS); <br>b)	MF = (MS + MR) / 2 se MR > (10  MS)<br>c)	MF = MS se MR < 5.<br>2)	O período de recuperação das disciplinas deve se estender do início até um mês antes do final do semestre subsequente ao da reprovação do aluno em primeira avaliação.</span></font></td>
+    </tr>
+	     
+		</table>		  
+	     </td>
+    </tr>        
+  </table>
+  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        
+        	<b>Bibliografia</b>
+        
+        
+        </span></font></td>
+    </tr>
+	  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >	               
+        <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              <pre>1. G.J. van Wylen, R.E. Sonntag, C. Borgnakke. Fundamentos da Termodinâmica.<br>2. Y.A. Çengel, M.A. Boles. Termodinâmica.<br>3. M.J. Moran, H.N. Shapiro. Princípios de Termodinâmica para Engenharia.<br><br>Complementar:<br>1. J. Tester, M. Model. Thermodynamics and Its Applications.<br>2. W.Z. Black, J.G. Hartley. Thermodynamics.<br>3. A. Bejan. Advanced Engineering Thermodynamics.<br>4. J.M. Smith, H. Van Ness, M. Abbott, M. Swihart. Introduction to Chemical Engineering Thermodynamics.<br>5. R. DeHoff. Thermodynamics in Materials Science.<br>6. H.B. Callen. Thermodynamics and an Introduction to Thermostatistics.</pre></span></font></td>
+          </tr>		 	     
+		</table>		  
+	   </td>
+    </tr>        
+  </table> 
+
+
+
+</table>
+
+
+
+
+
+
+
+
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Docente(s) Responsável(eis)</b></span></font></td>
+    </tr>
+    <tr>
+      <td> 
+        <table border="0" >
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              3145310 - Cristiano Bigonha Tibiriçá</span></font></td>
+          </tr>
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              88990 - Fernando Eduardo Milioli</span></font></td>
+          </tr>
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              2536867 - Luben Cabezas Gómez</span></font></td>
+          </tr>
+	    		  
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+  <BR>
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="listarCursosRequisitos?coddis=SEM0233" class="link_gray">Clique 
+        para consultar os requisitos para SEM0233</A> </font></td>
+    </tr>
+  </table>
+
+  <BR>
+  <table>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="obterTurma?sgldis=SEM0233" class="link_gray">Clique 
+        para consultar o oferecimento para SEM0233</A> </font></td>
+    </tr>
+  </table>
+
+						
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- hidden
+							
+							 -->
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- acoes
+							<table width="100%" border="0">
+								<tr>
+									
+								</tr>
+							</table>
+							 -->
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- submit
+							
+							 -->
+						</td>
+					</tr>
+	    </table>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css"/>
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href='creditos.jsp' class="link_olive" target="_self">Cr&eacute;ditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      &copy; 1999 - 2026 - Superintend&ecirc;ncia de Tecnologia da Informa&ccedil;&atilde;o/USP</font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+			
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

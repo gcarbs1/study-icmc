@@ -1,0 +1,1154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+<title>Jupiterweb</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon"
+	type="image/x-icon" />
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css"
+	type=text/css rel=stylesheet>
+</head>
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style>
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;" /></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;" /></a>
+		</td>
+	</tr>
+</table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css"
+	title="Vertical 'Earth'" />
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="stylesheet" type="text/css" id="fsmenu-fallback"
+	href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" />
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href='#' title=''><span>Calendário Escolar</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920'
+		title=''>2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863'
+		title=''>2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='jupCarreira.jsp?codmnu=8275'
+		title=''>Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Disciplina</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=D&amp;codmnu=6755'
+		title=''>Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='jupDisciplinaBusca?tipo=T&amp;codmnu=6756'
+		title=''>Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>Editais</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872'
+		title=''>Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502'
+		title=''>Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?page_id=399?codmnu=6762'
+		title=''>PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='https://prg.usp.br/programas-e-bolsas/?codmnu=10838'
+		title=''>PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href='#' title=''><span>FAQ</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+
+	<li><a href='#' title=''><span>Matrícula Interativa</span></a>
+		<ul>
+
+
+
+
+			
+			
+
+	<li><a href='FAQ.jsp?codmnu=9326'
+		title=''>FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='grdMatriculainterativaInformacoes.jsp?codmnu=9327'
+		title=''>Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='graduacaoAjudaNovaMatricula?codmnu=8946'
+		title='Liberar próximo da matricula'>TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href='http://www.prg.usp.br/?p=20746&amp;codmnu=6749'
+		title=''>Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href='http://www.prg.usp.br/?p=20741&amp;codmnu=8063'
+		title=''>Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		</li>
+	
+
+
+
+</ul>
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href='webLogin.jsp'>Entrar</a></li>
+		<li><a href='esqueciSenha'>Esqueci a Senha</a></li>
+		<li><a href='primeiroAcesso'>Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+<html>
+ <style>
+      pre {
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+<head>
+<title></title>
+
+</head>
+<body>
+<!-- cabecalho
+ -->
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css"/>
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css"/>
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css" >
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css" >
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js'></script>
+<script type='text/javascript'
+	src='https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js'></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript"
+	src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/engine.js"></script>
+<script type='text/javascript' src="/jupiterweb/dwr/util.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/comum.js"></script>
+<script type='text/javascript' src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<STYLE>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</STYLE>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+</head>
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Informa&ccedil;&otilde;es da Disciplina
+</div>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+	<br>
+ 
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!-- operacoes -->
+			
+		</td>
+	</tr>
+	<!-- titulos da pagina -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<!-- navegacao -->
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form name="form1" method="GET" action="">
+			<table width="100%" border="0">
+				<tr>
+					<td> 
+						<!-- tabela
+					 	--> 
+
+
+
+
+<script language="Javascript">
+function OpenWindowToPrint() {
+	var mylink;
+	
+	if('default' == 'default'){
+		mylink = document.location.href;
+	} else {
+		mylink = 'default';
+	}
+	
+	if(mylink.indexOf("?") > 0){
+		mylink += "&";
+	} else {
+		mylink += "?";
+	}
+	
+	mylink += "print=true";
+	
+	window.open(mylink , "_blank", "toolbar=no,location=no,directories=no,status=no,menubar=yes,titlebar=yes,scrollbars=yes,resizable=yes");
+}
+</script>
+
+<table width="538" border="0" cellpadding="1" cellspacing="1" align="center">
+  
+  <tr> 
+    <td align="right">
+	<a href="javascript:OpenWindowToPrint()" class="mail_footer"><img src="images/print_edit.gif" width="16" height="16" border="0">
+	<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">&nbsp;Preparar para impressão&nbsp;</font>
+	</a>
+	</td>
+  </tr>
+  
+</table>
+
+ 
+
+<table>
+  <tr> 
+    <td> 
+      <div align="left"><img src="https://uspdigital.usp.br/comumwebdev/imagens/logos/BrasaoUSP.gif" style="height: 80px;"></div>
+    </td>
+    <td style="vertical-align: middle;">
+		<h2 style="margin-left: 1em; display: inline-block; white-space: nowrap; font-size: medium" class="txt_verdana_10pt_black">
+			J&uacute;piter - Sistema de Gest&atilde;o Acad&ecirc;mica da Pr&oacute;-Reitoria de Gradua&ccedil;&atilde;o
+		</h2>
+    </td>
+  </tr>
+</table>
+<BR>						
+ 
+ 
+ 
+ 
+ 
+   
+
+    <table cellspacing=0 cellpadding=0 border=0 align="center" width="100%" bgcolor="#FFFFFF">
+      <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Instituto de Ciências Matemáticas e de Computação</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+	    Matemática</span></font></b></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+        <b>Disciplina: SMA0337 - Análise Crítica de Materiais e Livros Didáticos</b></span></font>
+		</td>
+    </tr>
+	
+	<tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td ALIGN="CENTER"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000"><span class="txt_arial_10pt_black"> 
+         Criticism and Analysis of Mathematics Textbooks </span></font>
+		</td>
+    </tr>
+	
+</table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="3">  
+  
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Cr&eacute;ditos Aula:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        2
+		</span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Cr&eacute;ditos Trabalho:</span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        2</span></font></td>
+    </tr>
+
+	<tr VALIGN="TOP" ALIGN="LEFT">
+		<td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+			Carga Hor&aacute;ria Total: </span></font></b></td>
+		<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+			90 h
+			 (
+				Estágio: 15 h
+					 | 
+				
+				Práticas como Componentes Curriculares: 60 h
+					
+				
+				
+			)
+		</span></font></td>
+	</tr>
+
+	
+	
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Tipo:</b></span></font></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+	   
+	   
+	   Semestral
+	   
+	   
+	   	   
+	   </span></font></td>
+    </tr>
+
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Ativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        01/01/2027</span></font>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        Desativa&ccedil;&atilde;o: </span></font></b></td>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+                  </span></font>
+      </td>
+    </tr>
+
+  </table>
+  <BR>
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Ementa</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Estudo da literatura sobre livro didático e seu uso. A influência das principais tendências presentes historicamente no ensino de matemática brasileiro. Análise de livros didáticos da Educação Básica (quanto ao conteúdo, abordagem metodológica, linguagem empregada, entre outros aspectos. Discussão e Análise de Livros paradidáticos. Reflexão sobre o tema no cenário escolar.</pre></span></font></td>
+    </tr>
+   	
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Study of the literature on textbooks and their use. The influence of the main trends historically present in Brazilian mathematics teaching. Analysis of Basic Education textbooks (regarding content, methodological approach, language used, among other aspects). Discussion and Analysis of Paradidactic Books. Reflection on the topic in the school setting.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Objetivos </b></span></font></td>
+    </tr>
+    <tr VALIGN="bottom" ALIGN="LEFT"> 
+      <td valign="bottom"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Com esta disciplina pretende-se, num primeiro momento, levar o aluno a um exame da literatura disponível sobre livros didáticos e paradidáticos seus possíveis usos. Também analisar livros didáticos, relativos ao ensino de matemática da Educação Básica (ensino fundamental (II) e ensino médio), incluindo textos paradidáticos. Este exame deve se revestir de um caráter crítico, capaz de propiciar a avaliação das qualidades de um determinado texto em exame. Além disso, objetiva também conhecer e refletir sobre este tema na realidade escolar.</pre></span></font></td>
+    </tr>
+	
+     <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">  <i>The aim of this course is to initially lead students to examine the available literature on textbooks and supplementary materials and their possible uses. It will also analyze textbooks related to the teaching of mathematics in basic education (elementary school (II) and high school), including supplementary materials. This examination must be critical in nature, capable of enabling the evaluation of the qualities of a given text under examination. In addition, it also aims to understand and reflect on this topic in the school environment.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Conteúdo Programático</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Análise da literatura referente a livros didáticos e seu uso. A influência das principais tendências, historicamente presentes no ensino de matemática brasileiro nos textos didáticos. Análise crítica de livros didáticos de diversas épocas quanto à adequação de conteúdo, linguagem, metodologia utilizada, entre outros aspectos. Apreciação de textos paradidáticos. A utilização de textos paradidáticos no ensino de Matemática (ensino fundamental 2 e ensino médio). Práticas de análise e escolha de livros didáticos, seu uso na sala de aula e sua interação com outros recursos pedagógicos. Uso de diferentes linguagens por meio das tecnologias de comunicação e informação no ambiente educativo visando a produção de conhecimento que compõem a leitura e a redação de textos relativos à disciplina.<br>As Práticas como Componentes Curriculares (PCC), sempre relacionadas às discussões e leituras realizadas e articulando os conhecimentos teóricos, compreendem as seguintes atividades: - Análise de textos didáticos de diversas épocas quanto à adequação de conteúdo e linguagem, e em relação à lite-ratura estudada sobre o tema e ao cumprimento das diretrizes propostas nos documentos oficiais de ensino de Matemática. Apreciação de textos paradidáticos quanto à linguagem, conteúdo e possibilidades pedagógicas na atualidade.<br><br>Estágio (15h):  Interação com o ambiente escolar, contato com uma escola, investigação sobre escolha e uso de materiais didáticos para aulas de matemática, o que poderá ser feito por meio de visita monitorada, conversa/entrevista como coordenador de matemática ou um professor de matemática.</pre></span></font></td>
+    </tr>
+    
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Analysis of the literature on textbooks and their use. The influence of the main trends historically present in Brazilian mathematics teaching on textbooks. Critical analysis of textbooks from different eras regarding the adequacy of content, language, methodology used, among other aspects. Appreciation of supplementary texts. The use of supplementary texts in mathematics teaching (elementary school  and high school). Practices for analyzing and choosing textbooks, their use in the classroom and their interac-tion with other pedagogical resources. Use of different languages through communication and information technologies in the educational environment aiming at the production of knowledge that makes up the re-ading and writing of texts related to the subject.<br>Practices as Curricular Components (PCC), always related to discussions and readings carried out and articulating theoretical knowledge, comprise the following activities: - Analysis of didactic texts from different periods regarding the adequacy of content and language, and in relation to compliance with the guidelines proposed in official Mathematics teaching documents. - Appreciation of paradidactic texts regarding language, content and pedagogical possibilities today.<br>Internship (15h): Interaction with the school environment, contact with a school, investigation into the choice and use of teaching materials for mathematics classes, which can be done through a monitored visit, conversation/interview with a mathematics coordinator or a mathematics teacher.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Métodos de Ensino</b></span></font></td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        <pre>Avaliação continuada considerando participação nas aulas e atividades, elaboração de trabalhos tais como resenhas, seminários e outros trabalhos de sistematização.</pre></span></font></td>
+    </tr>
+    
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> <i>
+        Continuous assessment considering participation in classes and activities, preparation of work such as reviews, seminars and other systematization work.</i></span></font></td>
+    </tr>
+    <tr><td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_7pt_black">&nbsp;</span></font></td></tr>
+	
+
+
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Instrumentos e Critérios de Avaliação</b></span></font></td>
+	</tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >
+	    
+	  <tr  > 
+        
+       <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Método de Avaliação</b></span></font></td>
+      </tr>         
+           <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Instrumentos de avaliação do aluno: elaboração de resenhas e sínteses dos textos base, observando qualidades textuais como: coerência, coesão, clareza, concisão e correção gramatical. Seminários referentes aos textos base. Utilização de recursos das TICs para elaboração dos trabalhos, que deverão contemplar as qualidades textuais. Elaboração de trabalhos de sistematização sobre análise de livros paradidáticos e de livros didáticos de matemática da Educação Básica (ensino fundamental 2 e ensino médio). Participação nas atividades da aula.</span></font></td>
+    </tr>
+		<tr>           
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Critério de Avaliação</b></span></font></td>
+		</tr>
+  
+	  <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Instrumentos de avaliação do aluno: elaboração de resenhas e sínteses dos textos base, observando qualidades textuais como: coerência, coesão, clareza, concisão e correção gramatical. Seminários referentes aos textos base. Utilização de recursos das TICs para elaboração dos trabalhos, que deverão contemplar as qualidades textuais. Elaboração de trabalhos de sistematização sobre análise de livros paradidáticos e de livros didáticos de matemática da Educação Básica (ensino fundamental 2 e ensino médio). Participação nas atividades da aula.</span></font></td>
+      </tr>
+	
+	  <tr>		   
+          <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+                 <b>Norma de Recuperação</b></span></font></td>
+          </tr> 
+		   <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+        Norma de Recuperação: média final + nota de recuperação = média aritmética igual ou superior a 5.0.</span></font></td>
+    </tr>
+	     
+		</table>		  
+	     </td>
+    </tr>        
+  </table>
+  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+	<tr>
+      <td>&nbsp;</td>
+    </tr>
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        
+        	<b>Bibliografia</b>
+        
+        
+        </span></font></td>
+    </tr>
+	  
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">    
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td> <table BORDER="0" >	               
+        <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              <pre>Bibliografia básica:<br>Livros-Textos:<br>Brasil (país). Ministério da Educação. Secretaria de Educação Básica. Fundo Nacional de Desenvolvimento da Educação. Guias de Livro Didático. Disponível em http://www.fnde.gov.br/programas/livro-didatico/guias-do-pnld. Acessado em 21/6/2017.<br>FREITAG, B. et al. O livro didático em questão, 3ª ed., S. Paulo: Cortez,1997.<br>Brasil (país). Ministério da Educação. Secretaria de Educação Básica. Fundo Nacional de Desenvolvimento da Educação. Guias de Livro Didático. Disponível em <br> http://www.fnde.gov.br/programas/livro-didatico/guias-do-pnld. Acessado em 21/6/2017.<br>CARVALHO, J. B. P. de. Políticas Públicas e o Livro Didático de Matemática.  Bolema, Rio Claro, ano21, n.29, p.1-11, abr.2008.<br>CHOPPIN, A. História dos livros e das edições didáticas: sobre o estado da arte. Educação e Pesquisa, São Paulo, v. 30, n.3, pp.549-66, set/dez.2004.<br>Coleção de Livros Didáticos e Paradidáticos de Matemática do Laboratório de Ensino de Matemática do ICMC-USP.<br>DALCIN, ANDREIA. Um olhar sobre o paradidático de Matemática. Zetetiké- Cempem- FE- Unicamp-v.15, n.27 &#x2013;jan./jun.- 2007, pp.25-35.<br>FIORENTINI, D. Alguns modos de ver e conceber o ensino da matemática no Brasil, revista Zetiké, ano 3, n.4, 1995.<br>HOFLING, E. de. M. Notas para discussão quanto à implementação de programas de governo: Em foco o Programa Nacional do Livro Didático. In: Educação & Sociedade, v.21, n.70, Campinas, abr.2000. pp.159-170. Disponível em http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-73302000000100009&Ing=pt&nrm=isso. Acesso em 27.06.25.<br>MIORIM, M. A.. Teorema de Pitágoras Em Livros Didáticos. Revista de Educação Matemática - SBEM/SP, São José do Rio Preto - SP, v. 6, n.4, p. 5-14, 1998.<br>VALENTE, W.R, O que é número? Produção, circulação e apropriação da Matemática Moderna para crianças. Bolema, Rio Claro (SP), v. 26, n. 44, p. 1417-1441, dez. 2012.<br><br><br>Bibliografia Complementar:<br><br>Complementares:<br>ALMEIDA, F. C Os livros didáticos de matemática para o ensino fundamental e os temas transversais: realidade ou utopia?. Disserta-ção de Mestrado. Bauru: UNESP, 2007. Disponível em: http://www.athena.biblioteca.unesp.br/exlibris/bd/bba/33004056079P0/2007/almeida_fc_me_bauru.pdf<br>BIANCHI, M. I. Uma reflexão sobre a presença da história da Matemática nos livros didáticos. Dissertação de Mestrado. Rio Claro: UNESP, 2006.  Disponível em: http://www.bibliotecadigital/document/?did=4676<br>BORGES, A J. Polinômios no Ensino Médio: uma investigação em livros didáticos. Dissertação (Mestrado Profissional em ensino de matemática). São Paulo: PUC, 2007  Disponível em: http://www.sapientia.pucsp.br//tde_busca/arquivo.php?codArquivo=4891.<br>CASSIANO, Célia C F (2005) Reconfiguração do mercado editorial brasileiro de livros didáticos no início do século XXI: histórias das principais editoras e suas práticas comerciais. I Em Questão, Porto Alegre, v11, n. 2, p. 281-312, jul./dez.. Disponível em: http://www.seer.ufrgs.br/index.php/EmQuestao/issue/view/6<br>CARLOVICH, M. A Geometria dedutiva em livros didáticos das escolas públicas do Estado de São Paulo para o 3º e 4º ciclos do Ensino Fundamental. Dissertação (Mestrado em Educação matemática). São Paulo: PUC, 2005. Disponível em:<br>http://www.sapientia.pucsp.br//tde_busca/arquivo.php?codArquivo=1993<br>Costa, R. A. A passagem da numeração romana para indo-arábica no ocidente em livros didáticos de matemática. Dissertação (mestrado). MG: CEFET, 2009. Disponível em: <br>http://www.et.cefetmg.br/permalink/3f6842e9-14ce-11df-b95f-00188be4f822.pdf<br>http://www.fae.unicamp.br/revista/index.php/zetetike/article/view/2418. Acessado em 19/02/2014.<br>IMENES, L. M. e LELLIS, M. LD, Porcentagem Proporcionalidade: uma Crítica da Crítica. Bolema 24.<br>LIMA, E.L. Exame de Textos, Rio de Janeiro, SBM-VITAE, IMPA on line, 2002.<br>Oliveira, P. I. F. A estatística e a probabilidade nos livros didáticos de Matemática do ensino médio. Dissertação (MESTRADO EM EDUCAÇÃO EM CIÊNCIAS E MATEMÁTICA). Porto Alegre: PUC-RS, 2006. Disponível em:<br>http://tede.pucrs.br/tde_busca/arquivo.php?codArquivo=229	<br>PRADO, E. P. A. Os textos impressos para o ensino dos números inteiros na visão de licenciandos em matemática. Tese de Doutorado. Campinas: UNICAMP, 2008. Disponível em: http://libdigi.unicamp.br/document/?code=vtls000439869&fd=y<br>RUGGIERO, M. A. e BASSO, I. S. A Matemática no Livro Didático: uma reflexão crítica na perspectiva histórico &#x2013; cultural. Bolema20.<br>SANTOS, A.C. A trajetória da educação matemática brasileira: um olhar por meio dos livros didáticos &#x201c;matemática&#x201d; (1982) e &#x201c;matemática e realidade&#x201d; (2005). Dissertação (Mestrado em Educação). Uberlândia: UFU, 2008. Disponível em:<br>http://www.dominiopublico.gov.br/download/texto/cp089350.pdf<br>SILVA, H. A. Análise da abordagem de função adotada em LD de Matemática da Educação Básica. Dissertação de Mestrado (profissionalizante). São Paulo: PUC/SP, 2007. Disponível em: http://www.sapientia.pucsp.br/tde_busca/arquivo.php?codArquivo=5679<br>VIEIRA, G. M. Estratégias de contextualização por livros didáticos de Matemática para os ciclos iniciais do Ensino Fundamental. Dissertação de Mestrado. Minas Gerais: UFMG, 2004.<br></pre></span></font></td>
+          </tr>		 	     
+		</table>		  
+	   </td>
+    </tr>        
+  </table> 
+
+
+
+</table>
+
+
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT">
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+        <b>Objetivos de Desenvolvimento Sustentável (ONU)</b></span></font></td>
+    </tr>
+    <tr>
+      <td>
+        <table border="0" >
+	    
+          <tr>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+              &nbsp;&nbsp;&nbsp;&nbsp;n° 4) <i>Educação de Qualidade: </i>assegurar a educação inclusiva, e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos;</span></font></td>
+          </tr>
+	    
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT">
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+        <b>Viagem Didática</b></span></font></td>
+    </tr>
+  </table>
+
+  <table BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <tr VALIGN="TOP" ALIGN="LEFT">
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td>
+	      <table BORDER="0" >
+
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>É estruturante?</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Não</span></font></td>
+	      </tr>
+	      <tr>
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black">
+	          <b>Atividades a serem desenvolvidas</b></span></font></td>
+	      </tr>
+	      <tr VALIGN="TOP" ALIGN="LEFT">
+	        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray">
+	          Visitas a escolas e outras instituições de ensino para refletir sobre os materiais e livros didáticos utilizados, bem como sobre os aspectos metodológicos empregados. Também poderão ser realizadas visitas a museus com exposições relacionadas à temática ou a instituições que promovam eventos pertinentes ao assunto.</span></font></td>
+	      </tr>
+
+	      </table>
+	  </td>
+    </tr>
+  </table>
+
+
+
+
+
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr VALIGN="TOP" ALIGN="LEFT"> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000"><span class="txt_arial_8pt_black"> 
+        <b>Docente(s) Responsável(eis)</b></span></font></td>
+    </tr>
+    <tr>
+      <td> 
+        <table border="0" >
+	    
+          <tr> 
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"></span></font></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"><span class="txt_arial_8pt_gray"> 
+              2143595 - Renata Cristina Geromel Meneghetti</span></font></td>
+          </tr>
+	    		  
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+  <BR>
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="listarCursosRequisitos?coddis=SMA0337" class="link_gray">Clique 
+        para consultar os requisitos para SMA0337</A> </font></td>
+    </tr>
+  </table>
+
+  <BR>
+  <table>
+    <tr> 
+      <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+        <A HREF="obterTurma?sgldis=SMA0337" class="link_gray">Clique 
+        para consultar o oferecimento para SMA0337</A> </font></td>
+    </tr>
+  </table>
+
+						
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- hidden
+							
+							 -->
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- acoes
+							<table width="100%" border="0">
+								<tr>
+									
+								</tr>
+							</table>
+							 -->
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<!-- submit
+							
+							 -->
+						</td>
+					</tr>
+	    </table>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css"/>
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href='creditos.jsp' class="link_olive" target="_self">Cr&eacute;ditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      &copy; 1999 - 2026 - Superintend&ecirc;ncia de Tecnologia da Informa&ccedil;&atilde;o/USP</font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+			
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

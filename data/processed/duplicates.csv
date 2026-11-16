@@ -1,0 +1,142 @@
+code_a,name_a,code_b,name_b,rule,text_similarity
+1800124,Atividades de Extensão para Engenharia I,SLC0700,Atividades de Extensão para Licenciatura 1,mesmo texto,1.0
+1800125,Atividades de Extensão para Engenharia II,SLC0701,Atividades de Extensão para Licenciatura 2,mesmo texto,1.0
+5500003,Robótica Educacional,SLC0616,Robótica Educacional aplicada à Matemática,mesmo texto,1.0
+5500005,Informação Profissional em Ciência de Dados,SME0850,Informação Profissional em Ciência de Dados,mesmo nome,1.0
+7600005,Física I,SLC0624,Física 1,mesmo nome,0.307
+7600006,Física II,SLC0625,Física 2,mesmo nome,0.152
+9010001,Atividades Teórico-Práticas de Aprofundamento (ATPA) - I,SMA0351,Atividades Teórico-Práticas de Aprofundamento I,mesmo nome,0.474
+9010002,Atividades Teórico-práticas de Aprofundamento (ATPA) II,SMA0352,Atividades Teórico-Práticas de Aprofundamento II,mesmo nome,0.474
+SCC0201,Introdução à Ciência de Computação II,SSC0503,Introdução à Ciência de Computação II,mesmo nome,0.959
+SCC0202,Algoritmos e Estruturas de Dados I,SCC0502,Algoritmos e Estruturas de Dados I,mesmo nome,0.604
+SCC0203,Algoritmos e Estruturas de Dados II,SCC0503,Algoritmos e Estruturas de Dados II,mesmo nome,1.0
+SCC0204,Programação Orientada a Objetos,SCC0504,Programação Orientada a Objetos,mesmo nome,0.829
+SCC0204,Programação Orientada a Objetos,SCC0604,Programação Orientada a Objetos,mesmo nome,0.877
+SCC0204,Programação Orientada a Objetos,SSC0103,Programação Orientada a Objetos,mesmo nome,0.877
+SCC0209,Empreendedores em Informática,SSC0570,Empreendedorismo,mesmo texto,0.941
+SCC0221,Introdução à Ciência de Computação I,SSC0501,Introdução à Ciência de Computação I,mesmo nome,1.0
+SCC0221,Introdução à Ciência de Computação I,SSC0600,Introdução à Ciência de Computação I,mesmo nome,1.0
+SCC0221,Introdução à Ciência de Computação I,SSC0800,Introdução à Ciência de Computação I,mesmo nome,0.451
+SCC0222,Laboratório de Introdução à Ciência de Computação I,SSC0502,Laboratório de Introdução à Ciência de Computação I,mesmo nome,1.0
+SCC0222,Laboratório de Introdução à Ciência de Computação I,SSC0601,Laboratório de Introdução à Ciência de Computação I,mesmo nome,0.981
+SCC0222,Laboratório de Introdução à Ciência de Computação I,SSC0801,Laboratório de Introdução à Ciência de Computação I,mesmo nome,0.461
+SCC0223,Estruturas de dados I,SSC0603,Estrutura de Dados I,mesmo nome,0.943
+SCC0224,Estruturas de dados II,SCC0606,Estrutura de Dados II,mesmo nome,0.758
+SCC0227,Seminários em Computação I,SSC0576,Seminários em Computação I,mesmo nome,0.994
+SCC0228,Seminários em Computação II,SSC0577,Seminários em Computação II,mesmo nome,0.947
+SCC0230,Inteligência Artificial,SCC0530,Inteligência Artificial,mesmo nome,0.991
+SCC0230,Inteligência Artificial,SCC0630,Inteligência Artificial,mesmo nome,0.991
+SCC0240,Bases de Dados,SCC0540,Bases de Dados,mesmo nome,0.675
+SCC0240,Bases de Dados,SCC0640,Bases de Dados,mesmo nome,0.972
+SCC0241,Laboratório de Bases de Dados,SCC0541,Laboratório de Bases de Dados,mesmo nome,0.85
+SCC0241,Laboratório de Bases de Dados,SCC0641,Laboratório de Bases de Dados,mesmo nome,0.85
+SCC0250,Computação Gráfica,SCC0650,Computação Gráfica,mesmo nome,1.0
+SCC0251,Processamento de Imagens,SCC0651,Processamento de Imagens,mesmo nome,0.867
+SCC0252,Visualização Computacional,SCC0652,Visualização Computacional,mesmo nome,1.0
+SCC0260,Interação Humano-Computador e Experiência do Usuário,SCC0560,Interação Humano-Computador e Experiência do Usuário,mesmo nome,1.0
+SCC0261,Multimídia,SCC0561,Multimídia,mesmo nome,0.829
+SCC0275,Introdução à Ciência de Dados,SME0828,Introdução à Ciência de Dados,mesmo nome,0.4
+SCC0276,Aprendizado de Máquina,SME0829,Aprendizado de Máquina,mesmo nome,0.43
+SCC0280,Acessibilidade em Sistemas Computacionais,SCC0580,Acessibilidade em Sistemas Computacionais,mesmo nome,0.838
+SCC0289,Projeto em Intercâmbio I,SSC0597,Projeto em Intercâmbio I,mesmo nome,0.887
+SCC0290,Projeto em Intercâmbio II,SSC0598,Projeto em Intercâmbio II,mesmo nome,0.887
+SCC0291,Estágio Supervisionado I,SSC0591,Estágio Supervisionado I,mesmo nome,0.551
+SCC0291,Estágio Supervisionado I,SSC0672,Estágio Supervisionado I,mesmo nome,0.555
+SCC0292,Estágio Supervisionado II,SSC0592,Estágio Supervisionado II,mesmo nome,0.551
+SCC0292,Estágio Supervisionado II,SSC0673,Estágio Supervisionado II,mesmo nome,0.374
+SCC0293,Projeto de Graduação I,SSC0593,Projeto de Graduação I,mesmo nome,0.514
+SCC0294,Projeto de Graduação II,SSC0594,Projeto de Graduação II,mesmo nome,0.514
+SCC0300,Projeto Empreendedor I,SSC0595,Projeto Empreendedor I,mesmo nome,0.329
+SCC0302,Projeto Empreendedor II,SSC0596,Projeto Empreendedor II,mesmo nome,0.329
+SCC0504,Programação Orientada a Objetos,SCC0604,Programação Orientada a Objetos,mesmo nome,0.973
+SCC0504,Programação Orientada a Objetos,SSC0103,Programação Orientada a Objetos,mesmo nome,0.973
+SCC0530,Inteligência Artificial,SCC0630,Inteligência Artificial,mesmo nome,1.0
+SCC0540,Bases de Dados,SCC0640,Bases de Dados,mesmo nome,0.664
+SCC0541,Laboratório de Bases de Dados,SCC0641,Laboratório de Bases de Dados,mesmo nome,1.0
+SCC0604,Programação Orientada a Objetos,SSC0103,Programação Orientada a Objetos,mesmo nome,1.0
+SCC0802,Prática em Ciência de Dados III,SME0853,Prática em Ciência de Dados III,mesmo nome,1.0
+SEL0606,Laboratório de Sistemas Digitais,SEL0455,Laboratório de Sistemas Digitais,mesmo nome,0.219
+SEL0607,Fundamentos de Semicondutores,SEL0450,Semicondutores,mesmo texto,0.937
+SEL0608,Eletromagnetismo,SEL0309,Eletromagnetismo,mesmo nome,0.939
+SEL0609,Circuitos Eletrônicos I,SEL0313,Circuitos Eletrônicos I,mesmo nome,0.984
+SEL0611,Fundamentos de Controle,SEL0417,Fundamentos de Controle,mesmo nome,0.797
+SEL0612,Ondas Eletromagnéticas,SEL0310,Ondas Eletromagnéticas,mesmo nome,0.922
+SEL0613,Circuitos Eletrônicos II,SEL0314,Circuitos Eletrônicos II,mesmo nome,0.985
+SEL0614,Aplicação de Microprocessadores,SEL0433,Aplicação de Microprocessadores,mesmo nome,0.97
+SEL0615,Processamento Digital de Sinais,SEL0343,Processamento Digital de Sinais,mesmo nome,0.829
+SEL0616,Princípios de Comunicação,SEL0360,Princípios de Comunicação,mesmo nome,1.0
+SEL0628,Sistemas Digitais,SSC0118,Sistemas Digitais,mesmo nome,0.155
+SEL0628,Sistemas Digitais,SEL0414,Sistemas Digitais,mesmo nome,0.322
+SEL0630,Projetos em Sistemas Embarcados,SEL0337,Projetos em Sistemas Embarcados,mesmo nome,0.958
+SLC0607,Cálculo 1,SMA0301,Cálculo I,mesmo nome,0.184
+SLC0607,Cálculo 1,SMA0353,Cálculo I,mesmo nome,0.361
+SLC0607,Cálculo 1,SMA0392,Cálculo I (semipresencial),mesmo nome,0.273
+SLC0607,Cálculo 1,SMA0501,Cálculo I,mesmo nome,0.34
+SLC0607,Cálculo 1,SMA0801,Cálculo I,mesmo nome,0.372
+SLC0608,Cálculo II,SMA0332,Cálculo II,mesmo nome,0.395
+SLC0608,Cálculo II,SMA0354,Cálculo II,mesmo nome,0.236
+SLC0608,Cálculo II,SMA0390,Cálculo II (semipresencial),mesmo nome,0.196
+SLC0608,Cálculo II,SMA0802,Cálculo II,mesmo nome,0.395
+SLC0617,Estágio Supervisionado em Ensino de Matemática 1,SMA0370,Estágio Supervisionado em Ensino de Matemática I,mesmo nome,0.909
+SLC0618,Estágio Supervisionado em Ensino de Matemática 2,SMA0371,Estágio Supervisionado em Ensino de Matemática II,mesmo nome,1.0
+SLC0683,Metodologia para o Ensino de Matemática 1,SMA0365,Metodologia de Ensino de Matemática I,mesmo nome,1.0
+SLC0684,Metodologia para o Ensino de Matemática 2,SMA0366,Metodologia de Ensino de Matemática II,mesmo nome,1.0
+SLC0687,Análise para Licenciatura,SMA0347,Análise para Licenciatura,mesmo nome,1.0
+SMA0300,Geometria Analítica,SMA0394,Geometria Analítica (semipresencial),mesmo nome,0.719
+SMA0300,Geometria Analítica,SMA0800,Geometria Analítica,mesmo nome,1.0
+SMA0301,Cálculo I,SMA0353,Cálculo I,mesmo nome,0.243
+SMA0301,Cálculo I,SMA0392,Cálculo I (semipresencial),mesmo nome,0.193
+SMA0301,Cálculo I,SMA0501,Cálculo I,mesmo nome,0.416
+SMA0301,Cálculo I,SMA0801,Cálculo I,mesmo nome,0.475
+SMA0304,Álgebra Linear,SMA0375,Álgebra Linear,mesmo nome,0.41
+SMA0332,Cálculo II,SMA0354,Cálculo II,mesmo nome,0.265
+SMA0332,Cálculo II,SMA0390,Cálculo II (semipresencial),mesmo nome,0.219
+SMA0332,Cálculo II,SMA0802,Cálculo II,mesmo nome,1.0
+SMA0353,Cálculo I,SMA0392,Cálculo I (semipresencial),mesmo nome,0.743
+SMA0353,Cálculo I,SMA0501,Cálculo I,mesmo nome,0.422
+SMA0353,Cálculo I,SMA0801,Cálculo I,mesmo nome,0.406
+SMA0354,Cálculo II,SMA0390,Cálculo II (semipresencial),mesmo nome,0.817
+SMA0354,Cálculo II,SMA0802,Cálculo II,mesmo nome,0.265
+SMA0355,Cálculo III,SMA0393,Cálculo III (semipresencial),mesmo nome,0.756
+SMA0356,Cálculo IV,SMA0391,Cálculo IV (semipresencial),mesmo nome,0.68
+SMA0390,Cálculo II (semipresencial),SMA0802,Cálculo II,mesmo nome,0.219
+SMA0392,Cálculo I (semipresencial),SMA0501,Cálculo I,mesmo nome,0.323
+SMA0392,Cálculo I (semipresencial),SMA0801,Cálculo I,mesmo nome,0.312
+SMA0394,Geometria Analítica (semipresencial),SMA0800,Geometria Analítica,mesmo nome,0.719
+SMA0501,Cálculo I,SMA0801,Cálculo I,mesmo nome,0.87
+SME0104,Cálculo Numérico,SME0500,Cálculo Numérico,mesmo nome,0.192
+SME0104,Cálculo Numérico,SME0602,Cálculo Numérico,mesmo nome,0.743
+SME0104,Cálculo Numérico,SME0300,Cálculo Numérico,mesmo nome,0.743
+SME0110,Programação Matemática,SME0610,Programação Matemática,mesmo nome,1.0
+SME0121,Processos Estocásticos,SME0805,Processos Estocásticos,mesmo nome,0.7
+SME0240,Equações Diferenciais Ordinárias,SME0340,Equações Diferenciais Ordinárias,mesmo nome,0.966
+SME0500,Cálculo Numérico,SME0602,Cálculo Numérico,mesmo nome,0.192
+SME0500,Cálculo Numérico,SME0300,Cálculo Numérico,mesmo nome,0.192
+SME0602,Cálculo Numérico,SME0300,Cálculo Numérico,mesmo nome,1.0
+SME0620,Estatística I,SME0320,Estatística I,mesmo nome,0.539
+SME0800,Probabilidade I,SME0830,Probabilidade I (modalidade semipresencial),mesmo nome,0.31
+SSC0118,Sistemas Digitais,SEL0414,Sistemas Digitais,mesmo nome,0.196
+SSC0120,Sistemas de Informação,SSC0622,Sistemas de Informação,mesmo nome,0.972
+SSC0130,Engenharia de Software,SSC0620,Engenharia de Software,mesmo nome,0.991
+SSC0140,Sistemas Operacionais I,SSC0541,Sistemas Operacionais I,mesmo nome,0.748
+SSC0140,Sistemas Operacionais I,SSC0640,Sistemas Operacionais I,mesmo nome,1.0
+SSC0142,Redes de Computadores,SSC0540,Redes de Computadores,mesmo nome,0.176
+SSC0142,Redes de Computadores,SSC0641,Redes de Computadores,mesmo nome,0.176
+SSC0501,Introdução à Ciência de Computação I,SSC0600,Introdução à Ciência de Computação I,mesmo nome,1.0
+SSC0501,Introdução à Ciência de Computação I,SSC0800,Introdução à Ciência de Computação I,mesmo nome,0.451
+SSC0502,Laboratório de Introdução à Ciência de Computação I,SSC0601,Laboratório de Introdução à Ciência de Computação I,mesmo nome,0.981
+SSC0502,Laboratório de Introdução à Ciência de Computação I,SSC0801,Laboratório de Introdução à Ciência de Computação I,mesmo nome,0.461
+SSC0513,Organização e Arquitetura de Computadores,SSC0902,Organização e Arquitetura de Computadores,mesmo nome,0.486
+SSC0524,"Verificação, Validação e Teste de Software",SSC0959,Teste e Inspeção de Software,mesmo texto,1.0
+SSC0528,Sistemas Colaborativos: Fundamentos e Aplicações,SSC0723,Sistemas Colaborativos: Fundamentos e Aplicações,mesmo nome,1.0
+SSC0540,Redes de Computadores,SSC0641,Redes de Computadores,mesmo nome,1.0
+SSC0541,Sistemas Operacionais I,SSC0640,Sistemas Operacionais I,mesmo nome,0.748
+SSC0547,Engenharia de Segurança,SSC0900,Engenharia de Segurança,mesmo nome,0.149
+SSC0591,Estágio Supervisionado I,SSC0672,Estágio Supervisionado I,mesmo nome,0.771
+SSC0592,Estágio Supervisionado II,SSC0673,Estágio Supervisionado II,mesmo nome,0.736
+SSC0593,Projeto de Graduação I,SSC0670,Projeto de Formatura I,mesmo texto,0.935
+SSC0600,Introdução à Ciência de Computação I,SSC0800,Introdução à Ciência de Computação I,mesmo nome,0.451
+SSC0601,Laboratório de Introdução à Ciência de Computação I,SSC0801,Laboratório de Introdução à Ciência de Computação I,mesmo nome,0.453
+SCC0124,Introdução à Programação para Engenharias,SSC0304,Introdução à Programação para Engenharias,mesmo nome,1.0
+SEM0388,Princípios de Metrologia Industrial,SEM0566,Sistemas e Métodos de Controle de Processos,mesmo texto,1.0
+SEL0454,Introdução aos Sistemas Digitais,SEL0455,Laboratório de Sistemas Digitais,mesmo texto,1.0

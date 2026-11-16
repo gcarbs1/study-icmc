@@ -1,0 +1,13 @@
+metric,value
+disciplines_collected,636
+disciplines_analyzed,632
+excluded_no_text,4
+excluded_deactivated,0
+duplicate_pairs_same_name,132
+duplicate_pairs_same_text,9
+same_name_rejected,5
+name_confirm_threshold,0.099
+unique_subjects,528
+subjects_with_several_codes,78
+max_codes_per_subject,6
+subject_requisite_pairs,702

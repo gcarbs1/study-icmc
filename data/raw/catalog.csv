@@ -1,0 +1,444 @@
+code,version,name,activation,deactivation,letter,prefix
+5500002,1,Seminários em Gestão Organizacional,01/01/2020,,S,ICMC
+5500003,1,Robótica Educacional,15/07/2021,,R,ICMC
+5500004,1,Fundamentos em Ciências de Dados,15/07/2021,,F,ICMC
+5500005,1,Informação Profissional em Ciência de Dados,01/01/2025,,I,ICMC
+SCC0120,3,Introdução à Ciência da Computação,01/01/2013,,I,SCC
+SCC0121,2,Introdução à Programação,01/01/2011,,I,SCC
+SCC0122,3,Estruturas de Dados,01/01/2011,,E,SCC
+SCC0124,1,Introdução à Programação para Engenharias,01/01/2016,,I,SCC
+SCC0173,2,Mineração de Dados Biológicos,01/01/2011,,M,SCC
+SCC0200,3,Informação Profissional e Tutoria Acadêmica em Ciências da Computação,01/01/2018,,I,SCC
+SCC0201,4,Introdução à Ciência de Computação II,15/07/2024,,I,SCC
+SCC0202,1,Algoritmos e Estruturas de Dados I,01/01/2009,,A,SCC
+SCC0203,2,Algoritmos e Estruturas de Dados II,01/01/2011,,A,SCC
+SCC0204,2,Programação Orientada a Objetos,01/01/2011,,P,SCC
+SCC0205,6,Teoria da Computação e Linguagens Formais,01/01/2027,,T,SCC
+SCC0207,1,Computadores e Sociedade I,01/01/2009,,C,SCC
+SCC0209,5,Empreendedores em Informática,15/07/2024,,E,SCC
+SCC0210,6,Laboratório de Algoritmos Avançados I,15/07/2024,,L,SCC
+SCC0211,6,Laboratório de Algoritmos Avançados II,15/07/2024,,L,SCC
+SCC0213,7,Metodologia de Pesquisa em Computação,01/01/2027,,M,SCC
+SCC0214,3,Projeto de Algoritmos,01/01/2013,,P,SCC
+SCC0215,3,Organização de Arquivos,01/01/2020,,O,SCC
+SCC0216,3,Modelagem Computacional em Grafos,01/01/2020,,M,SCC
+SCC0217,2,Linguagens de Programação e Compiladores,01/01/2017,,L,SCC
+SCC0218,3,Algoritmos Avançados e Aplicações,15/07/2024,,A,SCC
+SCC0219,5,Introdução ao Desenvolvimento Web,15/07/2024,,I,SCC
+SCC0220,1,Laboratório de Introdução à Ciência da Computação II,01/01/2013,,L,SCC
+SCC0221,5,Introdução à Ciência de Computação I,01/01/2026,,I,SCC
+SCC0222,2,Laboratório de Introdução à Ciência de Computação I,01/01/2026,,L,SCC
+SCC0223,1,Estruturas de dados I,01/01/2016,,E,SCC
+SCC0224,1,Estruturas de dados II,01/01/2016,,E,SCC
+SCC0225,1,Laboratório de desenvolvimento de aplicações para dispositivos móveis,01/01/2018,,L,SCC
+SCC0227,2,Seminários em Computação I,01/01/2011,,S,SCC
+SCC0228,2,Seminários em Computação II,01/01/2011,,S,SCC
+SCC0229,2,Seminários em Computação III,01/01/2011,,S,SCC
+SCC0230,6,Inteligência Artificial,15/07/2024,,I,SCC
+SCC0231,2,Introdução a Sistemas Inteligentes,01/01/2011,,I,SCC
+SCC0233,2,Aplicações de Aprendizado de Máquina e Mineração de Dados,15/07/2022,,A,SCC
+SCC0240,4,Bases de Dados,01/01/2023,,B,SCC
+SCC0241,4,Laboratório de Bases de Dados,01/01/2025,,L,SCC
+SCC0243,3,Arquitetura de Sistemas Gerenciadores de Bases de Dados,01/01/2012,,A,SCC
+SCC0244,5,Mineração a partir de Grandes Bases de Dados,15/07/2024,,M,SCC
+SCC0245,4,Processamento Analítico de Dados,15/07/2024,,P,SCC
+SCC0247,1,Banco de dados NoSQL e arcabouços distribuídos de processamento,15/07/2022,,B,SCC
+SCC0250,2,Computação Gráfica,01/01/2023,,C,SCC
+SCC0251,6,Processamento de Imagens,15/07/2024,,P,SCC
+SCC0252,3,Visualização Computacional,15/07/2023,,V,SCC
+SCC0254,1,Introdução à Geometria Computacional: Algoritmos e Aplicações,01/01/2020,,I,SCC
+SCC0260,5,Interação Humano-Computador e Experiência do Usuário,15/07/2024,,I,SCC
+SCC0261,2,Multimídia,15/07/2020,,M,SCC
+SCC0270,5,Redes Neurais e Aprendizado Profundo,15/07/2024,,R,SCC
+SCC0271,3,Introdução à Bioinformática,15/07/2022,,I,SCC
+SCC0273,5,Robôs Móveis Inteligentes,15/07/2025,,R,SCC
+SCC0275,5,Introdução à Ciência de Dados,15/07/2024,,I,SCC
+SCC0276,4,Aprendizado de Máquina,15/07/2024,,A,SCC
+SCC0277,1,Competições de Ciências de Dados,15/07/2017,,C,SCC
+SCC0280,3,Acessibilidade em Sistemas Computacionais,15/07/2024,,A,SCC
+SCC0281,1,Recursos Computacionais de Tecnologia Assistiva,15/07/2017,,R,SCC
+SCC0282,4,Recuperação da Informação,15/07/2024,,R,SCC
+SCC0283,2,Introdução à Web Semântica,15/07/2023,,I,SCC
+SCC0284,3,Sistemas de Recomendação,15/07/2024,,S,SCC
+SCC0287,4,Mineração de Dados Não Estruturados,15/07/2024,,M,SCC
+SCC0289,3,Projeto em Intercâmbio I,15/07/2020,,P,SCC
+SCC0290,3,Projeto em Intercâmbio II,15/07/2020,,P,SCC
+SCC0291,3,Estágio Supervisionado I,15/07/2020,,E,SCC
+SCC0292,3,Estágio Supervisionado II,15/07/2020,,E,SCC
+SCC0293,2,Projeto de Graduação I,15/07/2020,,P,SCC
+SCC0294,2,Projeto de Graduação II,15/07/2020,,P,SCC
+SCC0295,3,Atividades Acadêmicas de Extensão I,15/07/2024,,A,SCC
+SCC0296,3,Atividades Acadêmicas de Extensão II,15/07/2024,,A,SCC
+SCC0300,1,Projeto Empreendedor I,15/07/2020,,P,SCC
+SCC0302,1,Projeto Empreendedor II,15/07/2020,,P,SCC
+SCC0303,1,Introdução a Compressão de Dados,15/07/2024,,I,SCC
+SCC0370,1,Introdução à Computação Bioinspirada,01/01/2025,,I,SCC
+SCC0502,2,Algoritmos e Estruturas de Dados I,01/01/2011,,A,SCC
+SCC0503,2,Algoritmos e Estruturas de Dados II,01/01/2011,,A,SCC
+SCC0504,5,Programação Orientada a Objetos,01/01/2022,,P,SCC
+SCC0505,5,Introdução à Teoria da Computação,15/07/2024,,I,SCC
+SCC0530,5,Inteligência Artificial,15/07/2024,,I,SCC
+SCC0531,2,Introdução a Sistemas Inteligentes,01/01/2011,,I,SCC
+SCC0540,2,Bases de Dados,01/01/2011,,B,SCC
+SCC0541,4,Laboratório de Bases de Dados,01/01/2025,,L,SCC
+SCC0560,7,Interação Humano-Computador e Experiência do Usuário,15/07/2024,,I,SCC
+SCC0561,2,Multimídia,01/01/2011,,M,SCC
+SCC0570,3,Introdução a Redes Neurais,15/07/2022,,I,SCC
+SCC0580,4,Acessibilidade em Sistemas Computacionais,15/07/2024,,A,SCC
+SCC0602,2,Algoritmos e Estruturas de Dados I,01/01/2012,,A,SCC
+SCC0603,2,Algoritmos e Estruturas de Dados II,01/01/2012,,A,SCC
+SCC0604,3,Programação Orientada a Objetos,15/07/2026,,P,SCC
+SCC0605,2,Teoria da Computação e Compiladores,01/01/2013,,T,SCC
+SCC0606,1,Estrutura de Dados II,15/07/2018,,E,SCC
+SCC0607,1,Estrutura de Dados III,15/07/2018,,E,SCC
+SCC0630,7,Inteligência Artificial,15/07/2024,,I,SCC
+SCC0631,4,Introdução a Sistemas Inteligentes,15/07/2018,,I,SCC
+SCC0632,3,Tópicos Avançados em Inteligência Artificial,15/07/2022,,T,SCC
+SCC0633,6,Processamento de Linguagem Natural,15/07/2024,,P,SCC
+SCC0634,4,Aplicações de Inteligência Artificial,15/07/2022,,A,SCC
+SCC0640,5,Bases de Dados,01/01/2023,,B,SCC
+SCC0641,3,Laboratório de Bases de Dados,01/01/2025,,L,SCC
+SCC0650,3,Computação Gráfica,15/07/2023,,C,SCC
+SCC0651,3,Processamento de Imagens,15/07/2023,,P,SCC
+SCC0652,3,Visualização Computacional,15/07/2023,,V,SCC
+SCC0661,3,Multimídia e Hipermídia,15/07/2023,,M,SCC
+SCC0802,3,Prática em Ciência de Dados III,15/07/2024,,P,SCC
+SCC0910,1,Tópicos Avançados em Ciências de Computação I,15/07/2019,,T,SCC
+SCC0911,1,Tópicos Avançados em Ciências de Computação II,15/07/2019,,T,SCC
+SMA0120,5,Introdução à Análise Funcional,15/07/2024,,I,SMA
+SMA0123,1,Complementos de Álgebra Linear,01/01/1974,,C,SMA
+SMA0125,6,Introdução ao Estudo das Singularidades de Aplicações Diferenciáveis,01/01/1992,,I,SMA
+SMA0136,3,Teoria Qualitativa de Equações Diferenciais Ordinárias,01/01/2005,,T,SMA
+SMA0142,2,Curvas Algébricas Planas,01/01/2012,,C,SMA
+SMA0143,1,Introdução à Teoria da Medida,01/01/1979,,I,SMA
+SMA0169,2,Equações Diferenciais Parciais,01/01/2005,,E,SMA
+SMA0171,5,Topologia,01/01/2018,,T,SMA
+SMA0173,3,Álgebra III,01/01/2009,,A,SMA
+SMA0175,3,Geometria Diferencial,01/01/2023,,G,SMA
+SMA0178,10,Tópicos de Matemática Elementar e Estatística,01/01/2023,,T,SMA
+SMA0180,5,Matemática Discreta I,15/07/2019,,M,SMA
+SMA0186,6,Prática de Ensino de Matemática I,01/01/2013,,P,SMA
+SMA0187,6,Prática de Ensino de Matemática II,01/01/2013,,P,SMA
+SMA0192,7,Introdução à Topologia Diferencial,15/07/2019,,I,SMA
+SMA0193,3,Introdução aos Grupos de Lie,01/01/2008,,I,SMA
+SMA0300,2,Geometria Analítica,01/01/2009,,G,SMA
+SMA0301,5,Cálculo I,01/01/2023,,C,SMA
+SMA0304,2,Álgebra Linear,01/01/2005,,A,SMA
+SMA0305,3,Álgebra I,01/01/2013,,A,SMA
+SMA0306,3,Álgebra II,01/01/2013,,A,SMA
+SMA0307,3,Análise I,01/01/2009,,A,SMA
+SMA0308,3,Análise II,01/01/2012,,A,SMA
+SMA0309,3,Geometria,01/01/2013,,G,SMA
+SMA0326,4,Filosofia da Matemática,15/07/2024,,F,SMA
+SMA0327,3,Filosofia da Educação Matemática,01/01/2010,,F,SMA
+SMA0328,9,Ensino de Matemática Por Múltiplas Mídias,15/07/2025,,E,SMA
+SMA0329,2,História da Matemática,01/01/2004,,H,SMA
+SMA0332,2,Cálculo II,01/01/2005,,C,SMA
+SMA0333,4,Cálculo III,01/01/2014,,C,SMA
+SMA0334,5,Fundamentos para a Matemática do Ensino Superior,01/01/2020,,F,SMA
+SMA0337,11,Análise Crítica de Materiais e Livros Didáticos,01/01/2027,,A,SMA
+SMA0338,11,Estrutura e Funcionamento da Educação Básica,15/07/2020,,E,SMA
+SMA0339,7,Didática,15/07/2020,,D,SMA
+SMA0340,8,Introdução aos Estudos da Educação,01/01/2020,,I,SMA
+SMA0341,2,Elementos de Matemática,01/01/2007,,E,SMA
+SMA0343,2,Espaços Métricos,01/01/2010,,E,SMA
+SMA0344,1,Introdução aos Sistemas Dinâmicos,01/01/2005,,I,SMA
+SMA0345,5,Aprofundamentos da Didática da Matemática,15/07/2023,,A,SMA
+SMA0346,3,Metodologia de Pesquisa em Educação,15/07/2026,,M,SMA
+SMA0347,11,Análise para Licenciatura,15/07/2025,,A,SMA
+SMA0348,3,História da Matemática no Ensino,15/07/2023,,H,SMA
+SMA0350,9,Ensino no contexto da educação especial e inclusiva,15/07/2026,,E,SMA
+SMA0351,5,Atividades Teórico-Práticas de Aprofundamento I,15/07/2025,,A,SMA
+SMA0352,5,Atividades Teórico-Práticas de Aprofundamento II,15/07/2025,,A,SMA
+SMA0353,2,Cálculo I,01/01/2015,,C,SMA
+SMA0354,3,Cálculo II,01/01/2015,,C,SMA
+SMA0355,1,Cálculo III,01/01/2012,,C,SMA
+SMA0356,1,Cálculo IV,01/01/2012,,C,SMA
+SMA0357,1,Aplicações de Teoria dos Conjuntos,01/01/2013,,A,SMA
+SMA0361,1,Tópicos de Matemática I,01/01/2015,,T,SMA
+SMA0362,1,Tópicos de Matemática II,01/01/2015,,T,SMA
+SMA0363,1,Tópicos de Matemática III,01/01/2015,,T,SMA
+SMA0364,1,Tópicos de Matemática IV,01/01/2015,,T,SMA
+SMA0365,6,Metodologia de Ensino de Matemática I,01/01/2025,,M,SMA
+SMA0366,6,Metodologia de Ensino de Matemática II,01/01/2025,,M,SMA
+SMA0367,10,Estágio Supervisionado em Ensino de Geometria e Desenho Geométrico,15/07/2026,,E,SMA
+SMA0368,10,História da Educação e das Orientações Curriculares de Matemática Brasileiras,15/07/2026,,H,SMA
+SMA0369,4,Geometria para a Licenciatura,01/01/2020,,G,SMA
+SMA0370,8,Estágio Supervisionado em Ensino de Matemática I,15/07/2026,,E,SMA
+SMA0371,10,Estágio Supervisionado em Ensino de Matemática II,15/07/2026,,E,SMA
+SMA0372,5,Língua Brasileira de Sinais para Licenciatura,01/01/2020,,L,SMA
+SMA0374,3,Álgebra Linear e Geometria Analítica,01/01/2021,,A,SMA
+SMA0375,3,Álgebra Linear,01/01/2023,,A,SMA
+SMA0376,1,Introdução à Metodologia Científica,01/01/2019,,I,SMA
+SMA0377,3,Direcionamento Acadêmico,01/01/2021,,D,SMA
+SMA0378,3,Formas Diferenciais e Aplicações,15/07/2024,,F,SMA
+SMA0379,2,Mecânica Quântica para Matemáticos,15/07/2024,,M,SMA
+SMA0380,2,Análise,01/01/2023,,A,SMA
+SMA0381,1,Atividades Acadêmicas Complementares I,15/07/2020,,A,SMA
+SMA0382,1,Atividades Acadêmicas Complementares II,15/07/2020,,A,SMA
+SMA0383,2,Abordagens e Tendências Educacionais,01/01/2023,,A,SMA
+SMA0384,2,Saberes Docentes e Formação do Professor,01/01/2023,,S,SMA
+SMA0385,5,Introdução à vida Acadêmica e a Metodologia de Escrita Científica,15/07/2026,,I,SMA
+SMA0386,1,Fundamentos de Matemática,01/01/2023,,F,SMA
+SMA0387,2,Mecânica Analítica,15/07/2024,,M,SMA
+SMA0388,1,Topologia Algébrica,01/01/2023,,T,SMA
+SMA0389,1,Introdução à Teoria da Medida e Probabilidades,15/07/2023,,I,SMA
+SMA0390,1,Cálculo II (semipresencial),15/07/2023,,C,SMA
+SMA0391,1,Cálculo IV (semipresencial),15/07/2023,,C,SMA
+SMA0392,1,Cálculo I (semipresencial),01/01/2024,,C,SMA
+SMA0393,1,Cálculo III (semipresencial),01/01/2024,,C,SMA
+SMA0394,1,Geometria Analítica (semipresencial),01/01/2024,,G,SMA
+SMA0395,1,Atividades Práticas de Extensão para Matemáticos I,01/01/2024,,A,SMA
+SMA0396,1,Atividades Práticas de Extensão para Matemáticos II,01/01/2024,,A,SMA
+SMA0397,1,Atividades Práticas de Extensão para Matemáticos III,01/01/2024,,A,SMA
+SMA0398,1,Educação Matemática Crítica,15/07/2025,,E,SMA
+SMA0404,1,"Direitos Humanos, Diversidade e a Educação para as Diferenças",15/07/2026,,D,SMA
+SMA0405,1,Ensino e aprendizagem na Educação Básica: Teoria e Prática em Laboratório,15/07/2026,,E,SMA
+SMA0406,1,"Educação para as Relações Étnico-Raciais: Produção Científica, Tecnológica e Docência",01/01/2027,,E,SMA
+SMA0501,2,Cálculo I,01/01/2005,,C,SMA
+SMA0505,3,"Matrizes, Vetores e Geometria Analítica",01/01/2023,,M,SMA
+SMA0508,1,Matemática Discreta,01/01/2012,,M,SMA
+SMA0800,1,Geometria Analítica,01/01/2010,,G,SMA
+SMA0801,1,Cálculo I,01/01/2010,,C,SMA
+SMA0802,1,Cálculo II,01/01/2010,,C,SMA
+SMA0803,2,Cálculo III,01/01/2014,,C,SMA
+SMA0804,2,Álgebra Linear para Estatística,01/01/2020,,A,SMA
+SMA0805,3,Tópicos de Matemática,01/01/2014,,T,SMA
+SME0104,2,Cálculo Numérico,01/01/2023,,C,SME
+SME0110,3,Programação Matemática,01/01/2019,,P,SME
+SME0121,3,Processos Estocásticos,15/07/2023,,P,SME
+SME0123,1,Estatística,01/01/2012,,E,SME
+SME0130,1,Redes Complexas,01/01/2012,,R,SME
+SME0141,2,Álgebra Linear e Equações Diferenciais,01/01/2017,,A,SME
+SME0142,2,Álgebra Linear e Aplicações,01/01/2023,,A,SME
+SME0202,7,Métodos Numéricos em Equações Diferenciais,15/07/2024,,M,SME
+SME0205,4,Métodos do Cálculo Numérico I,15/07/2024,,M,SME
+SME0206,5,Fundamentos de Análise Numérica,15/07/2024,,F,SME
+SME0211,5,Otimização Linear,15/07/2025,,O,SME
+SME0212,4,Otimização Não Linear,15/07/2024,,O,SME
+SME0213,3,Otimização Inteira,15/07/2022,,O,SME
+SME0214,2,Fluxos em Redes,01/01/2011,,F,SME
+SME0216,1,Tópicos de Otimização Combinatória,01/01/2011,,T,SME
+SME0220,4,Introdução à Teoria das Probabilidades,15/07/2024,,I,SME
+SME0221,4,Introdução à Inferência Estatística,15/07/2024,,I,SME
+SME0230,7,Introdução à Programação de Computadores,15/07/2024,,I,SME
+SME0231,1,Análise Topológica de Dados,15/07/2026,,A,SME
+SME0240,2,Equações Diferenciais Ordinárias,01/01/2017,,E,SME
+SME0241,4,Introdução à Modelagem Matemática,15/07/2025,,I,SME
+SME0243,4,Teoria Espectral de Matrizes,15/07/2025,,T,SME
+SME0245,2,Funções de Variável Complexa,01/01/2010,,F,SME
+SME0250,3,Métodos Numéricos para Geração de Malhas,01/01/2013,,M,SME
+SME0251,4,Mecânica dos Fluidos Computacional I,01/01/2013,,M,SME
+SME0252,1,Sistemas Esparsos e Computação Paralela,01/01/2007,,S,SME
+SME0253,4,Mecânica dos Fluidos Computacional II,01/01/2013,,M,SME
+SME0254,1,Método dos Elementos Finitos Aplicados à Mecânica dos Fluídos,01/01/2008,,M,SME
+SME0255,1,Simulação Computacional de Fluidos,01/01/2013,,S,SME
+SME0256,1,Introdução a Modelagem Computacional na Indústria Petrolífera,15/07/2020,,I,SME
+SME0262,5,Análise de Séries Temporais em Finanças,15/07/2024,,A,SME
+SME0271,1,Modelagem Geométrica,01/01/2008,,M,SME
+SME0273,3,Prática em Matemática Aplicada e Computação Científica,15/07/2024,,P,SME
+SME0274,1,Tópicos em Matemática Aplicada II,01/01/2016,,T,SME
+SME0280,4,Acompanhamento Profissional,15/07/2024,,A,SME
+SME0281,1,Acompanhamento Profissional II,01/01/2010,,A,SME
+SME0284,2,Estágio Supervisionado,01/01/2023,,E,SME
+SME0285,2,Trabalho de Conclusão de Curso,01/01/2023,,T,SME
+SME0300,2,Cálculo Numérico,01/01/2018,,C,SME
+SME0301,2,Métodos Numéricos para Engenharia I,01/01/2017,,M,SME
+SME0302,2,Métodos Numéricos para Engenharia II,01/01/2017,,M,SME
+SME0305,3,Métodos Numéricos e Computacionais I,01/01/2017,,M,SME
+SME0306,3,Métodos Numéricos e Computacionais II,01/01/2017,,M,SME
+SME0320,2,Estatística I,01/01/2008,,E,SME
+SME0330,2,Introdução à Programação de Computadores,01/01/2009,,I,SME
+SME0332,2,Fundamentos da Programação de Computadores,01/01/2020,,F,SME
+SME0333,1,Computação numérica e simulações para Engenharia Ambiental I,01/01/2021,,C,SME
+SME0334,1,Computação numérica e simulações para Engenharia Ambiental II,01/01/2021,,C,SME
+SME0340,2,Equações Diferenciais Ordinárias,01/01/2017,,E,SME
+SME0341,2,Álgebra Linear e Equações Diferenciais,01/01/2017,,A,SME
+SME0343,3,Matemática para Arquitetura I,01/01/2012,,M,SME
+SME0344,2,Matemática para Arquitetura II,01/01/2009,,M,SME
+SME0346,2,Matemática para Arquitetura,01/01/2022,,M,SME
+SME0500,2,Cálculo Numérico,01/01/2017,,C,SME
+SME0510,3,Introdução à Pesquisa Operacional,01/01/2011,,I,SME
+SME0520,1,Introdução à Estatística,01/01/2007,,I,SME
+SME0602,2,Cálculo Numérico,01/01/2017,,C,SME
+SME0610,2,Programação Matemática,15/07/2019,,P,SME
+SME0620,1,Estatística I,01/01/2007,,E,SME
+SME0800,3,Probabilidade I,15/07/2022,,P,SME
+SME0801,2,Probabilidade II,15/07/2022,,P,SME
+SME0803,5,Visualização e Exploração de Dados,15/07/2024,,V,SME
+SME0805,3,Processos Estocásticos,15/07/2023,,P,SME
+SME0806,2,Estatística Computacional,01/01/2014,,E,SME
+SME0807,2,Técnicas de Amostragem,01/01/2019,,T,SME
+SME0808,2,Séries Temporais e Aprendizado Dinâmico,01/01/2020,,S,SME
+SME0809,1,Inferência Bayesiana,01/01/2009,,I,SME
+SME0810,3,Métodos Não Paramétricos,01/01/2020,,M,SME
+SME0811,3,Análise de Dados Categorizados,01/01/2019,,A,SME
+SME0812,1,Modelos Lineares,01/01/2009,,M,SME
+SME0814,9,Estágio Supervisionado em Estatística I,01/01/2026,,E,SME
+SME0815,6,Estágio Supervisionado em Estatística II,15/07/2020,,E,SME
+SME0816,2,Planejamento de Experimentos I,01/01/2020,,P,SME
+SME0818,2,Inferência Estatística,01/01/2017,,I,SME
+SME0819,2,Matrizes Aplicadas à Estatística,01/01/2016,,M,SME
+SME0820,2,Modelos de Regressão e Aprendizado Supervisionado I,01/01/2020,,M,SME
+SME0821,2,Análise de Sobrevivência e Confiabilidade,01/01/2020,,A,SME
+SME0822,2,Análise Multivariada e Aprendizado Não Supervisionado,01/01/2020,,A,SME
+SME0823,3,Modelos de Regressão e Aprendizado Supervisionado II,01/01/2020,,M,SME
+SME0824,2,Gestão da Qualidade,01/01/2019,,G,SME
+SME0825,1,Metodologia Científica I,01/01/2014,,M,SME
+SME0826,1,Metodologia Científica II,01/01/2014,,M,SME
+SME0827,1,Estruturas de Dados,01/01/2020,,E,SME
+SME0828,1,Introdução à Ciência de Dados,01/01/2020,,I,SME
+SME0829,2,Aprendizado de Máquina,01/01/2022,,A,SME
+SME0830,1,Probabilidade I (modalidade semipresencial),01/01/2022,,P,SME
+SME0850,4,Informação Profissional em Ciência de Dados,15/07/2024,,I,SME
+SME0852,3,Prática em Ciência de Dados I,15/07/2024,,P,SME
+SME0853,1,Prática em Ciência de Dados III,01/01/2020,,P,SME
+SME0854,1,Visualização para Ciência de Dados,01/01/2020,,V,SME
+SME0860,2,Aprendizado de Máquina Aplicado a Problemas,15/07/2023,,A,SME
+SME0861,1,Participação colaborativa em Competições em Ciência de Dados,15/07/2022,,P,SME
+SME0862,1,Empreendedorismo Social Voluntário,15/07/2022,,E,SME
+SME0870,3,Tópicos Especiais em Estatística Aplicada I,15/07/2024,,T,SME
+SME0871,3,Bioestatística,15/07/2024,,B,SME
+SME0873,1,Econometria,01/01/2009,,E,SME
+SME0875,3,Tópicos Especiais em Estatística Aplicada II,15/07/2024,,T,SME
+SME0876,1,Teoria de Resposta ao Item,01/01/2009,,T,SME
+SME0878,4,Mineração Estatística de Dados,15/07/2024,,M,SME
+SME0879,1,Mineração de dados representados por grafos,01/01/2020,,M,SME
+SME0880,6,Projeto de Graduação em Estatística I,01/01/2026,,P,SME
+SME0881,3,Projeto de Graduação em Estatística II,15/07/2020,,P,SME
+SME0882,3,Consultoria Estatística,15/07/2024,,C,SME
+SME0890,2,Direcionamento Acadêmico I,01/01/2027,,D,SME
+SME0891,1,Direcionamento Acadêmico II,01/01/2011,,D,SME
+SME0892,2,Cálculo Numérico para Estatística,01/01/2014,,C,SME
+SME0893,1,Atividades Acadêmicas Complementares I,01/01/2021,,A,SME
+SME0894,1,Atividades Acadêmicas Complementares II,01/01/2021,,A,SME
+SSC0103,2,Programação Orientada a Objetos,15/07/2022,,P,SSC
+SSC0104,5,Evolução Histórica da Computação e Aplicações,15/07/2024,,E,SSC
+SSC0108,3,Prática em Sistemas Digitais,15/07/2024,,P,SSC
+SSC0109,1,Prática em Lógica Digital,01/01/2017,,P,SSC
+SSC0116,1,Microprocessadores e Microcomputadores I,01/01/2009,,M,SSC
+SSC0117,2,Introdução à Lógica Digital,01/01/2017,,I,SSC
+SSC0118,2,Sistemas Digitais,01/01/2017,,S,SSC
+SSC0119,2,Prática em Organização de Computadores,01/01/2014,,P,SSC
+SSC0120,3,Sistemas de Informação,15/07/2020,,S,SSC
+SSC0123,1,Tópicos Especiais em Engenharia de Software,01/01/2009,,T,SSC
+SSC0124,6,Análise e Projeto Orientados a Objetos,15/07/2024,,A,SSC
+SSC0128,4,Gerência de Projetos,15/07/2024,,G,SSC
+SSC0130,5,Engenharia de Software,15/07/2024,,E,SSC
+SSC0140,4,Sistemas Operacionais I,15/07/2024,,S,SSC
+SSC0141,4,Prática em Sistemas Operacionais,15/07/2017,,P,SSC
+SSC0142,4,Redes de Computadores,15/07/2024,,R,SSC
+SSC0147,1,Tópicos Especiais em Sistemas de Computação I,01/01/2009,,T,SSC
+SSC0152,4,Administração e Gerenciamento de Redes,15/07/2024,,A,SSC
+SSC0154,1,Seminários Avançados em Sistemas Distribuídos e Programação Concorrente I,01/01/2009,,S,SSC
+SSC0158,4,Computação em Nuvem e Arquitetura Orientadas a Serviços,15/07/2024,,C,SSC
+SSC0159,1,Tópicos Avançados em Computação de Alto Desempenho,01/01/2016,,T,SSC
+SSC0160,1,Modelagem e Simulação de Sistemas Computacionais,01/01/2016,,M,SSC
+SSC0180,4,Eletrônica para Computação,15/07/2024,,E,SSC
+SSC0301,2,Introdução à Computação para Engenharia Ambiental,01/01/2019,,I,SSC
+SSC0304,2,Introdução à Programação para Engenharias,01/01/2026,,I,SSC
+SSC0501,1,Introdução à Ciência de Computação I,01/01/2010,,I,SSC
+SSC0502,3,Laboratório de Introdução à Ciência de Computação I,15/07/2024,,L,SSC
+SSC0503,2,Introdução à Ciência de Computação II,01/01/2019,,I,SSC
+SSC0510,2,Arquitetura de Computadores,15/07/2017,,A,SSC
+SSC0511,3,Organização de Computadores Digitais,15/07/2017,,O,SSC
+SSC0512,5,Elementos de Lógica Digital,15/07/2025,,E,SSC
+SSC0513,3,Organização e Arquitetura de Computadores,15/07/2024,,O,SSC
+SSC0523,1,Tópicos Especiais em Engenharia de Software,01/01/2009,,T,SSC
+SSC0524,3,"Verificação, Validação e Teste de Software",01/01/2022,,V,SSC
+SSC0526,3,Análise e Projeto Orientados a Objetos,01/01/2014,,A,SSC
+SSC0527,2,Engenharia de Software,15/07/2017,,E,SSC
+SSC0528,1,Sistemas Colaborativos: Fundamentos e Aplicações,01/01/2013,,S,SSC
+SSC0530,2,Introdução a Sistemas de Informação,01/01/2022,,I,SSC
+SSC0531,2,Gestão de Sistemas de Informação,01/01/2022,,G,SSC
+SSC0532,1,Metodologias de Desenvolvimento de Software,01/01/2022,,M,SSC
+SSC0533,1,Requisitos de Software,01/01/2022,,R,SSC
+SSC0534,4,Modelagem de Sistemas de Software,01/01/2027,,M,SSC
+SSC0535,3,"Gerência de Configuração, Manutenção e Evolução de Software",15/07/2024,,G,SSC
+SSC0536,4,Projeto e Desenvolvimento de Sistemas de Informação,01/01/2025,,P,SSC
+SSC0540,3,Redes de Computadores,15/07/2024,,R,SSC
+SSC0541,4,Sistemas Operacionais I,15/07/2024,,S,SSC
+SSC0547,4,Engenharia de Segurança,15/07/2024,,E,SSC
+SSC0570,4,Empreendedorismo,15/07/2024,,E,SSC
+SSC0571,5,Computação e Sociedade: Evolução Histórica e Aplicações,15/07/2024,,C,SSC
+SSC0572,1,"Computadores, Sociedade e Ética Profissional",01/01/2009,,C,SSC
+SSC0576,2,Seminários em Computação I,15/07/2025,,S,SSC
+SSC0577,2,Seminários em Computação II,15/07/2025,,S,SSC
+SSC0578,1,Seminários em Computação III,01/01/2009,,S,SSC
+SSC0581,1,Atividades Acadêmicas Científicas e Culturais I,01/01/2012,,A,SSC
+SSC0582,1,Atividades Acadêmicas Científicas e Culturais II,01/01/2012,,A,SSC
+SSC0583,1,Atividades Acadêmicas Científicas e Culturais III,01/01/2012,,A,SSC
+SSC0584,1,Atividades Acadêmicas Científicas e Culturais IV,01/01/2012,,A,SSC
+SSC0591,3,Estágio Supervisionado I,15/07/2020,,E,SSC
+SSC0592,3,Estágio Supervisionado II,15/07/2020,,E,SSC
+SSC0593,3,Projeto de Graduação I,01/01/2022,,P,SSC
+SSC0594,2,Projeto de Graduação II,15/07/2020,,P,SSC
+SSC0595,2,Projeto Empreendedor I,01/01/2021,,P,SSC
+SSC0596,2,Projeto Empreendedor II,01/01/2021,,P,SSC
+SSC0597,2,Projeto em Intercâmbio I,01/01/2022,,P,SSC
+SSC0598,2,Projeto em Intercâmbio II,01/01/2022,,P,SSC
+SSC0599,2,Informação Profissional em Sistemas de Informação,15/07/2026,,I,SSC
+SSC0600,4,Introdução à Ciência de Computação I,01/01/2026,,I,SSC
+SSC0601,4,Laboratório de Introdução à Ciência de Computação I,01/01/2026,,L,SSC
+SSC0602,1,Introdução à Ciência de Computação II,01/01/2015,,I,SSC
+SSC0603,1,Estrutura de Dados I,15/07/2018,,E,SSC
+SSC0610,2,Organização de Computadores Digitais I,15/07/2017,,O,SSC
+SSC0611,2,Arquitetura de Computadores,15/07/2017,,A,SSC
+SSC0620,5,Engenharia de Software,01/01/2027,,E,SSC
+SSC0621,7,Modelagem Orientada a Objetos,01/01/2027,,M,SSC
+SSC0622,1,Sistemas de Informação,01/01/2009,,S,SSC
+SSC0640,4,Sistemas Operacionais I,15/07/2024,,S,SSC
+SSC0641,3,Redes de Computadores,15/07/2024,,R,SSC
+SSC0642,3,Sistemas Computacionais Distribuídos,15/07/2017,,S,SSC
+SSC0643,2,Avaliação de Desempenho de Sistemas Computacionais,01/01/2011,,A,SSC
+SSC0670,2,Projeto de Formatura I,01/01/2016,,P,SSC
+SSC0671,1,Informação Profissional em Engenharia de Computação II,01/01/2009,,I,SSC
+SSC0672,2,Estágio Supervisionado I,01/01/2016,,E,SSC
+SSC0673,3,Estágio Supervisionado II,15/07/2017,,E,SSC
+SSC0674,2,Projeto de Formatura II,15/07/2015,,P,SSC
+SSC0675,2,Projeto Empreendedor,15/07/2022,,P,SSC
+SSC0676,2,Estágio Empreendedor,15/07/2022,,E,SSC
+SSC0712,5,Programação de Robôs Móveis,15/07/2024,,P,SSC
+SSC0713,5,Sistemas Evolutivos e Aplicados à Robótica,15/07/2024,,S,SSC
+SSC0714,3,Robôs Móveis Autônomos,15/07/2019,,R,SSC
+SSC0715,4,Sensores Inteligentes,15/07/2019,,S,SSC
+SSC0720,2,Engenharia de Software para Sistemas Embarcados,01/01/2011,,E,SSC
+SSC0721,3,Teste e Inspeção de Software,15/07/2020,,T,SSC
+SSC0722,2,Métodos e Técnicas para Análise e Projeto de Sistemas Reativos,01/01/2011,,M,SSC
+SSC0723,2,Sistemas Colaborativos: Fundamentos e Aplicações,15/07/2020,,S,SSC
+SSC0724,1,Sistemas Educacionais Avançados,01/01/2013,,S,SSC
+SSC0725,1,Arquitetura de Software,15/07/2017,,A,SSC
+SSC0726,1,Reuso de Software,15/07/2017,,R,SSC
+SSC0740,4,Sistemas Embarcados,15/07/2024,,S,SSC
+SSC0741,2,Projeto e Implementação de Sistemas Embarcados I,01/01/2011,,P,SSC
+SSC0742,3,Programação Concorrente,15/07/2017,,P,SSC
+SSC0743,4,Sistemas Operacionais II,15/07/2017,,S,SSC
+SSC0744,3,Computação Distribuída,15/07/2017,,C,SSC
+SSC0745,2,Sistemas Computacionais de Tempo-Real,15/07/2017,,S,SSC
+SSC0746,3,Sistemas Computacionais Tolerantes a Faltas,15/07/2017,,S,SSC
+SSC0748,2,Redes Móveis,01/01/2011,,R,SSC
+SSC0770,1,Introdução ao Desenvolvimento de Jogos Eletrônicos,01/01/2018,,I,SSC
+SSC0800,5,Introdução à Ciência de Computação I,15/07/2019,,I,SSC
+SSC0801,4,Laboratório de Introdução à Ciência de Computação I,15/07/2019,,L,SSC
+SSC0900,3,Engenharia de Segurança,15/07/2024,,E,SSC
+SSC0901,3,Laboratório de Engenharia de Segurança,15/07/2024,,L,SSC
+SSC0902,3,Organização e Arquitetura de Computadores,15/07/2024,,O,SSC
+SSC0903,1,Computação de Alto Desempenho,01/01/2019,,C,SSC
+SSC0904,2,Sistemas Computacionais Distribuídos,15/07/2025,,S,SSC
+SSC0950,2,Projeto e Desenvolvimento de Software de Sistema,15/07/2020,,P,SSC
+SSC0951,1,Desenvolvimento de Código Otimizado,01/01/2019,,D,SSC
+SSC0952,5,Internet das Coisas,15/07/2025,,I,SSC
+SSC0953,1,Sistemas Open Source,01/01/2019,,S,SSC
+SSC0954,3,Infraestrutura para Computação de Alto Desempenho e Sistemas Distribuídos,15/07/2024,,I,SSC
+SSC0955,1,Introdução a Sistemas Computacionais,01/01/2021,,I,SSC
+SSC0956,1,Soluções Otimizadas por Mineração de Dados Complexos,01/01/2021,,S,SSC
+SSC0957,3,Prática em Ciência de Dados II,15/07/2024,,P,SSC
+SSC0958,1,Criptomoedas e Blockchain,01/01/2022,,C,SSC
+SSC0959,1,Teste e Inspeção de Software,01/01/2022,,T,SSC
+SSC0960,1,Programação Funcional,01/01/2022,,P,SSC
+SSC0961,3,Desenvolvimento Web e Mobile,15/07/2024,,D,SSC
+SSC0962,4,Gestão da Qualidade no Desenvolvimento de Sistemas,01/01/2025,,G,SSC
+SSC0963,4,Indústria 4.0: Tecnologias e Aplicações,01/01/2025,,I,SSC
+SSC0964,1,Introdução à Computação no Mercado Financeiro,01/01/2022,,I,SSC
+SSC0965,5,"Streaming de Dados, Microsserviços e Containers",15/07/2025,,S,SSC
+SSC0967,1,Inteligência Artificial Embarcada,15/07/2025,,I,SSC
