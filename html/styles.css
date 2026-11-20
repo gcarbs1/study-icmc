@@ -540,7 +540,43 @@ svg {
   }
 }
 
-/* 8. Q2 · Comparação de similaridade */
+/* 8. Q1 · Nuvens de palavras */
+.clouds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  border-top: 1px solid var(--hair);
+  border-left: 1px solid var(--hair);
+}
+.cloud {
+  border-right: 1px solid var(--hair);
+  border-bottom: 1px solid var(--hair);
+  padding: 10px 12px 6px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.cloud:hover {
+  background: #fbf9f4;
+}
+.cloud.is-off {
+  opacity: 0.28;
+}
+.cloud.is-on {
+  background: #fff;
+  box-shadow: inset 0 0 0 1.5px var(--ink);
+}
+.cloud h4 {
+  margin: 0;
+  font: 500 12px/1.3 var(--sans);
+}
+.cloud svg {
+  width: 100%;
+  height: auto;
+}
+.cloud text {
+  font-family: var(--serif);
+}
+
+/* 9. Q2 · Comparação de similaridade */
 .similarity-picker {
   display: grid;
   grid-template-columns: auto minmax(220px, 520px);
@@ -694,8 +730,9 @@ svg {
   }
 }
 
-/* 9. Controles da grade */
-#grid svg {
+/* 10. Controles das visualizações por curso */
+#grid svg,
+#comp svg {
   width: 100%;
   height: auto;
 }
@@ -739,7 +776,60 @@ svg {
   color: var(--ink-3);
   font: 400 11px var(--mono);
 }
-/* 10. Q3 · Grade e requisitos */
+.comp-key {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  margin: 10px 0 0;
+  color: var(--ink-3);
+  font: 400 11px var(--mono);
+}
+.comp-key i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: var(--ink-3);
+}
+.kind-key,
+.size-key,
+.size-boxes {
+  display: inline-flex;
+  align-items: center;
+}
+.kind-key,
+.size-key {
+  gap: 6px;
+}
+.comp-key .sw-solid {
+  opacity: 0.88;
+}
+.comp-key .sw-light {
+  margin-left: 12px;
+  opacity: 0.42;
+}
+.size-key {
+  margin-left: auto;
+}
+.size-boxes {
+  align-items: flex-end;
+  gap: 2px;
+  height: 15px;
+}
+.comp-key .sw-size-large,
+.comp-key .sw-size-small {
+  background: transparent;
+  border: 1px solid var(--ink-3);
+}
+.comp-key .sw-size-large {
+  width: 14px;
+  height: 14px;
+}
+.comp-key .sw-size-small {
+  width: 8px;
+  height: 8px;
+}
+/* 11. Q3 · Grade e requisitos */
 .g-col {
   font: 500 10px var(--mono);
   fill: var(--ink-3);
@@ -761,7 +851,25 @@ svg {
   pointer-events: none;
 }
 
-/* 11. Acessibilidade, tooltip e rodapé */
+/* 12. Q3 · Composição da carga horária */
+.tm-area {
+  cursor: pointer;
+  font: 500 11px var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.tm-leaf {
+  cursor: pointer;
+}
+.tm-leaf-label {
+  font: 400 10px var(--sans);
+  pointer-events: none;
+}
+.tm-leaf:hover {
+  fill-opacity: 1;
+}
+
+/* 13. Acessibilidade, tooltip e rodapé */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -802,7 +910,7 @@ svg {
   color: var(--ink-3);
 }
 
-/* 12. Adaptação para telas menores */
+/* 14. Adaptação para telas menores */
 @media (max-width: 1060px) {
   .detail .card {
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);

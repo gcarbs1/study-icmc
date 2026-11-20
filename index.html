@@ -98,6 +98,14 @@
         <div class="panel-body flush"><div id="net" class="net"></div></div>
       </section>
 
+      <section class="panel span-12" aria-labelledby="q1-words-title">
+        <header class="panel-head">
+          <h3 id="q1-words-title">Palavras de cada tópico</h3>
+          <p class="hint">clique para filtrar</p>
+        </header>
+        <div class="panel-body"><div id="clouds" class="clouds"></div></div>
+      </section>
+
 
       <!-- 4. Q2: comparação de similaridade textual -->
       <h2 class="question span-12">
@@ -163,6 +171,14 @@
         </header>
         <div class="panel-body"><div id="grid"></div></div>
       </section>
+
+      <section class="panel span-12" aria-labelledby="q3-treemap-title">
+        <header class="panel-head">
+          <h3 id="q3-treemap-title">Composição por tópico</h3>
+          <p class="hint" id="comp-note"></p>
+        </header>
+        <div class="panel-body"><div id="comp"></div></div>
+      </section>
     </main>
 
     <!-- 6. Proveniência dos dados e referências visuais -->
@@ -191,8 +207,9 @@
     <!-- Elemento compartilhado por todas as dicas flutuantes -->
     <div class="tip" id="tip" role="tooltip" hidden></div>
 
-    <!-- Dependências carregadas na ordem: D3, dados e aplicação -->
+    <!-- Dependências carregadas na ordem: D3, plugin, dados e aplicação -->
     <script src="html/vendor/d3.v7.min.js"></script>
+    <script src="html/vendor/d3.layout.cloud.js"></script>
     <script src="html/data/disciplinas.js"></script>
     <script src="html/app.js"></script>
   </body>

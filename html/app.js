@@ -4,9 +4,9 @@
  * Como ler este arquivo:
  * 1. prepara cores e utilitários compartilhados;
  * 2. configura a busca e o painel da disciplina selecionada;
- * 3. desenha o mapa de agrupamentos (Q1);
+ * 3. desenha o mapa e as nuvens de palavras dos agrupamentos (Q1);
  * 4. compara visualmente as disciplinas mais semelhantes (Q2);
- * 5. desenha a grade e a rede de requisitos de cada curso (Q3).
+ * 5. desenha a grade, a rede de requisitos e a composição de cada curso (Q3).
  *
  * Os dados vêm de html/data/disciplinas.js, gerado pelo notebook 02.
  */
@@ -75,8 +75,11 @@
 
   // Lista de vizinhas usada apenas dentro do mapa de semelhança.
   const shortenCourseName = (name) => name.replace("Bacharelado em ", "");
-  // Cada visualização mantém seu próprio estado; o mapa (Q1) e a grade (Q3) abrem sem seleção.
-  const mapState = { selectedSubject: null }; // o mapa abre sem seleção
+  // Estado compartilhado por Encontrar disciplina, Q1 e Q2.
+  const mapState = { selectedSubject: null, selectedTopic: null };
+  const isSubjectVisibleByTopic = (subjectIndex) =>
+    mapState.selectedTopic === null ||
+    subjects[subjectIndex].topic === mapState.selectedTopic;
 
   // Tooltip compartilhado pelas três visualizações.
   const tooltip = $("#tip");
@@ -191,7 +194,7 @@
   }
   const subjectSearchInput = $("#find");
   createSubjectFinder(subjectSearchInput, $("#find-list"), null, (i) =>
-    selectDetailSubject(i),
+    selectLinkedSubject(i),
   );
 
   // 3. Q1 · Mapa da rede de semelhança
@@ -369,14 +372,38 @@
       : [];
     const highlighted = new Set([selectedSubject, ...nearest.map((d) => d.j)]);
     similarityMap.nodes
-      .attr("opacity", (n, i) => (anchor === null || highlighted.has(i) ? 1 : 0.18))
+      .attr("opacity", (n, i) =>
+        anchor === null
+          ? isSubjectVisibleByTopic(i)
+            ? 1
+            : 0.1
+          : highlighted.has(i)
+            ? 1
+            : isSubjectVisibleByTopic(i)
+              ? 0.18
+              : 0.06,
+      )
       .attr("r", (n, i) => similarityMap.radius(i) / Math.sqrt(zoomLevel))
       .attr("stroke", (n, i) =>
         i === selectedSubject ? "var(--ink)" : topicBorderColor(n.topic),
       )
       .attr("stroke-width", (n, i) => (i === selectedSubject ? 2.4 : 0.6));
-    similarityMap.edges.attr("stroke-opacity", anchor === null ? 0.14 : 0.03);
-    similarityMap.topicLabels.attr("opacity", anchor === null ? 1 : 0.2);
+    similarityMap.edges.attr("stroke-opacity", ([a, b]) =>
+      anchor !== null
+        ? 0.03
+        : isSubjectVisibleByTopic(a) && isSubjectVisibleByTopic(b)
+          ? 0.14
+          : 0.03,
+    );
+    similarityMap.topicLabels.attr("opacity", (label) =>
+      anchor !== null
+        ? 0.2
+        : mapState.selectedTopic === null
+          ? 1
+          : label.t.id === mapState.selectedTopic
+            ? 1
+            : 0.2,
+    );
 
     similarityMap.links
       .selectAll("line")
@@ -442,19 +469,132 @@
         .join("")}</ol>`;
   }
 
-  // 4. Ficha da disciplina encontrada na busca
-  // A ficha tem estado próprio e não acompanha o mapa: a coordenação entre visões
-  // fica para a próxima entrega.
-  function selectMapSubject(subjectIndex) {
-    mapState.selectedSubject = subjectIndex;
-    hideTip();
-    updateSimilarityMap();
+  // Nuvens do projeto de referência: uma por tópico, com 24 termos ponderados
+  // por c-TF-IDF e posicionamento determinístico pelo plugin d3-cloud.
+  const CLOUD_WIDTH = 260;
+  const CLOUD_HEIGHT = 150;
+  function rng(seed) {
+    return () => {
+      seed |= 0;
+      seed = (seed + 0x6d2b79f5) | 0;
+      let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function drawTopicClouds() {
+    const host = $("#clouds");
+    const order = data.topicOrder.map((topicIndex) => topics[topicIndex]);
+    host.innerHTML = order
+      .map(
+        (topic) =>
+          `<div class="cloud" data-topic="${topic.id}" role="button" tabindex="0" aria-label="Tópico ${escapeHtml(topic.name)}">
+      <h4 style="color:${topicTextColor(topic.id)}">${escapeHtml(topic.name)}</h4><svg viewBox="0 0 ${CLOUD_WIDTH} ${CLOUD_HEIGHT}"></svg></div>`,
+      )
+      .join("");
+    for (const topic of order) {
+      const words = topic.words.slice(0, 24);
+      const maximumWeight = words[0][1];
+      const size = d3.scaleSqrt([0, maximumWeight], [0, 30]);
+      d3.layout
+        .cloud()
+        .size([CLOUD_WIDTH, CLOUD_HEIGHT])
+        .words(
+          words.map(([word, weight]) => ({
+            text: word,
+            weight,
+            size: Math.max(9, size(weight)),
+          })),
+        )
+        .padding(1.5)
+        .rotate(0)
+        .font("Newsreader")
+        .fontSize((word) => word.size)
+        .random(rng(topic.id + 1))
+        .spiral("archimedean")
+        .on("end", (placedWords) => {
+          d3.select(host)
+            .select(`.cloud[data-topic="${topic.id}"] svg`)
+            .append("g")
+            .attr(
+              "transform",
+              `translate(${CLOUD_WIDTH / 2},${CLOUD_HEIGHT / 2})`,
+            )
+            .selectAll("text")
+            .data(placedWords)
+            .join("text")
+            .attr("text-anchor", "middle")
+            .attr("transform", (word) => `translate(${word.x},${word.y})`)
+            .attr("font-size", (word) => word.size)
+            .attr("fill", (word, wordIndex) =>
+              wordIndex < 3 ? topicTextColor(topic.id) : "var(--ink-2)",
+            )
+            .text((word) => word.text)
+            .on("mousemove", (event, word) =>
+              showTip(
+                event,
+                `peso c-TF-IDF ${word.weight.toFixed(3).replace(".", ",")}`,
+                word.text,
+              ),
+            )
+            .on("mouseleave", hideTip);
+        })
+        .start();
+    }
+    const toggleTopic = (cloud) => {
+      const topic = Number(cloud.dataset.topic);
+      mapState.selectedTopic =
+        mapState.selectedTopic === topic ? null : topic;
+      selectLinkedSubject(null);
+    };
+    host.addEventListener("click", (event) => {
+      const cloud = event.target.closest(".cloud");
+      if (cloud) toggleTopic(cloud);
+    });
+    host.addEventListener("keydown", (event) => {
+      const cloud = event.target.closest(".cloud");
+      if (cloud && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        toggleTopic(cloud);
+      }
+    });
+  }
+  function updateTopicClouds() {
+    const activeTopic =
+      mapState.selectedTopic !== null
+        ? mapState.selectedTopic
+        : mapState.selectedSubject !== null
+          ? subjects[mapState.selectedSubject].topic
+          : null;
+    document.querySelectorAll(".cloud").forEach((cloud) => {
+      const topic = Number(cloud.dataset.topic);
+      cloud.classList.toggle("is-on", topic === activeTopic);
+      cloud.classList.toggle(
+        "is-off",
+        mapState.selectedTopic !== null && topic !== mapState.selectedTopic,
+      );
+    });
   }
 
-  const detailState = { selectedSubject: null };
-  function selectDetailSubject(subjectIndex) {
-    detailState.selectedSubject = subjectIndex;
+  // Uma seleção feita na busca, no mapa ou na Q2 atualiza as três visões.
+  function selectLinkedSubject(subjectIndex) {
+    mapState.selectedSubject = subjectIndex;
+    if (subjectIndex !== null) mapState.selectedTopic = null;
+    hideTip();
+    updateSimilarityMap();
+    updateTopicClouds();
     renderSubjectDetails();
+    drawSubjectSimilarity();
+    if ($("#comp svg")) drawCourseComposition();
+  }
+  function selectMapSubject(subjectIndex) {
+    selectLinkedSubject(subjectIndex);
+  }
+
+  // 4. Ficha da disciplina encontrada na busca
+  const detailState = mapState;
+  function selectDetailSubject(subjectIndex) {
+    selectLinkedSubject(subjectIndex);
   }
 
   function renderSubjectDetails() {
@@ -499,7 +639,7 @@
 
   // 5. Q2 · Comparação visual de similaridade textual
   const similaritySearchInput = $("#similarity-find");
-  const similarityState = { selectedSubject: null };
+  const similarityState = mapState;
   createSubjectFinder(
     similaritySearchInput,
     $("#similarity-find-list"),
@@ -508,9 +648,7 @@
   );
 
   function selectSimilaritySubject(subjectIndex) {
-    similarityState.selectedSubject = subjectIndex;
-    hideTip();
-    drawSubjectSimilarity();
+    selectLinkedSubject(subjectIndex);
   }
 
   function drawSubjectSimilarity() {
@@ -651,6 +789,7 @@
         : Number(curriculumCourseSelect.value);
     curriculumState.selectedSubject = null;
     drawCurriculum();
+    drawCourseComposition();
   });
   curriculumKindToggle.addEventListener("click", (e) => {
     const b = e.target.closest("button");
@@ -661,6 +800,7 @@
       .querySelectorAll("button")
       .forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
     drawCurriculum();
+    drawCourseComposition();
   });
 
   // requisitos do curso: entradas e saídas de cada disciplina
@@ -900,13 +1040,197 @@
     );
   }
 
-  // 7. Construção independente das três visualizações desta entrega
+  // Composição tópico → disciplina. Ela compartilha curso e filtro com a grade
+  // acima; a área de cada retângulo representa a carga horária da disciplina.
+  function drawCourseComposition() {
+    const host = $("#comp");
+    host.innerHTML = "";
+    if (curriculumState.course === null) {
+      $("#comp-note").textContent = "";
+      host.innerHTML =
+        '<p class="grid-empty">Selecione um curso acima para visualizar sua composição por tópico.</p>';
+      return;
+    }
+    const course = data.courses[curriculumState.course];
+    let courseSubjects = course.items.map(([subjectIndex, mandatory]) => ({
+      subjectIndex,
+      mandatory,
+    }));
+    if (curriculumState.kind === "mand") {
+      courseSubjects = courseSubjects.filter((item) => item.mandatory);
+    }
+    courseSubjects = courseSubjects.filter(
+      (item) => subjects[item.subjectIndex].hours,
+    );
+    const totalHours = d3.sum(
+      courseSubjects,
+      (item) => subjects[item.subjectIndex].hours,
+    );
+    $("#comp-note").textContent =
+      `${courseSubjects.length} disciplinas · ${totalHours.toLocaleString("pt-BR")} h`;
+
+    const tree = {
+      children: topics
+        .map((topic) => ({
+          topic: topic.id,
+          name: topic.name,
+          children: courseSubjects
+            .filter(
+              (item) => subjects[item.subjectIndex].topic === topic.id,
+            )
+            .map((item) => ({
+              subjectIndex: item.subjectIndex,
+              mandatory: item.mandatory,
+              topic: topic.id,
+              value: subjects[item.subjectIndex].hours,
+            })),
+        }))
+        .filter((topic) => topic.children.length),
+    };
+    const width = host.clientWidth;
+    const height = Math.max(440, Math.round(width * 0.56));
+    const root = d3
+      .hierarchy(tree)
+      .sum((item) => item.value || 0)
+      .sort((a, b) => b.value - a.value);
+    d3
+      .treemap()
+      .size([width, height])
+      .round(true)
+      .paddingOuter(2)
+      .paddingInner(4)
+      .paddingTop((item) => (item.depth === 1 ? 18 : 0))(root);
+
+    const svg = d3
+      .select(host)
+      .append("svg")
+      .attr("viewBox", `0 0 ${width} ${height}`)
+      .attr("role", "img")
+      .attr("aria-label", `Carga horária por tópico em ${course.name}`);
+    const kindLegend =
+      curriculumState.kind === "all"
+        ? '<span class="kind-key"><i class="sw-solid"></i>obrigatória <i class="sw-light"></i>optativa</span>'
+        : "";
+    host.insertAdjacentHTML(
+      "beforeend",
+      `<p class="comp-key">${kindLegend}<span class="size-key"><span class="size-boxes" aria-hidden="true"><i class="sw-size-large"></i><i class="sw-size-small"></i></span>área do retângulo = carga horária da disciplina</span></p>`,
+    );
+    const isTopicActive = (item) =>
+      mapState.selectedTopic === null ||
+      item.data.topic === mapState.selectedTopic;
+
+    svg
+      .append("g")
+      .selectAll("text")
+      .data(root.children)
+      .join("text")
+      .attr("class", "tm-area")
+      .attr("x", (item) => item.x0 + 3)
+      .attr("y", (item) => item.y0 + 13)
+      .attr("fill", (item) => topicTextColor(item.data.topic))
+      .attr("opacity", (item) => (isTopicActive(item) ? 1 : 0.2))
+      .text((item) =>
+        item.x1 - item.x0 > 40
+          ? truncate(
+              `${item.data.name} · ${Math.round((100 * item.value) / totalHours)}%`,
+              Math.floor((item.x1 - item.x0 - 6) / 6.6),
+            )
+          : "",
+      )
+      .on("click", (event, item) => {
+        mapState.selectedTopic =
+          mapState.selectedTopic === item.data.topic
+            ? null
+            : item.data.topic;
+        updateSimilarityMap();
+        updateTopicClouds();
+        drawCourseComposition();
+      })
+      .on("mousemove", (event, item) =>
+        showTip(
+          event,
+          `${item.value.toLocaleString("pt-BR")} h · ${Math.round((100 * item.value) / totalHours)}% · ${item.children.length} disciplinas`,
+          item.data.name,
+        ),
+      )
+      .on("mouseleave", hideTip);
+
+    const leaves = svg
+      .append("g")
+      .selectAll("rect")
+      .data(root.leaves())
+      .join("rect")
+      .attr("class", "tm-leaf")
+      .attr("x", (item) => item.x0)
+      .attr("y", (item) => item.y0)
+      .attr("width", (item) => Math.max(0, item.x1 - item.x0))
+      .attr("height", (item) => Math.max(0, item.y1 - item.y0))
+      .attr("fill", (item) => topicColor(item.data.topic))
+      .attr("fill-opacity", (item) =>
+        item.data.mandatory === 0 ? 0.42 : 0.88,
+      )
+      .attr("stroke", (item) =>
+        item.data.subjectIndex === mapState.selectedSubject
+          ? "var(--ink)"
+          : "var(--paper)",
+      )
+      .attr("stroke-width", (item) =>
+        item.data.subjectIndex === mapState.selectedSubject ? 2.5 : 0.6,
+      )
+      .attr("opacity", (item) => (isTopicActive(item) ? 1 : 0.15))
+      .on("mousemove", (event, item) =>
+        showTip(
+          event,
+          `${subjects[item.data.subjectIndex].hours} h · ${topics[item.data.topic].name}${item.data.mandatory === null ? "" : item.data.mandatory ? " · obrigatória" : " · optativa"}`,
+          subjects[item.data.subjectIndex].name,
+        ),
+      )
+      .on("mouseleave", hideTip)
+      .on("click", (event, item) => {
+        selectMapSubject(item.data.subjectIndex);
+      });
+    leaves
+      .filter((item) => item.data.subjectIndex === mapState.selectedSubject)
+      .raise();
+
+    const leafTextColor = (item) => {
+      const color = d3.interpolateRgb(
+        "#f7f4ed",
+        topicColor(item.data.topic),
+      )(item.data.mandatory === 0 ? 0.42 : 0.88);
+      return d3.lab(color).l < 58 ? "#ffffff" : "#22201c";
+    };
+    svg
+      .append("g")
+      .selectAll("text")
+      .data(
+        root
+          .leaves()
+          .filter((item) => item.x1 - item.x0 > 74 && item.y1 - item.y0 > 30),
+      )
+      .join("text")
+      .attr("class", "tm-leaf-label")
+      .attr("x", (item) => item.x0 + 5)
+      .attr("y", (item) => item.y1 - 7)
+      .attr("fill", leafTextColor)
+      .attr("opacity", (item) => (isTopicActive(item) ? 1 : 0.15))
+      .text((item) =>
+        truncate(
+          subjects[item.data.subjectIndex].name,
+          Math.floor((item.x1 - item.x0 - 10) / 5.6),
+        ),
+      );
+  }
+
+  // 7. Construção independente das visualizações desta entrega
   function buildVisualizations() {
     hideTip();
     drawSimilarityMap();
+    updateTopicClouds();
     renderSubjectDetails();
     drawSubjectSimilarity();
     drawCurriculum();
+    drawCourseComposition();
   }
 
   let lastW = document.body.clientWidth;
@@ -919,6 +1243,7 @@
   }).observe(document.body);
 
   (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => {
+    drawTopicClouds();
     buildVisualizations();
   });
 })();
