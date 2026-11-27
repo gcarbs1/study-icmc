@@ -2,7 +2,7 @@ numpy
 pandas
 scipy
 scikit-learn
-sentence-transformers
+google-genai
 bertopic
 umap-learn
 hdbscan

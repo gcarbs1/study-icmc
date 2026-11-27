@@ -45,14 +45,14 @@
 }
 
 :root {
-  --ground: #ebe5d8;
-  --paper: #f7f4ed;
+  --ground: #fff;
+  --paper: #fff;
   --band: #23211d;
   --band-ink: #efe9dc;
   --ink: #22201c;
   --ink-2: #57524a;
   --ink-3: #736d61;
-  --hair: #d8d0bf;
+  --hair: #000;
   --serif: "Newsreader", Georgia, serif;
   --sans: "DM Sans", system-ui, sans-serif;
   --mono: "DM Mono", ui-monospace, monospace;
@@ -392,12 +392,11 @@ h1 em {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 4px 12px;
-  padding: 14px 22px 12px;
-  border-bottom: 1px solid var(--hair);
+  padding: 14px 22px 10px;
 }
 .panel-head h3 {
   margin: 0;
-  font: 400 21px/1.2 var(--serif);
+  font: 700 21px/1.2 var(--serif);
   flex: 1;
 }
 .question {
@@ -443,10 +442,12 @@ svg {
 /* 7. Q1 · Mapa de semelhança */
 .net {
   position: relative;
+  background: #fff;
 }
 .net svg {
   width: 100%;
   height: auto;
+  background: #fff;
   cursor: grab;
   touch-action: none;
   overflow: hidden;
@@ -500,7 +501,6 @@ svg {
   align-items: start;
   min-height: 58px;
   padding: 10px 16px 12px;
-  border-top: 1px solid var(--hair);
 }
 .net-index-head {
   display: grid;
@@ -544,29 +544,25 @@ svg {
 .clouds {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  border-top: 1px solid var(--hair);
-  border-left: 1px solid var(--hair);
+  gap: 8px 12px;
 }
 .cloud {
-  border-right: 1px solid var(--hair);
-  border-bottom: 1px solid var(--hair);
-  padding: 10px 12px 6px;
+  padding: 6px 8px 2px;
   cursor: pointer;
   transition: opacity 0.15s;
 }
 .cloud:hover {
-  background: #fbf9f4;
+  background: #f5f5f5;
 }
 .cloud.is-off {
   opacity: 0.28;
 }
 .cloud.is-on {
-  background: #fff;
-  box-shadow: inset 0 0 0 1.5px var(--ink);
+  background: #f5f5f5;
 }
 .cloud h4 {
   margin: 0;
-  font: 500 12px/1.3 var(--sans);
+  font: 700 12px/1.3 var(--sans);
 }
 .cloud svg {
   width: 100%;
@@ -577,12 +573,16 @@ svg {
 }
 
 /* 9. Q2 · Comparação de similaridade */
+.similarity-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 12px;
+}
 .similarity-picker {
   display: grid;
-  grid-template-columns: auto minmax(220px, 520px);
-  align-items: center;
-  gap: 12px 16px;
-  margin-bottom: 18px;
+  gap: 5px;
 }
 .similarity-picker > label {
   font: 500 10px var(--mono);
@@ -594,17 +594,22 @@ svg {
   width: 100%;
 }
 .similarity-threshold {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 18px;
+  display: grid;
+  gap: 5px;
   color: var(--ink-3);
   font: 500 10px var(--mono);
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
+.similarity-threshold-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 37px;
+}
 .similarity-threshold input {
-  width: min(280px, 45vw);
+  width: min(280px, 100%);
+  flex: 1;
   accent-color: var(--ink);
 }
 .similarity-threshold output {
@@ -615,12 +620,12 @@ svg {
 .similarity svg {
   width: 100%;
   height: auto;
+  background: #fff;
 }
 .similarity-empty,
 .grid-empty {
   margin: 0;
   padding: 28px 16px;
-  border-top: 1px solid var(--hair);
   color: var(--ink-3);
   font: 400 12px/1.5 var(--mono);
   text-align: center;
@@ -632,7 +637,7 @@ svg {
   fill: var(--ink-3);
 }
 .sim-axis line {
-  stroke: var(--hair);
+  stroke: #d7d7d7;
 }
 .sim-baseline {
   stroke: var(--ink-3);
@@ -656,7 +661,7 @@ svg {
   min-width: 0;
 }
 .bs-rule {
-  stroke: var(--hair);
+  stroke: #d7d7d7;
 }
 .bs-row {
   font: 500 12.5px var(--sans);
@@ -754,6 +759,7 @@ svg {
 #comp svg {
   width: 100%;
   height: auto;
+  background: #fff;
 }
 .toggle {
   margin: 0;
@@ -856,7 +862,7 @@ svg {
   text-transform: uppercase;
 }
 .g-rule {
-  stroke: var(--hair);
+  stroke: #d7d7d7;
 }
 .g-box {
   cursor: pointer;
@@ -969,8 +975,8 @@ svg {
     padding-left: 14px;
     padding-right: 14px;
   }
-  .similarity-picker {
+  .similarity-controls {
     grid-template-columns: 1fr;
-    gap: 6px;
+    gap: 12px;
   }
 }

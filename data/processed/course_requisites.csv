@@ -1,898 +1,898 @@
 course_id,strong,similarity,course,requisite,discipline
-55030-200,False,0.804,Bacharelado em Matemática,7600005,7600006
-55030-200,True,0.577,Bacharelado em Matemática,7600005,7600107
-55030-200,False,0.596,Bacharelado em Matemática,7600108,SMA0328
-55030-200,True,0.664,Bacharelado em Matemática,SCC0201,SCC0215
-55030-200,False,0.739,Bacharelado em Matemática,SCC0202,SCC0203
-55030-200,True,0.676,Bacharelado em Matemática,SCC0202,SCC0215
-55030-200,True,0.687,Bacharelado em Matemática,SCC0202,SCC0216
-55030-200,False,0.64,Bacharelado em Matemática,SCC0204,SCC0250
-55030-200,False,0.564,Bacharelado em Matemática,SCC0215,SCC0240
-55030-200,False,0.608,Bacharelado em Matemática,SCC0216,SCC0276
-55030-200,False,0.665,Bacharelado em Matemática,SCC0216,SME0130
-55030-200,True,0.615,Bacharelado em Matemática,SCC0223,SCC0204
-55030-200,False,0.595,Bacharelado em Matemática,SCC0230,SCC0244
-55030-200,False,0.679,Bacharelado em Matemática,SCC0230,SCC0270
-55030-200,False,0.644,Bacharelado em Matemática,SCC0240,SCC0244
-55030-200,False,0.678,Bacharelado em Matemática,SCC0240,SCC0252
-55030-200,False,0.65,Bacharelado em Matemática,SCC0250,SCC0252
-55030-200,False,0.691,Bacharelado em Matemática,SLC0630,SMA0350
-55030-200,False,0.628,Bacharelado em Matemática,SMA0171,SMA0192
-55030-200,False,0.632,Bacharelado em Matemática,SMA0171,SMA0344
-55030-200,True,0.537,Bacharelado em Matemática,SMA0171,SMA0378
-55030-200,False,0.755,Bacharelado em Matemática,SMA0171,SMA0388
-55030-200,False,0.748,Bacharelado em Matemática,SMA0175,SMA0192
-55030-200,False,0.597,Bacharelado em Matemática,SMA0175,SMA0387
-55030-200,False,0.704,Bacharelado em Matemática,SMA0305,SMA0193
-55030-200,False,0.73,Bacharelado em Matemática,SMA0305,SMA0306
-55030-200,False,0.59,Bacharelado em Matemática,SMA0305,SMA0329
-55030-200,False,0.689,Bacharelado em Matemática,SMA0305,SMA0388
-55030-200,False,0.662,Bacharelado em Matemática,SMA0306,SMA0173
-55030-200,False,0.672,Bacharelado em Matemática,SMA0340,SMA0327
-55030-200,False,0.537,Bacharelado em Matemática,SMA0343,SMA0120
-55030-200,True,0.697,Bacharelado em Matemática,SMA0343,SMA0171
-55030-200,False,0.693,Bacharelado em Matemática,SMA0354,SMA0175
-55030-200,False,0.51,Bacharelado em Matemática,SMA0354,SMA0329
-55030-200,False,0.797,Bacharelado em Matemática,SMA0354,SMA0393
-55030-200,False,0.734,Bacharelado em Matemática,SMA0354,SME0245
-55030-200,False,0.666,Bacharelado em Matemática,SMA0375,SMA0120
-55030-200,False,0.69,Bacharelado em Matemática,SMA0375,SMA0175
-55030-200,False,0.624,Bacharelado em Matemática,SMA0375,SMA0193
-55030-200,True,0.721,Bacharelado em Matemática,SMA0375,SMA0378
-55030-200,False,0.68,Bacharelado em Matemática,SMA0375,SME0205
-55030-200,True,0.557,Bacharelado em Matemática,SMA0375,SME0231
-55030-200,False,0.618,Bacharelado em Matemática,SMA0375,SME0240
-55030-200,False,0.664,Bacharelado em Matemática,SMA0380,SMA0169
-55030-200,False,0.631,Bacharelado em Matemática,SMA0380,SMA0344
-55030-200,False,0.663,Bacharelado em Matemática,SMA0380,SMA0357
-55030-200,False,0.651,Bacharelado em Matemática,SMA0380,SMA0389
-55030-200,False,0.772,Bacharelado em Matemática,SMA0380,SME0245
-55030-200,True,0.639,Bacharelado em Matemática,SMA0386,SMA0305
-55030-200,True,0.542,Bacharelado em Matemática,SMA0386,SMA0326
-55030-200,True,0.608,Bacharelado em Matemática,SMA0386,SMA0337
-55030-200,True,0.517,Bacharelado em Matemática,SMA0386,SMA0343
-55030-200,True,0.676,Bacharelado em Matemática,SMA0392,7600005
-55030-200,True,0.788,Bacharelado em Matemática,SMA0392,SMA0354
-55030-200,True,0.759,Bacharelado em Matemática,SMA0392,SMA0380
-55030-200,False,0.621,Bacharelado em Matemática,SMA0392,SME0240
-55030-200,True,0.637,Bacharelado em Matemática,SMA0394,SMA0375
-55030-200,True,0.656,Bacharelado em Matemática,SME0220,SME0221
-55030-200,True,0.567,Bacharelado em Matemática,SME0221,SME0808
-55030-200,True,0.643,Bacharelado em Matemática,SME0221,SME0822
-55030-200,True,0.632,Bacharelado em Matemática,SME0221,SME0823
-55030-200,True,0.577,Bacharelado em Matemática,SME0221,SME0878
-55030-200,True,0.704,Bacharelado em Matemática,SME0230,SCC0201
-55030-200,True,0.642,Bacharelado em Matemática,SME0230,SCC0202
-55030-200,False,0.623,Bacharelado em Matemática,SME0230,SCC0230
-55030-200,False,0.625,Bacharelado em Matemática,SME0230,SME0205
-55030-200,False,0.685,Bacharelado em Matemática,SME0230,SME0206
-55030-200,True,0.617,Bacharelado em Matemática,SME0230,SME0231
-55030-200,True,0.626,Bacharelado em Matemática,SME0230,SME0878
-55030-200,False,0.639,Bacharelado em Matemática,SME0240,SMA0136
-55030-200,False,0.752,Bacharelado em Matemática,SME0240,SMA0169
-55030-200,False,0.51,Bacharelado em Matemática,SME0240,SMA0379
-55030-200,False,0.666,Bacharelado em Matemática,SME0240,SME0202
-55030-200,False,0.612,Bacharelado em Matemática,SME0240,SME0206
-55030-200,True,0.648,Bacharelado em Matemática,SME0820,SME0878
-55030-200,True,0.651,Bacharelado em Matemática,SME0822,SME0878
-55030-300,False,0.804,Licenciatura em Matemática,7600005,7600006
-55030-300,True,0.722,Licenciatura em Matemática,SCC0223,SCC0224
-55030-300,True,0.685,Licenciatura em Matemática,SLC0605,SMA0327
-55030-300,True,0.632,Licenciatura em Matemática,SLC0605,SMA0383
-55030-300,True,0.709,Licenciatura em Matemática,SLC0605,SMA0384
-55030-300,True,0.642,Licenciatura em Matemática,SLC0606,SMA0327
-55030-300,True,0.676,Licenciatura em Matemática,SLC0606,SMA0383
-55030-300,True,0.677,Licenciatura em Matemática,SLC0606,SMA0384
-55030-300,True,0.653,Licenciatura em Matemática,SLC0606,SMA0398
-55030-300,True,0.605,Licenciatura em Matemática,SLC0614,SLC0618
-55030-300,True,0.701,Licenciatura em Matemática,SLC0614,SLC0683
-55030-300,True,0.656,Licenciatura em Matemática,SLC0614,SLC0684
-55030-300,True,0.643,Licenciatura em Matemática,SLC0614,SMA0346
-55030-300,True,0.593,Licenciatura em Matemática,SLC0614,SMA0367
-55030-300,True,0.631,Licenciatura em Matemática,SLC0614,SMA0370
-55030-300,True,0.492,Licenciatura em Matemática,SLC0630,5500003
-55030-300,True,0.644,Licenciatura em Matemática,SLC0630,SLC0610
-55030-300,False,0.601,Licenciatura em Matemática,SLC0630,SMA0328
-55030-300,True,0.616,Licenciatura em Matemática,SLC0630,SMA0345
-55030-300,True,0.632,Licenciatura em Matemática,SMA0171,SMA0344
-55030-300,True,0.556,Licenciatura em Matemática,SMA0306,SMA0125
-55030-300,True,0.662,Licenciatura em Matemática,SMA0306,SMA0173
-55030-300,True,0.67,Licenciatura em Matemática,SMA0308,SMA0125
-55030-300,True,0.672,Licenciatura em Matemática,SMA0308,SMA0143
-55030-300,True,0.537,Licenciatura em Matemática,SMA0343,SMA0120
-55030-300,True,0.697,Licenciatura em Matemática,SMA0343,SMA0171
-55030-300,True,0.612,Licenciatura em Matemática,SMA0350,SMA0404
-55030-300,True,0.608,Licenciatura em Matemática,SMA0354,SMA0169
-55030-300,True,0.693,Licenciatura em Matemática,SMA0354,SMA0175
-55030-300,True,0.754,Licenciatura em Matemática,SMA0354,SMA0308
-55030-300,False,0.51,Licenciatura em Matemática,SMA0354,SMA0329
-55030-300,True,0.549,Licenciatura em Matemática,SMA0354,SMA0343
-55030-300,True,0.797,Licenciatura em Matemática,SMA0354,SMA0393
-55030-300,True,0.734,Licenciatura em Matemática,SMA0354,SME0245
-55030-300,True,0.598,Licenciatura em Matemática,SMA0356,SMA0169
-55030-300,True,0.639,Licenciatura em Matemática,SMA0356,SMA0308
-55030-300,True,0.466,Licenciatura em Matemática,SMA0356,SMA0343
-55030-300,True,0.735,Licenciatura em Matemática,SMA0356,SMA0380
-55030-300,True,0.642,Licenciatura em Matemática,SMA0356,SME0245
-55030-300,True,0.666,Licenciatura em Matemática,SMA0375,SMA0120
-55030-300,True,0.546,Licenciatura em Matemática,SMA0375,SMA0173
-55030-300,True,0.69,Licenciatura em Matemática,SMA0375,SMA0175
-55030-300,True,0.624,Licenciatura em Matemática,SMA0375,SMA0193
-55030-300,True,0.68,Licenciatura em Matemática,SMA0375,SME0205
-55030-300,True,0.578,Licenciatura em Matemática,SMA0375,SME0211
-55030-300,True,0.618,Licenciatura em Matemática,SMA0375,SME0240
-55030-300,True,0.631,Licenciatura em Matemática,SMA0380,SMA0344
-55030-300,True,0.663,Licenciatura em Matemática,SMA0380,SMA0357
-55030-300,True,0.65,Licenciatura em Matemática,SMA0386,SLC0532
-55030-300,True,0.542,Licenciatura em Matemática,SMA0386,SMA0326
-55030-300,True,0.608,Licenciatura em Matemática,SMA0386,SMA0337
-55030-300,True,0.788,Licenciatura em Matemática,SMA0392,SMA0354
-55030-300,True,0.645,Licenciatura em Matemática,SMA0392,SMA0356
-55030-300,True,0.659,Licenciatura em Matemática,SMA0392,SME0220
-55030-300,True,0.621,Licenciatura em Matemática,SMA0392,SME0240
-55030-300,True,0.564,Licenciatura em Matemática,SMA0394,SMA0175
-55030-300,True,0.698,Licenciatura em Matemática,SME0230,5500003
-55030-300,False,0.623,Licenciatura em Matemática,SME0230,SCC0230
-55030-300,True,0.625,Licenciatura em Matemática,SME0230,SME0205
-55030-300,True,0.685,Licenciatura em Matemática,SME0230,SME0206
-55030-300,True,0.639,Licenciatura em Matemática,SME0240,SMA0136
-55030-300,True,0.752,Licenciatura em Matemática,SME0240,SMA0169
-55041-0,False,0.645,Bacharelado em Ciências de Computação,SCC0201,SCC0205
-55041-0,False,0.764,Bacharelado em Ciências de Computação,SCC0201,SCC0210
-55041-0,False,0.664,Bacharelado em Ciências de Computação,SCC0201,SCC0215
-55041-0,False,0.687,Bacharelado em Ciências de Computação,SCC0201,SCC0230
-55041-0,False,0.649,Bacharelado em Ciências de Computação,SCC0201,SCC0251
-55041-0,False,0.556,Bacharelado em Ciências de Computação,SCC0201,SCC0261
-55041-0,False,0.565,Bacharelado em Ciências de Computação,SCC0201,SCC0273
-55041-0,False,0.603,Bacharelado em Ciências de Computação,SCC0201,SSC0723
-55041-0,False,0.648,Bacharelado em Ciências de Computação,SCC0201,SSC0724
-55041-0,False,0.617,Bacharelado em Ciências de Computação,SCC0201,SSC0951
-55041-0,False,0.637,Bacharelado em Ciências de Computação,SCC0202,SCC0204
-55041-0,False,0.686,Bacharelado em Ciências de Computação,SCC0202,SCC0210
-55041-0,False,0.676,Bacharelado em Ciências de Computação,SCC0202,SCC0215
-55041-0,False,0.687,Bacharelado em Ciências de Computação,SCC0202,SCC0216
-55041-0,False,0.6,Bacharelado em Ciências de Computação,SCC0202,SCC0251
-55041-0,False,0.621,Bacharelado em Ciências de Computação,SCC0202,SCC0282
-55041-0,False,0.578,Bacharelado em Ciências de Computação,SCC0202,SCC0284
-55041-0,True,0.622,Bacharelado em Ciências de Computação,SCC0202,SCC0303
-55041-0,True,0.636,Bacharelado em Ciências de Computação,SCC0202,SME0231
-55041-0,False,0.623,Bacharelado em Ciências de Computação,SCC0202,SSC0140
-55041-0,False,0.594,Bacharelado em Ciências de Computação,SCC0202,SSC0158
-55041-0,False,0.622,Bacharelado em Ciências de Computação,SCC0202,SSC0160
-55041-0,False,0.565,Bacharelado em Ciências de Computação,SCC0202,SSC0960
-55041-0,False,0.617,Bacharelado em Ciências de Computação,SCC0204,SCC0225
-55041-0,False,0.64,Bacharelado em Ciências de Computação,SCC0204,SCC0250
-55041-0,True,0.572,Bacharelado em Ciências de Computação,SCC0204,SCC0252
-55041-0,False,0.594,Bacharelado em Ciências de Computação,SCC0204,SCC0260
-55041-0,False,0.685,Bacharelado em Ciências de Computação,SCC0204,SSC0124
-55041-0,False,0.565,Bacharelado em Ciências de Computação,SCC0204,SSC0770
-55041-0,False,0.7,Bacharelado em Ciências de Computação,SCC0205,SCC0217
-55041-0,False,0.852,Bacharelado em Ciências de Computação,SCC0210,SCC0211
-55041-0,False,0.564,Bacharelado em Ciências de Computação,SCC0215,SCC0240
-55041-0,False,0.6,Bacharelado em Ciências de Computação,SCC0215,SCC0271
-55041-0,False,0.511,Bacharelado em Ciências de Computação,SCC0215,SCC0370
-55041-0,False,0.688,Bacharelado em Ciências de Computação,SCC0216,SCC0218
-55041-0,False,0.66,Bacharelado em Ciências de Computação,SCC0216,SCC0271
-55041-0,False,0.543,Bacharelado em Ciências de Computação,SCC0216,SCC0283
-55041-0,False,0.564,Bacharelado em Ciências de Computação,SCC0216,SCC0370
-55041-0,False,0.665,Bacharelado em Ciências de Computação,SCC0216,SME0130
-55041-0,False,0.713,Bacharelado em Ciências de Computação,SCC0221,SCC0201
-55041-0,False,0.997,Bacharelado em Ciências de Computação,SCC0227,SCC0228
-55041-0,False,0.985,Bacharelado em Ciências de Computação,SCC0228,SCC0229
-55041-0,False,0.73,Bacharelado em Ciências de Computação,SCC0230,SCC0231
-55041-0,False,0.674,Bacharelado em Ciências de Computação,SCC0230,SCC0233
-55041-0,False,0.595,Bacharelado em Ciências de Computação,SCC0230,SCC0244
-55041-0,False,0.679,Bacharelado em Ciências de Computação,SCC0230,SCC0270
-55041-0,False,0.717,Bacharelado em Ciências de Computação,SCC0230,SCC0276
-55041-0,False,0.612,Bacharelado em Ciências de Computação,SCC0230,SCC0277
-55041-0,False,0.608,Bacharelado em Ciências de Computação,SCC0230,SCC0287
-55041-0,False,0.636,Bacharelado em Ciências de Computação,SCC0230,SCC0633
-55041-0,False,0.778,Bacharelado em Ciências de Computação,SCC0240,SCC0241
-55041-0,False,0.759,Bacharelado em Ciências de Computação,SCC0240,SCC0243
-55041-0,False,0.644,Bacharelado em Ciências de Computação,SCC0240,SCC0244
-55041-0,False,0.671,Bacharelado em Ciências de Computação,SCC0240,SCC0245
-55041-0,False,0.712,Bacharelado em Ciências de Computação,SCC0240,SCC0247
+55030-200,False,0.915,Bacharelado em Matemática,7600005,7600006
+55030-200,True,0.809,Bacharelado em Matemática,7600005,7600107
+55030-200,False,0.843,Bacharelado em Matemática,7600108,SMA0328
+55030-200,True,0.846,Bacharelado em Matemática,SCC0201,SCC0215
+55030-200,False,0.89,Bacharelado em Matemática,SCC0202,SCC0203
+55030-200,True,0.879,Bacharelado em Matemática,SCC0202,SCC0215
+55030-200,True,0.89,Bacharelado em Matemática,SCC0202,SCC0216
+55030-200,False,0.782,Bacharelado em Matemática,SCC0204,SCC0250
+55030-200,False,0.851,Bacharelado em Matemática,SCC0215,SCC0240
+55030-200,False,0.83,Bacharelado em Matemática,SCC0216,SCC0276
+55030-200,False,0.89,Bacharelado em Matemática,SCC0216,SME0130
+55030-200,True,0.798,Bacharelado em Matemática,SCC0223,SCC0204
+55030-200,False,0.851,Bacharelado em Matemática,SCC0230,SCC0244
+55030-200,False,0.87,Bacharelado em Matemática,SCC0230,SCC0270
+55030-200,False,0.863,Bacharelado em Matemática,SCC0240,SCC0244
+55030-200,False,0.826,Bacharelado em Matemática,SCC0240,SCC0252
+55030-200,False,0.852,Bacharelado em Matemática,SCC0250,SCC0252
+55030-200,False,0.882,Bacharelado em Matemática,SLC0630,SMA0350
+55030-200,False,0.86,Bacharelado em Matemática,SMA0171,SMA0192
+55030-200,False,0.843,Bacharelado em Matemática,SMA0171,SMA0344
+55030-200,True,0.835,Bacharelado em Matemática,SMA0171,SMA0378
+55030-200,False,0.908,Bacharelado em Matemática,SMA0171,SMA0388
+55030-200,False,0.912,Bacharelado em Matemática,SMA0175,SMA0192
+55030-200,False,0.837,Bacharelado em Matemática,SMA0175,SMA0387
+55030-200,False,0.869,Bacharelado em Matemática,SMA0305,SMA0193
+55030-200,False,0.893,Bacharelado em Matemática,SMA0305,SMA0306
+55030-200,False,0.833,Bacharelado em Matemática,SMA0305,SMA0329
+55030-200,False,0.851,Bacharelado em Matemática,SMA0305,SMA0388
+55030-200,False,0.871,Bacharelado em Matemática,SMA0306,SMA0173
+55030-200,False,0.866,Bacharelado em Matemática,SMA0340,SMA0327
+55030-200,False,0.863,Bacharelado em Matemática,SMA0343,SMA0120
+55030-200,True,0.898,Bacharelado em Matemática,SMA0343,SMA0171
+55030-200,False,0.863,Bacharelado em Matemática,SMA0354,SMA0175
+55030-200,False,0.784,Bacharelado em Matemática,SMA0354,SMA0329
+55030-200,False,0.944,Bacharelado em Matemática,SMA0354,SMA0393
+55030-200,False,0.873,Bacharelado em Matemática,SMA0354,SME0245
+55030-200,False,0.876,Bacharelado em Matemática,SMA0375,SMA0120
+55030-200,False,0.82,Bacharelado em Matemática,SMA0375,SMA0175
+55030-200,False,0.85,Bacharelado em Matemática,SMA0375,SMA0193
+55030-200,True,0.864,Bacharelado em Matemática,SMA0375,SMA0378
+55030-200,False,0.847,Bacharelado em Matemática,SMA0375,SME0205
+55030-200,True,0.797,Bacharelado em Matemática,SMA0375,SME0231
+55030-200,False,0.851,Bacharelado em Matemática,SMA0375,SME0240
+55030-200,False,0.847,Bacharelado em Matemática,SMA0380,SMA0169
+55030-200,False,0.837,Bacharelado em Matemática,SMA0380,SMA0344
+55030-200,False,0.821,Bacharelado em Matemática,SMA0380,SMA0357
+55030-200,False,0.88,Bacharelado em Matemática,SMA0380,SMA0389
+55030-200,False,0.906,Bacharelado em Matemática,SMA0380,SME0245
+55030-200,True,0.854,Bacharelado em Matemática,SMA0386,SMA0305
+55030-200,True,0.789,Bacharelado em Matemática,SMA0386,SMA0326
+55030-200,True,0.838,Bacharelado em Matemática,SMA0386,SMA0337
+55030-200,True,0.816,Bacharelado em Matemática,SMA0386,SMA0343
+55030-200,True,0.797,Bacharelado em Matemática,SMA0392,7600005
+55030-200,True,0.91,Bacharelado em Matemática,SMA0392,SMA0354
+55030-200,True,0.889,Bacharelado em Matemática,SMA0392,SMA0380
+55030-200,False,0.834,Bacharelado em Matemática,SMA0392,SME0240
+55030-200,True,0.846,Bacharelado em Matemática,SMA0394,SMA0375
+55030-200,True,0.875,Bacharelado em Matemática,SME0220,SME0221
+55030-200,True,0.872,Bacharelado em Matemática,SME0221,SME0808
+55030-200,True,0.857,Bacharelado em Matemática,SME0221,SME0822
+55030-200,True,0.875,Bacharelado em Matemática,SME0221,SME0823
+55030-200,True,0.88,Bacharelado em Matemática,SME0221,SME0878
+55030-200,True,0.872,Bacharelado em Matemática,SME0230,SCC0201
+55030-200,True,0.88,Bacharelado em Matemática,SME0230,SCC0202
+55030-200,False,0.844,Bacharelado em Matemática,SME0230,SCC0230
+55030-200,False,0.877,Bacharelado em Matemática,SME0230,SME0205
+55030-200,False,0.86,Bacharelado em Matemática,SME0230,SME0206
+55030-200,True,0.834,Bacharelado em Matemática,SME0230,SME0231
+55030-200,True,0.83,Bacharelado em Matemática,SME0230,SME0878
+55030-200,False,0.893,Bacharelado em Matemática,SME0240,SMA0136
+55030-200,False,0.903,Bacharelado em Matemática,SME0240,SMA0169
+55030-200,False,0.826,Bacharelado em Matemática,SME0240,SMA0379
+55030-200,False,0.851,Bacharelado em Matemática,SME0240,SME0202
+55030-200,False,0.86,Bacharelado em Matemática,SME0240,SME0206
+55030-200,True,0.871,Bacharelado em Matemática,SME0820,SME0878
+55030-200,True,0.88,Bacharelado em Matemática,SME0822,SME0878
+55030-300,False,0.915,Licenciatura em Matemática,7600005,7600006
+55030-300,True,0.881,Licenciatura em Matemática,SCC0223,SCC0224
+55030-300,True,0.868,Licenciatura em Matemática,SLC0605,SMA0327
+55030-300,True,0.849,Licenciatura em Matemática,SLC0605,SMA0383
+55030-300,True,0.882,Licenciatura em Matemática,SLC0605,SMA0384
+55030-300,True,0.86,Licenciatura em Matemática,SLC0606,SMA0327
+55030-300,True,0.867,Licenciatura em Matemática,SLC0606,SMA0383
+55030-300,True,0.879,Licenciatura em Matemática,SLC0606,SMA0384
+55030-300,True,0.87,Licenciatura em Matemática,SLC0606,SMA0398
+55030-300,True,0.855,Licenciatura em Matemática,SLC0614,SLC0618
+55030-300,True,0.874,Licenciatura em Matemática,SLC0614,SLC0683
+55030-300,True,0.893,Licenciatura em Matemática,SLC0614,SLC0684
+55030-300,True,0.826,Licenciatura em Matemática,SLC0614,SMA0346
+55030-300,True,0.862,Licenciatura em Matemática,SLC0614,SMA0367
+55030-300,True,0.852,Licenciatura em Matemática,SLC0614,SMA0370
+55030-300,True,0.775,Licenciatura em Matemática,SLC0630,5500003
+55030-300,True,0.831,Licenciatura em Matemática,SLC0630,SLC0610
+55030-300,False,0.838,Licenciatura em Matemática,SLC0630,SMA0328
+55030-300,True,0.827,Licenciatura em Matemática,SLC0630,SMA0345
+55030-300,True,0.843,Licenciatura em Matemática,SMA0171,SMA0344
+55030-300,True,0.817,Licenciatura em Matemática,SMA0306,SMA0125
+55030-300,True,0.871,Licenciatura em Matemática,SMA0306,SMA0173
+55030-300,True,0.872,Licenciatura em Matemática,SMA0308,SMA0125
+55030-300,True,0.897,Licenciatura em Matemática,SMA0308,SMA0143
+55030-300,True,0.863,Licenciatura em Matemática,SMA0343,SMA0120
+55030-300,True,0.898,Licenciatura em Matemática,SMA0343,SMA0171
+55030-300,True,0.865,Licenciatura em Matemática,SMA0350,SMA0404
+55030-300,True,0.821,Licenciatura em Matemática,SMA0354,SMA0169
+55030-300,True,0.863,Licenciatura em Matemática,SMA0354,SMA0175
+55030-300,True,0.894,Licenciatura em Matemática,SMA0354,SMA0308
+55030-300,False,0.784,Licenciatura em Matemática,SMA0354,SMA0329
+55030-300,True,0.792,Licenciatura em Matemática,SMA0354,SMA0343
+55030-300,True,0.944,Licenciatura em Matemática,SMA0354,SMA0393
+55030-300,True,0.873,Licenciatura em Matemática,SMA0354,SME0245
+55030-300,True,0.867,Licenciatura em Matemática,SMA0356,SMA0169
+55030-300,True,0.889,Licenciatura em Matemática,SMA0356,SMA0308
+55030-300,True,0.794,Licenciatura em Matemática,SMA0356,SMA0343
+55030-300,True,0.896,Licenciatura em Matemática,SMA0356,SMA0380
+55030-300,True,0.875,Licenciatura em Matemática,SMA0356,SME0245
+55030-300,True,0.876,Licenciatura em Matemática,SMA0375,SMA0120
+55030-300,True,0.816,Licenciatura em Matemática,SMA0375,SMA0173
+55030-300,True,0.82,Licenciatura em Matemática,SMA0375,SMA0175
+55030-300,True,0.85,Licenciatura em Matemática,SMA0375,SMA0193
+55030-300,True,0.847,Licenciatura em Matemática,SMA0375,SME0205
+55030-300,True,0.85,Licenciatura em Matemática,SMA0375,SME0211
+55030-300,True,0.851,Licenciatura em Matemática,SMA0375,SME0240
+55030-300,True,0.837,Licenciatura em Matemática,SMA0380,SMA0344
+55030-300,True,0.821,Licenciatura em Matemática,SMA0380,SMA0357
+55030-300,True,0.858,Licenciatura em Matemática,SMA0386,SLC0532
+55030-300,True,0.789,Licenciatura em Matemática,SMA0386,SMA0326
+55030-300,True,0.838,Licenciatura em Matemática,SMA0386,SMA0337
+55030-300,True,0.91,Licenciatura em Matemática,SMA0392,SMA0354
+55030-300,True,0.835,Licenciatura em Matemática,SMA0392,SMA0356
+55030-300,True,0.814,Licenciatura em Matemática,SMA0392,SME0220
+55030-300,True,0.834,Licenciatura em Matemática,SMA0392,SME0240
+55030-300,True,0.837,Licenciatura em Matemática,SMA0394,SMA0175
+55030-300,True,0.883,Licenciatura em Matemática,SME0230,5500003
+55030-300,False,0.844,Licenciatura em Matemática,SME0230,SCC0230
+55030-300,True,0.877,Licenciatura em Matemática,SME0230,SME0205
+55030-300,True,0.86,Licenciatura em Matemática,SME0230,SME0206
+55030-300,True,0.893,Licenciatura em Matemática,SME0240,SMA0136
+55030-300,True,0.903,Licenciatura em Matemática,SME0240,SMA0169
+55041-0,False,0.843,Bacharelado em Ciências de Computação,SCC0201,SCC0205
+55041-0,False,0.87,Bacharelado em Ciências de Computação,SCC0201,SCC0210
+55041-0,False,0.846,Bacharelado em Ciências de Computação,SCC0201,SCC0215
+55041-0,False,0.824,Bacharelado em Ciências de Computação,SCC0201,SCC0230
+55041-0,False,0.806,Bacharelado em Ciências de Computação,SCC0201,SCC0251
+55041-0,False,0.78,Bacharelado em Ciências de Computação,SCC0201,SCC0261
+55041-0,False,0.765,Bacharelado em Ciências de Computação,SCC0201,SCC0273
+55041-0,False,0.791,Bacharelado em Ciências de Computação,SCC0201,SSC0723
+55041-0,False,0.826,Bacharelado em Ciências de Computação,SCC0201,SSC0724
+55041-0,False,0.819,Bacharelado em Ciências de Computação,SCC0201,SSC0951
+55041-0,False,0.797,Bacharelado em Ciências de Computação,SCC0202,SCC0204
+55041-0,False,0.882,Bacharelado em Ciências de Computação,SCC0202,SCC0210
+55041-0,False,0.879,Bacharelado em Ciências de Computação,SCC0202,SCC0215
+55041-0,False,0.89,Bacharelado em Ciências de Computação,SCC0202,SCC0216
+55041-0,False,0.84,Bacharelado em Ciências de Computação,SCC0202,SCC0251
+55041-0,False,0.829,Bacharelado em Ciências de Computação,SCC0202,SCC0282
+55041-0,False,0.82,Bacharelado em Ciências de Computação,SCC0202,SCC0284
+55041-0,True,0.85,Bacharelado em Ciências de Computação,SCC0202,SCC0303
+55041-0,True,0.84,Bacharelado em Ciências de Computação,SCC0202,SME0231
+55041-0,False,0.828,Bacharelado em Ciências de Computação,SCC0202,SSC0140
+55041-0,False,0.843,Bacharelado em Ciências de Computação,SCC0202,SSC0158
+55041-0,False,0.844,Bacharelado em Ciências de Computação,SCC0202,SSC0160
+55041-0,False,0.827,Bacharelado em Ciências de Computação,SCC0202,SSC0960
+55041-0,False,0.784,Bacharelado em Ciências de Computação,SCC0204,SCC0225
+55041-0,False,0.782,Bacharelado em Ciências de Computação,SCC0204,SCC0250
+55041-0,True,0.764,Bacharelado em Ciências de Computação,SCC0204,SCC0252
+55041-0,False,0.795,Bacharelado em Ciências de Computação,SCC0204,SCC0260
+55041-0,False,0.849,Bacharelado em Ciências de Computação,SCC0204,SSC0124
+55041-0,False,0.778,Bacharelado em Ciências de Computação,SCC0204,SSC0770
+55041-0,False,0.876,Bacharelado em Ciências de Computação,SCC0205,SCC0217
+55041-0,False,0.92,Bacharelado em Ciências de Computação,SCC0210,SCC0211
+55041-0,False,0.851,Bacharelado em Ciências de Computação,SCC0215,SCC0240
+55041-0,False,0.817,Bacharelado em Ciências de Computação,SCC0215,SCC0271
+55041-0,False,0.806,Bacharelado em Ciências de Computação,SCC0215,SCC0370
+55041-0,False,0.872,Bacharelado em Ciências de Computação,SCC0216,SCC0218
+55041-0,False,0.842,Bacharelado em Ciências de Computação,SCC0216,SCC0271
+55041-0,False,0.85,Bacharelado em Ciências de Computação,SCC0216,SCC0283
+55041-0,False,0.837,Bacharelado em Ciências de Computação,SCC0216,SCC0370
+55041-0,False,0.89,Bacharelado em Ciências de Computação,SCC0216,SME0130
+55041-0,False,0.875,Bacharelado em Ciências de Computação,SCC0221,SCC0201
+55041-0,False,0.998,Bacharelado em Ciências de Computação,SCC0227,SCC0228
+55041-0,False,0.991,Bacharelado em Ciências de Computação,SCC0228,SCC0229
+55041-0,False,0.91,Bacharelado em Ciências de Computação,SCC0230,SCC0231
+55041-0,False,0.837,Bacharelado em Ciências de Computação,SCC0230,SCC0233
+55041-0,False,0.851,Bacharelado em Ciências de Computação,SCC0230,SCC0244
+55041-0,False,0.87,Bacharelado em Ciências de Computação,SCC0230,SCC0270
+55041-0,False,0.904,Bacharelado em Ciências de Computação,SCC0230,SCC0276
+55041-0,False,0.821,Bacharelado em Ciências de Computação,SCC0230,SCC0277
+55041-0,False,0.856,Bacharelado em Ciências de Computação,SCC0230,SCC0287
+55041-0,False,0.861,Bacharelado em Ciências de Computação,SCC0230,SCC0633
+55041-0,False,0.886,Bacharelado em Ciências de Computação,SCC0240,SCC0241
+55041-0,False,0.9,Bacharelado em Ciências de Computação,SCC0240,SCC0243
+55041-0,False,0.863,Bacharelado em Ciências de Computação,SCC0240,SCC0244
+55041-0,False,0.864,Bacharelado em Ciências de Computação,SCC0240,SCC0245
+55041-0,False,0.877,Bacharelado em Ciências de Computação,SCC0240,SCC0247
 55041-0,True,1.0,Bacharelado em Ciências de Computação,SCC0289,SCC0290
 55041-0,True,0.994,Bacharelado em Ciências de Computação,SCC0291,SCC0292
-55041-0,True,0.993,Bacharelado em Ciências de Computação,SCC0293,SCC0294
-55041-0,False,0.648,Bacharelado em Ciências de Computação,SEL0628,SSC0902
-55041-0,True,0.512,Bacharelado em Ciências de Computação,SMA0180,SCC0283
-55041-0,False,0.797,Bacharelado em Ciências de Computação,SMA0354,SMA0393
-55041-0,False,0.584,Bacharelado em Ciências de Computação,SMA0354,SME0123
-55041-0,False,0.788,Bacharelado em Ciências de Computação,SMA0392,SMA0354
-55041-0,False,0.572,Bacharelado em Ciências de Computação,SMA0392,SME0130
-55041-0,False,0.623,Bacharelado em Ciências de Computação,SMA0392,SME0300
-55041-0,False,0.582,Bacharelado em Ciências de Computação,SME0123,SME0121
-55041-0,True,0.673,Bacharelado em Ciências de Computação,SME0123,SME0806
-55041-0,True,0.618,Bacharelado em Ciências de Computação,SME0123,SME0808
-55041-0,True,0.628,Bacharelado em Ciências de Computação,SME0123,SME0822
-55041-0,True,0.703,Bacharelado em Ciências de Computação,SME0123,SME0823
-55041-0,True,0.673,Bacharelado em Ciências de Computação,SME0123,SME0878
-55041-0,True,0.542,Bacharelado em Ciências de Computação,SME0142,SME0231
-55041-0,False,0.593,Bacharelado em Ciências de Computação,SME0142,SME0300
-55041-0,False,0.652,Bacharelado em Ciências de Computação,SME0300,SME0110
-55041-0,True,0.651,Bacharelado em Ciências de Computação,SME0822,SME0878
-55041-0,False,0.726,Bacharelado em Ciências de Computação,SSC0117,SEL0628
-55041-0,False,0.627,Bacharelado em Ciências de Computação,SSC0124,SSC0130
-55041-0,False,0.625,Bacharelado em Ciências de Computação,SSC0124,SSC0725
-55041-0,False,0.579,Bacharelado em Ciências de Computação,SSC0130,SCC0580
-55041-0,False,0.763,Bacharelado em Ciências de Computação,SSC0130,SSC0123
-55041-0,False,0.775,Bacharelado em Ciências de Computação,SSC0130,SSC0720
-55041-0,False,0.688,Bacharelado em Ciências de Computação,SSC0130,SSC0726
-55041-0,False,0.781,Bacharelado em Ciências de Computação,SSC0130,SSC0959
-55041-0,False,0.749,Bacharelado em Ciências de Computação,SSC0140,SSC0141
-55041-0,False,0.679,Bacharelado em Ciências de Computação,SSC0140,SSC0142
-55041-0,False,0.594,Bacharelado em Ciências de Computação,SSC0140,SSC0154
-55041-0,False,0.606,Bacharelado em Ciências de Computação,SSC0140,SSC0158
-55041-0,False,0.634,Bacharelado em Ciências de Computação,SSC0140,SSC0160
-55041-0,False,0.671,Bacharelado em Ciências de Computação,SSC0140,SSC0745
-55041-0,False,0.677,Bacharelado em Ciências de Computação,SSC0140,SSC0903
-55041-0,False,0.747,Bacharelado em Ciências de Computação,SSC0140,SSC0904
-55041-0,False,0.728,Bacharelado em Ciências de Computação,SSC0140,SSC0950
-55041-0,False,0.743,Bacharelado em Ciências de Computação,SSC0142,SSC0152
-55041-0,False,0.619,Bacharelado em Ciências de Computação,SSC0142,SSC0158
-55041-0,False,0.704,Bacharelado em Ciências de Computação,SSC0142,SSC0748
-55041-0,False,0.662,Bacharelado em Ciências de Computação,SSC0142,SSC0900
-55041-0,False,0.71,Bacharelado em Ciências de Computação,SSC0142,SSC0904
-55041-0,False,0.691,Bacharelado em Ciências de Computação,SSC0142,SSC0954
-55041-0,False,0.616,Bacharelado em Ciências de Computação,SSC0740,SSC0741
-55041-0,False,0.674,Bacharelado em Ciências de Computação,SSC0900,SSC0901
-55041-0,False,0.659,Bacharelado em Ciências de Computação,SSC0902,SSC0140
-55041-0,False,0.603,Bacharelado em Ciências de Computação,SSC0902,SSC0643
-55041-0,False,0.62,Bacharelado em Ciências de Computação,SSC0902,SSC0740
-55041-0,False,0.7,Bacharelado em Ciências de Computação,SSC0902,SSC0903
-55041-0,False,0.557,Bacharelado em Ciências de Computação,SSC0902,SSC0951
-55041-0,False,0.71,Bacharelado em Ciências de Computação,SSC0903,SSC0744
-55041-0,False,0.731,Bacharelado em Ciências de Computação,SSC0904,SSC0744
-55051-4,False,0.687,Bacharelado em Sistemas de Informação,SCC0201,SCC0230
-55051-4,False,0.603,Bacharelado em Sistemas de Informação,SCC0201,SSC0723
-55051-4,False,0.739,Bacharelado em Sistemas de Informação,SCC0202,SCC0203
-55051-4,False,0.637,Bacharelado em Sistemas de Informação,SCC0202,SCC0204
-55051-4,False,0.621,Bacharelado em Sistemas de Informação,SCC0202,SCC0282
-55051-4,False,0.563,Bacharelado em Sistemas de Informação,SCC0202,SCC0283
-55051-4,False,0.623,Bacharelado em Sistemas de Informação,SCC0202,SSC0140
-55051-4,False,0.565,Bacharelado em Sistemas de Informação,SCC0202,SSC0960
-55051-4,False,0.616,Bacharelado em Sistemas de Informação,SCC0203,SCC0240
-55051-4,False,0.632,Bacharelado em Sistemas de Informação,SCC0203,SCC0261
-55051-4,False,0.613,Bacharelado em Sistemas de Informação,SCC0203,SME0130
-55051-4,False,0.572,Bacharelado em Sistemas de Informação,SCC0204,SCC0252
-55051-4,False,0.594,Bacharelado em Sistemas de Informação,SCC0204,SCC0260
-55051-4,True,0.577,Bacharelado em Sistemas de Informação,SCC0204,SME0231
-55051-4,False,0.707,Bacharelado em Sistemas de Informação,SCC0204,SSC0534
-55051-4,False,0.565,Bacharelado em Sistemas de Informação,SCC0204,SSC0770
-55051-4,False,0.494,Bacharelado em Sistemas de Informação,SCC0204,SSC0959
-55051-4,False,0.576,Bacharelado em Sistemas de Informação,SCC0204,SSC0961
-55051-4,False,0.713,Bacharelado em Sistemas de Informação,SCC0221,SCC0201
-55051-4,False,0.651,Bacharelado em Sistemas de Informação,SCC0221,SCC0202
-55051-4,False,0.644,Bacharelado em Sistemas de Informação,SCC0221,SCC0505
-55051-4,False,0.602,Bacharelado em Sistemas de Informação,SCC0221,SME0300
-55051-4,False,0.595,Bacharelado em Sistemas de Informação,SCC0230,SCC0244
-55051-4,False,0.679,Bacharelado em Sistemas de Informação,SCC0230,SCC0270
-55051-4,False,0.63,Bacharelado em Sistemas de Informação,SCC0230,SCC0275
-55051-4,False,0.717,Bacharelado em Sistemas de Informação,SCC0230,SCC0276
-55051-4,False,0.631,Bacharelado em Sistemas de Informação,SCC0230,SCC0570
-55051-4,False,0.778,Bacharelado em Sistemas de Informação,SCC0240,SCC0241
-55051-4,False,0.644,Bacharelado em Sistemas de Informação,SCC0240,SCC0244
-55051-4,False,0.637,Bacharelado em Sistemas de Informação,SCC0260,SCC0580
+55041-0,True,0.998,Bacharelado em Ciências de Computação,SCC0293,SCC0294
+55041-0,False,0.821,Bacharelado em Ciências de Computação,SEL0628,SSC0902
+55041-0,True,0.833,Bacharelado em Ciências de Computação,SMA0180,SCC0283
+55041-0,False,0.944,Bacharelado em Ciências de Computação,SMA0354,SMA0393
+55041-0,False,0.795,Bacharelado em Ciências de Computação,SMA0354,SME0123
+55041-0,False,0.91,Bacharelado em Ciências de Computação,SMA0392,SMA0354
+55041-0,False,0.755,Bacharelado em Ciências de Computação,SMA0392,SME0130
+55041-0,False,0.824,Bacharelado em Ciências de Computação,SMA0392,SME0300
+55041-0,False,0.836,Bacharelado em Ciências de Computação,SME0123,SME0121
+55041-0,True,0.844,Bacharelado em Ciências de Computação,SME0123,SME0806
+55041-0,True,0.87,Bacharelado em Ciências de Computação,SME0123,SME0808
+55041-0,True,0.863,Bacharelado em Ciências de Computação,SME0123,SME0822
+55041-0,True,0.863,Bacharelado em Ciências de Computação,SME0123,SME0823
+55041-0,True,0.876,Bacharelado em Ciências de Computação,SME0123,SME0878
+55041-0,True,0.839,Bacharelado em Ciências de Computação,SME0142,SME0231
+55041-0,False,0.824,Bacharelado em Ciências de Computação,SME0142,SME0300
+55041-0,False,0.826,Bacharelado em Ciências de Computação,SME0300,SME0110
+55041-0,True,0.88,Bacharelado em Ciências de Computação,SME0822,SME0878
+55041-0,False,0.882,Bacharelado em Ciências de Computação,SSC0117,SEL0628
+55041-0,False,0.869,Bacharelado em Ciências de Computação,SSC0124,SSC0130
+55041-0,False,0.881,Bacharelado em Ciências de Computação,SSC0124,SSC0725
+55041-0,False,0.817,Bacharelado em Ciências de Computação,SSC0130,SCC0580
+55041-0,False,0.856,Bacharelado em Ciências de Computação,SSC0130,SSC0123
+55041-0,False,0.898,Bacharelado em Ciências de Computação,SSC0130,SSC0720
+55041-0,False,0.866,Bacharelado em Ciências de Computação,SSC0130,SSC0726
+55041-0,False,0.897,Bacharelado em Ciências de Computação,SSC0130,SSC0959
+55041-0,False,0.885,Bacharelado em Ciências de Computação,SSC0140,SSC0141
+55041-0,False,0.847,Bacharelado em Ciências de Computação,SSC0140,SSC0142
+55041-0,False,0.816,Bacharelado em Ciências de Computação,SSC0140,SSC0154
+55041-0,False,0.844,Bacharelado em Ciências de Computação,SSC0140,SSC0158
+55041-0,False,0.834,Bacharelado em Ciências de Computação,SSC0140,SSC0160
+55041-0,False,0.862,Bacharelado em Ciências de Computação,SSC0140,SSC0745
+55041-0,False,0.868,Bacharelado em Ciências de Computação,SSC0140,SSC0903
+55041-0,False,0.872,Bacharelado em Ciências de Computação,SSC0140,SSC0904
+55041-0,False,0.871,Bacharelado em Ciências de Computação,SSC0140,SSC0950
+55041-0,False,0.903,Bacharelado em Ciências de Computação,SSC0142,SSC0152
+55041-0,False,0.836,Bacharelado em Ciências de Computação,SSC0142,SSC0158
+55041-0,False,0.861,Bacharelado em Ciências de Computação,SSC0142,SSC0748
+55041-0,False,0.842,Bacharelado em Ciências de Computação,SSC0142,SSC0900
+55041-0,False,0.859,Bacharelado em Ciências de Computação,SSC0142,SSC0904
+55041-0,False,0.857,Bacharelado em Ciências de Computação,SSC0142,SSC0954
+55041-0,False,0.878,Bacharelado em Ciências de Computação,SSC0740,SSC0741
+55041-0,False,0.865,Bacharelado em Ciências de Computação,SSC0900,SSC0901
+55041-0,False,0.873,Bacharelado em Ciências de Computação,SSC0902,SSC0140
+55041-0,False,0.794,Bacharelado em Ciências de Computação,SSC0902,SSC0643
+55041-0,False,0.85,Bacharelado em Ciências de Computação,SSC0902,SSC0740
+55041-0,False,0.884,Bacharelado em Ciências de Computação,SSC0902,SSC0903
+55041-0,False,0.836,Bacharelado em Ciências de Computação,SSC0902,SSC0951
+55041-0,False,0.866,Bacharelado em Ciências de Computação,SSC0903,SSC0744
+55041-0,False,0.894,Bacharelado em Ciências de Computação,SSC0904,SSC0744
+55051-4,False,0.824,Bacharelado em Sistemas de Informação,SCC0201,SCC0230
+55051-4,False,0.791,Bacharelado em Sistemas de Informação,SCC0201,SSC0723
+55051-4,False,0.89,Bacharelado em Sistemas de Informação,SCC0202,SCC0203
+55051-4,False,0.797,Bacharelado em Sistemas de Informação,SCC0202,SCC0204
+55051-4,False,0.829,Bacharelado em Sistemas de Informação,SCC0202,SCC0282
+55051-4,False,0.845,Bacharelado em Sistemas de Informação,SCC0202,SCC0283
+55051-4,False,0.828,Bacharelado em Sistemas de Informação,SCC0202,SSC0140
+55051-4,False,0.827,Bacharelado em Sistemas de Informação,SCC0202,SSC0960
+55051-4,False,0.829,Bacharelado em Sistemas de Informação,SCC0203,SCC0240
+55051-4,False,0.864,Bacharelado em Sistemas de Informação,SCC0203,SCC0261
+55051-4,False,0.845,Bacharelado em Sistemas de Informação,SCC0203,SME0130
+55051-4,False,0.764,Bacharelado em Sistemas de Informação,SCC0204,SCC0252
+55051-4,False,0.795,Bacharelado em Sistemas de Informação,SCC0204,SCC0260
+55051-4,True,0.747,Bacharelado em Sistemas de Informação,SCC0204,SME0231
+55051-4,False,0.861,Bacharelado em Sistemas de Informação,SCC0204,SSC0534
+55051-4,False,0.778,Bacharelado em Sistemas de Informação,SCC0204,SSC0770
+55051-4,False,0.792,Bacharelado em Sistemas de Informação,SCC0204,SSC0959
+55051-4,False,0.793,Bacharelado em Sistemas de Informação,SCC0204,SSC0961
+55051-4,False,0.875,Bacharelado em Sistemas de Informação,SCC0221,SCC0201
+55051-4,False,0.877,Bacharelado em Sistemas de Informação,SCC0221,SCC0202
+55051-4,False,0.849,Bacharelado em Sistemas de Informação,SCC0221,SCC0505
+55051-4,False,0.82,Bacharelado em Sistemas de Informação,SCC0221,SME0300
+55051-4,False,0.851,Bacharelado em Sistemas de Informação,SCC0230,SCC0244
+55051-4,False,0.87,Bacharelado em Sistemas de Informação,SCC0230,SCC0270
+55051-4,False,0.851,Bacharelado em Sistemas de Informação,SCC0230,SCC0275
+55051-4,False,0.904,Bacharelado em Sistemas de Informação,SCC0230,SCC0276
+55051-4,False,0.867,Bacharelado em Sistemas de Informação,SCC0230,SCC0570
+55051-4,False,0.886,Bacharelado em Sistemas de Informação,SCC0240,SCC0241
+55051-4,False,0.863,Bacharelado em Sistemas de Informação,SCC0240,SCC0244
+55051-4,False,0.873,Bacharelado em Sistemas de Informação,SCC0260,SCC0580
 55051-4,False,1.0,Bacharelado em Sistemas de Informação,SCC0289,SCC0290
 55051-4,False,0.994,Bacharelado em Sistemas de Informação,SCC0291,SCC0292
-55051-4,False,0.993,Bacharelado em Sistemas de Informação,SCC0293,SCC0294
-55051-4,False,0.623,Bacharelado em Sistemas de Informação,SMA0392,SME0300
-55051-4,False,0.622,Bacharelado em Sistemas de Informação,SMA0392,SME0520
-55051-4,True,0.538,Bacharelado em Sistemas de Informação,SMA0505,SME0231
-55051-4,False,0.551,Bacharelado em Sistemas de Informação,SMA0508,SCC0283
-55051-4,False,0.583,Bacharelado em Sistemas de Informação,SME0300,SME0510
-55051-4,True,0.647,Bacharelado em Sistemas de Informação,SME0520,SME0806
-55051-4,True,0.591,Bacharelado em Sistemas de Informação,SME0520,SME0808
-55051-4,True,0.599,Bacharelado em Sistemas de Informação,SME0520,SME0822
-55051-4,True,0.68,Bacharelado em Sistemas de Informação,SME0520,SME0823
-55051-4,True,0.689,Bacharelado em Sistemas de Informação,SME0520,SME0878
-55051-4,True,0.651,Bacharelado em Sistemas de Informação,SME0822,SME0878
-55051-4,False,0.679,Bacharelado em Sistemas de Informação,SSC0140,SSC0142
-55051-4,False,0.619,Bacharelado em Sistemas de Informação,SSC0142,SSC0158
-55051-4,False,0.662,Bacharelado em Sistemas de Informação,SSC0142,SSC0900
-55051-4,False,0.607,Bacharelado em Sistemas de Informação,SSC0142,SSC0950
-55051-4,False,0.635,Bacharelado em Sistemas de Informação,SSC0512,SSC0902
-55051-4,False,0.861,Bacharelado em Sistemas de Informação,SSC0530,SSC0531
-55051-4,False,0.561,Bacharelado em Sistemas de Informação,SSC0530,SSC0570
-55051-4,False,0.736,Bacharelado em Sistemas de Informação,SSC0532,SSC0533
-55051-4,False,0.624,Bacharelado em Sistemas de Informação,SSC0533,SCC0260
-55051-4,False,0.611,Bacharelado em Sistemas de Informação,SSC0533,SSC0534
-55051-4,False,0.699,Bacharelado em Sistemas de Informação,SSC0534,SEP0172
-55051-4,False,0.628,Bacharelado em Sistemas de Informação,SSC0534,SEP0301
-55051-4,False,0.623,Bacharelado em Sistemas de Informação,SSC0534,SSC0535
-55051-4,False,0.643,Bacharelado em Sistemas de Informação,SSC0534,SSC0725
-55051-4,False,0.653,Bacharelado em Sistemas de Informação,SSC0534,SSC0726
-55051-4,False,0.685,Bacharelado em Sistemas de Informação,SSC0535,SSC0536
+55051-4,False,0.998,Bacharelado em Sistemas de Informação,SCC0293,SCC0294
+55051-4,False,0.824,Bacharelado em Sistemas de Informação,SMA0392,SME0300
+55051-4,False,0.772,Bacharelado em Sistemas de Informação,SMA0392,SME0520
+55051-4,True,0.808,Bacharelado em Sistemas de Informação,SMA0505,SME0231
+55051-4,False,0.836,Bacharelado em Sistemas de Informação,SMA0508,SCC0283
+55051-4,False,0.8,Bacharelado em Sistemas de Informação,SME0300,SME0510
+55051-4,True,0.858,Bacharelado em Sistemas de Informação,SME0520,SME0806
+55051-4,True,0.86,Bacharelado em Sistemas de Informação,SME0520,SME0808
+55051-4,True,0.841,Bacharelado em Sistemas de Informação,SME0520,SME0822
+55051-4,True,0.858,Bacharelado em Sistemas de Informação,SME0520,SME0823
+55051-4,True,0.881,Bacharelado em Sistemas de Informação,SME0520,SME0878
+55051-4,True,0.88,Bacharelado em Sistemas de Informação,SME0822,SME0878
+55051-4,False,0.847,Bacharelado em Sistemas de Informação,SSC0140,SSC0142
+55051-4,False,0.836,Bacharelado em Sistemas de Informação,SSC0142,SSC0158
+55051-4,False,0.842,Bacharelado em Sistemas de Informação,SSC0142,SSC0900
+55051-4,False,0.805,Bacharelado em Sistemas de Informação,SSC0142,SSC0950
+55051-4,False,0.842,Bacharelado em Sistemas de Informação,SSC0512,SSC0902
+55051-4,False,0.935,Bacharelado em Sistemas de Informação,SSC0530,SSC0531
+55051-4,False,0.833,Bacharelado em Sistemas de Informação,SSC0530,SSC0570
+55051-4,False,0.895,Bacharelado em Sistemas de Informação,SSC0532,SSC0533
+55051-4,False,0.852,Bacharelado em Sistemas de Informação,SSC0533,SCC0260
+55051-4,False,0.828,Bacharelado em Sistemas de Informação,SSC0533,SSC0534
+55051-4,False,0.825,Bacharelado em Sistemas de Informação,SSC0534,SEP0172
+55051-4,False,0.842,Bacharelado em Sistemas de Informação,SSC0534,SEP0301
+55051-4,False,0.815,Bacharelado em Sistemas de Informação,SSC0534,SSC0535
+55051-4,False,0.832,Bacharelado em Sistemas de Informação,SSC0534,SSC0725
+55051-4,False,0.842,Bacharelado em Sistemas de Informação,SSC0534,SSC0726
+55051-4,False,0.857,Bacharelado em Sistemas de Informação,SSC0535,SSC0536
 55051-4,False,1.0,Bacharelado em Sistemas de Informação,SSC0595,SSC0596
-55051-4,False,0.659,Bacharelado em Sistemas de Informação,SSC0902,SSC0140
-55051-4,False,0.622,Bacharelado em Sistemas de Informação,SSC0959,SSC0536
-55060-0,False,0.804,Bacharelado em Matemática Aplicada e Computação Científica,7600005,7600006
-55060-0,True,0.691,Bacharelado em Matemática Aplicada e Computação Científica,7600005,SEM0403
-55060-0,True,0.704,Bacharelado em Matemática Aplicada e Computação Científica,7600006,SEM0403
-55060-0,True,0.64,Bacharelado em Matemática Aplicada e Computação Científica,SCC0204,SCC0250
-55060-0,False,0.572,Bacharelado em Matemática Aplicada e Computação Científica,SCC0204,SCC0252
-55060-0,False,0.615,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0204
-55060-0,True,0.722,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0224
-55060-0,False,0.667,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0230
-55060-0,False,0.581,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0240
-55060-0,True,0.635,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SME0231
-55060-0,True,0.701,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SCC0218
-55060-0,True,0.607,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SCC0219
-55060-0,False,0.629,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SME0130
-55060-0,False,0.595,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0244
-55060-0,False,0.679,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0270
-55060-0,False,0.717,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0276
-55060-0,False,0.644,Bacharelado em Matemática Aplicada e Computação Científica,SCC0240,SCC0244
-55060-0,True,0.7,Bacharelado em Matemática Aplicada e Computação Científica,SEM0403,SEM0550
-55060-0,False,0.537,Bacharelado em Matemática Aplicada e Computação Científica,SMA0343,SMA0120
-55060-0,False,0.693,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SMA0175
-55060-0,False,0.797,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SMA0393
-55060-0,False,0.556,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SME0212
-55060-0,True,0.612,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SME0250
-55060-0,False,0.666,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SMA0120
-55060-0,False,0.69,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SMA0175
-55060-0,True,0.68,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0205
-55060-0,False,0.578,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0211
-55060-0,False,0.574,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0212
-55060-0,True,0.557,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0231
-55060-0,False,0.618,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0240
-55060-0,True,0.739,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0243
-55060-0,False,0.664,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SMA0169
-55060-0,True,0.885,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SMA0308
-55060-0,False,0.772,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SME0245
-55060-0,True,0.639,Bacharelado em Matemática Aplicada e Computação Científica,SMA0386,SMA0305
-55060-0,True,0.517,Bacharelado em Matemática Aplicada e Computação Científica,SMA0386,SMA0343
-55060-0,False,0.676,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,7600005
-55060-0,True,0.788,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SMA0354
-55060-0,True,0.759,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SMA0380
-55060-0,True,0.659,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SME0220
-55060-0,False,0.621,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SME0240
-55060-0,True,0.631,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0251
-55060-0,True,0.611,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0253
-55060-0,False,0.587,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0254
-55060-0,True,0.693,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0251
-55060-0,True,0.663,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0253
-55060-0,True,0.624,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0256
-55060-0,False,0.742,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0213
-55060-0,False,0.627,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0214
-55060-0,False,0.617,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0216
-55060-0,True,0.59,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0121
-55060-0,False,0.656,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0221
-55060-0,True,0.588,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0878
-55060-0,True,0.639,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0806
-55060-0,True,0.567,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0808
-55060-0,True,0.742,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0809
-55060-0,True,0.624,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0811
-55060-0,True,0.526,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0812
-55060-0,True,0.592,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0816
-55060-0,True,0.622,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0820
-55060-0,True,0.623,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0821
-55060-0,True,0.643,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0822
-55060-0,True,0.632,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0823
-55060-0,True,0.583,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0824
-55060-0,True,0.577,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0878
-55060-0,True,0.638,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SCC0223
-55060-0,True,0.625,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0205
-55060-0,True,0.685,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0206
-55060-0,False,0.493,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0212
-55060-0,True,0.626,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0878
-55060-0,True,0.752,Bacharelado em Matemática Aplicada e Computação Científica,SME0240,SMA0169
-55060-0,False,0.666,Bacharelado em Matemática Aplicada e Computação Científica,SME0240,SME0202
-55060-0,True,0.704,Bacharelado em Matemática Aplicada e Computação Científica,SME0803,SME0871
-55060-0,True,0.625,Bacharelado em Matemática Aplicada e Computação Científica,SME0820,SME0871
-55060-0,True,0.648,Bacharelado em Matemática Aplicada e Computação Científica,SME0820,SME0878
-55060-0,True,0.627,Bacharelado em Matemática Aplicada e Computação Científica,SME0822,SME0871
-55060-0,True,0.651,Bacharelado em Matemática Aplicada e Computação Científica,SME0822,SME0878
-55071-4,True,0.729,Bacharelado em Estatística e Ciência de Dados,IAU0314,IAU0315
-55071-4,False,0.594,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0130
-55071-4,True,0.513,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0212
-55071-4,True,0.622,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0827
-55071-4,True,0.636,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0878
-55071-4,True,0.585,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0879
-55071-4,True,0.627,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0892
-55071-4,True,0.632,Bacharelado em Estatística e Ciência de Dados,SCC0222,SME0827
-55071-4,False,0.77,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0244
-55071-4,True,0.611,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0276
-55071-4,False,0.805,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0277
-55071-4,False,0.703,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0287
-55071-4,False,0.792,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0802
-55071-4,False,0.792,Bacharelado em Estatística e Ciência de Dados,SCC0275,SME0852
-55071-4,False,0.655,Bacharelado em Estatística e Ciência de Dados,SCC0276,SCC0270
-55071-4,True,0.672,Bacharelado em Estatística e Ciência de Dados,SMA0308,SMA0143
-55071-4,True,0.754,Bacharelado em Estatística e Ciência de Dados,SMA0354,SMA0308
-55071-4,True,0.556,Bacharelado em Estatística e Ciência de Dados,SMA0354,SME0212
-55071-4,True,0.572,Bacharelado em Estatística e Ciência de Dados,SMA0354,SME0801
-55071-4,True,0.788,Bacharelado em Estatística e Ciência de Dados,SMA0392,SMA0354
-55071-4,True,0.66,Bacharelado em Estatística e Ciência de Dados,SMA0392,SMA0803
-55071-4,False,0.572,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0130
-55071-4,True,0.621,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0240
-55071-4,True,0.639,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0800
-55071-4,True,0.642,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0892
-55071-4,True,0.773,Bacharelado em Estatística e Ciência de Dados,SMA0803,SMA0307
-55071-4,True,0.683,Bacharelado em Estatística e Ciência de Dados,SMA0803,SMA0308
-55071-4,True,0.584,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0212
-55071-4,True,0.553,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0231
-55071-4,True,0.619,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0240
-55071-4,False,0.566,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0854
-55071-4,True,0.676,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0892
-55071-4,True,0.57,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0121
-55071-4,True,0.603,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0801
-55071-4,True,0.601,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0818
-55071-4,True,0.555,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0878
-55071-4,True,0.523,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0879
-55071-4,True,0.661,Bacharelado em Estatística e Ciência de Dados,SME0801,SME0809
-55071-4,True,0.704,Bacharelado em Estatística e Ciência de Dados,SME0803,SME0871
-55071-4,True,0.641,Bacharelado em Estatística e Ciência de Dados,SME0808,SME0262
-55071-4,True,0.599,Bacharelado em Estatística e Ciência de Dados,SME0808,SME0873
-55071-4,True,0.634,Bacharelado em Estatística e Ciência de Dados,SME0809,SME0876
-55071-4,True,0.604,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0262
-55071-4,True,0.689,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0806
-55071-4,True,0.673,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0807
-55071-4,True,0.569,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0808
-55071-4,True,0.713,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0809
-55071-4,True,0.737,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0810
-55071-4,True,0.639,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0811
-55071-4,True,0.58,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0812
-55071-4,True,0.503,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0814
-55071-4,True,0.658,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0816
-55071-4,True,0.647,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0820
-55071-4,True,0.674,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0821
-55071-4,True,0.616,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0822
-55071-4,True,0.666,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0823
-55071-4,True,0.62,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0824
-55071-4,True,0.674,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0870
-55071-4,True,0.674,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0875
-55071-4,True,0.612,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0876
-55071-4,True,0.581,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0878
-55071-4,True,0.59,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0880
-55071-4,True,0.641,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0882
-55071-4,True,0.625,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0871
-55071-4,True,0.739,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0873
-55071-4,True,0.648,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0878
-55071-4,True,0.651,Bacharelado em Estatística e Ciência de Dados,SME0822,SME0878
-55071-4,False,0.65,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0230
-55071-4,False,0.588,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0240
-55071-4,False,0.601,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0251
-55071-4,False,0.649,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0252
-55071-4,True,0.684,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0275
-55071-4,True,0.638,Bacharelado em Estatística e Ciência de Dados,SME0827,SME0231
-55071-4,True,0.647,Bacharelado em Estatística e Ciência de Dados,SME0892,SME0510
-55090-0,False,0.572,Bacharelado em Ciência de Dados,SCC0204,SCC0252
-55090-0,False,0.685,Bacharelado em Ciência de Dados,SCC0204,SSC0124
-55090-0,False,0.636,Bacharelado em Ciência de Dados,SCC0221,SCC0223
-55090-0,False,0.615,Bacharelado em Ciência de Dados,SCC0221,SME0205
-55090-0,False,0.513,Bacharelado em Ciência de Dados,SCC0221,SME0212
-55090-0,True,0.636,Bacharelado em Ciência de Dados,SCC0221,SME0878
-55090-0,False,0.615,Bacharelado em Ciência de Dados,SCC0223,SCC0204
-55090-0,False,0.683,Bacharelado em Ciência de Dados,SCC0223,SCC0215
-55090-0,False,0.55,Bacharelado em Ciência de Dados,SCC0223,SCC0219
-55090-0,False,0.722,Bacharelado em Ciência de Dados,SCC0223,SCC0224
-55090-0,False,0.667,Bacharelado em Ciência de Dados,SCC0223,SCC0230
-55090-0,False,0.581,Bacharelado em Ciência de Dados,SCC0223,SCC0240
-55090-0,False,0.612,Bacharelado em Ciência de Dados,SCC0223,SCC0251
-55090-0,False,0.595,Bacharelado em Ciência de Dados,SCC0223,SCC0261
-55090-0,False,0.656,Bacharelado em Ciência de Dados,SCC0223,SCC0282
-55090-0,False,0.603,Bacharelado em Ciência de Dados,SCC0223,SCC0284
-55090-0,True,0.635,Bacharelado em Ciência de Dados,SCC0223,SME0231
-55090-0,False,0.657,Bacharelado em Ciência de Dados,SCC0223,SME0860
-55090-0,False,0.629,Bacharelado em Ciência de Dados,SCC0223,SME0861
-55090-0,False,0.52,Bacharelado em Ciência de Dados,SCC0223,SME0862
-55090-0,False,0.628,Bacharelado em Ciência de Dados,SCC0223,SSC0140
-55090-0,False,0.592,Bacharelado em Ciência de Dados,SCC0223,SSC0158
-55090-0,False,0.605,Bacharelado em Ciência de Dados,SCC0223,SSC0952
-55090-0,False,0.701,Bacharelado em Ciência de Dados,SCC0224,SCC0218
-55090-0,False,0.656,Bacharelado em Ciência de Dados,SCC0224,SCC0251
-55090-0,False,0.609,Bacharelado em Ciência de Dados,SCC0224,SCC0271
-55090-0,False,0.554,Bacharelado em Ciência de Dados,SCC0224,SCC0283
-55090-0,False,0.997,Bacharelado em Ciência de Dados,SCC0227,SCC0228
-55090-0,False,0.985,Bacharelado em Ciência de Dados,SCC0228,SCC0229
-55090-0,False,0.595,Bacharelado em Ciência de Dados,SCC0230,SCC0244
-55090-0,False,0.679,Bacharelado em Ciência de Dados,SCC0230,SCC0270
-55090-0,False,0.717,Bacharelado em Ciência de Dados,SCC0230,SCC0276
-55090-0,False,0.608,Bacharelado em Ciência de Dados,SCC0230,SCC0287
-55090-0,False,0.636,Bacharelado em Ciência de Dados,SCC0230,SCC0633
-55090-0,False,0.65,Bacharelado em Ciência de Dados,SCC0230,SME0206
-55090-0,False,0.586,Bacharelado em Ciência de Dados,SCC0230,SSC0956
-55090-0,False,0.778,Bacharelado em Ciência de Dados,SCC0240,SCC0241
-55090-0,False,0.759,Bacharelado em Ciência de Dados,SCC0240,SCC0243
-55090-0,False,0.644,Bacharelado em Ciência de Dados,SCC0240,SCC0244
-55090-0,False,0.671,Bacharelado em Ciência de Dados,SCC0240,SCC0245
-55090-0,False,0.712,Bacharelado em Ciência de Dados,SCC0240,SCC0247
-55090-0,False,0.512,Bacharelado em Ciência de Dados,SMA0180,SCC0283
-55090-0,False,0.537,Bacharelado em Ciência de Dados,SMA0343,SMA0120
-55090-0,False,0.549,Bacharelado em Ciência de Dados,SMA0354,SMA0343
-55090-0,False,0.797,Bacharelado em Ciência de Dados,SMA0354,SMA0393
-55090-0,False,0.556,Bacharelado em Ciência de Dados,SMA0354,SME0212
-55090-0,False,0.713,Bacharelado em Ciência de Dados,SMA0356,SMA0307
-55090-0,False,0.788,Bacharelado em Ciência de Dados,SMA0392,SMA0354
-55090-0,False,0.659,Bacharelado em Ciência de Dados,SMA0392,SME0220
-55090-0,False,0.621,Bacharelado em Ciência de Dados,SMA0392,SME0240
-55090-0,False,0.697,Bacharelado em Ciência de Dados,SMA0393,SMA0308
-55090-0,False,0.685,Bacharelado em Ciência de Dados,SMA0393,SMA0356
-55090-0,False,0.66,Bacharelado em Ciência de Dados,SME0142,SMA0120
-55090-0,False,0.651,Bacharelado em Ciência de Dados,SME0142,SME0205
-55090-0,False,0.59,Bacharelado em Ciência de Dados,SME0142,SME0211
-55090-0,False,0.517,Bacharelado em Ciência de Dados,SME0142,SME0212
-55090-0,True,0.542,Bacharelado em Ciência de Dados,SME0142,SME0231
-55090-0,False,0.585,Bacharelado em Ciência de Dados,SME0142,SME0240
-55090-0,False,0.835,Bacharelado em Ciência de Dados,SME0142,SME0243
-55090-0,False,0.742,Bacharelado em Ciência de Dados,SME0211,SME0213
-55090-0,False,0.617,Bacharelado em Ciência de Dados,SME0211,SME0216
-55090-0,False,0.59,Bacharelado em Ciência de Dados,SME0220,SME0121
-55090-0,False,0.656,Bacharelado em Ciência de Dados,SME0220,SME0221
-55090-0,True,0.576,Bacharelado em Ciência de Dados,SME0221,SME0262
-55090-0,True,0.639,Bacharelado em Ciência de Dados,SME0221,SME0806
-55090-0,True,0.584,Bacharelado em Ciência de Dados,SME0221,SME0807
-55090-0,True,0.567,Bacharelado em Ciência de Dados,SME0221,SME0808
-55090-0,True,0.742,Bacharelado em Ciência de Dados,SME0221,SME0809
-55090-0,True,0.651,Bacharelado em Ciência de Dados,SME0221,SME0810
-55090-0,True,0.592,Bacharelado em Ciência de Dados,SME0221,SME0816
-55090-0,True,0.622,Bacharelado em Ciência de Dados,SME0221,SME0820
-55090-0,True,0.643,Bacharelado em Ciência de Dados,SME0221,SME0822
-55090-0,True,0.632,Bacharelado em Ciência de Dados,SME0221,SME0823
-55090-0,False,0.603,Bacharelado em Ciência de Dados,SME0221,SME0826
-55090-0,True,0.662,Bacharelado em Ciência de Dados,SME0221,SME0870
-55090-0,True,0.662,Bacharelado em Ciência de Dados,SME0221,SME0875
-55090-0,False,0.612,Bacharelado em Ciência de Dados,SME0240,SME0206
-55090-0,False,0.641,Bacharelado em Ciência de Dados,SME0808,SME0262
-55090-0,False,0.58,Bacharelado em Ciência de Dados,SME0820,SCC0802
-55090-0,False,0.58,Bacharelado em Ciência de Dados,SME0820,SME0852
-55090-0,False,0.625,Bacharelado em Ciência de Dados,SME0820,SME0871
-55090-0,True,0.648,Bacharelado em Ciência de Dados,SME0820,SME0878
-55090-0,False,0.58,Bacharelado em Ciência de Dados,SME0820,SSC0957
-55090-0,False,0.627,Bacharelado em Ciência de Dados,SME0822,SME0871
-55090-0,True,0.651,Bacharelado em Ciência de Dados,SME0822,SME0878
-55090-0,False,0.64,Bacharelado em Ciência de Dados,SME0822,SSC0956
-55090-0,False,0.75,Bacharelado em Ciência de Dados,SME0825,SME0826
-55090-0,False,0.627,Bacharelado em Ciência de Dados,SSC0124,SSC0130
-55090-0,False,0.594,Bacharelado em Ciência de Dados,SSC0130,SSC0120
-55090-0,False,0.781,Bacharelado em Ciência de Dados,SSC0130,SSC0959
-55090-0,False,0.679,Bacharelado em Ciência de Dados,SSC0140,SSC0142
-55090-0,False,0.606,Bacharelado em Ciência de Dados,SSC0140,SSC0158
-55090-0,False,0.677,Bacharelado em Ciência de Dados,SSC0140,SSC0903
-55090-0,False,0.747,Bacharelado em Ciência de Dados,SSC0140,SSC0904
-55090-0,False,0.619,Bacharelado em Ciência de Dados,SSC0142,SSC0158
-55090-0,False,0.662,Bacharelado em Ciência de Dados,SSC0142,SSC0900
-55090-0,False,0.71,Bacharelado em Ciência de Dados,SSC0142,SSC0904
-55090-0,False,0.674,Bacharelado em Ciência de Dados,SSC0900,SSC0901
-55090-0,False,0.599,Bacharelado em Ciência de Dados,SSC0955,SSC0140
-55090-0,False,0.635,Bacharelado em Ciência de Dados,SSC0955,SSC0903
-90011-104,True,0.804,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,7600006
-90011-104,True,0.649,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,SLC0628
-90011-104,True,0.556,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,SLC0639
-90011-104,False,0.708,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0628
-90011-104,True,0.478,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0646
-90011-104,True,0.462,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0657
-90011-104,True,0.501,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0681
-90011-104,True,0.572,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0602
-90011-104,True,0.565,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0639
-90011-104,True,0.482,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0646
-90011-104,True,0.646,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SMA0392
-90011-104,True,0.689,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0615
-90011-104,True,0.608,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0657
-90011-104,True,0.689,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0681
-90011-104,True,0.592,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0621
-90011-104,True,0.725,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0622
-90011-104,True,0.688,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0623
-90011-104,True,0.534,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0646
-90011-104,True,0.489,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0639
-90011-104,True,0.506,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0657
-90011-104,True,0.514,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0681
-90011-104,True,0.563,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0627,SLC0646
-90011-104,True,0.712,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0630,SLC0614
-90011-104,True,0.444,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0634,SLC0646
-90011-104,True,0.662,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0639,SLC0640
-90011-104,True,0.715,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0646,SLC0647
-90011-104,True,0.769,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0657,SLC0658
-90011-104,True,0.89,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0681,SLC0682
-90011-104,True,0.79,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0691,SLC0692
-90011-104,True,0.607,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0639
-90011-104,True,0.53,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0646
-90011-104,True,0.544,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0657
-90011-104,True,0.783,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0662
-90011-104,True,0.583,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0681
-90011-104,True,0.766,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0693
-90011-104,True,0.676,Licenciatura em Ciências Exatas - Núcleo Geral,SMA0392,7600005
-90011-104,False,0.788,Licenciatura em Ciências Exatas - Núcleo Geral,SMA0392,SMA0354
-90011-204,True,0.804,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,7600006
-90011-204,True,0.649,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,SLC0628
-90011-204,True,0.556,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,SLC0639
-90011-204,False,0.708,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0628
-90011-204,True,0.659,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0632
-90011-204,True,0.639,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0635
-90011-204,True,0.478,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0646
-90011-204,True,0.666,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0651
-90011-204,True,0.493,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0655
-90011-204,True,0.462,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0657
-90011-204,True,0.501,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0681
-90011-204,True,0.572,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0602
-90011-204,True,0.565,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0639
-90011-204,True,0.482,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0646
-90011-204,True,0.646,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SMA0392
-90011-204,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0615
-90011-204,True,0.608,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0657
-90011-204,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0681
-90011-204,True,0.569,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0688
-90011-204,True,0.617,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0614,SLC0688
-90011-204,True,0.592,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0621
-90011-204,True,0.725,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0622
-90011-204,True,0.688,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0623
-90011-204,True,0.534,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0646
-90011-204,True,0.489,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0639
-90011-204,True,0.506,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0657
-90011-204,True,0.514,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0681
-90011-204,True,0.563,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0627,SLC0646
-90011-204,True,0.766,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0629
-90011-204,True,0.623,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0651
-90011-204,True,0.535,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0655
-90011-204,True,0.499,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0688
-90011-204,True,0.535,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0629,SLC0688
-90011-204,True,0.712,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0630,SLC0614
-90011-204,True,0.585,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0651
-90011-204,True,0.593,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0655
-90011-204,True,0.492,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0688
-90011-204,True,0.444,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0634,SLC0646
-90011-204,True,0.505,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0641
-90011-204,True,0.595,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0648
-90011-204,True,0.586,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0651
-90011-204,True,0.524,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0656
-90011-204,True,0.65,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0636,SLC0656
-90011-204,True,0.662,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0639,SLC0640
-90011-204,True,0.715,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0646,SLC0647
-90011-204,False,0.669,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0648,SLC0650
-90011-204,True,0.625,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0648,SLC0651
-90011-204,True,0.769,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0657,SLC0658
-90011-204,True,0.69,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0658,SLC0688
-90011-204,True,0.89,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0681,SLC0682
-90011-204,True,0.656,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0682,SLC0685
-90011-204,True,0.924,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0685,SLC0686
-90011-204,True,0.978,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0688,SLC0689
-90011-204,True,0.79,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0691,SLC0692
-90011-204,True,0.607,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0639
-90011-204,True,0.53,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0646
-90011-204,True,0.544,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0657
-90011-204,True,0.783,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0662
-90011-204,True,0.583,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0681
-90011-204,True,0.766,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0693
-90011-204,True,0.528,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0354,SLC0635
-90011-204,True,0.676,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0392,7600005
-90011-204,False,0.788,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0392,SMA0354
-90011-304,True,0.804,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,7600006
-90011-304,True,0.649,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,SLC0628
-90011-304,True,0.556,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,SLC0639
-90011-304,False,0.708,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0628
-90011-304,True,0.478,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0646
-90011-304,True,0.462,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0657
-90011-304,True,0.501,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0681
-90011-304,True,0.572,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0602
-90011-304,True,0.565,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0639
-90011-304,True,0.482,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0646
-90011-304,True,0.646,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SMA0392
-90011-304,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0615
-90011-304,True,0.608,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0657
-90011-304,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0681
-90011-304,True,0.663,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0614,SLC0675
-90011-304,True,0.592,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0621
-90011-304,True,0.725,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0622
-90011-304,True,0.688,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0623
-90011-304,True,0.534,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0646
-90011-304,True,0.489,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0639
-90011-304,True,0.506,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0657
-90011-304,True,0.514,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0681
-90011-304,True,0.563,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0627,SLC0646
-90011-304,True,0.712,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0630,SLC0614
-90011-304,True,0.444,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0634,SLC0646
-90011-304,True,0.662,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0639,SLC0640
-90011-304,True,0.715,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0646,SLC0647
-90011-304,True,0.769,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0657,SLC0658
-90011-304,True,0.725,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0658,SLC0695
-90011-304,True,0.74,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0669
-90011-304,True,0.664,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0674
-90011-304,True,0.719,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0675
-90011-304,True,0.991,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0678,SLC0679
-90011-304,True,0.89,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0681,SLC0682
-90011-304,True,0.612,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0682,SLC0678
-90011-304,True,0.79,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0691,SLC0692
-90011-304,True,0.607,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0639
-90011-304,True,0.53,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0646
-90011-304,True,0.544,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0657
-90011-304,True,0.783,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0662
-90011-304,True,0.695,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0675
-90011-304,True,0.583,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0681
-90011-304,True,0.766,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0693
-90011-304,True,0.78,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0665
-90011-304,True,0.583,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0666
-90011-304,True,0.636,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0667
-90011-304,True,0.745,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0668
-90011-304,True,0.749,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0670
-90011-304,True,0.718,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0671
-90011-304,True,0.643,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0673
-90011-304,True,0.836,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0694
-90011-304,True,0.981,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0695,SLC0696
-90011-304,True,0.676,Licenciatura em Ciências Exatas - Habilitação em Química,SMA0392,7600005
-90011-304,False,0.788,Licenciatura em Ciências Exatas - Habilitação em Química,SMA0392,SMA0354
-90011-404,True,0.804,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,7600006
-90011-404,True,0.649,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,SLC0628
-90011-404,True,0.556,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,SLC0639
-90011-404,False,0.708,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0628
-90011-404,True,0.478,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0646
-90011-404,True,0.462,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0657
-90011-404,True,0.501,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0681
-90011-404,True,0.668,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0531,SLC0534
-90011-404,True,0.572,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0602
-90011-404,True,0.565,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0639
-90011-404,True,0.482,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0646
-90011-404,True,0.646,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SMA0392
-90011-404,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0615
-90011-404,True,0.608,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0657
-90011-404,True,0.689,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0681
-90011-404,True,0.572,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SMA0370
-90011-404,True,0.662,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0609,SLC0532
-90011-404,True,0.609,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0609,SLC0687
-90011-404,True,0.631,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0614,SMA0370
-90011-404,True,0.592,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0621
-90011-404,True,0.725,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0622
-90011-404,True,0.688,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0623
-90011-404,True,0.534,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0646
-90011-404,True,0.489,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0639
-90011-404,True,0.506,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0657
-90011-404,True,0.514,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0681
-90011-404,True,0.563,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0627,SLC0646
-90011-404,True,0.712,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0630,SLC0614
-90011-404,True,0.444,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0634,SLC0646
-90011-404,True,0.662,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0639,SLC0640
-90011-404,True,0.715,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0646,SLC0647
-90011-404,True,0.769,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0657,SLC0658
-90011-404,True,0.653,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0658,SMA0370
-90011-404,True,0.89,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0681,SLC0682
-90011-404,True,0.639,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0682,SLC0683
-90011-404,True,0.813,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0683,SLC0684
-90011-404,True,0.79,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0691,SLC0692
-90011-404,True,0.607,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0639
-90011-404,True,0.53,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0646
-90011-404,True,0.544,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0657
-90011-404,True,0.783,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0662
-90011-404,True,0.583,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0681
-90011-404,True,0.766,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0693
-90011-404,True,0.676,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0354,SMA0370
-90011-404,True,0.933,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0370,SLC0618
-90011-404,True,0.676,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,7600005
-90011-404,False,0.639,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,SLC0609
-90011-404,False,0.788,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,SMA0354
-97001-0,False,0.7,Engenharia de Computação,1800040,1800043
-97001-0,False,0.652,Engenharia de Computação,7500012,SMM0193
-97001-0,False,0.553,Engenharia de Computação,7600005,SEL0633
-97001-0,False,0.636,Engenharia de Computação,7600006,SHS0619
-97001-0,False,0.615,Engenharia de Computação,IAU0678,SEM0587
-97001-0,False,0.64,Engenharia de Computação,SCC0204,SCC0250
-97001-0,False,0.572,Engenharia de Computação,SCC0204,SCC0252
-97001-0,False,0.697,Engenharia de Computação,SCC0204,SSC0621
-97001-0,False,0.565,Engenharia de Computação,SCC0204,SSC0770
-97001-0,False,0.576,Engenharia de Computação,SCC0204,SSC0961
-97001-0,False,0.604,Engenharia de Computação,SCC0221,SCC0204
-97001-0,False,0.636,Engenharia de Computação,SCC0221,SCC0223
-97001-0,False,0.644,Engenharia de Computação,SCC0221,SCC0230
-97001-0,False,0.612,Engenharia de Computação,SCC0221,SEL0631
-97001-0,False,0.594,Engenharia de Computação,SCC0221,SME0130
-97001-0,True,0.704,Engenharia de Computação,SCC0223,SCC0210
-97001-0,True,0.621,Engenharia de Computação,SCC0223,SCC0211
-97001-0,False,0.687,Engenharia de Computação,SCC0223,SCC0216
-97001-0,False,0.612,Engenharia de Computação,SCC0223,SCC0251
-97001-0,False,0.628,Engenharia de Computação,SCC0223,SSC0140
-97001-0,False,0.605,Engenharia de Computação,SCC0223,SSC0952
-97001-0,True,0.81,Engenharia de Computação,SCC0224,SCC0210
-97001-0,True,0.74,Engenharia de Computação,SCC0224,SCC0211
-97001-0,False,0.607,Engenharia de Computação,SCC0224,SCC0219
-97001-0,False,0.656,Engenharia de Computação,SCC0224,SCC0251
-97001-0,False,0.552,Engenharia de Computação,SCC0224,SCC0273
-97001-0,False,0.703,Engenharia de Computação,SCC0224,SCC0605
-97001-0,False,0.753,Engenharia de Computação,SCC0224,SCC0607
-97001-0,False,0.595,Engenharia de Computação,SCC0230,SCC0244
-97001-0,False,0.63,Engenharia de Computação,SCC0230,SCC0275
-97001-0,False,0.743,Engenharia de Computação,SCC0230,SCC0634
-97001-0,False,0.778,Engenharia de Computação,SCC0240,SCC0241
-97001-0,False,0.644,Engenharia de Computação,SCC0240,SCC0244
-97001-0,False,0.772,Engenharia de Computação,SCC0251,SEL0339
-97001-0,False,0.617,Engenharia de Computação,SCC0607,SCC0240
-97001-0,False,0.601,Engenharia de Computação,SCC0607,SCC0661
-97001-0,False,0.579,Engenharia de Computação,SEL0309,SEL0310
-97001-0,False,0.773,Engenharia de Computação,SEL0310,SEL0344
-97001-0,False,0.605,Engenharia de Computação,SEL0310,SEL0366
-97001-0,False,0.761,Engenharia de Computação,SEL0310,SEL0369
-97001-0,False,0.713,Engenharia de Computação,SEL0310,SEL0371
-97001-0,False,0.622,Engenharia de Computação,SEL0310,SEL0459
-97001-0,False,0.574,Engenharia de Computação,SEL0310,SEL0460
-97001-0,False,0.681,Engenharia de Computação,SEL0310,SEL0462
-97001-0,False,0.811,Engenharia de Computação,SEL0310,SEL0463
-97001-0,False,0.582,Engenharia de Computação,SEL0310,SEL0464
-97001-0,False,0.743,Engenharia de Computação,SEL0313,SEL0314
-97001-0,False,0.744,Engenharia de Computação,SEL0313,SEL0610
-97001-0,False,0.773,Engenharia de Computação,SEL0314,SEL0470
-97001-0,False,0.517,Engenharia de Computação,SEL0314,SEL0618
-97001-0,False,0.656,Engenharia de Computação,SEL0326,SEL0367
-97001-0,False,0.542,Engenharia de Computação,SEL0337,SEL0373
-97001-0,False,0.808,Engenharia de Computação,SEL0343,SEL0356
-97001-0,False,0.643,Engenharia de Computação,SEL0343,SEL0631
-97001-0,False,0.731,Engenharia de Computação,SEL0360,SEL0361
-97001-0,True,0.731,Engenharia de Computação,SEL0360,SEL0371
-97001-0,False,0.662,Engenharia de Computação,SEL0360,SEL0619
-97001-0,False,0.611,Engenharia de Computação,SEL0360,SEL0623
-97001-0,False,0.714,Engenharia de Computação,SEL0388,SEL0429
-97001-0,False,0.686,Engenharia de Computação,SEL0397,SEL0398
-97001-0,False,0.688,Engenharia de Computação,SEL0397,SEL0434
-97001-0,False,0.634,Engenharia de Computação,SEL0406,SEL0431
-97001-0,False,0.752,Engenharia de Computação,SEL0417,SEL0326
-97001-0,False,0.684,Engenharia de Computação,SEL0417,SEL0328
-97001-0,False,0.761,Engenharia de Computação,SEL0417,SEL0620
-97001-0,False,0.677,Engenharia de Computação,SEL0433,SEL0337
-97001-0,False,0.796,Engenharia de Computação,SEL0433,SEL0629
-97001-0,False,0.608,Engenharia de Computação,SEL0450,SEL0460
-97001-0,False,0.697,Engenharia de Computação,SEL0450,SEL0617
-97001-0,True,0.652,Engenharia de Computação,SEL0460,7600074
-97001-0,False,0.804,Engenharia de Computação,SEL0460,SEL0461
-97001-0,False,0.633,Engenharia de Computação,SEL0460,SEL0468
-97001-0,False,0.577,Engenharia de Computação,SEL0602,SEL0313
-97001-0,False,0.579,Engenharia de Computação,SEL0602,SEL0360
-97001-0,False,0.597,Engenharia de Computação,SEL0602,SEL0604
-97001-0,False,0.699,Engenharia de Computação,SEL0604,SEL0343
-97001-0,False,0.633,Engenharia de Computação,SEL0604,SEL0360
-97001-0,False,0.688,Engenharia de Computação,SEL0604,SEL0417
-97001-0,False,0.645,Engenharia de Computação,SEL0604,SEL0459
-97001-0,False,0.619,Engenharia de Computação,SEL0604,SEL0460
-97001-0,False,0.67,Engenharia de Computação,SEL0604,SEL0464
-97001-0,False,0.606,Engenharia de Computação,SEL0604,SEL0471
-97001-0,False,0.708,Engenharia de Computação,SEL0618,SEL0621
-97001-0,False,0.695,Engenharia de Computação,SEL0619,SEL0347
-97001-0,False,0.731,Engenharia de Computação,SEL0619,SEL0370
-97001-0,False,0.621,Engenharia de Computação,SEL0628,SEL0406
-97001-0,False,0.832,Engenharia de Computação,SEL0628,SEL0606
-97001-0,False,0.686,Engenharia de Computação,SEL0628,SEL0632
-97001-0,False,0.648,Engenharia de Computação,SEL0628,SSC0902
-97001-0,False,0.668,Engenharia de Computação,SEL0637,SEL0602
-97001-0,False,0.513,Engenharia de Computação,SMA0356,SEL0460
-97001-0,False,0.576,Engenharia de Computação,SMA0375,SEL0633
-97001-0,False,0.649,Engenharia de Computação,SMA0375,SME0300
-97001-0,False,0.613,Engenharia de Computação,SMA0392,SEM0575
-97001-0,False,0.6,Engenharia de Computação,SMA0392,SEM0576
-97001-0,False,0.788,Engenharia de Computação,SMA0392,SMA0354
-97001-0,False,0.635,Engenharia de Computação,SMA0392,SMA0393
-97001-0,False,0.493,Engenharia de Computação,SMA0393,SEL0309
-97001-0,False,0.572,Engenharia de Computação,SMA0393,SEL0460
-97001-0,False,0.509,Engenharia de Computação,SME0240,SEL0417
-97001-0,False,0.56,Engenharia de Computação,SME0300,SAA0356
-97001-0,False,0.587,Engenharia de Computação,SME0300,SEL0460
-97001-0,False,0.652,Engenharia de Computação,SME0300,SME0110
-97001-0,False,0.717,Engenharia de Computação,SME0320,SEL0367
-97001-0,False,0.596,Engenharia de Computação,SME0320,SME0121
-97001-0,False,0.562,Engenharia de Computação,SME0320,SME0130
-97001-0,False,0.62,Engenharia de Computação,SME0320,SME0808
-97001-0,False,0.616,Engenharia de Computação,SME0320,SME0822
-97001-0,False,0.711,Engenharia de Computação,SME0320,SME0823
-97001-0,False,0.676,Engenharia de Computação,SME0320,SME0878
-97001-0,False,0.651,Engenharia de Computação,SME0822,SME0878
-97001-0,False,0.594,Engenharia de Computação,SSC0130,SSC0120
-97001-0,False,0.775,Engenharia de Computação,SSC0130,SSC0720
-97001-0,False,0.688,Engenharia de Computação,SSC0130,SSC0726
-97001-0,False,0.781,Engenharia de Computação,SSC0130,SSC0959
-97001-0,False,0.679,Engenharia de Computação,SSC0140,SSC0142
-97001-0,False,0.753,Engenharia de Computação,SSC0140,SSC0743
-97001-0,False,0.671,Engenharia de Computação,SSC0140,SSC0745
-97001-0,False,0.659,Engenharia de Computação,SSC0140,SSC0746
-97001-0,False,0.677,Engenharia de Computação,SSC0140,SSC0903
-97001-0,False,0.747,Engenharia de Computação,SSC0140,SSC0904
-97001-0,False,0.743,Engenharia de Computação,SSC0142,SSC0152
-97001-0,False,0.704,Engenharia de Computação,SSC0142,SSC0748
-97001-0,False,0.662,Engenharia de Computação,SSC0142,SSC0900
-97001-0,True,0.665,Engenharia de Computação,SSC0621,SSC0130
-97001-0,False,0.636,Engenharia de Computação,SSC0621,SSC0725
-97001-0,False,0.818,Engenharia de Computação,SSC0676,SSC0675
-97001-0,False,0.616,Engenharia de Computação,SSC0740,SSC0741
-97001-0,False,0.674,Engenharia de Computação,SSC0900,SSC0901
-97001-0,False,0.689,Engenharia de Computação,SSC0902,SEL0338
-97001-0,False,0.755,Engenharia de Computação,SSC0902,SEL0433
-97001-0,False,0.659,Engenharia de Computação,SSC0902,SSC0140
-97001-0,False,0.603,Engenharia de Computação,SSC0902,SSC0643
-97001-0,False,0.62,Engenharia de Computação,SSC0902,SSC0740
-97001-0,False,0.7,Engenharia de Computação,SSC0902,SSC0903
-97001-0,False,0.731,Engenharia de Computação,SSC0904,SSC0744
+55051-4,False,0.873,Bacharelado em Sistemas de Informação,SSC0902,SSC0140
+55051-4,False,0.813,Bacharelado em Sistemas de Informação,SSC0959,SSC0536
+55060-0,False,0.915,Bacharelado em Matemática Aplicada e Computação Científica,7600005,7600006
+55060-0,True,0.837,Bacharelado em Matemática Aplicada e Computação Científica,7600005,SEM0403
+55060-0,True,0.848,Bacharelado em Matemática Aplicada e Computação Científica,7600006,SEM0403
+55060-0,True,0.782,Bacharelado em Matemática Aplicada e Computação Científica,SCC0204,SCC0250
+55060-0,False,0.764,Bacharelado em Matemática Aplicada e Computação Científica,SCC0204,SCC0252
+55060-0,False,0.798,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0204
+55060-0,True,0.881,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0224
+55060-0,False,0.846,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0230
+55060-0,False,0.829,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SCC0240
+55060-0,True,0.845,Bacharelado em Matemática Aplicada e Computação Científica,SCC0223,SME0231
+55060-0,True,0.9,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SCC0218
+55060-0,True,0.814,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SCC0219
+55060-0,False,0.823,Bacharelado em Matemática Aplicada e Computação Científica,SCC0224,SME0130
+55060-0,False,0.851,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0244
+55060-0,False,0.87,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0270
+55060-0,False,0.904,Bacharelado em Matemática Aplicada e Computação Científica,SCC0230,SCC0276
+55060-0,False,0.863,Bacharelado em Matemática Aplicada e Computação Científica,SCC0240,SCC0244
+55060-0,True,0.883,Bacharelado em Matemática Aplicada e Computação Científica,SEM0403,SEM0550
+55060-0,False,0.863,Bacharelado em Matemática Aplicada e Computação Científica,SMA0343,SMA0120
+55060-0,False,0.863,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SMA0175
+55060-0,False,0.944,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SMA0393
+55060-0,False,0.823,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SME0212
+55060-0,True,0.817,Bacharelado em Matemática Aplicada e Computação Científica,SMA0354,SME0250
+55060-0,False,0.876,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SMA0120
+55060-0,False,0.82,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SMA0175
+55060-0,True,0.847,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0205
+55060-0,False,0.85,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0211
+55060-0,False,0.824,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0212
+55060-0,True,0.797,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0231
+55060-0,False,0.851,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0240
+55060-0,True,0.898,Bacharelado em Matemática Aplicada e Computação Científica,SMA0375,SME0243
+55060-0,False,0.847,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SMA0169
+55060-0,True,0.966,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SMA0308
+55060-0,False,0.906,Bacharelado em Matemática Aplicada e Computação Científica,SMA0380,SME0245
+55060-0,True,0.854,Bacharelado em Matemática Aplicada e Computação Científica,SMA0386,SMA0305
+55060-0,True,0.816,Bacharelado em Matemática Aplicada e Computação Científica,SMA0386,SMA0343
+55060-0,False,0.797,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,7600005
+55060-0,True,0.91,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SMA0354
+55060-0,True,0.889,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SMA0380
+55060-0,True,0.814,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SME0220
+55060-0,False,0.834,Bacharelado em Matemática Aplicada e Computação Científica,SMA0392,SME0240
+55060-0,True,0.847,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0251
+55060-0,True,0.853,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0253
+55060-0,False,0.859,Bacharelado em Matemática Aplicada e Computação Científica,SME0205,SME0254
+55060-0,True,0.85,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0251
+55060-0,True,0.868,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0253
+55060-0,True,0.844,Bacharelado em Matemática Aplicada e Computação Científica,SME0206,SME0256
+55060-0,False,0.904,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0213
+55060-0,False,0.904,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0214
+55060-0,False,0.852,Bacharelado em Matemática Aplicada e Computação Científica,SME0211,SME0216
+55060-0,True,0.871,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0121
+55060-0,False,0.875,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0221
+55060-0,True,0.857,Bacharelado em Matemática Aplicada e Computação Científica,SME0220,SME0878
+55060-0,True,0.872,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0806
+55060-0,True,0.872,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0808
+55060-0,True,0.924,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0809
+55060-0,True,0.854,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0811
+55060-0,True,0.84,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0812
+55060-0,True,0.851,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0816
+55060-0,True,0.868,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0820
+55060-0,True,0.884,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0821
+55060-0,True,0.857,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0822
+55060-0,True,0.875,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0823
+55060-0,True,0.859,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0824
+55060-0,True,0.88,Bacharelado em Matemática Aplicada e Computação Científica,SME0221,SME0878
+55060-0,True,0.886,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SCC0223
+55060-0,True,0.877,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0205
+55060-0,True,0.86,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0206
+55060-0,False,0.815,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0212
+55060-0,True,0.83,Bacharelado em Matemática Aplicada e Computação Científica,SME0230,SME0878
+55060-0,True,0.903,Bacharelado em Matemática Aplicada e Computação Científica,SME0240,SMA0169
+55060-0,False,0.851,Bacharelado em Matemática Aplicada e Computação Científica,SME0240,SME0202
+55060-0,True,0.885,Bacharelado em Matemática Aplicada e Computação Científica,SME0803,SME0871
+55060-0,True,0.843,Bacharelado em Matemática Aplicada e Computação Científica,SME0820,SME0871
+55060-0,True,0.871,Bacharelado em Matemática Aplicada e Computação Científica,SME0820,SME0878
+55060-0,True,0.85,Bacharelado em Matemática Aplicada e Computação Científica,SME0822,SME0871
+55060-0,True,0.88,Bacharelado em Matemática Aplicada e Computação Científica,SME0822,SME0878
+55071-4,True,0.918,Bacharelado em Estatística e Ciência de Dados,IAU0314,IAU0315
+55071-4,False,0.802,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0130
+55071-4,True,0.801,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0212
+55071-4,True,0.87,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0827
+55071-4,True,0.833,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0878
+55071-4,True,0.824,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0879
+55071-4,True,0.836,Bacharelado em Estatística e Ciência de Dados,SCC0221,SME0892
+55071-4,True,0.869,Bacharelado em Estatística e Ciência de Dados,SCC0222,SME0827
+55071-4,False,0.912,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0244
+55071-4,True,0.869,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0276
+55071-4,False,0.906,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0277
+55071-4,False,0.881,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0287
+55071-4,False,0.853,Bacharelado em Estatística e Ciência de Dados,SCC0275,SCC0802
+55071-4,False,0.853,Bacharelado em Estatística e Ciência de Dados,SCC0275,SME0852
+55071-4,False,0.895,Bacharelado em Estatística e Ciência de Dados,SCC0276,SCC0270
+55071-4,True,0.897,Bacharelado em Estatística e Ciência de Dados,SMA0308,SMA0143
+55071-4,True,0.894,Bacharelado em Estatística e Ciência de Dados,SMA0354,SMA0308
+55071-4,True,0.823,Bacharelado em Estatística e Ciência de Dados,SMA0354,SME0212
+55071-4,True,0.796,Bacharelado em Estatística e Ciência de Dados,SMA0354,SME0801
+55071-4,True,0.91,Bacharelado em Estatística e Ciência de Dados,SMA0392,SMA0354
+55071-4,True,0.837,Bacharelado em Estatística e Ciência de Dados,SMA0392,SMA0803
+55071-4,False,0.755,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0130
+55071-4,True,0.834,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0240
+55071-4,True,0.83,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0800
+55071-4,True,0.814,Bacharelado em Estatística e Ciência de Dados,SMA0392,SME0892
+55071-4,True,0.919,Bacharelado em Estatística e Ciência de Dados,SMA0803,SMA0307
+55071-4,True,0.913,Bacharelado em Estatística e Ciência de Dados,SMA0803,SMA0308
+55071-4,True,0.84,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0212
+55071-4,True,0.815,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0231
+55071-4,True,0.854,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0240
+55071-4,False,0.829,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0854
+55071-4,True,0.858,Bacharelado em Estatística e Ciência de Dados,SMA0804,SME0892
+55071-4,True,0.861,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0121
+55071-4,True,0.864,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0801
+55071-4,True,0.838,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0818
+55071-4,True,0.839,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0878
+55071-4,True,0.806,Bacharelado em Estatística e Ciência de Dados,SME0800,SME0879
+55071-4,True,0.843,Bacharelado em Estatística e Ciência de Dados,SME0801,SME0809
+55071-4,True,0.885,Bacharelado em Estatística e Ciência de Dados,SME0803,SME0871
+55071-4,True,0.888,Bacharelado em Estatística e Ciência de Dados,SME0808,SME0262
+55071-4,True,0.888,Bacharelado em Estatística e Ciência de Dados,SME0808,SME0873
+55071-4,True,0.884,Bacharelado em Estatística e Ciência de Dados,SME0809,SME0876
+55071-4,True,0.814,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0262
+55071-4,True,0.855,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0806
+55071-4,True,0.856,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0807
+55071-4,True,0.831,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0808
+55071-4,True,0.878,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0809
+55071-4,True,0.878,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0810
+55071-4,True,0.834,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0811
+55071-4,True,0.82,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0812
+55071-4,True,0.768,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0814
+55071-4,True,0.825,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0816
+55071-4,True,0.817,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0820
+55071-4,True,0.847,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0821
+55071-4,True,0.851,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0822
+55071-4,True,0.847,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0823
+55071-4,True,0.83,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0824
+55071-4,True,0.849,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0870
+55071-4,True,0.849,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0875
+55071-4,True,0.843,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0876
+55071-4,True,0.823,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0878
+55071-4,True,0.802,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0880
+55071-4,True,0.824,Bacharelado em Estatística e Ciência de Dados,SME0818,SME0882
+55071-4,True,0.843,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0871
+55071-4,True,0.865,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0873
+55071-4,True,0.871,Bacharelado em Estatística e Ciência de Dados,SME0820,SME0878
+55071-4,True,0.88,Bacharelado em Estatística e Ciência de Dados,SME0822,SME0878
+55071-4,False,0.848,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0230
+55071-4,False,0.831,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0240
+55071-4,False,0.849,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0251
+55071-4,False,0.858,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0252
+55071-4,True,0.848,Bacharelado em Estatística e Ciência de Dados,SME0827,SCC0275
+55071-4,True,0.858,Bacharelado em Estatística e Ciência de Dados,SME0827,SME0231
+55071-4,True,0.843,Bacharelado em Estatística e Ciência de Dados,SME0892,SME0510
+55090-0,False,0.764,Bacharelado em Ciência de Dados,SCC0204,SCC0252
+55090-0,False,0.849,Bacharelado em Ciência de Dados,SCC0204,SSC0124
+55090-0,False,0.874,Bacharelado em Ciência de Dados,SCC0221,SCC0223
+55090-0,False,0.872,Bacharelado em Ciência de Dados,SCC0221,SME0205
+55090-0,False,0.801,Bacharelado em Ciência de Dados,SCC0221,SME0212
+55090-0,True,0.833,Bacharelado em Ciência de Dados,SCC0221,SME0878
+55090-0,False,0.798,Bacharelado em Ciência de Dados,SCC0223,SCC0204
+55090-0,False,0.889,Bacharelado em Ciência de Dados,SCC0223,SCC0215
+55090-0,False,0.834,Bacharelado em Ciência de Dados,SCC0223,SCC0219
+55090-0,False,0.881,Bacharelado em Ciência de Dados,SCC0223,SCC0224
+55090-0,False,0.846,Bacharelado em Ciência de Dados,SCC0223,SCC0230
+55090-0,False,0.829,Bacharelado em Ciência de Dados,SCC0223,SCC0240
+55090-0,False,0.845,Bacharelado em Ciência de Dados,SCC0223,SCC0251
+55090-0,False,0.835,Bacharelado em Ciência de Dados,SCC0223,SCC0261
+55090-0,False,0.847,Bacharelado em Ciência de Dados,SCC0223,SCC0282
+55090-0,False,0.838,Bacharelado em Ciência de Dados,SCC0223,SCC0284
+55090-0,True,0.845,Bacharelado em Ciência de Dados,SCC0223,SME0231
+55090-0,False,0.861,Bacharelado em Ciência de Dados,SCC0223,SME0860
+55090-0,False,0.821,Bacharelado em Ciência de Dados,SCC0223,SME0861
+55090-0,False,0.814,Bacharelado em Ciência de Dados,SCC0223,SME0862
+55090-0,False,0.832,Bacharelado em Ciência de Dados,SCC0223,SSC0140
+55090-0,False,0.844,Bacharelado em Ciência de Dados,SCC0223,SSC0158
+55090-0,False,0.833,Bacharelado em Ciência de Dados,SCC0223,SSC0952
+55090-0,False,0.9,Bacharelado em Ciência de Dados,SCC0224,SCC0218
+55090-0,False,0.827,Bacharelado em Ciência de Dados,SCC0224,SCC0251
+55090-0,False,0.813,Bacharelado em Ciência de Dados,SCC0224,SCC0271
+55090-0,False,0.824,Bacharelado em Ciência de Dados,SCC0224,SCC0283
+55090-0,False,0.998,Bacharelado em Ciência de Dados,SCC0227,SCC0228
+55090-0,False,0.991,Bacharelado em Ciência de Dados,SCC0228,SCC0229
+55090-0,False,0.851,Bacharelado em Ciência de Dados,SCC0230,SCC0244
+55090-0,False,0.87,Bacharelado em Ciência de Dados,SCC0230,SCC0270
+55090-0,False,0.904,Bacharelado em Ciência de Dados,SCC0230,SCC0276
+55090-0,False,0.856,Bacharelado em Ciência de Dados,SCC0230,SCC0287
+55090-0,False,0.861,Bacharelado em Ciência de Dados,SCC0230,SCC0633
+55090-0,False,0.817,Bacharelado em Ciência de Dados,SCC0230,SME0206
+55090-0,False,0.839,Bacharelado em Ciência de Dados,SCC0230,SSC0956
+55090-0,False,0.886,Bacharelado em Ciência de Dados,SCC0240,SCC0241
+55090-0,False,0.9,Bacharelado em Ciência de Dados,SCC0240,SCC0243
+55090-0,False,0.863,Bacharelado em Ciência de Dados,SCC0240,SCC0244
+55090-0,False,0.864,Bacharelado em Ciência de Dados,SCC0240,SCC0245
+55090-0,False,0.877,Bacharelado em Ciência de Dados,SCC0240,SCC0247
+55090-0,False,0.833,Bacharelado em Ciência de Dados,SMA0180,SCC0283
+55090-0,False,0.863,Bacharelado em Ciência de Dados,SMA0343,SMA0120
+55090-0,False,0.792,Bacharelado em Ciência de Dados,SMA0354,SMA0343
+55090-0,False,0.944,Bacharelado em Ciência de Dados,SMA0354,SMA0393
+55090-0,False,0.823,Bacharelado em Ciência de Dados,SMA0354,SME0212
+55090-0,False,0.885,Bacharelado em Ciência de Dados,SMA0356,SMA0307
+55090-0,False,0.91,Bacharelado em Ciência de Dados,SMA0392,SMA0354
+55090-0,False,0.814,Bacharelado em Ciência de Dados,SMA0392,SME0220
+55090-0,False,0.834,Bacharelado em Ciência de Dados,SMA0392,SME0240
+55090-0,False,0.882,Bacharelado em Ciência de Dados,SMA0393,SMA0308
+55090-0,False,0.901,Bacharelado em Ciência de Dados,SMA0393,SMA0356
+55090-0,False,0.855,Bacharelado em Ciência de Dados,SME0142,SMA0120
+55090-0,False,0.84,Bacharelado em Ciência de Dados,SME0142,SME0205
+55090-0,False,0.84,Bacharelado em Ciência de Dados,SME0142,SME0211
+55090-0,False,0.823,Bacharelado em Ciência de Dados,SME0142,SME0212
+55090-0,True,0.839,Bacharelado em Ciência de Dados,SME0142,SME0231
+55090-0,False,0.844,Bacharelado em Ciência de Dados,SME0142,SME0240
+55090-0,False,0.938,Bacharelado em Ciência de Dados,SME0142,SME0243
+55090-0,False,0.904,Bacharelado em Ciência de Dados,SME0211,SME0213
+55090-0,False,0.852,Bacharelado em Ciência de Dados,SME0211,SME0216
+55090-0,False,0.871,Bacharelado em Ciência de Dados,SME0220,SME0121
+55090-0,False,0.875,Bacharelado em Ciência de Dados,SME0220,SME0221
+55090-0,True,0.84,Bacharelado em Ciência de Dados,SME0221,SME0262
+55090-0,True,0.872,Bacharelado em Ciência de Dados,SME0221,SME0806
+55090-0,True,0.855,Bacharelado em Ciência de Dados,SME0221,SME0807
+55090-0,True,0.872,Bacharelado em Ciência de Dados,SME0221,SME0808
+55090-0,True,0.924,Bacharelado em Ciência de Dados,SME0221,SME0809
+55090-0,True,0.867,Bacharelado em Ciência de Dados,SME0221,SME0810
+55090-0,True,0.851,Bacharelado em Ciência de Dados,SME0221,SME0816
+55090-0,True,0.868,Bacharelado em Ciência de Dados,SME0221,SME0820
+55090-0,True,0.857,Bacharelado em Ciência de Dados,SME0221,SME0822
+55090-0,True,0.875,Bacharelado em Ciência de Dados,SME0221,SME0823
+55090-0,False,0.849,Bacharelado em Ciência de Dados,SME0221,SME0826
+55090-0,True,0.878,Bacharelado em Ciência de Dados,SME0221,SME0870
+55090-0,True,0.878,Bacharelado em Ciência de Dados,SME0221,SME0875
+55090-0,False,0.86,Bacharelado em Ciência de Dados,SME0240,SME0206
+55090-0,False,0.888,Bacharelado em Ciência de Dados,SME0808,SME0262
+55090-0,False,0.81,Bacharelado em Ciência de Dados,SME0820,SCC0802
+55090-0,False,0.81,Bacharelado em Ciência de Dados,SME0820,SME0852
+55090-0,False,0.843,Bacharelado em Ciência de Dados,SME0820,SME0871
+55090-0,True,0.871,Bacharelado em Ciência de Dados,SME0820,SME0878
+55090-0,False,0.81,Bacharelado em Ciência de Dados,SME0820,SSC0957
+55090-0,False,0.85,Bacharelado em Ciência de Dados,SME0822,SME0871
+55090-0,True,0.88,Bacharelado em Ciência de Dados,SME0822,SME0878
+55090-0,False,0.88,Bacharelado em Ciência de Dados,SME0822,SSC0956
+55090-0,False,0.896,Bacharelado em Ciência de Dados,SME0825,SME0826
+55090-0,False,0.869,Bacharelado em Ciência de Dados,SSC0124,SSC0130
+55090-0,False,0.801,Bacharelado em Ciência de Dados,SSC0130,SSC0120
+55090-0,False,0.897,Bacharelado em Ciência de Dados,SSC0130,SSC0959
+55090-0,False,0.847,Bacharelado em Ciência de Dados,SSC0140,SSC0142
+55090-0,False,0.844,Bacharelado em Ciência de Dados,SSC0140,SSC0158
+55090-0,False,0.868,Bacharelado em Ciência de Dados,SSC0140,SSC0903
+55090-0,False,0.872,Bacharelado em Ciência de Dados,SSC0140,SSC0904
+55090-0,False,0.836,Bacharelado em Ciência de Dados,SSC0142,SSC0158
+55090-0,False,0.842,Bacharelado em Ciência de Dados,SSC0142,SSC0900
+55090-0,False,0.859,Bacharelado em Ciência de Dados,SSC0142,SSC0904
+55090-0,False,0.865,Bacharelado em Ciência de Dados,SSC0900,SSC0901
+55090-0,False,0.845,Bacharelado em Ciência de Dados,SSC0955,SSC0140
+55090-0,False,0.88,Bacharelado em Ciência de Dados,SSC0955,SSC0903
+90011-104,True,0.915,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,7600006
+90011-104,True,0.836,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,SLC0628
+90011-104,True,0.8,Licenciatura em Ciências Exatas - Núcleo Geral,7600005,SLC0639
+90011-104,False,0.879,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0628
+90011-104,True,0.758,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0646
+90011-104,True,0.779,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0657
+90011-104,True,0.789,Licenciatura em Ciências Exatas - Núcleo Geral,7600006,SLC0681
+90011-104,True,0.845,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0602
+90011-104,True,0.821,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0639
+90011-104,True,0.802,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SLC0646
+90011-104,True,0.834,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0601,SMA0392
+90011-104,True,0.909,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0615
+90011-104,True,0.892,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0657
+90011-104,True,0.883,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0606,SLC0681
+90011-104,True,0.911,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0621
+90011-104,True,0.917,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0622
+90011-104,True,0.896,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0623
+90011-104,True,0.851,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0620,SLC0646
+90011-104,True,0.846,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0639
+90011-104,True,0.849,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0657
+90011-104,True,0.857,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0621,SLC0681
+90011-104,True,0.83,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0627,SLC0646
+90011-104,True,0.863,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0630,SLC0614
+90011-104,True,0.833,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0634,SLC0646
+90011-104,True,0.894,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0639,SLC0640
+90011-104,True,0.922,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0646,SLC0647
+90011-104,True,0.946,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0657,SLC0658
+90011-104,True,0.96,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0681,SLC0682
+90011-104,True,0.931,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0691,SLC0692
+90011-104,True,0.851,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0639
+90011-104,True,0.789,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0646
+90011-104,True,0.818,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0657
+90011-104,True,0.892,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0662
+90011-104,True,0.833,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0681
+90011-104,True,0.9,Licenciatura em Ciências Exatas - Núcleo Geral,SLC0692,SLC0693
+90011-104,True,0.797,Licenciatura em Ciências Exatas - Núcleo Geral,SMA0392,7600005
+90011-104,False,0.91,Licenciatura em Ciências Exatas - Núcleo Geral,SMA0392,SMA0354
+90011-204,True,0.915,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,7600006
+90011-204,True,0.836,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,SLC0628
+90011-204,True,0.8,Licenciatura em Ciências Exatas - Habilitação em Física,7600005,SLC0639
+90011-204,False,0.879,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0628
+90011-204,True,0.859,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0632
+90011-204,True,0.827,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0635
+90011-204,True,0.758,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0646
+90011-204,True,0.826,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0651
+90011-204,True,0.808,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0655
+90011-204,True,0.779,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0657
+90011-204,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Física,7600006,SLC0681
+90011-204,True,0.845,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0602
+90011-204,True,0.821,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0639
+90011-204,True,0.802,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SLC0646
+90011-204,True,0.834,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0601,SMA0392
+90011-204,True,0.909,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0615
+90011-204,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0657
+90011-204,True,0.883,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0681
+90011-204,True,0.86,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0606,SLC0688
+90011-204,True,0.879,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0614,SLC0688
+90011-204,True,0.911,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0621
+90011-204,True,0.917,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0622
+90011-204,True,0.896,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0623
+90011-204,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0620,SLC0646
+90011-204,True,0.846,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0639
+90011-204,True,0.849,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0657
+90011-204,True,0.857,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0621,SLC0681
+90011-204,True,0.83,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0627,SLC0646
+90011-204,True,0.891,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0629
+90011-204,True,0.839,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0651
+90011-204,True,0.818,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0655
+90011-204,True,0.798,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0628,SLC0688
+90011-204,True,0.815,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0629,SLC0688
+90011-204,True,0.863,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0630,SLC0614
+90011-204,True,0.815,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0651
+90011-204,True,0.822,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0655
+90011-204,True,0.798,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0632,SLC0688
+90011-204,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0634,SLC0646
+90011-204,True,0.816,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0641
+90011-204,True,0.845,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0648
+90011-204,True,0.828,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0651
+90011-204,True,0.831,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0635,SLC0656
+90011-204,True,0.864,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0636,SLC0656
+90011-204,True,0.894,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0639,SLC0640
+90011-204,True,0.922,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0646,SLC0647
+90011-204,False,0.87,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0648,SLC0650
+90011-204,True,0.838,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0648,SLC0651
+90011-204,True,0.946,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0657,SLC0658
+90011-204,True,0.894,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0658,SLC0688
+90011-204,True,0.96,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0681,SLC0682
+90011-204,True,0.884,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0682,SLC0685
+90011-204,True,0.957,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0685,SLC0686
+90011-204,True,0.987,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0688,SLC0689
+90011-204,True,0.931,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0691,SLC0692
+90011-204,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0639
+90011-204,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0646
+90011-204,True,0.818,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0657
+90011-204,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0662
+90011-204,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0681
+90011-204,True,0.9,Licenciatura em Ciências Exatas - Habilitação em Física,SLC0692,SLC0693
+90011-204,True,0.788,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0354,SLC0635
+90011-204,True,0.797,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0392,7600005
+90011-204,False,0.91,Licenciatura em Ciências Exatas - Habilitação em Física,SMA0392,SMA0354
+90011-304,True,0.915,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,7600006
+90011-304,True,0.836,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,SLC0628
+90011-304,True,0.8,Licenciatura em Ciências Exatas - Habilitação em Química,7600005,SLC0639
+90011-304,False,0.879,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0628
+90011-304,True,0.758,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0646
+90011-304,True,0.779,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0657
+90011-304,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Química,7600006,SLC0681
+90011-304,True,0.845,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0602
+90011-304,True,0.821,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0639
+90011-304,True,0.802,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SLC0646
+90011-304,True,0.834,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0601,SMA0392
+90011-304,True,0.909,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0615
+90011-304,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0657
+90011-304,True,0.883,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0606,SLC0681
+90011-304,True,0.881,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0614,SLC0675
+90011-304,True,0.911,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0621
+90011-304,True,0.917,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0622
+90011-304,True,0.896,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0623
+90011-304,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0620,SLC0646
+90011-304,True,0.846,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0639
+90011-304,True,0.849,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0657
+90011-304,True,0.857,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0621,SLC0681
+90011-304,True,0.83,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0627,SLC0646
+90011-304,True,0.863,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0630,SLC0614
+90011-304,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0634,SLC0646
+90011-304,True,0.894,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0639,SLC0640
+90011-304,True,0.922,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0646,SLC0647
+90011-304,True,0.946,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0657,SLC0658
+90011-304,True,0.922,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0658,SLC0695
+90011-304,True,0.894,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0669
+90011-304,True,0.869,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0674
+90011-304,True,0.859,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0662,SLC0675
+90011-304,True,0.993,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0678,SLC0679
+90011-304,True,0.96,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0681,SLC0682
+90011-304,True,0.889,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0682,SLC0678
+90011-304,True,0.931,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0691,SLC0692
+90011-304,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0639
+90011-304,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0646
+90011-304,True,0.818,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0657
+90011-304,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0662
+90011-304,True,0.87,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0675
+90011-304,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0681
+90011-304,True,0.9,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0692,SLC0693
+90011-304,True,0.89,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0665
+90011-304,True,0.873,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0666
+90011-304,True,0.864,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0667
+90011-304,True,0.89,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0668
+90011-304,True,0.904,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0670
+90011-304,True,0.877,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0671
+90011-304,True,0.858,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0673
+90011-304,True,0.921,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0693,SLC0694
+90011-304,True,0.992,Licenciatura em Ciências Exatas - Habilitação em Química,SLC0695,SLC0696
+90011-304,True,0.797,Licenciatura em Ciências Exatas - Habilitação em Química,SMA0392,7600005
+90011-304,False,0.91,Licenciatura em Ciências Exatas - Habilitação em Química,SMA0392,SMA0354
+90011-404,True,0.915,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,7600006
+90011-404,True,0.836,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,SLC0628
+90011-404,True,0.8,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600005,SLC0639
+90011-404,False,0.879,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0628
+90011-404,True,0.758,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0646
+90011-404,True,0.779,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0657
+90011-404,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Matemática,7600006,SLC0681
+90011-404,True,0.884,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0531,SLC0534
+90011-404,True,0.845,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0602
+90011-404,True,0.821,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0639
+90011-404,True,0.802,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SLC0646
+90011-404,True,0.834,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0601,SMA0392
+90011-404,True,0.909,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0615
+90011-404,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0657
+90011-404,True,0.883,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SLC0681
+90011-404,True,0.832,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0606,SMA0370
+90011-404,True,0.823,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0609,SLC0532
+90011-404,True,0.781,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0609,SLC0687
+90011-404,True,0.852,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0614,SMA0370
+90011-404,True,0.911,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0621
+90011-404,True,0.917,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0622
+90011-404,True,0.896,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0623
+90011-404,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0620,SLC0646
+90011-404,True,0.846,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0639
+90011-404,True,0.849,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0657
+90011-404,True,0.857,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0621,SLC0681
+90011-404,True,0.83,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0627,SLC0646
+90011-404,True,0.863,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0630,SLC0614
+90011-404,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0634,SLC0646
+90011-404,True,0.894,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0639,SLC0640
+90011-404,True,0.922,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0646,SLC0647
+90011-404,True,0.946,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0657,SLC0658
+90011-404,True,0.874,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0658,SMA0370
+90011-404,True,0.96,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0681,SLC0682
+90011-404,True,0.855,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0682,SLC0683
+90011-404,True,0.935,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0683,SLC0684
+90011-404,True,0.931,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0691,SLC0692
+90011-404,True,0.851,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0639
+90011-404,True,0.789,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0646
+90011-404,True,0.818,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0657
+90011-404,True,0.892,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0662
+90011-404,True,0.833,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0681
+90011-404,True,0.9,Licenciatura em Ciências Exatas - Habilitação em Matemática,SLC0692,SLC0693
+90011-404,True,0.814,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0354,SMA0370
+90011-404,True,0.959,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0370,SLC0618
+90011-404,True,0.797,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,7600005
+90011-404,False,0.796,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,SLC0609
+90011-404,False,0.91,Licenciatura em Ciências Exatas - Habilitação em Matemática,SMA0392,SMA0354
+97001-0,False,0.906,Engenharia de Computação,1800040,1800043
+97001-0,False,0.823,Engenharia de Computação,7500012,SMM0193
+97001-0,False,0.788,Engenharia de Computação,7600005,SEL0633
+97001-0,False,0.837,Engenharia de Computação,7600006,SHS0619
+97001-0,False,0.834,Engenharia de Computação,IAU0678,SEM0587
+97001-0,False,0.782,Engenharia de Computação,SCC0204,SCC0250
+97001-0,False,0.764,Engenharia de Computação,SCC0204,SCC0252
+97001-0,False,0.849,Engenharia de Computação,SCC0204,SSC0621
+97001-0,False,0.778,Engenharia de Computação,SCC0204,SSC0770
+97001-0,False,0.793,Engenharia de Computação,SCC0204,SSC0961
+97001-0,False,0.828,Engenharia de Computação,SCC0221,SCC0204
+97001-0,False,0.874,Engenharia de Computação,SCC0221,SCC0223
+97001-0,False,0.836,Engenharia de Computação,SCC0221,SCC0230
+97001-0,False,0.849,Engenharia de Computação,SCC0221,SEL0631
+97001-0,False,0.802,Engenharia de Computação,SCC0221,SME0130
+97001-0,True,0.887,Engenharia de Computação,SCC0223,SCC0210
+97001-0,True,0.846,Engenharia de Computação,SCC0223,SCC0211
+97001-0,False,0.896,Engenharia de Computação,SCC0223,SCC0216
+97001-0,False,0.845,Engenharia de Computação,SCC0223,SCC0251
+97001-0,False,0.832,Engenharia de Computação,SCC0223,SSC0140
+97001-0,False,0.833,Engenharia de Computação,SCC0223,SSC0952
+97001-0,True,0.902,Engenharia de Computação,SCC0224,SCC0210
+97001-0,True,0.901,Engenharia de Computação,SCC0224,SCC0211
+97001-0,False,0.814,Engenharia de Computação,SCC0224,SCC0219
+97001-0,False,0.827,Engenharia de Computação,SCC0224,SCC0251
+97001-0,False,0.795,Engenharia de Computação,SCC0224,SCC0273
+97001-0,False,0.867,Engenharia de Computação,SCC0224,SCC0605
+97001-0,False,0.882,Engenharia de Computação,SCC0224,SCC0607
+97001-0,False,0.851,Engenharia de Computação,SCC0230,SCC0244
+97001-0,False,0.851,Engenharia de Computação,SCC0230,SCC0275
+97001-0,False,0.893,Engenharia de Computação,SCC0230,SCC0634
+97001-0,False,0.886,Engenharia de Computação,SCC0240,SCC0241
+97001-0,False,0.863,Engenharia de Computação,SCC0240,SCC0244
+97001-0,False,0.917,Engenharia de Computação,SCC0251,SEL0339
+97001-0,False,0.83,Engenharia de Computação,SCC0607,SCC0240
+97001-0,False,0.847,Engenharia de Computação,SCC0607,SCC0661
+97001-0,False,0.877,Engenharia de Computação,SEL0309,SEL0310
+97001-0,False,0.902,Engenharia de Computação,SEL0310,SEL0344
+97001-0,False,0.837,Engenharia de Computação,SEL0310,SEL0366
+97001-0,False,0.903,Engenharia de Computação,SEL0310,SEL0369
+97001-0,False,0.859,Engenharia de Computação,SEL0310,SEL0371
+97001-0,False,0.871,Engenharia de Computação,SEL0310,SEL0459
+97001-0,False,0.831,Engenharia de Computação,SEL0310,SEL0460
+97001-0,False,0.888,Engenharia de Computação,SEL0310,SEL0462
+97001-0,False,0.891,Engenharia de Computação,SEL0310,SEL0463
+97001-0,False,0.854,Engenharia de Computação,SEL0310,SEL0464
+97001-0,False,0.913,Engenharia de Computação,SEL0313,SEL0314
+97001-0,False,0.9,Engenharia de Computação,SEL0313,SEL0610
+97001-0,False,0.875,Engenharia de Computação,SEL0314,SEL0470
+97001-0,False,0.806,Engenharia de Computação,SEL0314,SEL0618
+97001-0,False,0.869,Engenharia de Computação,SEL0326,SEL0367
+97001-0,False,0.812,Engenharia de Computação,SEL0337,SEL0373
+97001-0,False,0.886,Engenharia de Computação,SEL0343,SEL0356
+97001-0,False,0.854,Engenharia de Computação,SEL0343,SEL0631
+97001-0,False,0.896,Engenharia de Computação,SEL0360,SEL0361
+97001-0,True,0.913,Engenharia de Computação,SEL0360,SEL0371
+97001-0,False,0.844,Engenharia de Computação,SEL0360,SEL0619
+97001-0,False,0.818,Engenharia de Computação,SEL0360,SEL0623
+97001-0,False,0.903,Engenharia de Computação,SEL0388,SEL0429
+97001-0,False,0.892,Engenharia de Computação,SEL0397,SEL0398
+97001-0,False,0.88,Engenharia de Computação,SEL0397,SEL0434
+97001-0,False,0.891,Engenharia de Computação,SEL0406,SEL0431
+97001-0,False,0.926,Engenharia de Computação,SEL0417,SEL0326
+97001-0,False,0.888,Engenharia de Computação,SEL0417,SEL0328
+97001-0,False,0.926,Engenharia de Computação,SEL0417,SEL0620
+97001-0,False,0.846,Engenharia de Computação,SEL0433,SEL0337
+97001-0,False,0.919,Engenharia de Computação,SEL0433,SEL0629
+97001-0,False,0.849,Engenharia de Computação,SEL0450,SEL0460
+97001-0,False,0.891,Engenharia de Computação,SEL0450,SEL0617
+97001-0,True,0.878,Engenharia de Computação,SEL0460,7600074
+97001-0,False,0.949,Engenharia de Computação,SEL0460,SEL0461
+97001-0,False,0.837,Engenharia de Computação,SEL0460,SEL0468
+97001-0,False,0.816,Engenharia de Computação,SEL0602,SEL0313
+97001-0,False,0.829,Engenharia de Computação,SEL0602,SEL0360
+97001-0,False,0.866,Engenharia de Computação,SEL0602,SEL0604
+97001-0,False,0.877,Engenharia de Computação,SEL0604,SEL0343
+97001-0,False,0.865,Engenharia de Computação,SEL0604,SEL0360
+97001-0,False,0.904,Engenharia de Computação,SEL0604,SEL0417
+97001-0,False,0.83,Engenharia de Computação,SEL0604,SEL0459
+97001-0,False,0.818,Engenharia de Computação,SEL0604,SEL0460
+97001-0,False,0.859,Engenharia de Computação,SEL0604,SEL0464
+97001-0,False,0.869,Engenharia de Computação,SEL0604,SEL0471
+97001-0,False,0.91,Engenharia de Computação,SEL0618,SEL0621
+97001-0,False,0.906,Engenharia de Computação,SEL0619,SEL0347
+97001-0,False,0.9,Engenharia de Computação,SEL0619,SEL0370
+97001-0,False,0.805,Engenharia de Computação,SEL0628,SEL0406
+97001-0,False,0.916,Engenharia de Computação,SEL0628,SEL0606
+97001-0,False,0.849,Engenharia de Computação,SEL0628,SEL0632
+97001-0,False,0.821,Engenharia de Computação,SEL0628,SSC0902
+97001-0,False,0.909,Engenharia de Computação,SEL0637,SEL0602
+97001-0,False,0.801,Engenharia de Computação,SMA0356,SEL0460
+97001-0,False,0.822,Engenharia de Computação,SMA0375,SEL0633
+97001-0,False,0.836,Engenharia de Computação,SMA0375,SME0300
+97001-0,False,0.785,Engenharia de Computação,SMA0392,SEM0575
+97001-0,False,0.784,Engenharia de Computação,SMA0392,SEM0576
+97001-0,False,0.91,Engenharia de Computação,SMA0392,SMA0354
+97001-0,False,0.847,Engenharia de Computação,SMA0392,SMA0393
+97001-0,False,0.824,Engenharia de Computação,SMA0393,SEL0309
+97001-0,False,0.802,Engenharia de Computação,SMA0393,SEL0460
+97001-0,False,0.851,Engenharia de Computação,SME0240,SEL0417
+97001-0,False,0.763,Engenharia de Computação,SME0300,SAA0356
+97001-0,False,0.784,Engenharia de Computação,SME0300,SEL0460
+97001-0,False,0.826,Engenharia de Computação,SME0300,SME0110
+97001-0,False,0.886,Engenharia de Computação,SME0320,SEL0367
+97001-0,False,0.845,Engenharia de Computação,SME0320,SME0121
+97001-0,False,0.803,Engenharia de Computação,SME0320,SME0130
+97001-0,False,0.869,Engenharia de Computação,SME0320,SME0808
+97001-0,False,0.857,Engenharia de Computação,SME0320,SME0822
+97001-0,False,0.864,Engenharia de Computação,SME0320,SME0823
+97001-0,False,0.881,Engenharia de Computação,SME0320,SME0878
+97001-0,False,0.88,Engenharia de Computação,SME0822,SME0878
+97001-0,False,0.801,Engenharia de Computação,SSC0130,SSC0120
+97001-0,False,0.898,Engenharia de Computação,SSC0130,SSC0720
+97001-0,False,0.866,Engenharia de Computação,SSC0130,SSC0726
+97001-0,False,0.897,Engenharia de Computação,SSC0130,SSC0959
+97001-0,False,0.847,Engenharia de Computação,SSC0140,SSC0142
+97001-0,False,0.884,Engenharia de Computação,SSC0140,SSC0743
+97001-0,False,0.862,Engenharia de Computação,SSC0140,SSC0745
+97001-0,False,0.852,Engenharia de Computação,SSC0140,SSC0746
+97001-0,False,0.868,Engenharia de Computação,SSC0140,SSC0903
+97001-0,False,0.872,Engenharia de Computação,SSC0140,SSC0904
+97001-0,False,0.903,Engenharia de Computação,SSC0142,SSC0152
+97001-0,False,0.861,Engenharia de Computação,SSC0142,SSC0748
+97001-0,False,0.842,Engenharia de Computação,SSC0142,SSC0900
+97001-0,True,0.846,Engenharia de Computação,SSC0621,SSC0130
+97001-0,False,0.836,Engenharia de Computação,SSC0621,SSC0725
+97001-0,False,0.946,Engenharia de Computação,SSC0676,SSC0675
+97001-0,False,0.878,Engenharia de Computação,SSC0740,SSC0741
+97001-0,False,0.865,Engenharia de Computação,SSC0900,SSC0901
+97001-0,False,0.83,Engenharia de Computação,SSC0902,SEL0338
+97001-0,False,0.863,Engenharia de Computação,SSC0902,SEL0433
+97001-0,False,0.873,Engenharia de Computação,SSC0902,SSC0140
+97001-0,False,0.794,Engenharia de Computação,SSC0902,SSC0643
+97001-0,False,0.85,Engenharia de Computação,SSC0902,SSC0740
+97001-0,False,0.884,Engenharia de Computação,SSC0902,SSC0903
+97001-0,False,0.894,Engenharia de Computação,SSC0904,SSC0744

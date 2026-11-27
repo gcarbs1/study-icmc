@@ -45,6 +45,8 @@
     "#b40064",
     "#fa78b4",
     "#b40a32",
+    "#d04b4c",
+    "#d98f88",
   ];
   const topicColors = [];
   data.topicOrder.forEach((t, g) => {
@@ -643,6 +645,8 @@
   const similarityState = mapState;
   const similarityThresholdInput = $("#similarity-threshold");
   const similarityThresholdValue = $("#similarity-threshold-value");
+  similarityThresholdInput.min = String(Math.max(0, data.meta.medianAll - 0.05));
+  similarityThresholdInput.max = String(Math.min(0.999, data.meta.p90All + 0.15));
   similarityThresholdInput.value = String(data.meta.p90All);
   similarityThresholdValue.textContent = formatSimilarityThreshold(data.meta.p90All);
   similarityThresholdInput.addEventListener("input", () => {
@@ -687,7 +691,7 @@
     const TOP = 5;
     const similarities = data.sim[referenceIndex];
     const items = subjects
-      .map((subject, subjectIndex) => ({ subjectIndex, topic: subject.topic, value: similarities[subjectIndex] / 100 }))
+      .map((subject, subjectIndex) => ({ subjectIndex, topic: subject.topic, value: similarities[subjectIndex] / data.meta.simScale }))
       .filter((d) => d.subjectIndex !== referenceIndex)
       .sort((a, b) => b.value - a.value)
       .filter((d, rank) => rank < TOP || d.value >= FLOOR);

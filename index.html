@@ -122,30 +122,34 @@
           <p class="hint" id="similarity-note"></p>
         </header>
         <div class="panel-body">
-          <div class="similarity-picker">
-            <label for="similarity-find">Disciplina de referência</label>
-            <div class="find" role="search">
-              <input
-                id="similarity-find"
-                type="search"
-                autocomplete="off"
-                spellcheck="false"
-                placeholder="nome ou código"
-                aria-controls="similarity-find-list"
-                aria-expanded="false"
-              />
-              <ul
-                id="similarity-find-list"
-                class="find-list"
-                role="listbox"
-                hidden
-              ></ul>
+          <div class="similarity-controls">
+            <div class="similarity-picker">
+              <label for="similarity-find">Disciplina de referência</label>
+              <div class="find" role="search">
+                <input
+                  id="similarity-find"
+                  type="search"
+                  autocomplete="off"
+                  spellcheck="false"
+                  placeholder="nome ou código"
+                  aria-controls="similarity-find-list"
+                  aria-expanded="false"
+                />
+                <ul
+                  id="similarity-find-list"
+                  class="find-list"
+                  role="listbox"
+                  hidden
+                ></ul>
+              </div>
             </div>
-          </div>
-          <div class="similarity-threshold">
-            <label for="similarity-threshold">Similaridade mínima</label>
-            <input id="similarity-threshold" type="range" min="0.500" max="0.850" step="0.001" value="0.619" />
-            <output id="similarity-threshold-value" for="similarity-threshold">0,619</output>
+            <div class="similarity-threshold">
+              <label for="similarity-threshold">Similaridade mínima</label>
+              <div class="similarity-threshold-control">
+                <input id="similarity-threshold" type="range" min="0.749" max="0.986" step="0.001" value="0.836" />
+                <output id="similarity-threshold-value" for="similarity-threshold">0,836</output>
+              </div>
+            </div>
           </div>
           <div id="similarity" class="similarity"></div>
         </div>

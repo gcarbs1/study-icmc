@@ -1,529 +1,529 @@
 subject_id,name,topic,topic_name,x,y,nearest,nearest_similarity
-1800040,A Ética e a Responsabilidade Social em Engenharia,16,Atividades complementares e tutoria,0.2205,0.3125,1800043,0.7
-1800043,O Engenheiro Como Agente Ético,16,Atividades complementares e tutoria,0.1965,0.2904,1800130,0.707
-1800118,Introdução à Engenharia Biomédica,1,"Controle, robótica e sistemas embarcados",0.4065,0.5535,SEL0396,0.731
-1800119,Anatomia e Fisiologia para o Engenheiro Biomédico,8,"Física, mecânica e termodinâmica",0.3368,0.5812,SLC0621,0.717
-1800120,Tutoria Acadêmica I,16,Atividades complementares e tutoria,0.221,0.314,1800121,1.0
-1800121,Tutoria Acadêmica II,16,Atividades complementares e tutoria,0.221,0.314,1800120,1.0
-1800122,Estágio Supervisionado,16,Atividades complementares e tutoria,0.2166,0.2577,SME0814,0.813
-1800124,Atividades de Extensão para Engenharia I,17,Extensão universitária,0.1729,0.2654,1800125,1.0
-1800125,Atividades de Extensão para Engenharia II,17,Extensão universitária,0.1729,0.2654,1800124,1.0
-1800126,Atividades de Extensão para Engenharia III,17,Extensão universitária,0.1923,0.2559,1800127,1.0
-1800127,Atividades de Extensão para Engenharia IV,17,Extensão universitária,0.1923,0.2559,1800126,1.0
-1800128,Atividades de Extensão para Engenharia V,17,Extensão universitária,0.1812,0.2621,1800129,0.929
-1800129,Atividades de Extensão para Engenharia VI,17,Extensão universitária,0.1856,0.2627,1800128,0.929
-1800130,Engenharia em Ação: Extensão Acadêmica,16,Atividades complementares e tutoria,0.2143,0.2905,1800322,0.82
-1800322,Extensão Universitária e Impacto Social na Engenharia,16,Atividades complementares e tutoria,0.2127,0.2738,1800130,0.82
-5500002,Seminários em Gestão Organizacional,3,Engenharia de software e gestão,0.4268,0.4212,SEP0172,0.695
-5500003,Robótica Educacional,1,"Controle, robótica e sistemas embarcados",0.635,0.4146,SSC0715,0.706
-5500004,Fundamentos em Ciências de Dados,11,"Bases de dados, mineração e ciência de dados",0.4432,0.1933,SCC0275,0.798
-5500005,Informação Profissional em Ciência de Dados,11,"Bases de dados, mineração e ciência de dados",0.4075,0.2065,SCC0275,0.786
-7500004,Matemática Aplicada à Química,4,"Cálculo, análise e equações",0.9792,0.3402,SMA0803,0.766
-7500012,Química Geral,9,Química e biologia,0.2796,0.6722,SLC0694,0.812
-7500017,Química Geral Experimental,9,Química e biologia,0.2383,0.6708,SLC0662,0.769
-7500053,Química Quântica,8,"Física, mecânica e termodinâmica",0.5705,0.7451,7600022,0.751
-7600005,Física I,8,"Física, mecânica e termodinâmica",0.4991,0.7407,7600205,0.95
-7600006,Física II,8,"Física, mecânica e termodinâmica",0.4928,0.7414,7600206,0.914
-7600008,Física IV,7,"Circuitos, eletricidade e sistemas digitais",0.7274,0.7127,7600117,0.732
-7600016,Introdução à Física Matemática,4,"Cálculo, análise e equações",0.9556,0.3384,SMA0169,0.8
-7600019,Introdução à Física Quântica,8,"Física, mecânica e termodinâmica",0.5778,0.7652,7600022,0.766
-7600020,Física Matemática A,4,"Cálculo, análise e equações",0.9775,0.3216,7600016,0.747
-7600022,Mecânica Quântica A,8,"Física, mecânica e termodinâmica",0.5671,0.7531,SMA0379,0.814
-7600045,Introdução à Fotônica,19,Óptica e fotônica,0.6604,0.7235,SEL0459,0.722
-7600067,Processamento e Análise de Imagens,22,Processamento de imagens e visão,0.7209,0.428,SEL0449,0.82
-7600074,Informação Quântica,15,Ondas e telecomunicações,0.6227,0.6967,SEL0468,0.695
-7600107,Física III,7,"Circuitos, eletricidade e sistemas digitais",0.7891,0.7168,SLC0635,0.861
-7600108,Psicologia da Educação,13,Educação,0.1085,0.4157,SLC0630,0.986
-7600109,Laboratório de Física Geral I,8,"Física, mecânica e termodinâmica",0.5513,0.6881,SLC0626,0.856
-7600110,Laboratório de Física Geral II,8,"Física, mecânica e termodinâmica",0.4843,0.7315,7600006,0.78
-7600116,Física II para Químicos,8,"Física, mecânica e termodinâmica",0.5114,0.7249,7600006,0.776
-7600117,Física Aplicada para Químicos,7,"Circuitos, eletricidade e sistemas digitais",0.7293,0.7263,SLC0635,0.778
-7600205,Física I para Físicos,8,"Física, mecânica e termodinâmica",0.5061,0.7311,7600005,0.95
-7600206,Física II para Físicos,8,"Física, mecânica e termodinâmica",0.4879,0.7295,7600006,0.914
-9010001,Atividades Teórico-Práticas de Aprofundamento - I,16,Atividades complementares e tutoria,0.2328,0.2308,9010002,1.0
-9010002,Atividades Teórico-práticas de Aprofundamento II,16,Atividades complementares e tutoria,0.2328,0.2308,9010001,1.0
-9010003,Atividades Teórico-práticas de Aprofundamento - III,16,Atividades complementares e tutoria,0.2241,0.2451,9010001,0.971
-9700102,Introdução à Engenharia de Computação,16,Atividades complementares e tutoria,0.2781,0.3051,1800130,0.78
-IAU0126,Humanidades e Ciências Sociais,13,Educação,0.194,0.5139,SLC0675,0.703
-IAU0314,"Cultura, Ambiente e Sustentabilidade I",13,Educação,0.208,0.4967,IAU0315,0.729
-IAU0315,"Cultura, Ambiente e Sustentabilidade II",13,Educação,0.2319,0.5115,IAU0314,0.729
-IAU0678,Desenho,18,"Desenho técnico, materiais e fabricação",0.8073,0.334,SLC0534,0.745
-RAD2401,Comércio Eletrônico,3,Engenharia de software e gestão,0.408,0.3345,SSC0770,0.656
-RAD2810,Análise de Dados para Gestão de Negócios,11,"Bases de dados, mineração e ciência de dados",0.4725,0.1388,SCC0252,0.712
-SAA0167,Princípios de Aviônica e Navegação,1,"Controle, robótica e sistemas embarcados",0.5849,0.5345,SEM0576,0.821
-SAA0180,Sistemas Dinâmicos,1,"Controle, robótica e sistemas embarcados",0.5851,0.568,SAA0167,0.726
-SAA0356,Sistemas Embarcados para Veículos Aéreos,1,"Controle, robótica e sistemas embarcados",0.5771,0.4846,SEM0576,0.787
-SCC0200,Informação Profissional e Tutoria Acadêmica em Ciências da Computação,14,Seminários e tópicos especiais,0.3679,0.2788,SSC0599,0.874
-SCC0201,Introdução à Ciência de Computação II,0,"Algoritmos, otimização e aprendizado de máquina",0.6031,0.2337,SCC0224,0.916
-SCC0202,Algoritmos e Estruturas de Dados I,0,"Algoritmos, otimização e aprendizado de máquina",0.6502,0.22,SCC0223,0.88
-SCC0203,Algoritmos e Estruturas de Dados II,0,"Algoritmos, otimização e aprendizado de máquina",0.6419,0.2482,SCC0607,0.997
-SCC0204,Programação Orientada a Objetos,0,"Algoritmos, otimização e aprendizado de máquina",0.593,0.2239,SCC0224,0.725
-SCC0205,Teoria da Computação e Linguagens Formais,2,Programação e sistemas computacionais,0.5656,0.2177,SCC0505,0.896
-SCC0207,Computadores e Sociedade I,2,Programação e sistemas computacionais,0.5219,0.3526,SSC0900,0.711
-SCC0210,Laboratório de Algoritmos Avançados I,0,"Algoritmos, otimização e aprendizado de máquina",0.6397,0.2243,SCC0211,0.852
-SCC0211,Laboratório de Algoritmos Avançados II,0,"Algoritmos, otimização e aprendizado de máquina",0.6191,0.2372,SCC0210,0.852
-SCC0213,Metodologia de Pesquisa em Computação,12,"Estágios, projetos e metodologia científica",0.3421,0.1686,SME0826,0.818
-SCC0215,Organização de Arquivos,0,"Algoritmos, otimização e aprendizado de máquina",0.6224,0.2238,SCC0607,0.91
-SCC0216,Modelagem Computacional em Grafos,0,"Algoritmos, otimização e aprendizado de máquina",0.6568,0.2607,SCC0203,0.773
-SCC0217,Linguagens de Programação e Compiladores,2,Programação e sistemas computacionais,0.5778,0.2797,SME0230,0.779
-SCC0218,Algoritmos Avançados e Aplicações,0,"Algoritmos, otimização e aprendizado de máquina",0.6197,0.2573,SCC0211,0.728
-SCC0219,Introdução ao Desenvolvimento Web,2,Programação e sistemas computacionais,0.5864,0.3125,SSC0961,0.769
-SCC0220,Laboratório de Introdução à Ciência da Computação II,0,"Algoritmos, otimização e aprendizado de máquina",0.6506,0.2648,SCC0210,0.753
-SCC0221,Introdução à Ciência de Computação I,2,Programação e sistemas computacionais,0.5869,0.29,SCC0222,0.94
-SCC0222,Laboratório de Introdução à Ciência de Computação I,2,Programação e sistemas computacionais,0.5824,0.2779,SCC0221,0.94
-SCC0223,Estruturas de dados I,0,"Algoritmos, otimização e aprendizado de máquina",0.6427,0.2144,SME0827,0.95
-SCC0224,Estruturas de dados II,0,"Algoritmos, otimização e aprendizado de máquina",0.6086,0.2221,SCC0201,0.916
-SCC0225,Laboratório de desenvolvimento de aplicações para dispositivos móveis,20,Redes de computadores,0.6429,0.3614,SSC0961,0.828
-SCC0227,Seminários em Computação I,14,Seminários e tópicos especiais,0.3506,0.2782,SCC0228,0.997
-SCC0228,Seminários em Computação II,14,Seminários e tópicos especiais,0.3444,0.2809,SCC0227,0.997
-SCC0229,Seminários em Computação III,14,Seminários e tópicos especiais,0.3682,0.282,SCC0228,0.985
-SCC0230,Inteligência Artificial,0,"Algoritmos, otimização e aprendizado de máquina",0.6576,0.1751,SCC0632,0.75
-SCC0231,Introdução a Sistemas Inteligentes,0,"Algoritmos, otimização e aprendizado de máquina",0.668,0.1931,SCC0230,0.73
-SCC0233,Aplicações de Aprendizado de Máquina e Mineração de Dados,11,"Bases de dados, mineração e ciência de dados",0.4951,0.1927,SCC0277,0.86
-SCC0240,Bases de Dados,11,"Bases de dados, mineração e ciência de dados",0.5114,0.2333,SCC0241,0.778
-SCC0241,Laboratório de Bases de Dados,2,Programação e sistemas computacionais,0.5354,0.2586,SCC0240,0.778
-SCC0243,Arquitetura de Sistemas Gerenciadores de Bases de Dados,3,Engenharia de software e gestão,0.4907,0.2658,SCC0240,0.759
-SCC0244,Mineração a partir de Grandes Bases de Dados,11,"Bases de dados, mineração e ciência de dados",0.4812,0.1645,SME0878,0.786
-SCC0245,Processamento Analítico de Dados,11,"Bases de dados, mineração e ciência de dados",0.5023,0.1925,SCC0244,0.686
-SCC0247,Banco de dados NoSQL e arcabouços distribuídos de processamento,11,"Bases de dados, mineração e ciência de dados",0.5184,0.2289,SCC0240,0.712
-SCC0250,Computação Gráfica,22,Processamento de imagens e visão,0.7795,0.3131,SCC0251,0.744
-SCC0251,Processamento de Imagens,22,Processamento de imagens e visão,0.7298,0.3997,7600067,0.81
-SCC0252,Visualização Computacional,11,"Bases de dados, mineração e ciência de dados",0.4867,0.1578,SME0854,0.858
-SCC0254,Introdução à Geometria Computacional: Algoritmos e Aplicações,5,"Álgebra, geometria e topologia",0.7841,0.3033,SCC0250,0.726
-SCC0260,Interação Humano-Computador e Experiência do Usuário,2,Programação e sistemas computacionais,0.4966,0.341,SSC0724,0.729
-SCC0261,Multimídia,11,"Bases de dados, mineração e ciência de dados",0.5227,0.1428,SCC0661,0.848
-SCC0270,Redes Neurais e Aprendizado Profundo,0,"Algoritmos, otimização e aprendizado de máquina",0.6827,0.2801,SCC0570,0.954
-SCC0271,Introdução à Bioinformática,0,"Algoritmos, otimização e aprendizado de máquina",0.344,0.5256,SLC0623,0.709
-SCC0273,Robôs Móveis Inteligentes,1,"Controle, robótica e sistemas embarcados",0.6185,0.4553,SSC0714,0.764
-SCC0275,Introdução à Ciência de Dados,11,"Bases de dados, mineração e ciência de dados",0.4526,0.1891,SME0861,0.822
-SCC0276,Aprendizado de Máquina,0,"Algoritmos, otimização e aprendizado de máquina",0.6287,0.1843,SME0860,0.894
-SCC0277,Competições de Ciências de Dados,11,"Bases de dados, mineração e ciência de dados",0.4612,0.1957,SME0861,0.914
-SCC0282,Recuperação da Informação,0,"Algoritmos, otimização e aprendizado de máquina",0.6095,0.2521,SCC0284,0.745
-SCC0283,Introdução à Web Semântica,0,"Algoritmos, otimização e aprendizado de máquina",0.5366,0.2466,SCC0240,0.625
-SCC0284,Sistemas de Recomendação,0,"Algoritmos, otimização e aprendizado de máquina",0.5811,0.2503,SCC0282,0.745
-SCC0287,Mineração de Dados Não Estruturados,11,"Bases de dados, mineração e ciência de dados",0.4813,0.1866,SME0878,0.791
-SCC0289,Projeto em Intercâmbio I,12,"Estágios, projetos e metodologia científica",0.2496,0.1474,SCC0290,1.0
-SCC0290,Projeto em Intercâmbio II,12,"Estágios, projetos e metodologia científica",0.2496,0.1474,SCC0289,1.0
-SCC0291,Estágio Supervisionado I,12,"Estágios, projetos e metodologia científica",0.2478,0.1491,SCC0292,0.994
-SCC0292,Estágio Supervisionado II,12,"Estágios, projetos e metodologia científica",0.2481,0.1375,SCC0291,0.994
-SCC0293,Projeto de Graduação I,12,"Estágios, projetos e metodologia científica",0.2746,0.1595,SCC0294,0.993
-SCC0294,Projeto de Graduação II,12,"Estágios, projetos e metodologia científica",0.2855,0.1684,SCC0293,0.993
-SCC0295,Atividades Acadêmicas de Extensão I,17,Extensão universitária,0.1882,0.2557,SCC0296,1.0
-SCC0296,Atividades Acadêmicas de Extensão II,17,Extensão universitária,0.1882,0.2557,SCC0295,1.0
-SCC0303,Introdução a Compressão de Dados,11,"Bases de dados, mineração e ciência de dados",0.5106,0.1477,SCC0261,0.76
-SCC0370,Introdução à Computação Bioinspirada,14,Seminários e tópicos especiais,0.3693,0.3027,SCC0271,0.678
-SCC0505,Introdução à Teoria da Computação,2,Programação e sistemas computacionais,0.5662,0.2097,SCC0205,0.896
-SCC0570,Introdução a Redes Neurais,0,"Algoritmos, otimização e aprendizado de máquina",0.6884,0.2774,SCC0270,0.954
-SCC0580,Acessibilidade em Sistemas Computacionais,2,Programação e sistemas computacionais,0.5214,0.3667,SCC0207,0.649
-SCC0605,Teoria da Computação e Compiladores,2,Programação e sistemas computacionais,0.5722,0.216,SCC0505,0.896
-SCC0607,Estrutura de Dados III,0,"Algoritmos, otimização e aprendizado de máquina",0.6455,0.2324,SCC0203,0.997
-SCC0632,Tópicos Avançados em Inteligência Artificial,0,"Algoritmos, otimização e aprendizado de máquina",0.6639,0.1722,SCC0634,0.807
-SCC0633,Processamento de Linguagem Natural,2,Programação e sistemas computacionais,0.5389,0.2679,SCC0217,0.71
-SCC0634,Aplicações de Inteligência Artificial,0,"Algoritmos, otimização e aprendizado de máquina",0.642,0.1473,SCC0632,0.807
-SCC0661,Multimídia e Hipermídia,11,"Bases de dados, mineração e ciência de dados",0.5535,0.1456,SCC0261,0.848
-SCC0802,Prática em Ciência de Dados III,11,"Bases de dados, mineração e ciência de dados",0.3961,0.1915,SME0852,1.0
-SCC0910,Tópicos Avançados em Ciências de Computação I,14,Seminários e tópicos especiais,0.3601,0.2524,SCC0911,1.0
-SCC0911,Tópicos Avançados em Ciências de Computação II,14,Seminários e tópicos especiais,0.3601,0.2524,SCC0910,1.0
-SEL0301,Circuitos Elétricos I,7,"Circuitos, eletricidade e sistemas digitais",0.8016,0.6676,SEL0602,0.822
-SEL0309,Eletromagnetismo,7,"Circuitos, eletricidade e sistemas digitais",0.7846,0.7191,SLC0635,0.721
-SEL0310,Ondas Eletromagnéticas,15,Ondas e telecomunicações,0.7363,0.685,SEL0463,0.811
-SEL0313,Circuitos Eletrônicos I,7,"Circuitos, eletricidade e sistemas digitais",0.7915,0.6253,SEL0610,0.744
-SEL0314,Circuitos Eletrônicos II,7,"Circuitos, eletricidade e sistemas digitais",0.7858,0.6296,SEL0470,0.773
-SEL0326,Controle de Sistemas Lineares,1,"Controle, robótica e sistemas embarcados",0.607,0.5881,SEL0417,0.752
-SEL0327,Laboratório de Fundamentos de Controle,1,"Controle, robótica e sistemas embarcados",0.5419,0.4465,SSC0160,0.719
-SEL0328,Laboratório de Controle de Sistemas,1,"Controle, robótica e sistemas embarcados",0.6167,0.5137,SEL0634,0.725
-SEL0337,Projetos em Sistemas Embarcados,2,Programação e sistemas computacionais,0.5791,0.4241,SSC0140,0.691
-SEL0338,Tópicos Especiais em Sistemas Digitais,23,Microcontroladores e arquitetura,0.6275,0.465,SEL0406,0.713
-SEL0339,Visão Computacional,22,Processamento de imagens e visão,0.7148,0.3837,SEL0635,0.8
-SEL0343,Processamento Digital de Sinais,1,"Controle, robótica e sistemas embarcados",0.6692,0.564,SEL0356,0.808
-SEL0344,Antenas,15,Ondas e telecomunicações,0.7265,0.6838,SEL0310,0.773
-SEL0346,Comunicação Digital I,7,"Circuitos, eletricidade e sistemas digitais",0.7448,0.5103,SEL0619,1.0
-SEL0347,Comunicação Digital II,15,Ondas e telecomunicações,0.7369,0.5172,SEL0619,0.695
-SEL0356,Aplicação de Processamento Digital de Sinais,1,"Controle, robótica e sistemas embarcados",0.6644,0.565,SEL0343,0.808
-SEL0360,Princípios de Comunicação,15,Ondas e telecomunicações,0.7055,0.6518,SEL0463,0.74
-SEL0361,Laboratório de Telecomunicações,15,Ondas e telecomunicações,0.712,0.6377,SEL0360,0.731
-SEL0366,Comunicações Ópticas,15,Ondas e telecomunicações,0.6594,0.6813,SEL0468,0.766
-SEL0367,Controle Adaptativo,6,Probabilidade e estatística,0.4836,0.0455,SME0520,0.72
-SEL0369,Micro-ondas,15,Ondas e telecomunicações,0.7068,0.6828,SEL0463,0.836
-SEL0370,Redes Fixas de Comunicação,20,Redes de computadores,0.722,0.4648,SEL0386,0.76
-SEL0371,Sistemas de Comunicação: Teoria e Laboratório,15,Ondas e telecomunicações,0.7038,0.6546,SEL0463,0.772
-SEL0373,Projeto em Internet das Coisas,2,Programação e sistemas computacionais,0.5991,0.3132,SCC0219,0.733
-SEL0383,Sinais e Sistemas em Engenharia Elétrica,1,"Controle, robótica e sistemas embarcados",0.6433,0.5851,SEL0604,0.971
-SEL0386,Redes Móveis de Comunicação,20,Redes de computadores,0.6833,0.402,SEL0387,0.802
-SEL0387,Computação Móvel,20,Redes de computadores,0.6674,0.3548,SEL0386,0.802
-SEL0388,Bioengenharia Ocular I,19,Óptica e fotônica,0.6818,0.6855,SEL0429,0.714
-SEL0395,Introdução à Engenharia de Reabilitação,1,"Controle, robótica e sistemas embarcados",0.4142,0.5583,SEM0589,0.77
-SEL0396,Introdução à Instrumentação Eletrônica Biomédica,1,"Controle, robótica e sistemas embarcados",0.4233,0.5699,SEL0395,0.766
-SEL0397,Princípios Físicos de Formação de Imagens Médicas,22,Processamento de imagens e visão,0.6565,0.7165,SEL0434,0.688
-SEL0398,Projetos em Avaliação de Imagens Médicas,22,Processamento de imagens e visão,0.7192,0.4424,SEL0434,0.734
-SEL0403,Eletricidade I,7,"Circuitos, eletricidade e sistemas digitais",0.7985,0.6901,SEL0637,0.769
-SEL0406,Automação,23,Microcontroladores e arquitetura,0.6633,0.4921,SEL0338,0.713
-SEL0415,Introdução à Organização de Computadores,2,Programação e sistemas computacionais,0.5807,0.3392,SSC0140,0.73
-SEL0417,Fundamentos de Controle,1,"Controle, robótica e sistemas embarcados",0.6044,0.5641,SEL0620,0.761
-SEL0429,Bioengenharia Ocular II,19,Óptica e fotônica,0.6849,0.7122,SEL0388,0.714
-SEL0431,Laboratório de Controle de Processos Industriais,23,Microcontroladores e arquitetura,0.6263,0.4839,SEL0338,0.679
-SEL0433,Aplicação de Microprocessadores,23,Microcontroladores e arquitetura,0.615,0.4304,SEL0629,0.796
-SEL0434,Imagens Radiológicas Digitais,22,Processamento de imagens e visão,0.7219,0.4574,SEL0398,0.734
-SEL0441,Laboratório de Medidas e Circuitos Elétricos,7,"Circuitos, eletricidade e sistemas digitais",0.7965,0.6747,SEL0637,0.771
-SEL0449,Introdução ao Processamento Digital de Imagens,22,Processamento de imagens e visão,0.7216,0.4162,7600067,0.82
-SEL0450,Fundamentos de Semicondutores,7,"Circuitos, eletricidade e sistemas digitais",0.7457,0.6175,SEL0470,0.711
-SEL0452,Medidas e Circuitos Elétricos,7,"Circuitos, eletricidade e sistemas digitais",0.8015,0.6979,SEL0637,0.867
-SEL0459,Fundamentos de Fotônica,19,Óptica e fotônica,0.6806,0.7053,7600045,0.722
-SEL0460,Fundamentos de Mecânica Quântica para Engenharia 1,8,"Física, mecânica e termodinâmica",0.5497,0.7465,SEL0461,0.804
-SEL0461,Fundamentos de Mecânica Quântica para Engenharia 2,8,"Física, mecânica e termodinâmica",0.5632,0.7204,SEL0460,0.804
-SEL0462,Introdução à teoria de ondas localizadas,15,Ondas e telecomunicações,0.7019,0.6732,SEL0463,0.745
-SEL0463,Ondas Eletromagnéticas: Aplicações,15,Ondas e telecomunicações,0.7129,0.669,SEL0369,0.836
-SEL0464,Óptica de Fourier,19,Óptica e fotônica,0.6609,0.6588,SEL0459,0.718
-SEL0467,Laboratório de Tecnologias Quânticas,15,Ondas e telecomunicações,0.6701,0.6695,SEL0468,0.7
-SEL0468,Comunicações Quânticas,15,Ondas e telecomunicações,0.6556,0.675,SEL0366,0.766
-SEL0470,Princípios Físicos e Caracterização Elétrica de Transistores MOS,7,"Circuitos, eletricidade e sistemas digitais",0.7734,0.6255,SEL0314,0.773
-SEL0471,Filtro de Kalman e suas Aplicações,1,"Controle, robótica e sistemas embarcados",0.6361,0.6153,SEL0326,0.704
-SEL0602,Circuitos Elétricos,7,"Circuitos, eletricidade e sistemas digitais",0.8067,0.6775,SEL0301,0.822
-SEL0604,Sinais e Sistemas,1,"Controle, robótica e sistemas embarcados",0.6329,0.5714,SEL0383,0.971
-SEL0606,Laboratório de Sistemas Digitais,7,"Circuitos, eletricidade e sistemas digitais",0.8056,0.547,SEL0628,0.832
-SEL0610,Laboratório de Circuitos Eletrônicos,7,"Circuitos, eletricidade e sistemas digitais",0.7613,0.6318,SEL0314,0.769
-SEL0617,Fundamentos de Microeletrônica,7,"Circuitos, eletricidade e sistemas digitais",0.7538,0.5979,SEL0470,0.708
-SEL0618,Projetos de Circuitos Integrados Analógicos,7,"Circuitos, eletricidade e sistemas digitais",0.7487,0.541,SEL0621,0.708
-SEL0619,Comunicação Digital,7,"Circuitos, eletricidade e sistemas digitais",0.7394,0.5014,SEL0346,1.0
-SEL0620,Controle Digital,1,"Controle, robótica e sistemas embarcados",0.617,0.547,SEL0417,0.761
-SEL0621,Projetos de Circuitos Integrados Digitais I,7,"Circuitos, eletricidade e sistemas digitais",0.7549,0.573,SEL0622,0.745
-SEL0622,Projetos de Circuitos Integrados Digitais II,23,Microcontroladores e arquitetura,0.6648,0.4991,SEL0621,0.745
-SEL0623,Serviços de Telecomunicações e Redes Faixa Larga,20,Redes de computadores,0.6832,0.3741,SEL0387,0.766
-SEL0624,Projeto de Formatura I,12,"Estágios, projetos e metodologia científica",0.3311,0.1691,SSC0674,0.757
-SEL0628,Sistemas Digitais,7,"Circuitos, eletricidade e sistemas digitais",0.7869,0.5386,SEL0606,0.832
-SEL0629,Aplicações de Microprocessadores I,23,Microcontroladores e arquitetura,0.5933,0.4281,SEL0433,0.796
-SEL0631,Processadores Digitais de Sinais e Aplicações,1,"Controle, robótica e sistemas embarcados",0.6514,0.5384,SEL0604,0.697
-SEL0632,Linguagens de Descrição de Hardware,1,"Controle, robótica e sistemas embarcados",0.6165,0.5181,SEL0628,0.686
-SEL0633,Controle de Robôs Manipuladores,1,"Controle, robótica e sistemas embarcados",0.5756,0.5312,SEP0301,0.724
-SEL0634,Laboratório de Robôs Manipuladores,1,"Controle, robótica e sistemas embarcados",0.6092,0.5018,SEL0328,0.725
-SEL0635,Visão Computacional em Robótica,22,Processamento de imagens e visão,0.7375,0.3862,SEL0339,0.8
-SEL0637,Circuitos Elétricos Lineares em Corrente Contínua,7,"Circuitos, eletricidade e sistemas digitais",0.7999,0.6953,SEL0452,0.867
-SEM0233,Termodinâmica I,8,"Física, mecânica e termodinâmica",0.4676,0.6902,SLC0628,0.799
-SEM0343,Processos de Usinagem,18,"Desenho técnico, materiais e fabricação",0.4778,0.571,SEP0272,0.695
-SEM0388,Princípios de Metrologia Industrial,18,"Desenho técnico, materiais e fabricação",0.5381,0.638,SEM0564,0.745
-SEM0403,Fundamentos da Mecânica dos Fluidos,8,"Física, mecânica e termodinâmica",0.5112,0.6709,SEM0233,0.754
-SEM0550,Transferência de Calor e Massa,8,"Física, mecânica e termodinâmica",0.4954,0.676,SEM0233,0.74
-SEM0564,Desenho Técnico Mecânico I,18,"Desenho técnico, materiais e fabricação",0.5377,0.6045,SEM0388,0.745
-SEM0565,Desenho Técnico Mecânico II,18,"Desenho técnico, materiais e fabricação",0.5409,0.5485,SEM0564,0.727
-SEM0567,Processos de Fabricação,18,"Desenho técnico, materiais e fabricação",0.4875,0.5968,SEP0272,0.705
-SEM0575,Veículos Terrestres Autônomos,1,"Controle, robótica e sistemas embarcados",0.5841,0.4818,SEM0576,0.93
-SEM0576,Veículos Aéreos Autônomos,1,"Controle, robótica e sistemas embarcados",0.5746,0.5024,SEM0575,0.93
-SEM0587,Fundamentos da Manufatura Aditiva,18,"Desenho técnico, materiais e fabricação",0.5208,0.5786,SEM0564,0.713
-SEM0589,Biomecânica e Controle Motor,1,"Controle, robótica e sistemas embarcados",0.4557,0.5466,SEL0395,0.77
-SEP0172,Prática e Gerenciamento de Projetos,3,Engenharia de software e gestão,0.4296,0.4176,SSC0128,0.759
-SEP0254,Projeto e Operação de Sistemas de Produção,21,Produção e sistemas operacionais,0.5186,0.5006,SEP0301,0.764
-SEP0272,Usinagem dos Metais,18,"Desenho técnico, materiais e fabricação",0.4774,0.5951,SEM0567,0.705
-SEP0284,Projeto e Manufatura,21,Produção e sistemas operacionais,0.512,0.5285,SEP0285,0.796
-SEP0285,Práticas em Processos de Manufatura,18,"Desenho técnico, materiais e fabricação",0.5023,0.5677,SEP0284,0.796
-SEP0301,Modelagem de sistemas de planejamento e controle da produção,21,Produção e sistemas operacionais,0.5464,0.5207,SEP0325,0.793
-SEP0305,Logística e Gestão da Cadeia de Suprimentos,21,Produção e sistemas operacionais,0.5054,0.474,SEP0325,0.711
-SEP0324,Modelagem de Sistemas,3,Engenharia de software e gestão,0.498,0.4524,SEP0301,0.728
-SEP0325,Planejamento e Controle da Produção I,21,Produção e sistemas operacionais,0.519,0.4992,SEP0301,0.793
-SEP0405,Pesquisa Operacional I,21,Produção e sistemas operacionais,0.5163,0.4384,SSC0141,0.715
-SEP0529,Administração e Empreendedorismo,3,Engenharia de software e gestão,0.4233,0.3919,SEP0566,0.693
-SEP0566,Fundamentos de Economia,3,Engenharia de software e gestão,0.4206,0.3757,SEP0587,0.828
-SEP0584,Contabilidade para Computação,3,Engenharia de software e gestão,0.4712,0.4011,SME0520,0.707
-SEP0587,Princípios de Economia,3,Engenharia de software e gestão,0.4086,0.368,SEP0566,0.828
-SET0623,Mecânica dos Sólidos,8,"Física, mecânica e termodinâmica",0.5269,0.7123,7600109,0.676
-SHS0619,Fenômenos de Transporte,8,"Física, mecânica e termodinâmica",0.4853,0.6806,SEM0550,0.734
-SHS0623,Gestão Ambiental para Engenheiros,9,Química e biologia,0.2676,0.5379,SLC0663,0.761
-SLC0531,Geometria,5,"Álgebra, geometria e topologia",0.8777,0.2755,SLC0534,0.668
-SLC0532,Estruturas Algébricas,5,"Álgebra, geometria e topologia",0.9792,0.2161,SMA0305,0.808
-SLC0534,Desenho Geométrico e Geometria Descritiva,5,"Álgebra, geometria e topologia",0.8462,0.2952,IAU0678,0.745
-SLC0601,Elementos de Matemática,4,"Cálculo, análise e equações",0.9206,0.4394,SMA0386,0.705
-SLC0602,Matrizes e Geometria Analítica,5,"Álgebra, geometria e topologia",0.8992,0.217,SME0341,0.815
-SLC0605,"Introdução aos Estudos da Educação: aspectos históricos, filosóficos e sociais",13,Educação,0.0895,0.4603,SMA0340,0.825
-SLC0606,"Introdução aos Estudos da Educação: ciência, sociologia e imprensa",13,Educação,0.1458,0.474,SMA0340,0.824
-SLC0609,Álgebra Linear e Equações Diferenciais para o Ensino de Matemática,5,"Álgebra, geometria e topologia",0.9006,0.2378,SME0341,0.89
-SLC0610,Computação e Tecnologias Aplicadas na Educação,2,Programação e sistemas computacionais,0.5043,0.3277,SSC0724,0.766
-SLC0611,"Tópicos de Probabilidade, Estatística e Matemática Financeira",4,"Cálculo, análise e equações",0.9277,0.4219,SMA0386,0.756
-SLC0614,Didática,13,Educação,0.1085,0.455,SLC0605,0.759
-SLC0615,Estrutura e Funcionamento do Ensino Fundamental e Médio,10,Ensino de matemática e ciências,0.0889,0.4929,SMA0338,0.913
-SLC0618,Estágio Supervisionado em Ensino de Matemática 2,10,Ensino de matemática e ciências,0.0879,0.5214,SMA0370,0.933
-SLC0620,Biologia 1,9,Química e biologia,0.3046,0.5621,SLC0622,0.725
-SLC0621,Biologia 2,9,Química e biologia,0.3196,0.5963,1800119,0.717
-SLC0622,Biologia 3,9,Química e biologia,0.2948,0.5685,SLC0620,0.725
-SLC0623,Biologia 4,9,Química e biologia,0.3185,0.5602,SCC0271,0.709
-SLC0626,Laboratório de Física 1,8,"Física, mecânica e termodinâmica",0.5916,0.7102,7600109,0.856
-SLC0627,Metodologia da Pesquisa e Redação Científica para Licenciatura,12,"Estágios, projetos e metodologia científica",0.2829,0.232,SMA0385,0.752
-SLC0628,Física 3,8,"Física, mecânica e termodinâmica",0.4567,0.703,SEM0233,0.799
-SLC0629,"Laboratório de Fluidos, Termodinâmica, Oscilações e Ondas",8,"Física, mecânica e termodinâmica",0.4662,0.7164,7600110,0.772
-SLC0630,Psicologia da Educação 1,13,Educação,0.1178,0.411,7600108,0.986
-SLC0631,Psicologia da Educação 2,13,Educação,0.0995,0.4232,SLC0630,0.78
-SLC0632,Oscilações e Ondas,8,"Física, mecânica e termodinâmica",0.5419,0.7264,7600116,0.722
-SLC0634,Diretrizes Curriculares para o Ensino de Ciências e Matemática,10,Ensino de matemática e ciências,0.064,0.5294,SMA0338,0.75
-SLC0635,Eletricidade e Magnetismo,7,"Circuitos, eletricidade e sistemas digitais",0.762,0.7217,7600107,0.861
-SLC0636,Laboratório de Eletricidade e Magnetismo,7,"Circuitos, eletricidade e sistemas digitais",0.7202,0.7407,SLC0626,0.775
-SLC0639,Instrumentação para o Ensino 1,10,Ensino de matemática e ciências,0.1747,0.5706,SLC0665,0.757
-SLC0640,Instrumentação para o Ensino 2,1,"Controle, robótica e sistemas embarcados",0.2147,0.4417,SSC0724,0.684
-SLC0641,Óptica,19,Óptica e fotônica,0.6705,0.7511,SLC0642,0.738
-SLC0642,Laboratório de Óptica,19,Óptica e fotônica,0.6789,0.7576,SLC0641,0.738
-SLC0645,Panorama das Pesquisas na Área de Ensino de Ciências,13,Educação,0.1427,0.4517,SLC0681,0.755
-SLC0646,História da Ciência 1,13,Educação,0.1832,0.5123,SLC0647,0.715
-SLC0647,História da Ciência 2,10,Ensino de matemática e ciências,0.2009,0.5312,SLC0646,0.715
-SLC0648,Física Moderna,8,"Física, mecânica e termodinâmica",0.6235,0.7564,7600019,0.695
-SLC0650,Laboratório de Estrutura da Matéria,19,Óptica e fotônica,0.6541,0.7621,SLC0636,0.724
-SLC0651,Física do Cotidiano - Teoria e Experimento,8,"Física, mecânica e termodinâmica",0.5042,0.7651,7600005,0.707
-SLC0654,Ensino e Divulgação de Astronomia e Astrofísica 1,19,Óptica e fotônica,0.6714,0.7485,SLC0655,0.861
-SLC0655,Ensino e Divulgação de Astronomia e Astrofísica 2,19,Óptica e fotônica,0.6748,0.7563,SLC0654,0.861
-SLC0656,"Laboratório de Aplicação de Sensores, Ferramentas Digitais e Robótica ao Ensino de Ciências",1,"Controle, robótica e sistemas embarcados",0.7023,0.4902,SSC0715,0.707
-SLC0657,Estágio Supervisionado em Ensino de Ciências 1,10,Ensino de matemática e ciências,0.1698,0.473,SLC0681,0.783
-SLC0658,Estágio Supervisionado em Ensino de Ciências 2,16,Atividades complementares e tutoria,0.175,0.4719,SLC0682,0.833
-SLC0662,Laboratório de Química 1,9,Química e biologia,0.2405,0.6556,SLC0692,0.783
-SLC0663,Ciências do Ambiente,9,Química e biologia,0.2527,0.5756,SHS0623,0.761
-SLC0665,Laboratório de Físico-Química para Licenciatura,9,Química e biologia,0.2278,0.6443,SLC0694,0.883
-SLC0666,Química Inorgânica,9,Química e biologia,0.3171,0.6887,SLC0667,0.938
-SLC0667,Laboratório de Química Inorgânica,9,Química e biologia,0.3087,0.6659,SLC0666,0.938
-SLC0668,Química Analítica,9,Química e biologia,0.2465,0.6471,SLC0669,0.863
-SLC0669,Laboratório de Química Analítica,9,Química e biologia,0.2553,0.6507,SLC0668,0.863
-SLC0670,Química Orgânica,9,Química e biologia,0.2649,0.6652,SLC0671,0.817
-SLC0671,Laboratório de Química Orgânica,9,Química e biologia,0.2821,0.6673,SLC0670,0.817
-SLC0673,Princípios de Bioquímica,9,Química e biologia,0.2883,0.6383,SLC0674,0.777
-SLC0674,Laboratório de Bioquímica,9,Química e biologia,0.2532,0.6419,SLC0673,0.777
-SLC0675,"Química, Sociedade e Cotidiano",9,Química e biologia,0.2172,0.569,SLC0663,0.749
-SLC0678,Metodologia para o Ensino de Química 1,9,Química e biologia,0.2131,0.6146,SLC0679,0.991
-SLC0679,Metodologia para o Ensino de Química 2,9,Química e biologia,0.2226,0.6199,SLC0678,0.991
-SLC0680,Língua Brasileira de Sinais para a Licenciatura,10,Ensino de matemática e ciências,0.0773,0.4371,SMA0350,0.699
-SLC0681,Metodologia para o Ensino de Ciências 1,13,Educação,0.1717,0.465,SLC0682,0.89
-SLC0682,Metodologia para o Ensino de Ciências 2,13,Educação,0.1592,0.4641,SLC0681,0.89
-SLC0683,Metodologia para o Ensino de Matemática 1,10,Ensino de matemática e ciências,0.0568,0.4873,SMA0370,0.829
-SLC0684,Metodologia para o Ensino de Matemática 2,10,Ensino de matemática e ciências,0.0746,0.5174,SLC0618,0.865
-SLC0685,Metodologia para o Ensino de Física 1,10,Ensino de matemática e ciências,0.1221,0.5312,SLC0686,0.924
-SLC0686,Metodologia para o Ensino de Física 2,10,Ensino de matemática e ciências,0.1402,0.5252,SLC0685,0.924
-SLC0687,Análise para Licenciatura,4,"Cálculo, análise e equações",0.9782,0.4094,SMA0392,0.781
-SLC0688,Estágio Supervisionado em Ensino de Física 1,10,Ensino de matemática e ciências,0.1154,0.527,SLC0689,0.978
-SLC0689,Estágio Supervisionado em Ensino de Física 2,10,Ensino de matemática e ciências,0.1199,0.5183,SLC0688,0.978
-SLC0691,Química 1,9,Química e biologia,0.2737,0.6604,SLC0692,0.79
-SLC0692,Química 2,9,Química e biologia,0.269,0.6646,7500012,0.796
-SLC0693,Química 3,9,Química e biologia,0.2584,0.6531,SLC0694,0.836
-SLC0694,Fundamentos de Físico-Química,9,Química e biologia,0.2479,0.6678,SLC0665,0.883
-SLC0695,Estágio Supervisionado em Ensino de Química 1,9,Química e biologia,0.1596,0.5012,SLC0696,0.981
-SLC0696,Estágio Supervisionado em Ensino de Química 2,9,Química e biologia,0.1556,0.4902,SLC0695,0.981
-SLC0702,Atividades de Extensão para Licenciatura 3,17,Extensão universitária,0.1729,0.2654,1800124,1.0
-SLC0703,Atividades de Extensão para Licenciatura 4,17,Extensão universitária,0.1729,0.2654,1800124,1.0
-SMA0120,Introdução à Análise Funcional,5,"Álgebra, geometria e topologia",0.8966,0.2549,SMA0375,0.666
-SMA0125,Introdução ao Estudo das Singularidades de Aplicações Diferenciáveis,4,"Cálculo, análise e equações",0.9762,0.3364,SMA0175,0.745
-SMA0136,Teoria Qualitativa de Equações Diferenciais Ordinárias,5,"Álgebra, geometria e topologia",0.9187,0.2737,SME0341,0.706
-SMA0142,Curvas Algébricas Planas,5,"Álgebra, geometria e topologia",0.9594,0.2338,SMA0178,0.704
-SMA0143,Introdução à Teoria da Medida,4,"Cálculo, análise e equações",0.971,0.3807,SMA0389,0.854
-SMA0169,Equações Diferenciais Parciais,4,"Cálculo, análise e equações",0.9538,0.3206,7600016,0.8
-SMA0171,Topologia,5,"Álgebra, geometria e topologia",0.9408,0.2603,SMA0388,0.755
-SMA0173,Álgebra III,5,"Álgebra, geometria e topologia",1.0,0.2475,SLC0532,0.735
-SMA0175,Geometria Diferencial,4,"Cálculo, análise e equações",0.944,0.3009,SMA0192,0.748
-SMA0178,Tópicos de Matemática Elementar e Estatística,5,"Álgebra, geometria e topologia",0.938,0.2256,SMA0378,0.749
-SMA0180,Matemática Discreta I,4,"Cálculo, análise e equações",0.9152,0.4225,SMA0508,0.83
-SMA0192,Introdução à Topologia Diferencial,4,"Cálculo, análise e equações",0.9407,0.2791,SMA0175,0.748
-SMA0193,Introdução aos Grupos de Lie,5,"Álgebra, geometria e topologia",0.9486,0.2055,SMA0305,0.704
-SMA0305,Álgebra I,5,"Álgebra, geometria e topologia",0.972,0.2083,SLC0532,0.808
-SMA0306,Álgebra II,5,"Álgebra, geometria e topologia",0.9839,0.2276,SLC0532,0.765
-SMA0307,Análise I,4,"Cálculo, análise e equações",0.95,0.3925,SMA0380,0.887
-SMA0308,Análise II,4,"Cálculo, análise e equações",0.9626,0.3931,SMA0380,0.885
-SMA0326,Filosofia da Matemática,10,Ensino de matemática e ciências,0.0159,0.4573,SMA0327,0.706
-SMA0327,Filosofia da Educação Matemática,10,Ensino de matemática e ciências,0.025,0.4578,SMA0383,0.789
-SMA0328,Ensino de Matemática Por Múltiplas Mídias,10,Ensino de matemática e ciências,0.076,0.4792,SMA0383,0.7
-SMA0329,História da Matemática,10,Ensino de matemática e ciências,0.0,0.4462,SMA0327,0.689
-SMA0337,Análise Crítica de Materiais e Livros Didáticos,10,Ensino de matemática e ciências,0.0353,0.4915,SMA0348,0.744
-SMA0338,Estrutura e Funcionamento da Educação Básica,10,Ensino de matemática e ciências,0.077,0.4992,SLC0615,0.913
-SMA0340,Introdução aos Estudos da Educação,13,Educação,0.1009,0.4574,SLC0605,0.825
-SMA0343,Espaços Métricos,5,"Álgebra, geometria e topologia",0.9183,0.277,SMA0171,0.697
-SMA0344,Introdução aos Sistemas Dinâmicos,5,"Álgebra, geometria e topologia",0.8667,0.2909,SEL0327,0.679
-SMA0345,Aprofundamentos da Didática da Matemática,10,Ensino de matemática e ciências,0.0347,0.4834,SLC0683,0.732
-SMA0346,Metodologia de Pesquisa em Educação,10,Ensino de matemática e ciências,0.044,0.4401,SMA0327,0.735
-SMA0348,História da Matemática no Ensino,10,Ensino de matemática e ciências,0.0384,0.5077,SLC0684,0.755
-SMA0350,Ensino no contexto da educação especial e inclusiva,13,Educação,0.0948,0.4048,SLC0680,0.699
-SMA0354,Cálculo II,4,"Cálculo, análise e equações",0.9892,0.376,SMA0393,0.797
-SMA0356,Cálculo IV,4,"Cálculo, análise e equações",0.9912,0.3689,SMA0803,0.864
-SMA0357,Aplicações de Teoria dos Conjuntos,4,"Cálculo, análise e equações",0.9379,0.4342,SMA0508,0.678
-SMA0361,Tópicos de Matemática I,14,Seminários e tópicos especiais,0.3092,0.2422,SMA0362,1.0
-SMA0362,Tópicos de Matemática II,14,Seminários e tópicos especiais,0.3092,0.2422,SMA0361,1.0
-SMA0363,Tópicos de Matemática III,14,Seminários e tópicos especiais,0.3092,0.2422,SMA0361,1.0
-SMA0364,Tópicos de Matemática IV,14,Seminários e tópicos especiais,0.3092,0.2422,SMA0361,1.0
-SMA0367,Estágio Supervisionado em Ensino de Geometria e Desenho Geométrico,10,Ensino de matemática e ciências,0.0954,0.5183,SMA0370,0.8
-SMA0368,História da Educação e das Orientações Curriculares de Matemática Brasileiras,10,Ensino de matemática e ciências,0.051,0.51,SMA0338,0.762
-SMA0370,Estágio Supervisionado em Ensino de Matemática 1,10,Ensino de matemática e ciências,0.0895,0.5114,SLC0618,0.933
-SMA0375,Álgebra Linear,5,"Álgebra, geometria e topologia",0.8709,0.2397,SMA0804,0.854
-SMA0378,Formas Diferenciais e Aplicações,5,"Álgebra, geometria e topologia",0.9222,0.2512,SME0142,0.768
-SMA0379,Mecânica Quântica para Matemáticos,8,"Física, mecânica e termodinâmica",0.5479,0.7633,7600022,0.814
-SMA0380,Análise,4,"Cálculo, análise e equações",0.9638,0.3838,SMA0307,0.887
-SMA0382,Atividades Acadêmicas Complementares II,17,Extensão universitária,0.2009,0.2522,SCC0295,0.759
-SMA0383,Abordagens e Tendências Educacionais,10,Ensino de matemática e ciências,0.0517,0.4513,SMA0327,0.789
-SMA0384,Saberes Docentes e Formação do Professor,13,Educação,0.0467,0.4538,SMA0383,0.748
-SMA0385,Introdução à vida Acadêmica e a Metodologia de Escrita Científica,12,"Estágios, projetos e metodologia científica",0.3056,0.2342,SLC0627,0.752
-SMA0386,Fundamentos de Matemática,4,"Cálculo, análise e equações",0.9309,0.4339,SMA0805,0.788
-SMA0387,Mecânica Analítica,8,"Física, mecânica e termodinâmica",0.5249,0.7565,SEL0460,0.749
-SMA0388,Topologia Algébrica,5,"Álgebra, geometria e topologia",0.9568,0.2545,SMA0171,0.755
-SMA0389,Introdução à Teoria da Medida e Probabilidades,4,"Cálculo, análise e equações",0.9701,0.4041,SMA0143,0.854
-SMA0392,Cálculo I,4,"Cálculo, análise e equações",0.979,0.3939,SMA0354,0.788
-SMA0393,Cálculo III,4,"Cálculo, análise e equações",0.9853,0.3626,SMA0354,0.797
-SMA0394,Geometria Analítica,5,"Álgebra, geometria e topologia",0.8624,0.2527,SLC0534,0.685
-SMA0398,Educação Matemática Crítica,10,Ensino de matemática e ciências,0.0326,0.479,SMA0327,0.778
-SMA0404,"Direitos Humanos, Diversidade e a Educação para as Diferenças",13,Educação,0.1203,0.4505,SLC0605,0.711
-SMA0405,Ensino e aprendizagem na Educação Básica: Teoria e Prática em Laboratório,10,Ensino de matemática e ciências,0.058,0.5214,SLC0634,0.728
-SMA0505,"Matrizes, Vetores e Geometria Analítica",5,"Álgebra, geometria e topologia",0.8891,0.2241,SLC0609,0.867
-SMA0508,Matemática Discreta,4,"Cálculo, análise e equações",0.9166,0.427,SMA0180,0.83
-SMA0803,Cálculo III,4,"Cálculo, análise e equações",0.9924,0.3661,SMA0356,0.864
-SMA0804,Álgebra Linear para Estatística,5,"Álgebra, geometria e topologia",0.8884,0.2281,SMA0375,0.854
-SMA0805,Tópicos de Matemática,4,"Cálculo, análise e equações",0.9122,0.4439,SMA0386,0.788
-SME0110,Programação Matemática,0,"Algoritmos, otimização e aprendizado de máquina",0.7396,0.2369,SME0211,0.789
-SME0121,Processos Estocásticos,6,Probabilidade e estatística,0.5576,0.0931,SSC0160,0.702
-SME0123,Estatística,6,Probabilidade e estatística,0.4554,0.0694,SME0320,0.98
-SME0130,Redes Complexas,0,"Algoritmos, otimização e aprendizado de máquina",0.6902,0.3124,SME0879,0.816
-SME0142,Álgebra Linear e Aplicações,5,"Álgebra, geometria e topologia",0.893,0.2233,SME0243,0.835
-SME0202,Métodos Numéricos em Equações Diferenciais,4,"Cálculo, análise e equações",0.9237,0.3618,SMA0380,0.73
-SME0205,Métodos do Cálculo Numérico I,2,Programação e sistemas computacionais,0.8528,0.3214,SME0305,0.902
-SME0206,Fundamentos de Análise Numérica,4,"Cálculo, análise e equações",0.8802,0.3682,SME0306,0.877
-SME0211,Otimização Linear,0,"Algoritmos, otimização e aprendizado de máquina",0.7439,0.2381,SME0110,0.789
-SME0212,Otimização Não Linear,6,Probabilidade e estatística,0.75,0.2172,SME0510,0.719
-SME0213,Otimização Inteira,0,"Algoritmos, otimização e aprendizado de máquina",0.7333,0.2215,SME0510,0.843
-SME0214,Fluxos em Redes,0,"Algoritmos, otimização e aprendizado de máquina",0.6796,0.2661,SCC0216,0.709
-SME0216,Tópicos de Otimização Combinatória,14,Seminários e tópicos especiais,0.7161,0.2127,SME0213,0.688
-SME0220,Introdução à Teoria das Probabilidades,6,Probabilidade e estatística,0.4492,0.0382,SME0320,0.783
-SME0221,Introdução à Inferência Estatística,6,Probabilidade e estatística,0.4449,0.0289,SME0320,0.758
-SME0230,Introdução à Programação de Computadores,2,Programação e sistemas computacionais,0.5749,0.3175,SSC0304,0.89
-SME0231,Análise Topológica de Dados,5,"Álgebra, geometria e topologia",0.9141,0.2644,SME0271,0.666
-SME0240,Equações Diferenciais Ordinárias,4,"Cálculo, análise e equações",0.9536,0.322,7600016,0.776
-SME0241,Introdução à Modelagem Matemática,6,Probabilidade e estatística,0.8176,0.3774,SME0255,0.682
-SME0243,Teoria Espectral de Matrizes,5,"Álgebra, geometria e topologia",0.9093,0.2047,SME0142,0.835
-SME0245,Funções de Variável Complexa,4,"Cálculo, análise e equações",0.9893,0.3657,SMA0308,0.793
-SME0250,Métodos Numéricos para Geração de Malhas,5,"Álgebra, geometria e topologia",0.85,0.2593,SMA0505,0.687
-SME0251,Mecânica dos Fluidos Computacional I,8,"Física, mecânica e termodinâmica",0.8476,0.3857,SME0253,0.777
-SME0252,Sistemas Esparsos e Computação Paralela,5,"Álgebra, geometria e topologia",0.8765,0.2101,SLC0609,0.755
-SME0253,Mecânica dos Fluidos Computacional II,4,"Cálculo, análise e equações",0.8418,0.3916,SME0251,0.777
-SME0254,Método dos Elementos Finitos Aplicados à Mecânica dos Fluídos,5,"Álgebra, geometria e topologia",0.8948,0.3412,SME0202,0.719
-SME0255,Simulação Computacional de Fluidos,2,Programação e sistemas computacionais,0.8119,0.3951,SEM0403,0.726
-SME0256,Introdução a Modelagem Computacional na Indústria Petrolífera,8,"Física, mecânica e termodinâmica",0.8103,0.3946,SME0255,0.725
-SME0262,Análise de Séries Temporais em Finanças,6,Probabilidade e estatística,0.5295,0.0489,SME0873,0.694
-SME0271,Modelagem Geométrica,5,"Álgebra, geometria e topologia",0.8784,0.2811,SME0803,0.735
-SME0273,Prática em Matemática Aplicada e Computação Científica,11,"Bases de dados, mineração e ciência de dados",0.3391,0.2034,SCC0802,0.842
-SME0274,Tópicos em Matemática Aplicada II,14,Seminários e tópicos especiais,0.3284,0.2419,SMA0361,0.888
-SME0280,Acompanhamento Profissional,12,"Estágios, projetos e metodologia científica",0.3004,0.2143,SME0273,0.776
-SME0284,Estágio Supervisionado,12,"Estágios, projetos e metodologia científica",0.2583,0.1716,SME0285,0.838
-SME0285,Trabalho de Conclusão de Curso,12,"Estágios, projetos e metodologia científica",0.2866,0.1883,SME0284,0.838
-SME0300,Cálculo Numérico,4,"Cálculo, análise e equações",0.8626,0.3416,SME0892,0.906
-SME0305,Métodos Numéricos e Computacionais I,0,"Algoritmos, otimização e aprendizado de máquina",0.8092,0.3116,SME0205,0.902
-SME0306,Métodos Numéricos e Computacionais II,4,"Cálculo, análise e equações",0.8732,0.3556,SME0206,0.877
-SME0320,Estatística I,6,Probabilidade e estatística,0.4613,0.0594,SME0123,0.98
-SME0332,Fundamentos da Programação de Computadores,2,Programação e sistemas computacionais,0.5829,0.2878,SSC0304,0.838
-SME0341,Álgebra Linear e Equações Diferenciais,5,"Álgebra, geometria e topologia",0.9076,0.2225,SLC0609,0.89
-SME0510,Introdução à Pesquisa Operacional,0,"Algoritmos, otimização e aprendizado de máquina",0.7548,0.2253,SME0213,0.843
-SME0520,Introdução à Estatística,6,Probabilidade e estatística,0.4406,0.0759,SME0320,0.846
-SME0800,Probabilidade I,6,Probabilidade e estatística,0.4394,0.0581,SME0220,0.666
-SME0801,Probabilidade II,6,Probabilidade e estatística,0.4636,0.029,SME0220,0.758
-SME0803,Visualização e Exploração de Dados,6,Probabilidade e estatística,0.4836,0.1122,SME0520,0.746
-SME0806,Estatística Computacional,6,Probabilidade e estatística,0.483,0.0278,SME0820,0.691
-SME0807,Técnicas de Amostragem,6,Probabilidade e estatística,0.4463,0.0328,SME0123,0.702
-SME0808,Séries Temporais e Aprendizado Dinâmico,6,Probabilidade e estatística,0.4898,0.0597,SME0262,0.641
-SME0809,Inferência Bayesiana,6,Probabilidade e estatística,0.4517,0.024,SME0221,0.742
-SME0810,Métodos Não Paramétricos,6,Probabilidade e estatística,0.4606,0.0,SME0818,0.737
-SME0811,Análise de Dados Categorizados,6,Probabilidade e estatística,0.4975,0.0139,SME0820,0.723
-SME0812,Modelos Lineares,5,"Álgebra, geometria e topologia",0.9309,0.2008,SME0341,0.735
-SME0814,Estágio Supervisionado em Estatística I,12,"Estágios, projetos e metodologia científica",0.2368,0.1885,1800122,0.813
-SME0816,Planejamento de Experimentos I,6,Probabilidade e estatística,0.4754,0.0152,SME0822,0.747
-SME0818,Inferência Estatística,6,Probabilidade e estatística,0.4618,0.0207,SME0320,0.773
-SME0820,Modelos de Regressão e Aprendizado Supervisionado I,6,Probabilidade e estatística,0.5086,0.0147,SME0823,0.817
-SME0821,Análise de Sobrevivência e Confiabilidade,6,Probabilidade e estatística,0.5083,0.0363,SME0820,0.712
-SME0822,Análise Multivariada e Aprendizado Não Supervisionado,6,Probabilidade e estatística,0.4883,0.0017,SME0816,0.747
-SME0823,Modelos de Regressão e Aprendizado Supervisionado II,6,Probabilidade e estatística,0.5271,0.0554,SME0820,0.817
-SME0824,Gestão da Qualidade,3,Engenharia de software e gestão,0.446,0.4672,SSC0962,0.792
-SME0825,Metodologia Científica I,12,"Estágios, projetos e metodologia científica",0.3264,0.196,SME0826,0.75
-SME0826,Metodologia Científica II,12,"Estágios, projetos e metodologia científica",0.3692,0.1281,SCC0213,0.818
-SME0827,Estruturas de Dados,0,"Algoritmos, otimização e aprendizado de máquina",0.6333,0.2127,SCC0223,0.95
-SME0852,Prática em Ciência de Dados I,11,"Bases de dados, mineração e ciência de dados",0.3961,0.1915,SCC0802,1.0
-SME0854,Visualização para Ciência de Dados,11,"Bases de dados, mineração e ciência de dados",0.4546,0.168,SCC0252,0.858
-SME0860,Aprendizado de Máquina Aplicado a Problemas,0,"Algoritmos, otimização e aprendizado de máquina",0.6338,0.1978,SCC0276,0.894
-SME0861,Participação colaborativa em Competições em Ciência de Dados,11,"Bases de dados, mineração e ciência de dados",0.4457,0.196,SCC0277,0.914
-SME0862,Empreendedorismo Social Voluntário,11,"Bases de dados, mineração e ciência de dados",0.2272,0.2534,1800322,0.665
-SME0870,Tópicos Especiais em Estatística Aplicada I,6,Probabilidade e estatística,0.4357,0.0999,SME0875,1.0
-SME0871,Bioestatística,6,Probabilidade e estatística,0.4263,0.0874,SME0520,0.789
-SME0873,Econometria,6,Probabilidade e estatística,0.5145,0.0461,SME0820,0.739
-SME0875,Tópicos Especiais em Estatística Aplicada II,6,Probabilidade e estatística,0.4357,0.0999,SME0870,1.0
-SME0876,Teoria de Resposta ao Item,6,Probabilidade e estatística,0.5089,0.041,SME0823,0.66
-SME0878,Mineração Estatística de Dados,11,"Bases de dados, mineração e ciência de dados",0.4908,0.1759,SCC0287,0.791
-SME0879,Mineração de dados representados por grafos,11,"Bases de dados, mineração e ciência de dados",0.6857,0.291,SME0130,0.816
-SME0880,Projeto de Graduação em Estatística I,12,"Estágios, projetos e metodologia científica",0.3192,0.1467,SME0890,0.771
-SME0882,Consultoria Estatística,6,Probabilidade e estatística,0.4132,0.0844,SME0870,0.73
-SME0890,Direcionamento Acadêmico I,12,"Estágios, projetos e metodologia científica",0.3487,0.1317,SME0880,0.771
-SME0892,Cálculo Numérico para Estatística,4,"Cálculo, análise e equações",0.8604,0.3574,SME0300,0.906
-SMM0166,Eletrônica Aplicada a Motores Ci,1,"Controle, robótica e sistemas embarcados",0.4683,0.5196,SEL0395,0.748
-SMM0193,Engenharia e Ciência dos Materiais I,18,"Desenho técnico, materiais e fabricação",0.5206,0.6418,SEM0388,0.725
-SMM0194,Engenharia e Ciência dos Materiais II,18,"Desenho técnico, materiais e fabricação",0.4302,0.6215,SMM0307,0.763
-SMM0307,Biomateriais,9,Química e biologia,0.3869,0.5883,SMM0194,0.763
-SMM0564,Microscopia Eletrônica de Varredura,15,Ondas e telecomunicações,0.6946,0.6847,SEL0369,0.681
-SSC0104,Evolução Histórica da Computação e Aplicações,2,Programação e sistemas computacionais,0.5184,0.3277,SSC0571,0.906
-SSC0108,Prática em Sistemas Digitais,7,"Circuitos, eletricidade e sistemas digitais",0.7149,0.5187,SSC0109,0.759
-SSC0109,Prática em Lógica Digital,7,"Circuitos, eletricidade e sistemas digitais",0.7875,0.521,SSC0117,0.939
-SSC0117,Introdução à Lógica Digital,7,"Circuitos, eletricidade e sistemas digitais",0.7902,0.541,SSC0109,0.939
-SSC0119,Prática em Organização de Computadores,2,Programação e sistemas computacionais,0.5998,0.3466,SME0230,0.745
-SSC0120,Sistemas de Informação,3,Engenharia de software e gestão,0.4705,0.3826,SSC0530,0.824
-SSC0123,Tópicos Especiais em Engenharia de Software,3,Engenharia de software e gestão,0.3973,0.4301,SSC0720,0.77
-SSC0124,Análise e Projeto Orientados a Objetos,0,"Algoritmos, otimização e aprendizado de máquina",0.4774,0.334,SSC0621,0.908
-SSC0128,Gerência de Projetos,3,Engenharia de software e gestão,0.3996,0.4153,SEP0172,0.759
-SSC0130,Engenharia de Software,3,Engenharia de software e gestão,0.3875,0.4544,SSC0532,0.843
-SSC0140,Sistemas Operacionais I,2,Programação e sistemas computacionais,0.5543,0.3465,SSC0743,0.753
-SSC0141,Prática em Sistemas Operacionais,21,Produção e sistemas operacionais,0.5216,0.4142,SSC0743,0.992
-SSC0142,Redes de Computadores,20,Redes de computadores,0.6725,0.3291,SEL0387,0.753
-SSC0147,Tópicos Especiais em Sistemas de Computação I,14,Seminários e tópicos especiais,0.3904,0.2738,SCC0910,0.726
-SSC0152,Administração e Gerenciamento de Redes,20,Redes de computadores,0.6623,0.3466,SSC0142,0.743
-SSC0154,Seminários Avançados em Sistemas Distribuídos e Programação Concorrente I,14,Seminários e tópicos especiais,0.4281,0.2758,SSC0744,0.779
-SSC0158,Computação em Nuvem e Arquitetura Orientadas a Serviços,2,Programação e sistemas computacionais,0.5068,0.284,SSC0159,0.728
-SSC0159,Tópicos Avançados em Computação de Alto Desempenho,2,Programação e sistemas computacionais,0.504,0.2899,SSC0903,0.879
-SSC0160,Modelagem e Simulação de Sistemas Computacionais,6,Probabilidade e estatística,0.5172,0.0981,SME0320,0.747
-SSC0180,Eletrônica para Computação,7,"Circuitos, eletricidade e sistemas digitais",0.791,0.6101,SSC0117,0.774
-SSC0304,Introdução à Programação para Engenharias,2,Programação e sistemas computacionais,0.5856,0.3071,SME0230,0.89
-SSC0512,Elementos de Lógica Digital,7,"Circuitos, eletricidade e sistemas digitais",0.8009,0.5289,SSC0109,0.837
-SSC0530,Introdução a Sistemas de Informação,3,Engenharia de software e gestão,0.4906,0.4119,SSC0531,0.861
-SSC0531,Gestão de Sistemas de Informação,3,Engenharia de software e gestão,0.4885,0.4111,SSC0530,0.861
-SSC0532,Metodologias de Desenvolvimento de Software,3,Engenharia de software e gestão,0.4026,0.4328,SSC0130,0.843
-SSC0533,Requisitos de Software,3,Engenharia de software e gestão,0.4137,0.4548,SSC0130,0.805
-SSC0534,Modelagem de Sistemas de Software,0,"Algoritmos, otimização e aprendizado de máquina",0.4568,0.3628,SSC0621,0.976
-SSC0535,"Gerência de Configuração, Manutenção e Evolução de Software",3,Engenharia de software e gestão,0.4248,0.4311,SSC0130,0.786
-SSC0536,Projeto e Desenvolvimento de Sistemas de Informação,3,Engenharia de software e gestão,0.4243,0.4227,SSC0950,0.767
-SSC0570,Empreendedores em Informática,12,"Estágios, projetos e metodologia científica",0.3313,0.2592,SSC0676,0.73
-SSC0571,Computação e Sociedade: Evolução Histórica e Aplicações,2,Programação e sistemas computacionais,0.5062,0.3346,SSC0104,0.906
-SSC0595,Projeto Empreendedor I,12,"Estágios, projetos e metodologia científica",0.2402,0.1498,SSC0596,1.0
-SSC0596,Projeto Empreendedor II,12,"Estágios, projetos e metodologia científica",0.2402,0.1498,SSC0595,1.0
-SSC0599,Informação Profissional em Sistemas de Informação,14,Seminários e tópicos especiais,0.3898,0.2868,SCC0200,0.874
-SSC0621,Modelagem Orientada a Objetos,0,"Algoritmos, otimização e aprendizado de máquina",0.4646,0.361,SSC0534,0.976
-SSC0643,Avaliação de Desempenho de Sistemas Computacionais,2,Programação e sistemas computacionais,0.4774,0.2377,SSC0903,0.735
-SSC0674,Projeto de Formatura II,12,"Estágios, projetos e metodologia científica",0.2918,0.1661,SCC0293,0.855
-SSC0675,Projeto Empreendedor,12,"Estágios, projetos e metodologia científica",0.2482,0.1527,SSC0595,0.885
-SSC0676,Estágio Empreendedor,12,"Estágios, projetos e metodologia científica",0.2459,0.1486,SSC0595,0.831
-SSC0712,Programação de Robôs Móveis,1,"Controle, robótica e sistemas embarcados",0.6625,0.4431,SSC0714,0.842
-SSC0713,Sistemas Evolutivos e Aplicados à Robótica,1,"Controle, robótica e sistemas embarcados",0.6173,0.4082,SEL0635,0.735
-SSC0714,Robôs Móveis Autônomos,1,"Controle, robótica e sistemas embarcados",0.6296,0.4468,SSC0712,0.842
-SSC0715,Sensores Inteligentes,1,"Controle, robótica e sistemas embarcados",0.6609,0.4354,SCC0220,0.744
-SSC0720,Engenharia de Software para Sistemas Embarcados,3,Engenharia de software e gestão,0.4123,0.4358,SSC0532,0.778
-SSC0723,Sistemas Colaborativos: Fundamentos e Aplicações,3,Engenharia de software e gestão,0.4646,0.3651,SSC0724,0.719
-SSC0724,Sistemas Educacionais Avançados,3,Engenharia de software e gestão,0.4196,0.316,SSC0770,0.773
-SSC0725,Arquitetura de Software,3,Engenharia de software e gestão,0.3924,0.4471,SSC0130,0.786
-SSC0726,Reuso de Software,3,Engenharia de software e gestão,0.4525,0.4214,SSC0950,0.753
-SSC0740,Sistemas Embarcados,1,"Controle, robótica e sistemas embarcados",0.5723,0.4506,SAA0356,0.772
-SSC0741,Projeto e Implementação de Sistemas Embarcados I,23,Microcontroladores e arquitetura,0.6058,0.4605,SEL0622,0.698
-SSC0743,Sistemas Operacionais II,21,Produção e sistemas operacionais,0.523,0.4224,SSC0141,0.992
-SSC0744,Computação Distribuída,2,Programação e sistemas computacionais,0.4622,0.2818,SSC0154,0.779
-SSC0745,Sistemas Computacionais de Tempo-Real,21,Produção e sistemas operacionais,0.5261,0.4294,SSC0743,0.737
-SSC0746,Sistemas Computacionais Tolerantes a Faltas,21,Produção e sistemas operacionais,0.5127,0.4076,SSC0950,0.734
-SSC0748,Redes Móveis,20,Redes de computadores,0.676,0.3687,SEL0387,0.771
-SSC0770,Introdução ao Desenvolvimento de Jogos Eletrônicos,3,Engenharia de software e gestão,0.4251,0.336,SSC0724,0.773
-SSC0900,Engenharia de Segurança,2,Programação e sistemas computacionais,0.5666,0.3593,SSC0304,0.73
-SSC0901,Laboratório de Engenharia de Segurança,2,Programação e sistemas computacionais,0.5683,0.3998,SSC0900,0.674
-SSC0902,Organização e Arquitetura de Computadores,23,Microcontroladores e arquitetura,0.6097,0.3666,SEL0433,0.755
-SSC0903,Computação de Alto Desempenho,2,Programação e sistemas computacionais,0.4928,0.3159,SSC0159,0.879
-SSC0904,Sistemas Computacionais Distribuídos,2,Programação e sistemas computacionais,0.5463,0.3221,SSC0954,0.759
-SSC0950,Projeto e Desenvolvimento de Software de Sistema,3,Engenharia de software e gestão,0.4718,0.3969,SSC0743,0.78
-SSC0951,Desenvolvimento de Código Otimizado,3,Engenharia de software e gestão,0.4987,0.2841,SSC0643,0.696
-SSC0952,Internet das Coisas,20,Redes de computadores,0.6209,0.3618,SEL0387,0.716
-SSC0953,Sistemas Open Source,3,Engenharia de software e gestão,0.4545,0.3949,SSC0950,0.729
-SSC0954,Infraestrutura para Computação de Alto Desempenho e Sistemas Distribuídos,2,Programação e sistemas computacionais,0.4849,0.2891,SSC0903,0.788
-SSC0955,Introdução a Sistemas Computacionais,7,"Circuitos, eletricidade e sistemas digitais",0.8079,0.523,SSC0512,0.744
-SSC0956,Soluções Otimizadas por Mineração de Dados Complexos,11,"Bases de dados, mineração e ciência de dados",0.4959,0.179,SME0878,0.766
-SSC0957,Prática em Ciência de Dados II,11,"Bases de dados, mineração e ciência de dados",0.3961,0.1915,SCC0802,1.0
-SSC0958,Criptomoedas e Blockchain,1,"Controle, robótica e sistemas embarcados",0.5692,0.374,SSC0952,0.617
-SSC0959,"Verificação, Validação e Teste de Software",3,Engenharia de software e gestão,0.3966,0.4566,SSC0130,0.781
-SSC0960,Programação Funcional,2,Programação e sistemas computacionais,0.5477,0.2928,SCC0217,0.717
-SSC0961,Desenvolvimento Web e Mobile,20,Redes de computadores,0.6077,0.3286,SCC0225,0.828
-SSC0962,Gestão da Qualidade no Desenvolvimento de Sistemas,3,Engenharia de software e gestão,0.417,0.4715,SME0824,0.792
-SSC0963,Indústria 4.0: Tecnologias e Aplicações,3,Engenharia de software e gestão,0.4801,0.4272,SSC0530,0.7
-SSC0964,Introdução à Computação no Mercado Financeiro,3,Engenharia de software e gestão,0.4152,0.3621,SEP0587,0.667
-SSC0965,"Streaming de Dados, Microsserviços e Containers",0,"Algoritmos, otimização e aprendizado de máquina",0.6356,0.3057,SSC0142,0.687
-SSC0967,Inteligência Artificial Embarcada,1,"Controle, robótica e sistemas embarcados",0.6622,0.3312,SCC0270,0.703
+1800040,A Ética e a Responsabilidade Social em Engenharia,13,"Ética, tutoria e formação profissional",0.6381,0.3454,1800043,0.906
+1800043,O Engenheiro Como Agente Ético,13,"Ética, tutoria e formação profissional",0.6283,0.3745,1800040,0.906
+1800118,Introdução à Engenharia Biomédica,16,Processamento de imagens e visão,0.752,0.2477,SEL0395,0.901
+1800119,Anatomia e Fisiologia para o Engenheiro Biomédico,0,Ensino e educação,0.8435,0.3707,SLC0621,0.873
+1800120,Tutoria Acadêmica I,13,"Ética, tutoria e formação profissional",0.6461,0.3477,1800121,1.0
+1800121,Tutoria Acadêmica II,13,"Ética, tutoria e formação profissional",0.6461,0.3477,1800120,1.0
+1800122,Estágio Supervisionado,11,Extensão e atividades complementares,0.627,0.4466,1800322,0.913
+1800124,Atividades de Extensão para Engenharia I,11,Extensão e atividades complementares,0.6561,0.4413,1800125,1.0
+1800125,Atividades de Extensão para Engenharia II,11,Extensão e atividades complementares,0.6561,0.4413,1800124,1.0
+1800126,Atividades de Extensão para Engenharia III,11,Extensão e atividades complementares,0.6692,0.449,1800127,1.0
+1800127,Atividades de Extensão para Engenharia IV,11,Extensão e atividades complementares,0.6692,0.449,1800126,1.0
+1800128,Atividades de Extensão para Engenharia V,11,Extensão e atividades complementares,0.6637,0.4404,1800129,0.974
+1800129,Atividades de Extensão para Engenharia VI,11,Extensão e atividades complementares,0.6638,0.4339,1800128,0.974
+1800130,Engenharia em Ação: Extensão Acadêmica,11,Extensão e atividades complementares,0.6632,0.4222,1800322,0.932
+1800322,Extensão Universitária e Impacto Social na Engenharia,11,Extensão e atividades complementares,0.6578,0.4288,1800130,0.932
+5500002,Seminários em Gestão Organizacional,20,"Gestão, economia e sistemas de informação",0.5811,0.3115,SSC0599,0.875
+5500003,Robótica Educacional,17,Robótica e controle,0.6541,0.1731,SLC0656,0.902
+5500004,Fundamentos em Ciências de Dados,8,Mineração e visualização de dados,0.4167,0.3425,SCC0275,0.913
+5500005,Informação Profissional em Ciência de Dados,13,"Ética, tutoria e formação profissional",0.5913,0.362,SCC0200,0.917
+7500004,Matemática Aplicada à Química,9,Álgebra linear e equações diferenciais,0.0891,0.39,7600016,0.896
+7500012,Química Geral,14,Química,0.9576,0.3126,SLC0694,0.925
+7500017,Química Geral Experimental,14,Química,0.9454,0.3247,SLC0665,0.92
+7500053,Química Quântica,4,"Física quântica, ondas e óptica",0.9315,0.1269,SLC0691,0.893
+7600005,Física I,15,Mecânica e física geral,0.8995,0.1998,7600205,0.982
+7600006,Física II,15,Mecânica e física geral,0.8875,0.2094,7600206,0.98
+7600008,Física IV,4,"Física quântica, ondas e óptica",0.8718,0.1148,SLC0641,0.899
+7600016,Introdução à Física Matemática,9,Álgebra linear e equações diferenciais,0.0714,0.3829,7600020,0.93
+7600019,Introdução à Física Quântica,4,"Física quântica, ondas e óptica",0.9142,0.1136,7600022,0.93
+7600020,Física Matemática A,9,Álgebra linear e equações diferenciais,0.0884,0.3733,7600016,0.93
+7600022,Mecânica Quântica A,4,"Física quântica, ondas e óptica",0.9255,0.1211,7600019,0.93
+7600045,Introdução à Fotônica,4,"Física quântica, ondas e óptica",0.8636,0.1153,SEL0459,0.931
+7600067,Processamento e Análise de Imagens,16,Processamento de imagens e visão,0.7127,0.2963,SCC0251,0.945
+7600074,Informação Quântica,4,"Física quântica, ondas e óptica",0.9059,0.1079,SEL0460,0.878
+7600107,Física III,23,Eletricidade e circuitos,0.8635,0.0266,SLC0635,0.953
+7600108,Psicologia da Educação,0,Ensino e educação,0.9157,0.5196,SLC0630,0.997
+7600109,Laboratório de Física Geral I,15,Mecânica e física geral,0.8752,0.1883,SLC0626,0.968
+7600110,Laboratório de Física Geral II,15,Mecânica e física geral,0.876,0.1921,7600109,0.919
+7600116,Física II para Químicos,15,Mecânica e física geral,0.8893,0.194,SMA0387,0.9
+7600117,Física Aplicada para Químicos,4,"Física quântica, ondas e óptica",0.8688,0.0736,7600107,0.909
+7600205,Física I para Físicos,15,Mecânica e física geral,0.8998,0.2034,7600005,0.982
+7600206,Física II para Físicos,15,Mecânica e física geral,0.8851,0.2071,7600006,0.98
+9010001,Atividades Teórico-Práticas de Aprofundamento - I,11,Extensão e atividades complementares,0.6196,0.4472,9010002,1.0
+9010002,Atividades Teórico-práticas de Aprofundamento II,11,Extensão e atividades complementares,0.6196,0.4472,9010001,1.0
+9010003,Atividades Teórico-práticas de Aprofundamento - III,11,Extensão e atividades complementares,0.6073,0.4468,9010001,0.992
+9700102,Introdução à Engenharia de Computação,13,"Ética, tutoria e formação profissional",0.6304,0.3207,1800120,0.891
+IAU0126,Humanidades e Ciências Sociais,0,Ensino e educação,0.8604,0.4651,SLC0646,0.868
+IAU0314,"Cultura, Ambiente e Sustentabilidade I",0,Ensino e educação,0.8568,0.4445,IAU0315,0.918
+IAU0315,"Cultura, Ambiente e Sustentabilidade II",0,Ensino e educação,0.8473,0.4393,IAU0314,0.918
+IAU0678,Desenho,16,Processamento de imagens e visão,0.3293,0.341,SEM0565,0.898
+RAD2401,Comércio Eletrônico,20,"Gestão, economia e sistemas de informação",0.5499,0.2555,SSC0570,0.861
+RAD2810,Análise de Dados para Gestão de Negócios,8,Mineração e visualização de dados,0.389,0.3589,SCC0252,0.866
+SAA0167,Princípios de Aviônica e Navegação,6,"Materiais, desenho técnico e produção",0.6474,0.2311,SEM0576,0.926
+SAA0180,Sistemas Dinâmicos,24,Sinais e sistemas de controle,0.7351,0.1371,SEL0383,0.918
+SAA0356,Sistemas Embarcados para Veículos Aéreos,21,Sistemas embarcados e microcontroladores,0.6161,0.1267,SEL0433,0.878
+SCC0200,Informação Profissional e Tutoria Acadêmica em Ciências da Computação,13,"Ética, tutoria e formação profissional",0.6055,0.3503,SSC0599,0.947
+SCC0201,Introdução à Ciência de Computação II,5,Algoritmos e programação,0.3498,0.1877,SCC0224,0.973
+SCC0202,Algoritmos e Estruturas de Dados I,5,Algoritmos e programação,0.3256,0.2096,SCC0223,0.971
+SCC0203,Algoritmos e Estruturas de Dados II,5,Algoritmos e programação,0.3408,0.231,SCC0607,0.999
+SCC0204,Programação Orientada a Objetos,10,Engenharia de software,0.4871,0.2229,SSC0534,0.861
+SCC0205,Teoria da Computação e Linguagens Formais,5,Algoritmos e programação,0.2999,0.1745,SCC0505,0.983
+SCC0207,Computadores e Sociedade I,13,"Ética, tutoria e formação profissional",0.6026,0.315,SSC0599,0.883
+SCC0210,Laboratório de Algoritmos Avançados I,5,Algoritmos e programação,0.3564,0.2169,SCC0218,0.93
+SCC0211,Laboratório de Algoritmos Avançados II,5,Algoritmos e programação,0.3662,0.2284,SCC0218,0.924
+SCC0213,Metodologia de Pesquisa em Computação,7,"Estágios, projetos e pesquisa",0.4552,0.4584,SME0826,0.92
+SCC0215,Organização de Arquivos,5,Algoritmos e programação,0.3452,0.2394,SCC0607,0.95
+SCC0216,Modelagem Computacional em Grafos,5,Algoritmos e programação,0.336,0.2497,SCC0203,0.917
+SCC0217,Linguagens de Programação e Compiladores,5,Algoritmos e programação,0.349,0.1541,SCC0605,0.921
+SCC0218,Algoritmos Avançados e Aplicações,5,Algoritmos e programação,0.3522,0.2234,SCC0210,0.93
+SCC0219,Introdução ao Desenvolvimento Web,1,Sistemas computacionais e redes,0.4411,0.1419,SEL0373,0.92
+SCC0220,Laboratório de Introdução à Ciência da Computação II,5,Algoritmos e programação,0.3888,0.2485,SCC0211,0.905
+SCC0221,Introdução à Ciência de Computação I,5,Algoritmos e programação,0.339,0.1796,SCC0222,0.982
+SCC0222,Laboratório de Introdução à Ciência de Computação I,5,Algoritmos e programação,0.3448,0.1653,SCC0221,0.982
+SCC0223,Estruturas de dados I,5,Algoritmos e programação,0.3236,0.2045,SME0827,0.985
+SCC0224,Estruturas de dados II,5,Algoritmos e programação,0.3516,0.2043,SCC0201,0.973
+SCC0225,Laboratório de desenvolvimento de aplicações para dispositivos móveis,1,Sistemas computacionais e redes,0.5047,0.1189,SSC0961,0.913
+SCC0227,Seminários em Computação I,13,"Ética, tutoria e formação profissional",0.5702,0.3737,SCC0228,0.998
+SCC0228,Seminários em Computação II,13,"Ética, tutoria e formação profissional",0.5807,0.379,SCC0227,0.998
+SCC0229,Seminários em Computação III,13,"Ética, tutoria e formação profissional",0.5764,0.3789,SCC0227,0.992
+SCC0230,Inteligência Artificial,18,Aprendizado de máquina,0.4827,0.3081,SCC0231,0.91
+SCC0231,Introdução a Sistemas Inteligentes,18,Aprendizado de máquina,0.4701,0.3071,SCC0230,0.91
+SCC0233,Aplicações de Aprendizado de Máquina e Mineração de Dados,22,Práticas em ciência de dados,0.4617,0.3811,SCC0277,0.942
+SCC0240,Bases de Dados,1,Sistemas computacionais e redes,0.4234,0.2231,SCC0243,0.9
+SCC0241,Laboratório de Bases de Dados,1,Sistemas computacionais e redes,0.439,0.1884,SCC0240,0.886
+SCC0243,Arquitetura de Sistemas Gerenciadores de Bases de Dados,1,Sistemas computacionais e redes,0.4199,0.2174,SCC0240,0.9
+SCC0244,Mineração a partir de Grandes Bases de Dados,8,Mineração e visualização de dados,0.4245,0.3419,SME0878,0.925
+SCC0245,Processamento Analítico de Dados,8,Mineração e visualização de dados,0.4152,0.3069,SCC0244,0.908
+SCC0247,Banco de dados NoSQL e arcabouços distribuídos de processamento,8,Mineração e visualização de dados,0.4125,0.2396,SCC0243,0.885
+SCC0250,Computação Gráfica,16,Processamento de imagens e visão,0.3134,0.3318,SCC0251,0.887
+SCC0251,Processamento de Imagens,16,Processamento de imagens e visão,0.7006,0.2952,7600067,0.945
+SCC0252,Visualização Computacional,8,Mineração e visualização de dados,0.3991,0.3364,SME0854,0.957
+SCC0254,Introdução à Geometria Computacional: Algoritmos e Aplicações,5,Algoritmos e programação,0.2973,0.3229,SCC0250,0.875
+SCC0260,Interação Humano-Computador e Experiência do Usuário,1,Sistemas computacionais e redes,0.588,0.2006,SSC0724,0.882
+SCC0261,Multimídia,8,Mineração e visualização de dados,0.3952,0.3202,SCC0661,0.94
+SCC0270,Redes Neurais e Aprendizado Profundo,18,Aprendizado de máquina,0.4684,0.29,SCC0570,0.984
+SCC0271,Introdução à Bioinformática,18,Aprendizado de máquina,0.439,0.3082,SCC0370,0.885
+SCC0273,Robôs Móveis Inteligentes,17,Robótica e controle,0.6537,0.2022,SSC0714,0.905
+SCC0275,Introdução à Ciência de Dados,8,Mineração e visualização de dados,0.4279,0.3579,5500004,0.913
+SCC0276,Aprendizado de Máquina,18,Aprendizado de máquina,0.4595,0.3248,SME0860,0.952
+SCC0277,Competições de Ciências de Dados,22,Práticas em ciência de dados,0.4532,0.3951,SCC0233,0.942
+SCC0282,Recuperação da Informação,18,Aprendizado de máquina,0.4386,0.2664,SCC0284,0.924
+SCC0283,Introdução à Web Semântica,1,Sistemas computacionais e redes,0.4415,0.1213,SEL0373,0.874
+SCC0284,Sistemas de Recomendação,18,Aprendizado de máquina,0.4578,0.273,SCC0282,0.924
+SCC0287,Mineração de Dados Não Estruturados,8,Mineração e visualização de dados,0.4101,0.3419,SCC0244,0.911
+SCC0289,Projeto em Intercâmbio I,7,"Estágios, projetos e pesquisa",0.5608,0.5146,SCC0290,1.0
+SCC0290,Projeto em Intercâmbio II,7,"Estágios, projetos e pesquisa",0.5608,0.5146,SCC0289,1.0
+SCC0291,Estágio Supervisionado I,7,"Estágios, projetos e pesquisa",0.5519,0.5176,SCC0292,0.994
+SCC0292,Estágio Supervisionado II,7,"Estágios, projetos e pesquisa",0.5644,0.5172,SCC0291,0.994
+SCC0293,Projeto de Graduação I,7,"Estágios, projetos e pesquisa",0.5296,0.5026,SCC0294,0.998
+SCC0294,Projeto de Graduação II,7,"Estágios, projetos e pesquisa",0.539,0.4898,SCC0293,0.998
+SCC0295,Atividades Acadêmicas de Extensão I,11,Extensão e atividades complementares,0.6325,0.4225,SCC0296,1.0
+SCC0296,Atividades Acadêmicas de Extensão II,11,Extensão e atividades complementares,0.6325,0.4225,SCC0295,1.0
+SCC0303,Introdução a Compressão de Dados,8,Mineração e visualização de dados,0.3943,0.3146,SCC0661,0.912
+SCC0370,Introdução à Computação Bioinspirada,18,Aprendizado de máquina,0.4573,0.3032,SCC0271,0.885
+SCC0505,Introdução à Teoria da Computação,5,Algoritmos e programação,0.2889,0.1782,SCC0205,0.983
+SCC0570,Introdução a Redes Neurais,18,Aprendizado de máquina,0.46,0.2882,SCC0270,0.984
+SCC0580,Acessibilidade em Sistemas Computacionais,1,Sistemas computacionais e redes,0.5768,0.1872,SCC0260,0.873
+SCC0605,Teoria da Computação e Compiladores,5,Algoritmos e programação,0.3138,0.1676,SCC0205,0.961
+SCC0607,Estrutura de Dados III,5,Algoritmos e programação,0.3396,0.2335,SCC0203,0.999
+SCC0632,Tópicos Avançados em Inteligência Artificial,18,Aprendizado de máquina,0.5106,0.3197,SCC0634,0.91
+SCC0633,Processamento de Linguagem Natural,5,Algoritmos e programação,0.3841,0.1602,SME0230,0.878
+SCC0634,Aplicações de Inteligência Artificial,18,Aprendizado de máquina,0.4978,0.2999,SCC0632,0.91
+SCC0661,Multimídia e Hipermídia,8,Mineração e visualização de dados,0.4108,0.2945,SCC0261,0.94
+SCC0802,Prática em Ciência de Dados III,22,Práticas em ciência de dados,0.5211,0.4253,SME0852,1.0
+SCC0910,Tópicos Avançados em Ciências de Computação I,13,"Ética, tutoria e formação profissional",0.5413,0.3676,SCC0911,1.0
+SCC0911,Tópicos Avançados em Ciências de Computação II,13,"Ética, tutoria e formação profissional",0.5413,0.3676,SCC0910,1.0
+SEL0301,Circuitos Elétricos I,23,Eletricidade e circuitos,0.8517,0.0067,SEL0602,0.941
+SEL0309,Eletromagnetismo,23,Eletricidade e circuitos,0.8614,0.0216,SLC0635,0.913
+SEL0310,Ondas Eletromagnéticas,4,"Física quântica, ondas e óptica",0.833,0.0937,SEL0369,0.903
+SEL0313,Circuitos Eletrônicos I,12,Eletrônica e sistemas digitais,0.7494,0.0027,SEL0314,0.913
+SEL0314,Circuitos Eletrônicos II,12,Eletrônica e sistemas digitais,0.7376,0.0036,SEL0313,0.913
+SEL0326,Controle de Sistemas Lineares,24,Sinais e sistemas de controle,0.7268,0.1203,SEL0417,0.926
+SEL0327,Laboratório de Fundamentos de Controle,1,Sistemas computacionais e redes,0.2988,0.4383,SEL0367,0.88
+SEL0328,Laboratório de Controle de Sistemas,17,Robótica e controle,0.6927,0.1505,SEL0634,0.898
+SEL0337,Projetos em Sistemas Embarcados,1,Sistemas computacionais e redes,0.5751,0.1179,SAA0356,0.874
+SEL0338,Tópicos Especiais em Sistemas Digitais,21,Sistemas embarcados e microcontroladores,0.6425,0.1115,SEL0629,0.898
+SEL0339,Visão Computacional,16,Processamento de imagens e visão,0.6746,0.298,SEL0449,0.927
+SEL0343,Processamento Digital de Sinais,24,Sinais e sistemas de controle,0.6809,0.0973,SEL0356,0.886
+SEL0344,Antenas,4,"Física quântica, ondas e óptica",0.7895,0.0854,SEL0310,0.902
+SEL0346,Comunicação Digital I,1,Sistemas computacionais e redes,0.5626,0.0413,SEL0619,1.0
+SEL0347,Comunicação Digital II,1,Sistemas computacionais e redes,0.5502,0.0387,SEL0619,0.906
+SEL0356,Aplicação de Processamento Digital de Sinais,24,Sinais e sistemas de controle,0.6875,0.1109,SEL0631,0.899
+SEL0360,Princípios de Comunicação,4,"Física quântica, ondas e óptica",0.7854,0.0876,SEL0371,0.913
+SEL0361,Laboratório de Telecomunicações,4,"Física quântica, ondas e óptica",0.7871,0.0797,SEL0360,0.896
+SEL0366,Comunicações Ópticas,4,"Física quântica, ondas e óptica",0.8357,0.1017,SEL0467,0.911
+SEL0367,Controle Adaptativo,3,Probabilidade e estatística,0.3359,0.4543,SME0320,0.886
+SEL0369,Micro-ondas,4,"Física quântica, ondas e óptica",0.8114,0.1055,SEL0463,0.913
+SEL0370,Redes Fixas de Comunicação,1,Sistemas computacionais e redes,0.5319,0.0332,SEL0619,0.9
+SEL0371,Sistemas de Comunicação: Teoria e Laboratório,4,"Física quântica, ondas e óptica",0.8021,0.0905,SEL0360,0.913
+SEL0373,Projeto em Internet das Coisas,1,Sistemas computacionais e redes,0.4693,0.1168,SCC0219,0.92
+SEL0383,Sinais e Sistemas em Engenharia Elétrica,24,Sinais e sistemas de controle,0.7341,0.1071,SEL0604,0.975
+SEL0386,Redes Móveis de Comunicação,1,Sistemas computacionais e redes,0.527,0.0575,SEL0387,0.937
+SEL0387,Computação Móvel,1,Sistemas computacionais e redes,0.4983,0.0873,SEL0386,0.937
+SEL0388,Bioengenharia Ocular I,16,Processamento de imagens e visão,0.7676,0.2442,SEL0429,0.903
+SEL0395,Introdução à Engenharia de Reabilitação,16,Processamento de imagens e visão,0.7509,0.224,SEL0396,0.923
+SEL0396,Introdução à Instrumentação Eletrônica Biomédica,16,Processamento de imagens e visão,0.7723,0.2471,SEL0395,0.923
+SEL0397,Princípios Físicos de Formação de Imagens Médicas,16,Processamento de imagens e visão,0.7679,0.263,SEL0398,0.892
+SEL0398,Projetos em Avaliação de Imagens Médicas,16,Processamento de imagens e visão,0.7462,0.2748,SEL0434,0.892
+SEL0403,Eletricidade I,23,Eletricidade e circuitos,0.8594,0.0266,7600107,0.927
+SEL0406,Automação,21,Sistemas embarcados e microcontroladores,0.6559,0.1195,SEL0338,0.896
+SEL0415,Introdução à Organização de Computadores,1,Sistemas computacionais e redes,0.604,0.063,SSC0902,0.919
+SEL0417,Fundamentos de Controle,24,Sinais e sistemas de controle,0.7245,0.1234,SEL0326,0.926
+SEL0429,Bioengenharia Ocular II,16,Processamento de imagens e visão,0.7682,0.2322,SEL0388,0.903
+SEL0431,Laboratório de Controle de Processos Industriais,21,Sistemas embarcados e microcontroladores,0.661,0.1283,SEL0338,0.895
+SEL0433,Aplicação de Microprocessadores,21,Sistemas embarcados e microcontroladores,0.6182,0.1139,SEL0629,0.919
+SEL0434,Imagens Radiológicas Digitais,16,Processamento de imagens e visão,0.7377,0.2786,7600067,0.893
+SEL0441,Laboratório de Medidas e Circuitos Elétricos,23,Eletricidade e circuitos,0.8262,0.0044,SEL0637,0.922
+SEL0449,Introdução ao Processamento Digital de Imagens,16,Processamento de imagens e visão,0.7102,0.2947,7600067,0.936
+SEL0450,Fundamentos de Semicondutores,12,Eletrônica e sistemas digitais,0.7828,0.0388,SEL0617,0.891
+SEL0452,Medidas e Circuitos Elétricos,23,Eletricidade e circuitos,0.8385,0.0081,SEL0637,0.945
+SEL0459,Fundamentos de Fotônica,4,"Física quântica, ondas e óptica",0.8526,0.1142,7600045,0.931
+SEL0460,Fundamentos de Mecânica Quântica para Engenharia 1,4,"Física quântica, ondas e óptica",0.9111,0.1192,SEL0461,0.949
+SEL0461,Fundamentos de Mecânica Quântica para Engenharia 2,4,"Física quântica, ondas e óptica",0.8919,0.1375,SEL0460,0.949
+SEL0462,Introdução à teoria de ondas localizadas,4,"Física quântica, ondas e óptica",0.8354,0.1117,SEL0464,0.921
+SEL0463,Ondas Eletromagnéticas: Aplicações,4,"Física quântica, ondas e óptica",0.8167,0.0964,SEL0369,0.913
+SEL0464,Óptica de Fourier,4,"Física quântica, ondas e óptica",0.8404,0.1302,SEL0462,0.921
+SEL0467,Laboratório de Tecnologias Quânticas,4,"Física quântica, ondas e óptica",0.8393,0.0963,SEL0468,0.933
+SEL0468,Comunicações Quânticas,4,"Física quântica, ondas e óptica",0.8254,0.0982,SEL0467,0.933
+SEL0470,Princípios Físicos e Caracterização Elétrica de Transistores MOS,12,Eletrônica e sistemas digitais,0.7423,0.0109,SEL0617,0.876
+SEL0471,Filtro de Kalman e suas Aplicações,24,Sinais e sistemas de controle,0.7336,0.1198,SEL0326,0.909
+SEL0602,Circuitos Elétricos,23,Eletricidade e circuitos,0.8441,0.0116,SEL0301,0.941
+SEL0604,Sinais e Sistemas,24,Sinais e sistemas de controle,0.7169,0.1083,SEL0383,0.975
+SEL0606,Laboratório de Sistemas Digitais,12,Eletrônica e sistemas digitais,0.6761,0.005,SSC0512,0.921
+SEL0610,Laboratório de Circuitos Eletrônicos,12,Eletrônica e sistemas digitais,0.7549,0.0072,SEL0313,0.9
+SEL0617,Fundamentos de Microeletrônica,12,Eletrônica e sistemas digitais,0.7223,0.0183,SEL0621,0.893
+SEL0618,Projetos de Circuitos Integrados Analógicos,12,Eletrônica e sistemas digitais,0.6687,0.0344,SEL0621,0.91
+SEL0619,Comunicação Digital,1,Sistemas computacionais e redes,0.5655,0.0372,SEL0346,1.0
+SEL0620,Controle Digital,24,Sinais e sistemas de controle,0.7148,0.1167,SEL0417,0.926
+SEL0621,Projetos de Circuitos Integrados Digitais I,12,Eletrônica e sistemas digitais,0.6885,0.0156,SEL0622,0.935
+SEL0622,Projetos de Circuitos Integrados Digitais II,12,Eletrônica e sistemas digitais,0.6687,0.031,SEL0621,0.935
+SEL0623,Serviços de Telecomunicações e Redes Faixa Larga,1,Sistemas computacionais e redes,0.5024,0.0615,SEL0387,0.891
+SEL0624,Projeto de Formatura I,7,"Estágios, projetos e pesquisa",0.5217,0.4824,SSC0674,0.911
+SEL0628,Sistemas Digitais,12,Eletrônica e sistemas digitais,0.6693,0.0,SEL0606,0.916
+SEL0629,Aplicações de Microprocessadores I,21,Sistemas embarcados e microcontroladores,0.6293,0.1022,SEL0433,0.919
+SEL0631,Processadores Digitais de Sinais e Aplicações,21,Sistemas embarcados e microcontroladores,0.6385,0.1172,SEL0356,0.899
+SEL0632,Linguagens de Descrição de Hardware,21,Sistemas embarcados e microcontroladores,0.6178,0.1556,SEL0631,0.895
+SEL0633,Controle de Robôs Manipuladores,17,Robótica e controle,0.6741,0.1928,SEL0634,0.9
+SEL0634,Laboratório de Robôs Manipuladores,17,Robótica e controle,0.6783,0.1632,SEL0633,0.9
+SEL0635,Visão Computacional em Robótica,16,Processamento de imagens e visão,0.6881,0.2673,SEL0339,0.905
+SEL0637,Circuitos Elétricos Lineares em Corrente Contínua,23,Eletricidade e circuitos,0.8327,0.0051,SEL0452,0.945
+SEM0233,Termodinâmica I,6,"Materiais, desenho técnico e produção",0.8249,0.2056,SEM0550,0.918
+SEM0343,Processos de Usinagem,6,"Materiais, desenho técnico e produção",0.6614,0.2514,SEP0272,0.908
+SEM0388,Princípios de Metrologia Industrial,6,"Materiais, desenho técnico e produção",0.7159,0.2264,SEM0564,0.893
+SEM0403,Fundamentos da Mecânica dos Fluidos,15,Mecânica e física geral,0.8159,0.1941,SEM0233,0.894
+SEM0550,Transferência de Calor e Massa,6,"Materiais, desenho técnico e produção",0.8098,0.188,SEM0233,0.918
+SEM0564,Desenho Técnico Mecânico I,6,"Materiais, desenho técnico e produção",0.6978,0.2159,SEM0388,0.893
+SEM0565,Desenho Técnico Mecânico II,6,"Materiais, desenho técnico e produção",0.3362,0.3295,IAU0678,0.898
+SEM0567,Processos de Fabricação,6,"Materiais, desenho técnico e produção",0.6915,0.247,SEM0587,0.879
+SEM0575,Veículos Terrestres Autônomos,17,Robótica e controle,0.6531,0.1965,SEM0576,0.977
+SEM0576,Veículos Aéreos Autônomos,17,Robótica e controle,0.6575,0.2033,SEM0575,0.977
+SEM0587,Fundamentos da Manufatura Aditiva,6,"Materiais, desenho técnico e produção",0.6712,0.2596,SEM0567,0.879
+SEM0589,Biomecânica e Controle Motor,17,Robótica e controle,0.7137,0.2028,SEL0395,0.917
+SEP0172,Prática e Gerenciamento de Projetos,10,Engenharia de software,0.5602,0.204,SSC0128,0.886
+SEP0254,Projeto e Operação de Sistemas de Produção,6,"Materiais, desenho técnico e produção",0.6243,0.257,SEP0301,0.918
+SEP0272,Usinagem dos Metais,6,"Materiais, desenho técnico e produção",0.6724,0.2344,SEM0343,0.908
+SEP0284,Projeto e Manufatura,6,"Materiais, desenho técnico e produção",0.6414,0.2752,SEP0285,0.905
+SEP0285,Práticas em Processos de Manufatura,6,"Materiais, desenho técnico e produção",0.646,0.2699,SEP0284,0.905
+SEP0301,Modelagem de sistemas de planejamento e controle da produção,6,"Materiais, desenho técnico e produção",0.6265,0.2561,SEP0325,0.941
+SEP0305,Logística e Gestão da Cadeia de Suprimentos,6,"Materiais, desenho técnico e produção",0.6242,0.2654,SEP0405,0.892
+SEP0324,Modelagem de Sistemas,6,"Materiais, desenho técnico e produção",0.603,0.2513,SEP0301,0.911
+SEP0325,Planejamento e Controle da Produção I,6,"Materiais, desenho técnico e produção",0.6161,0.264,SEP0301,0.941
+SEP0405,Pesquisa Operacional I,25,Otimização e pesquisa operacional,0.254,0.1806,SME0110,0.898
+SEP0529,Administração e Empreendedorismo,20,"Gestão, economia e sistemas de informação",0.59,0.253,SSC0570,0.876
+SEP0566,Fundamentos de Economia,20,"Gestão, economia e sistemas de informação",0.571,0.2919,SEP0587,0.934
+SEP0584,Contabilidade para Computação,20,"Gestão, economia e sistemas de informação",0.5461,0.2694,SSC0128,0.866
+SEP0587,Princípios de Economia,20,"Gestão, economia e sistemas de informação",0.5421,0.2949,SEP0566,0.934
+SET0623,Mecânica dos Sólidos,15,Mecânica e física geral,0.8239,0.2172,7600109,0.87
+SHS0619,Fenômenos de Transporte,15,Mecânica e física geral,0.8226,0.1994,SME0255,0.88
+SHS0623,Gestão Ambiental para Engenheiros,0,Ensino e educação,0.8365,0.4107,SLC0663,0.907
+SLC0531,Geometria,2,Cálculo e análise,0.078,0.3019,SLC0534,0.884
+SLC0532,Estruturas Algébricas,2,Cálculo e análise,0.0982,0.2492,SMA0305,0.922
+SLC0534,Desenho Geométrico e Geometria Descritiva,2,Cálculo e análise,0.2938,0.3338,IAU0678,0.896
+SLC0601,Elementos de Matemática,2,Cálculo e análise,0.1489,0.2494,SMA0805,0.924
+SLC0602,Matrizes e Geometria Analítica,9,Álgebra linear e equações diferenciais,0.0153,0.3239,SMA0505,0.931
+SLC0605,"Introdução aos Estudos da Educação: aspectos históricos, filosóficos e sociais",0,Ensino e educação,0.8941,0.5131,SMA0340,0.943
+SLC0606,"Introdução aos Estudos da Educação: ciência, sociologia e imprensa",0,Ensino e educação,0.8953,0.4976,SMA0340,0.95
+SLC0609,Álgebra Linear e Equações Diferenciais para o Ensino de Matemática,9,Álgebra linear e equações diferenciais,0.0265,0.3481,SME0341,0.959
+SLC0610,Computação e Tecnologias Aplicadas na Educação,0,Ensino e educação,0.5927,0.2119,SSC0724,0.894
+SLC0611,"Tópicos de Probabilidade, Estatística e Matemática Financeira",3,Probabilidade e estatística,0.1466,0.2549,SMA0805,0.885
+SLC0614,Didática,0,Ensino e educação,0.9028,0.5044,SLC0605,0.912
+SLC0615,Estrutura e Funcionamento do Ensino Fundamental e Médio,0,Ensino e educação,0.9218,0.5223,SMA0338,0.97
+SLC0618,Estágio Supervisionado em Ensino de Matemática 2,0,Ensino e educação,0.9975,0.5129,SMA0370,0.959
+SLC0620,Biologia 1,0,Ensino e educação,0.8858,0.4146,SLC0622,0.917
+SLC0621,Biologia 2,0,Ensino e educação,0.874,0.4096,SLC0620,0.911
+SLC0622,Biologia 3,0,Ensino e educação,0.8717,0.4143,SLC0620,0.917
+SLC0623,Biologia 4,0,Ensino e educação,0.8923,0.4015,SLC0620,0.896
+SLC0626,Laboratório de Física 1,15,Mecânica e física geral,0.8833,0.1717,7600109,0.968
+SLC0627,Metodologia da Pesquisa e Redação Científica para Licenciatura,22,Práticas em ciência de dados,0.5491,0.4487,SMA0385,0.881
+SLC0628,Física 3,15,Mecânica e física geral,0.8647,0.2201,7600206,0.9
+SLC0629,"Laboratório de Fluidos, Termodinâmica, Oscilações e Ondas",15,Mecânica e física geral,0.8784,0.1797,7600110,0.917
+SLC0630,Psicologia da Educação 1,0,Ensino e educação,0.9193,0.5185,7600108,0.997
+SLC0631,Psicologia da Educação 2,0,Ensino e educação,0.9053,0.5215,7600108,0.908
+SLC0632,Oscilações e Ondas,15,Mecânica e física geral,0.8816,0.1956,7600116,0.88
+SLC0634,Diretrizes Curriculares para o Ensino de Ciências e Matemática,0,Ensino e educação,0.9613,0.5128,SLC0657,0.911
+SLC0635,Eletricidade e Magnetismo,23,Eletricidade e circuitos,0.8557,0.0275,7600107,0.953
+SLC0636,Laboratório de Eletricidade e Magnetismo,23,Eletricidade e circuitos,0.8727,0.0621,SEL0403,0.911
+SLC0639,Instrumentação para o Ensino 1,0,Ensino e educação,0.9478,0.4686,SLC0686,0.904
+SLC0640,Instrumentação para o Ensino 2,0,Ensino e educação,0.9621,0.5069,SMA0328,0.896
+SLC0641,Óptica,4,"Física quântica, ondas e óptica",0.8669,0.1283,SLC0642,0.911
+SLC0642,Laboratório de Óptica,4,"Física quântica, ondas e óptica",0.8761,0.1466,SLC0641,0.911
+SLC0645,Panorama das Pesquisas na Área de Ensino de Ciências,0,Ensino e educação,0.9182,0.4788,SLC0681,0.902
+SLC0646,História da Ciência 1,0,Ensino e educação,0.8783,0.4787,SLC0647,0.922
+SLC0647,História da Ciência 2,0,Ensino e educação,0.8763,0.4545,SLC0646,0.922
+SLC0648,Física Moderna,4,"Física quântica, ondas e óptica",0.8811,0.1021,7600008,0.876
+SLC0650,Laboratório de Estrutura da Matéria,15,Mecânica e física geral,0.8866,0.1567,SLC0626,0.903
+SLC0651,Física do Cotidiano - Teoria e Experimento,0,Ensino e educação,0.897,0.4629,SLC0675,0.877
+SLC0654,Ensino e Divulgação de Astronomia e Astrofísica 1,0,Ensino e educação,0.91,0.4404,SLC0655,0.949
+SLC0655,Ensino e Divulgação de Astronomia e Astrofísica 2,0,Ensino e educação,0.9123,0.4366,SLC0654,0.949
+SLC0656,"Laboratório de Aplicação de Sensores, Ferramentas Digitais e Robótica ao Ensino de Ciências",17,Robótica e controle,0.6866,0.1678,5500003,0.902
+SLC0657,Estágio Supervisionado em Ensino de Ciências 1,0,Ensino e educação,0.9671,0.4957,SLC0658,0.946
+SLC0658,Estágio Supervisionado em Ensino de Ciências 2,0,Ensino e educação,0.9791,0.459,SLC0657,0.946
+SLC0662,Laboratório de Química 1,14,Química,0.9741,0.3428,7500017,0.918
+SLC0663,Ciências do Ambiente,0,Ensino e educação,0.8665,0.4051,SHS0623,0.907
+SLC0665,Laboratório de Físico-Química para Licenciatura,14,Química,0.9422,0.3134,SLC0694,0.926
+SLC0666,Química Inorgânica,14,Química,0.9816,0.3363,SLC0667,0.967
+SLC0667,Laboratório de Química Inorgânica,14,Química,0.9826,0.3321,SLC0666,0.967
+SLC0668,Química Analítica,14,Química,0.9523,0.3316,SLC0669,0.928
+SLC0669,Laboratório de Química Analítica,14,Química,0.969,0.3305,SLC0668,0.928
+SLC0670,Química Orgânica,14,Química,0.9599,0.3255,SLC0671,0.904
+SLC0671,Laboratório de Química Orgânica,14,Química,0.9524,0.3305,SLC0670,0.904
+SLC0673,Princípios de Bioquímica,14,Química,0.9432,0.3581,SLC0674,0.904
+SLC0674,Laboratório de Bioquímica,14,Química,0.9625,0.3412,SLC0669,0.91
+SLC0675,"Química, Sociedade e Cotidiano",0,Ensino e educação,0.8727,0.4661,SLC0606,0.899
+SLC0678,Metodologia para o Ensino de Química 1,0,Ensino e educação,0.9615,0.4362,SLC0679,0.993
+SLC0679,Metodologia para o Ensino de Química 2,0,Ensino e educação,0.9624,0.4206,SLC0678,0.993
+SLC0680,Língua Brasileira de Sinais para a Licenciatura,0,Ensino e educação,0.9224,0.5392,SMA0350,0.909
+SLC0681,Metodologia para o Ensino de Ciências 1,0,Ensino e educação,0.9415,0.4634,SLC0682,0.96
+SLC0682,Metodologia para o Ensino de Ciências 2,0,Ensino e educação,0.9432,0.4598,SLC0681,0.96
+SLC0683,Metodologia para o Ensino de Matemática 1,0,Ensino e educação,0.9823,0.5306,SLC0684,0.935
+SLC0684,Metodologia para o Ensino de Matemática 2,0,Ensino e educação,0.9674,0.522,SLC0683,0.935
+SLC0685,Metodologia para o Ensino de Física 1,0,Ensino e educação,0.9506,0.4631,SLC0686,0.957
+SLC0686,Metodologia para o Ensino de Física 2,0,Ensino e educação,0.9305,0.479,SLC0685,0.957
+SLC0687,Análise para Licenciatura,2,Cálculo e análise,0.1424,0.3265,SMA0392,0.9
+SLC0688,Estágio Supervisionado em Ensino de Física 1,0,Ensino e educação,0.9727,0.4886,SLC0689,0.987
+SLC0689,Estágio Supervisionado em Ensino de Física 2,0,Ensino e educação,0.9817,0.486,SLC0688,0.987
+SLC0691,Química 1,14,Química,0.9788,0.3086,SLC0692,0.931
+SLC0692,Química 2,14,Química,0.9821,0.316,SLC0691,0.931
+SLC0693,Química 3,14,Química,0.9691,0.3203,SLC0694,0.921
+SLC0694,Fundamentos de Físico-Química,14,Química,0.9516,0.3159,SLC0665,0.926
+SLC0695,Estágio Supervisionado em Ensino de Química 1,0,Ensino e educação,0.9901,0.4762,SLC0696,0.992
+SLC0696,Estágio Supervisionado em Ensino de Química 2,0,Ensino e educação,0.9835,0.472,SLC0695,0.992
+SLC0702,Atividades de Extensão para Licenciatura 3,11,Extensão e atividades complementares,0.6561,0.4413,1800124,1.0
+SLC0703,Atividades de Extensão para Licenciatura 4,11,Extensão e atividades complementares,0.6561,0.4413,1800124,1.0
+SMA0120,Introdução à Análise Funcional,9,Álgebra linear e equações diferenciais,0.0337,0.3323,SMA0375,0.876
+SMA0125,Introdução ao Estudo das Singularidades de Aplicações Diferenciáveis,2,Cálculo e análise,0.0985,0.3074,SMA0142,0.904
+SMA0136,Teoria Qualitativa de Equações Diferenciais Ordinárias,9,Álgebra linear e equações diferenciais,0.0738,0.3899,SMA0344,0.896
+SMA0142,Curvas Algébricas Planas,2,Cálculo e análise,0.0884,0.3007,SMA0125,0.904
+SMA0143,Introdução à Teoria da Medida,2,Cálculo e análise,0.1224,0.3559,SMA0389,0.941
+SMA0169,Equações Diferenciais Parciais,9,Álgebra linear e equações diferenciais,0.0717,0.3809,SME0240,0.903
+SMA0171,Topologia,2,Cálculo e análise,0.0702,0.3226,SMA0388,0.908
+SMA0173,Álgebra III,2,Cálculo e análise,0.1038,0.255,SLC0532,0.908
+SMA0175,Geometria Diferencial,2,Cálculo e análise,0.1058,0.301,SMA0192,0.912
+SMA0178,Tópicos de Matemática Elementar e Estatística,2,Cálculo e análise,0.1009,0.28,SMA0378,0.875
+SMA0180,Matemática Discreta I,5,Algoritmos e programação,0.1958,0.2191,SMA0508,0.96
+SMA0192,Introdução à Topologia Diferencial,2,Cálculo e análise,0.1041,0.3027,SMA0175,0.912
+SMA0193,Introdução aos Grupos de Lie,9,Álgebra linear e equações diferenciais,0.0438,0.2903,SMA0305,0.869
+SMA0305,Álgebra I,2,Cálculo e análise,0.0821,0.2531,SLC0532,0.922
+SMA0306,Álgebra II,2,Cálculo e análise,0.1005,0.2528,SLC0532,0.906
+SMA0307,Análise I,2,Cálculo e análise,0.1241,0.3345,SMA0380,0.97
+SMA0308,Análise II,2,Cálculo e análise,0.1189,0.3479,SMA0380,0.966
+SMA0326,Filosofia da Matemática,0,Ensino e educação,0.9176,0.5714,SMA0327,0.896
+SMA0327,Filosofia da Educação Matemática,0,Ensino e educação,0.9302,0.5734,SMA0383,0.915
+SMA0328,Ensino de Matemática Por Múltiplas Mídias,0,Ensino e educação,0.9473,0.5291,SLC0684,0.908
+SMA0329,História da Matemática,0,Ensino e educação,0.913,0.5634,SMA0348,0.891
+SMA0337,Análise Crítica de Materiais e Livros Didáticos,0,Ensino e educação,0.9526,0.5463,SLC0634,0.893
+SMA0338,Estrutura e Funcionamento da Educação Básica,0,Ensino e educação,0.9273,0.5187,SLC0615,0.97
+SMA0340,Introdução aos Estudos da Educação,0,Ensino e educação,0.898,0.5143,SLC0606,0.95
+SMA0343,Espaços Métricos,2,Cálculo e análise,0.0893,0.3366,SMA0171,0.898
+SMA0344,Introdução aos Sistemas Dinâmicos,9,Álgebra linear e equações diferenciais,0.1041,0.3948,SMA0136,0.896
+SMA0345,Aprofundamentos da Didática da Matemática,0,Ensino e educação,0.9478,0.567,SMA0348,0.897
+SMA0346,Metodologia de Pesquisa em Educação,7,"Estágios, projetos e pesquisa",0.4628,0.4633,SCC0213,0.877
+SMA0348,História da Matemática no Ensino,0,Ensino e educação,0.9423,0.5544,SLC0684,0.899
+SMA0350,Ensino no contexto da educação especial e inclusiva,0,Ensino e educação,0.9046,0.5364,SLC0680,0.909
+SMA0354,Cálculo II,2,Cálculo e análise,0.1052,0.3312,SMA0393,0.944
+SMA0356,Cálculo IV,2,Cálculo e análise,0.1052,0.3542,SMA0803,0.945
+SMA0357,Aplicações de Teoria dos Conjuntos,2,Cálculo e análise,0.1742,0.232,SMA0508,0.868
+SMA0361,Tópicos de Matemática I,0,Ensino e educação,0.549,0.4085,SMA0362,1.0
+SMA0362,Tópicos de Matemática II,0,Ensino e educação,0.549,0.4085,SMA0361,1.0
+SMA0363,Tópicos de Matemática III,0,Ensino e educação,0.549,0.4085,SMA0361,1.0
+SMA0364,Tópicos de Matemática IV,0,Ensino e educação,0.549,0.4085,SMA0361,1.0
+SMA0367,Estágio Supervisionado em Ensino de Geometria e Desenho Geométrico,0,Ensino e educação,0.9985,0.5033,SLC0618,0.934
+SMA0368,História da Educação e das Orientações Curriculares de Matemática Brasileiras,0,Ensino e educação,0.9141,0.5342,SMA0338,0.911
+SMA0370,Estágio Supervisionado em Ensino de Matemática 1,0,Ensino e educação,1.0,0.5128,SLC0618,0.959
+SMA0375,Álgebra Linear,9,Álgebra linear e equações diferenciais,0.0155,0.3318,SMA0804,0.954
+SMA0378,Formas Diferenciais e Aplicações,2,Cálculo e análise,0.1046,0.2911,SMA0175,0.895
+SMA0379,Mecânica Quântica para Matemáticos,4,"Física quântica, ondas e óptica",0.9198,0.1248,7600022,0.924
+SMA0380,Análise,2,Cálculo e análise,0.1211,0.3424,SMA0307,0.97
+SMA0382,Atividades Acadêmicas Complementares II,11,Extensão e atividades complementares,0.6142,0.435,SCC0295,0.9
+SMA0383,Abordagens e Tendências Educacionais,0,Ensino e educação,0.9346,0.5671,SMA0327,0.915
+SMA0384,Saberes Docentes e Formação do Professor,0,Ensino e educação,0.9254,0.5609,SMA0383,0.897
+SMA0385,Introdução à vida Acadêmica e a Metodologia de Escrita Científica,0,Ensino e educação,0.574,0.442,SME0280,0.898
+SMA0386,Fundamentos de Matemática,2,Cálculo e análise,0.1454,0.2513,SLC0601,0.912
+SMA0387,Mecânica Analítica,15,Mecânica e física geral,0.9072,0.1911,7600116,0.9
+SMA0388,Topologia Algébrica,2,Cálculo e análise,0.0684,0.3065,SMA0171,0.908
+SMA0389,Introdução à Teoria da Medida e Probabilidades,2,Cálculo e análise,0.1457,0.3689,SMA0143,0.941
+SMA0392,Cálculo I,2,Cálculo e análise,0.1208,0.3271,SMA0354,0.91
+SMA0393,Cálculo III,2,Cálculo e análise,0.1107,0.3223,SMA0354,0.944
+SMA0394,Geometria Analítica,2,Cálculo e análise,0.0789,0.317,SMA0393,0.896
+SMA0398,Educação Matemática Crítica,0,Ensino e educação,0.9177,0.5582,SMA0327,0.906
+SMA0404,"Direitos Humanos, Diversidade e a Educação para as Diferenças",0,Ensino e educação,0.8914,0.523,SMA0350,0.865
+SMA0405,Ensino e aprendizagem na Educação Básica: Teoria e Prática em Laboratório,0,Ensino e educação,0.9494,0.5317,SLC0634,0.892
+SMA0505,"Matrizes, Vetores e Geometria Analítica",9,Álgebra linear e equações diferenciais,0.0086,0.3242,SMA0804,0.938
+SMA0508,Matemática Discreta,5,Algoritmos e programação,0.1789,0.2202,SMA0180,0.96
+SMA0803,Cálculo III,2,Cálculo e análise,0.0981,0.3709,SMA0356,0.945
+SMA0804,Álgebra Linear para Estatística,9,Álgebra linear e equações diferenciais,0.0,0.3247,SMA0375,0.954
+SMA0805,Tópicos de Matemática,2,Cálculo e análise,0.1504,0.2429,SLC0601,0.924
+SME0110,Programação Matemática,25,Otimização e pesquisa operacional,0.2398,0.1893,SME0211,0.93
+SME0121,Processos Estocásticos,3,Probabilidade e estatística,0.325,0.468,SSC0160,0.894
+SME0123,Estatística,3,Probabilidade e estatística,0.3534,0.4712,SME0320,0.992
+SME0130,Redes Complexas,1,Sistemas computacionais e redes,0.4014,0.2713,SME0879,0.927
+SME0142,Álgebra Linear e Aplicações,9,Álgebra linear e equações diferenciais,0.0024,0.3161,SME0243,0.938
+SME0202,Métodos Numéricos em Equações Diferenciais,19,Métodos numéricos,0.2149,0.3014,SME0254,0.888
+SME0205,Métodos do Cálculo Numérico I,19,Métodos numéricos,0.256,0.2558,SME0305,0.975
+SME0206,Fundamentos de Análise Numérica,19,Métodos numéricos,0.2302,0.277,SME0306,0.969
+SME0211,Otimização Linear,25,Otimização e pesquisa operacional,0.2533,0.1969,SME0110,0.93
+SME0212,Otimização Não Linear,25,Otimização e pesquisa operacional,0.2446,0.1986,SME0211,0.915
+SME0213,Otimização Inteira,25,Otimização e pesquisa operacional,0.237,0.1948,SME0110,0.923
+SME0214,Fluxos em Redes,25,Otimização e pesquisa operacional,0.279,0.2061,SME0211,0.904
+SME0216,Tópicos de Otimização Combinatória,25,Otimização e pesquisa operacional,0.5117,0.3374,SSC0147,0.881
+SME0220,Introdução à Teoria das Probabilidades,3,Probabilidade e estatística,0.3112,0.4725,SME0801,0.912
+SME0221,Introdução à Inferência Estatística,3,Probabilidade e estatística,0.3703,0.4777,SME0520,0.927
+SME0230,Introdução à Programação de Computadores,5,Algoritmos e programação,0.3533,0.1664,SSC0304,0.967
+SME0231,Análise Topológica de Dados,8,Mineração e visualização de dados,0.3461,0.306,SME0879,0.883
+SME0240,Equações Diferenciais Ordinárias,9,Álgebra linear e equações diferenciais,0.0624,0.3866,7600016,0.92
+SME0241,Introdução à Modelagem Matemática,19,Métodos numéricos,0.2023,0.3187,SME0251,0.886
+SME0243,Teoria Espectral de Matrizes,9,Álgebra linear e equações diferenciais,0.0107,0.3174,SME0142,0.938
+SME0245,Funções de Variável Complexa,2,Cálculo e análise,0.0995,0.3546,SMA0308,0.912
+SME0250,Métodos Numéricos para Geração de Malhas,19,Métodos numéricos,0.2555,0.3067,SME0254,0.9
+SME0251,Mecânica dos Fluidos Computacional I,19,Métodos numéricos,0.2276,0.323,SME0253,0.925
+SME0252,Sistemas Esparsos e Computação Paralela,25,Otimização e pesquisa operacional,0.2862,0.2429,SSC0903,0.891
+SME0253,Mecânica dos Fluidos Computacional II,19,Métodos numéricos,0.2328,0.3123,SME0251,0.925
+SME0254,Método dos Elementos Finitos Aplicados à Mecânica dos Fluídos,19,Métodos numéricos,0.2339,0.2935,SME0250,0.9
+SME0255,Simulação Computacional de Fluidos,19,Métodos numéricos,0.228,0.3275,SME0253,0.906
+SME0256,Introdução a Modelagem Computacional na Indústria Petrolífera,19,Métodos numéricos,0.2225,0.322,SME0255,0.886
+SME0262,Análise de Séries Temporais em Finanças,3,Probabilidade e estatística,0.4085,0.452,SME0808,0.888
+SME0271,Modelagem Geométrica,2,Cálculo e análise,0.2845,0.3199,SME0250,0.89
+SME0273,Prática em Matemática Aplicada e Computação Científica,22,Práticas em ciência de dados,0.5342,0.4405,SCC0802,0.949
+SME0274,Tópicos em Matemática Aplicada II,0,Ensino e educação,0.5514,0.4016,SMA0361,0.983
+SME0280,Acompanhamento Profissional,13,"Ética, tutoria e formação profissional",0.5903,0.4055,SME0890,0.94
+SME0284,Estágio Supervisionado,7,"Estágios, projetos e pesquisa",0.5642,0.5072,SME0285,0.95
+SME0285,Trabalho de Conclusão de Curso,7,"Estágios, projetos e pesquisa",0.5451,0.4932,SME0284,0.95
+SME0300,Cálculo Numérico,19,Métodos numéricos,0.2346,0.2712,SME0892,0.963
+SME0305,Métodos Numéricos e Computacionais I,19,Métodos numéricos,0.2598,0.2491,SME0205,0.975
+SME0306,Métodos Numéricos e Computacionais II,19,Métodos numéricos,0.2366,0.2743,SME0206,0.969
+SME0320,Estatística I,3,Probabilidade e estatística,0.3412,0.4735,SME0123,0.992
+SME0332,Fundamentos da Programação de Computadores,5,Algoritmos e programação,0.3358,0.1796,SSC0304,0.944
+SME0341,Álgebra Linear e Equações Diferenciais,9,Álgebra linear e equações diferenciais,0.021,0.3561,SLC0609,0.959
+SME0510,Introdução à Pesquisa Operacional,25,Otimização e pesquisa operacional,0.2282,0.1928,SME0213,0.919
+SME0520,Introdução à Estatística,3,Probabilidade e estatística,0.3582,0.4858,SME0221,0.927
+SME0800,Probabilidade I,3,Probabilidade e estatística,0.315,0.4862,SME0220,0.902
+SME0801,Probabilidade II,3,Probabilidade e estatística,0.3185,0.4839,SME0220,0.912
+SME0803,Visualização e Exploração de Dados,8,Mineração e visualização de dados,0.3956,0.3894,SME0854,0.9
+SME0806,Estatística Computacional,3,Probabilidade e estatística,0.3652,0.492,SME0809,0.88
+SME0807,Técnicas de Amostragem,3,Probabilidade e estatística,0.3595,0.4544,SME0320,0.875
+SME0808,Séries Temporais e Aprendizado Dinâmico,3,Probabilidade e estatística,0.3891,0.4646,SME0262,0.888
+SME0809,Inferência Bayesiana,3,Probabilidade e estatística,0.3718,0.4861,SME0221,0.924
+SME0810,Métodos Não Paramétricos,3,Probabilidade e estatística,0.3443,0.4957,SME0818,0.878
+SME0811,Análise de Dados Categorizados,3,Probabilidade e estatística,0.3749,0.4275,SME0823,0.878
+SME0812,Modelos Lineares,9,Álgebra linear e equações diferenciais,0.004,0.3405,SMA0804,0.897
+SME0814,Estágio Supervisionado em Estatística I,7,"Estágios, projetos e pesquisa",0.584,0.5082,SCC0292,0.907
+SME0816,Planejamento de Experimentos I,3,Probabilidade e estatística,0.361,0.428,SME0822,0.872
+SME0818,Inferência Estatística,3,Probabilidade e estatística,0.3502,0.4903,SME0221,0.898
+SME0820,Modelos de Regressão e Aprendizado Supervisionado I,3,Probabilidade e estatística,0.3822,0.4294,SME0823,0.932
+SME0821,Análise de Sobrevivência e Confiabilidade,3,Probabilidade e estatística,0.36,0.4667,SME0221,0.884
+SME0822,Análise Multivariada e Aprendizado Não Supervisionado,8,Mineração e visualização de dados,0.3807,0.4029,SSC0956,0.88
+SME0823,Modelos de Regressão e Aprendizado Supervisionado II,3,Probabilidade e estatística,0.3755,0.4363,SME0820,0.932
+SME0824,Gestão da Qualidade,3,Probabilidade e estatística,0.3767,0.4171,SSC0962,0.898
+SME0825,Metodologia Científica I,7,"Estágios, projetos e pesquisa",0.509,0.4686,SME0826,0.896
+SME0826,Metodologia Científica II,7,"Estágios, projetos e pesquisa",0.4981,0.4838,SCC0213,0.92
+SME0827,Estruturas de Dados,5,Algoritmos e programação,0.3216,0.2125,SCC0223,0.985
+SME0852,Prática em Ciência de Dados I,22,Práticas em ciência de dados,0.5211,0.4253,SCC0802,1.0
+SME0854,Visualização para Ciência de Dados,8,Mineração e visualização de dados,0.3998,0.3376,SCC0252,0.957
+SME0860,Aprendizado de Máquina Aplicado a Problemas,18,Aprendizado de máquina,0.4567,0.3247,SCC0276,0.952
+SME0861,Participação colaborativa em Competições em Ciência de Dados,22,Práticas em ciência de dados,0.4926,0.403,SCC0277,0.932
+SME0862,Empreendedorismo Social Voluntário,22,Práticas em ciência de dados,0.6449,0.4504,1800128,0.878
+SME0870,Tópicos Especiais em Estatística Aplicada I,3,Probabilidade e estatística,0.4162,0.4455,SME0875,1.0
+SME0871,Bioestatística,3,Probabilidade e estatística,0.3973,0.4504,SME0870,0.917
+SME0873,Econometria,3,Probabilidade e estatística,0.3836,0.4765,SME0808,0.888
+SME0875,Tópicos Especiais em Estatística Aplicada II,3,Probabilidade e estatística,0.4162,0.4455,SME0870,1.0
+SME0876,Teoria de Resposta ao Item,3,Probabilidade e estatística,0.3846,0.4689,SME0809,0.884
+SME0878,Mineração Estatística de Dados,8,Mineração e visualização de dados,0.4032,0.3832,SCC0244,0.925
+SME0879,Mineração de dados representados por grafos,8,Mineração e visualização de dados,0.3747,0.2793,SME0130,0.927
+SME0880,Projeto de Graduação em Estatística I,7,"Estágios, projetos e pesquisa",0.5593,0.4815,SME0814,0.901
+SME0882,Consultoria Estatística,3,Probabilidade e estatística,0.4202,0.4622,SME0871,0.905
+SME0890,Direcionamento Acadêmico I,13,"Ética, tutoria e formação profissional",0.6071,0.3989,SME0280,0.94
+SME0892,Cálculo Numérico para Estatística,19,Métodos numéricos,0.2408,0.2642,SME0300,0.963
+SMM0166,Eletrônica Aplicada a Motores Ci,17,Robótica e controle,0.6799,0.1719,SEL0395,0.893
+SMM0193,Engenharia e Ciência dos Materiais I,6,"Materiais, desenho técnico e produção",0.7462,0.2349,SMM0194,0.872
+SMM0194,Engenharia e Ciência dos Materiais II,6,"Materiais, desenho técnico e produção",0.7151,0.2469,SMM0307,0.895
+SMM0307,Biomateriais,6,"Materiais, desenho técnico e produção",0.7305,0.2431,SMM0194,0.895
+SMM0564,Microscopia Eletrônica de Varredura,4,"Física quântica, ondas e óptica",0.8106,0.1352,SEL0464,0.882
+SSC0104,Evolução Histórica da Computação e Aplicações,1,Sistemas computacionais e redes,0.5174,0.1806,SSC0571,0.961
+SSC0108,Prática em Sistemas Digitais,12,Eletrônica e sistemas digitais,0.6624,0.0224,SSC0109,0.912
+SSC0109,Prática em Lógica Digital,12,Eletrônica e sistemas digitais,0.6698,0.0196,SSC0117,0.974
+SSC0117,Introdução à Lógica Digital,12,Eletrônica e sistemas digitais,0.6733,0.0086,SSC0109,0.974
+SSC0119,Prática em Organização de Computadores,21,Sistemas embarcados e microcontroladores,0.6318,0.068,SEL0629,0.897
+SSC0120,Sistemas de Informação,20,"Gestão, economia e sistemas de informação",0.5648,0.2923,SSC0530,0.929
+SSC0123,Tópicos Especiais em Engenharia de Software,10,Engenharia de software,0.5182,0.2971,SCC0632,0.892
+SSC0124,Análise e Projeto Orientados a Objetos,10,Engenharia de software,0.5218,0.2243,SSC0621,0.94
+SSC0128,Gerência de Projetos,10,Engenharia de software,0.5562,0.233,SEP0172,0.886
+SSC0130,Engenharia de Software,10,Engenharia de software,0.5407,0.173,SSC0532,0.938
+SSC0140,Sistemas Operacionais I,1,Sistemas computacionais e redes,0.5622,0.0908,SEL0415,0.886
+SSC0141,Prática em Sistemas Operacionais,1,Sistemas computacionais e redes,0.5308,0.1101,SSC0743,0.999
+SSC0142,Redes de Computadores,1,Sistemas computacionais e redes,0.4861,0.0781,SSC0152,0.903
+SSC0147,Tópicos Especiais em Sistemas de Computação I,1,Sistemas computacionais e redes,0.5284,0.3334,SSC0154,0.89
+SSC0152,Administração e Gerenciamento de Redes,1,Sistemas computacionais e redes,0.4919,0.0832,SSC0142,0.903
+SSC0154,Seminários Avançados em Sistemas Distribuídos e Programação Concorrente I,1,Sistemas computacionais e redes,0.4655,0.1869,SSC0147,0.89
+SSC0158,Computação em Nuvem e Arquitetura Orientadas a Serviços,1,Sistemas computacionais e redes,0.4748,0.1469,SSC0903,0.899
+SSC0159,Tópicos Avançados em Computação de Alto Desempenho,1,Sistemas computacionais e redes,0.4471,0.1662,SSC0903,0.957
+SSC0160,Modelagem e Simulação de Sistemas Computacionais,3,Probabilidade e estatística,0.3494,0.462,SME0520,0.895
+SSC0180,Eletrônica para Computação,12,Eletrônica e sistemas digitais,0.7161,0.008,SSC0117,0.921
+SSC0304,Introdução à Programação para Engenharias,5,Algoritmos e programação,0.3278,0.1635,SME0230,0.967
+SSC0512,Elementos de Lógica Digital,12,Eletrônica e sistemas digitais,0.6504,0.0196,SSC0117,0.961
+SSC0530,Introdução a Sistemas de Informação,20,"Gestão, economia e sistemas de informação",0.5578,0.2875,SSC0531,0.935
+SSC0531,Gestão de Sistemas de Informação,20,"Gestão, economia e sistemas de informação",0.555,0.2854,SSC0530,0.935
+SSC0532,Metodologias de Desenvolvimento de Software,10,Engenharia de software,0.5378,0.1835,SSC0130,0.938
+SSC0533,Requisitos de Software,10,Engenharia de software,0.5449,0.1759,SSC0130,0.914
+SSC0534,Modelagem de Sistemas de Software,10,Engenharia de software,0.519,0.2314,SSC0621,0.994
+SSC0535,"Gerência de Configuração, Manutenção e Evolução de Software",10,Engenharia de software,0.5345,0.1754,SSC0532,0.903
+SSC0536,Projeto e Desenvolvimento de Sistemas de Informação,22,Práticas em ciência de dados,0.5268,0.2264,SCC0802,0.89
+SSC0570,Empreendedores em Informática,20,"Gestão, economia e sistemas de informação",0.5746,0.2499,SSC0953,0.878
+SSC0571,Computação e Sociedade: Evolução Histórica e Aplicações,1,Sistemas computacionais e redes,0.5268,0.2063,SSC0104,0.961
+SSC0595,Projeto Empreendedor I,7,"Estágios, projetos e pesquisa",0.5543,0.522,SSC0596,1.0
+SSC0596,Projeto Empreendedor II,7,"Estágios, projetos e pesquisa",0.5543,0.522,SSC0595,1.0
+SSC0599,Informação Profissional em Sistemas de Informação,13,"Ética, tutoria e formação profissional",0.6034,0.3512,SCC0200,0.947
+SSC0621,Modelagem Orientada a Objetos,10,Engenharia de software,0.5256,0.2365,SSC0534,0.994
+SSC0643,Avaliação de Desempenho de Sistemas Computacionais,22,Práticas em ciência de dados,0.4219,0.414,SSC0160,0.879
+SSC0674,Projeto de Formatura II,7,"Estágios, projetos e pesquisa",0.5312,0.4881,SCC0294,0.964
+SSC0675,Projeto Empreendedor,7,"Estágios, projetos e pesquisa",0.5473,0.5166,SSC0676,0.946
+SSC0676,Estágio Empreendedor,7,"Estágios, projetos e pesquisa",0.5644,0.5222,SSC0675,0.946
+SSC0712,Programação de Robôs Móveis,17,Robótica e controle,0.6592,0.1784,SSC0714,0.93
+SSC0713,Sistemas Evolutivos e Aplicados à Robótica,17,Robótica e controle,0.677,0.2142,SSC0712,0.89
+SSC0714,Robôs Móveis Autônomos,17,Robótica e controle,0.6591,0.2007,SSC0712,0.93
+SSC0715,Sensores Inteligentes,17,Robótica e controle,0.6658,0.1859,SSC0712,0.907
+SSC0720,Engenharia de Software para Sistemas Embarcados,10,Engenharia de software,0.5313,0.1681,SSC0532,0.917
+SSC0723,Sistemas Colaborativos: Fundamentos e Aplicações,1,Sistemas computacionais e redes,0.5528,0.2421,SSC0724,0.916
+SSC0724,Sistemas Educacionais Avançados,0,Ensino e educação,0.5843,0.2247,SSC0723,0.916
+SSC0725,Arquitetura de Software,10,Engenharia de software,0.5127,0.1795,SSC0726,0.898
+SSC0726,Reuso de Software,10,Engenharia de software,0.5152,0.2016,SSC0725,0.898
+SSC0740,Sistemas Embarcados,1,Sistemas computacionais e redes,0.5525,0.1178,SSC0745,0.893
+SSC0741,Projeto e Implementação de Sistemas Embarcados I,21,Sistemas embarcados e microcontroladores,0.588,0.0983,SEL0622,0.88
+SSC0743,Sistemas Operacionais II,1,Sistemas computacionais e redes,0.5366,0.1043,SSC0141,0.999
+SSC0744,Computação Distribuída,1,Sistemas computacionais e redes,0.4989,0.131,SSC0743,0.902
+SSC0745,Sistemas Computacionais de Tempo-Real,1,Sistemas computacionais e redes,0.5198,0.1254,SSC0740,0.893
+SSC0746,Sistemas Computacionais Tolerantes a Faltas,1,Sistemas computacionais e redes,0.5143,0.1275,SSC0745,0.893
+SSC0748,Redes Móveis,1,Sistemas computacionais e redes,0.5157,0.0584,SEL0387,0.911
+SSC0770,Introdução ao Desenvolvimento de Jogos Eletrônicos,1,Sistemas computacionais e redes,0.5708,0.2035,SSC0724,0.886
+SSC0900,Engenharia de Segurança,1,Sistemas computacionais e redes,0.4711,0.0972,SCC0207,0.866
+SSC0901,Laboratório de Engenharia de Segurança,1,Sistemas computacionais e redes,0.4725,0.0866,SSC0152,0.869
+SSC0902,Organização e Arquitetura de Computadores,21,Sistemas embarcados e microcontroladores,0.605,0.0666,SEL0415,0.919
+SSC0903,Computação de Alto Desempenho,1,Sistemas computacionais e redes,0.4804,0.1579,SSC0159,0.957
+SSC0904,Sistemas Computacionais Distribuídos,1,Sistemas computacionais e redes,0.4743,0.1537,SSC0954,0.912
+SSC0950,Projeto e Desenvolvimento de Software de Sistema,10,Engenharia de software,0.5404,0.1463,SSC0720,0.9
+SSC0951,Desenvolvimento de Código Otimizado,1,Sistemas computacionais e redes,0.4595,0.1772,SSC0159,0.886
+SSC0952,Internet das Coisas,1,Sistemas computacionais e redes,0.4867,0.1474,SSC0963,0.891
+SSC0953,Sistemas Open Source,10,Engenharia de software,0.5463,0.2055,SSC0950,0.893
+SSC0954,Infraestrutura para Computação de Alto Desempenho e Sistemas Distribuídos,1,Sistemas computacionais e redes,0.4825,0.1455,SSC0903,0.922
+SSC0955,Introdução a Sistemas Computacionais,12,Eletrônica e sistemas digitais,0.6389,0.0277,SSC0117,0.91
+SSC0956,Soluções Otimizadas por Mineração de Dados Complexos,8,Mineração e visualização de dados,0.4157,0.3593,SME0878,0.898
+SSC0957,Prática em Ciência de Dados II,22,Práticas em ciência de dados,0.5211,0.4253,SCC0802,1.0
+SSC0958,Criptomoedas e Blockchain,1,Sistemas computacionais e redes,0.4738,0.1069,SSC0900,0.856
+SSC0959,"Verificação, Validação e Teste de Software",10,Engenharia de software,0.5264,0.1783,SSC0130,0.897
+SSC0960,Programação Funcional,5,Algoritmos e programação,0.3866,0.1582,SCC0217,0.889
+SSC0961,Desenvolvimento Web e Mobile,1,Sistemas computacionais e redes,0.4664,0.1252,SCC0225,0.913
+SSC0962,Gestão da Qualidade no Desenvolvimento de Sistemas,10,Engenharia de software,0.5352,0.1902,SME0824,0.898
+SSC0963,Indústria 4.0: Tecnologias e Aplicações,18,Aprendizado de máquina,0.5102,0.2558,SSC0952,0.891
+SSC0964,Introdução à Computação no Mercado Financeiro,20,"Gestão, economia e sistemas de informação",0.5263,0.3186,SME0262,0.857
+SSC0965,"Streaming de Dados, Microsserviços e Containers",1,Sistemas computacionais e redes,0.4673,0.1513,SSC0158,0.882
+SSC0967,Inteligência Artificial Embarcada,18,Aprendizado de máquina,0.4941,0.251,SCC0270,0.882

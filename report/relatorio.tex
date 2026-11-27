@@ -81,7 +81,7 @@
     \vfill
 
     {\normalsize São Carlos\par}
-    {\normalsize 26 de novembro de 2026\par}
+    {\normalsize 27 de novembro de 2026\par}
   \end{center}
 \end{titlingpage}
 \hypersetup{pageanchor=true}
@@ -232,10 +232,10 @@ novos identificadores.
 
 \subsection{Representação textual}
 
-Os textos são representados pelo modelo multilíngue BGE-M3 \cite{chen2024},
-que produz vetores de 1.024 dimensões e lê até 8.192 tokens por entrada. Como o
-maior texto do conjunto tem 1.523 tokens, cada disciplina é codificada
-integralmente em uma única entrada, sem divisão em blocos.
+Os textos são representados pelo modelo \texttt{gemini-embedding-001}
+\cite{geminiembedding}. A chamada solicita 768 dimensões por meio do parâmetro
+\texttt{output\_dimensionality} e usa o tipo de tarefa
+\texttt{SEMANTIC\_SIMILARITY}. O limite de entrada do modelo é de 2.048 tokens.
 
 Seja $f(x_d)$ a saída do modelo para o texto $x_d$ da disciplina $d$. O vetor da
 disciplina e a similaridade entre as disciplinas $a$ e $b$ são
@@ -247,7 +247,7 @@ disciplina e a similaridade entre as disciplinas $a$ e $b$ são
   \label{eq:embedding}
 \end{equation}
 
-Entre os 139.128 pares de disciplinas, a mediana de $s$ é 0,54. Como a escala do
+Entre os 139.128 pares de disciplinas, a mediana de $s$ é 0,799. Como a escala do
 cosseno depende do modelo, os limiares usados nas visualizações são percentis
 dessa distribuição, e não valores fixos.
 
@@ -257,8 +257,8 @@ Os tópicos são obtidos com BERTopic \cite{grootendorst2022}, aplicado aos
 embeddings de~\eqref{eq:embedding} e aos textos das disciplinas. O UMAP
 \cite{mcinnes2018} reduz os vetores a cinco dimensões, e o HDBSCAN
 \cite{mcinnes2017} identifica grupos com pelo menos oito disciplinas. Foram
-encontrados 24 tópicos. As 74 disciplinas classificadas como ruído recebem o
-tópico de centroide mais próximo no espaço de 1.024 dimensões.
+encontrados 26 tópicos. As 57 disciplinas classificadas como ruído recebem o
+tópico de centroide mais próximo no espaço de 768 dimensões.
 
 Cada tópico é descrito pelos termos que o distinguem dos demais, segundo o
 c-TF-IDF. O peso do termo $t$ no tópico $c$ é
@@ -269,17 +269,15 @@ c-TF-IDF. O peso do termo $t$ no tópico $c$ é
   \label{eq:ctfidf}
 \end{equation}
 
-em que $\operatorname{tf}_{t,c}$ é a frequência relativa de $t$ no conjunto dos
-textos de $c$, $f_t$ é a frequência de $t$ em todos os tópicos e $A$ é o número
-médio de palavras por tópico. O peso cresce com a presença do termo no tópico e
-diminui com sua presença no restante do conjunto. Palavras funcionais e termos
-genéricos de ementa, como ``disciplina'' e ``objetivo'', são excluídos antes do
-cálculo. Os nomes dos
-tópicos foram atribuídos após a inspeção dos termos de maior peso e das
-disciplinas de cada grupo. Eles resumem o conteúdo e não são produzidos pelo
+Nessa expressão, $\operatorname{tf}_{t,c}$ indica a frequência relativa do termo
+$t$ nos textos do tópico $c$, $f_t$ indica sua frequência no conjunto de todos
+os tópicos e $A$ representa o número médio de palavras por tópico. O peso é
+maior quando o termo aparece com frequência em um tópico e é menos comum nos
+demais. Antes do cálculo, são removidas palavras funcionais e termos genéricos
+das ementas, como ``disciplina'' e ``objetivo''. Após o agrupamento, os termos
+de maior peso e as disciplinas de cada grupo são examinados para atribuir nomes
+aos tópicos. Esses nomes sintetizam o conteúdo observado e não são gerados pelo
 modelo.
-
-\newpage
 
 \section{Visualizações interativas}
 
@@ -287,7 +285,7 @@ O sistema é uma página web construída com D3 \cite{bostock2011} e reúne cinc
 visualizações: um mapa de agrupamentos, nuvens de palavras por tópico, uma
 comparação de similaridade a partir de uma disciplina de referência, a grade
 curricular com seus requisitos e um treemap da composição de cada curso. As
-cinco compartilham uma paleta de 24 cores, uma por tópico,
+cinco compartilham uma paleta de 26 cores, uma por tópico,
 ordenada para que tópicos próximos recebam matizes vizinhos, de modo que cada
 disciplina mantém a mesma cor em todas as visões.
 
@@ -301,14 +299,17 @@ Como a similaridade define relações entre pares de disciplinas, a primeira
 questão é representada por uma rede sobre uma projeção bidimensional, que mostra
 ao mesmo tempo os grupos e as vizinhanças. A Figura~\ref{fig:mapa} representa disciplinas por pontos e tópicos por cores.
 As posições resultam de uma segunda execução do UMAP, em duas dimensões,
-independente da redução usada no agrupamento. As coordenadas são giradas para
-que o eixo de maior variância fique na horizontal e reescaladas por um único
-fator, preservando as proporções da projeção. Textos idênticos são projetados
+independente da redução usada no agrupamento.
+
+As coordenadas são giradas para que o eixo de maior variância fique na
+horizontal e reescaladas por um único fator, preservando as proporções da
+projeção. Textos idênticos são projetados
 uma única vez e compartilham a coordenada, pois, caso contrário, o UMAP os
 isolaria como componente desconexo. Para evitar sobreposição, cada ponto é
 afastado de seus vizinhos por uma repulsão de colisão, presa à posição original.
-O deslocamento mediano é de 1 pixel e o máximo, de 12 pixels, em um mapa de
-1.234 pixels de largura.
+O deslocamento é limitado para manter os grupos próximos das posições projetadas.
+
+\newpage
 
 As linhas ligam disciplinas semelhantes. Seja $\mathcal{N}_4(a)$ o conjunto das
 quatro disciplinas mais semelhantes a $a$ e $\operatorname{nn}(a)$ a mais
@@ -320,8 +321,8 @@ semelhante. As arestas são
   \label{eq:arestas}
 \end{equation}
 
-em que $\tau_{\mathrm{rede}}=0{,}603$ é o percentil 85 de $s$. A segunda parcela
-impede pontos isolados, e a rede resultante possui 1.499 arestas.
+em que $\tau_{\mathrm{rede}}=0{,}828$ é o percentil 85 de $s$. A segunda parcela
+impede pontos isolados, e a rede resultante possui 1.430 arestas.
 
 Ao selecionar uma disciplina, suas cinco vizinhas mais semelhantes recebem
 números no mapa, repetidos com seus nomes em um índice abaixo dele, e as demais
@@ -334,19 +335,20 @@ ao usuário são sempre calculados nos embeddings.
   \centering
   \includegraphics[width=\linewidth]{figures/mapa.png}
   \caption{Mapa das 528 disciplinas únicas em seu estado inicial. As cores
-  indicam os 24 tópicos e as linhas representam relações de vizinhança textual.}
+  indicam os 26 tópicos e as linhas representam relações de vizinhança textual.}
   \label{fig:mapa}
 \end{figure}
+
+\newpage
 
 \subsection{Palavras de cada tópico}
 
 As nuvens de palavras partem dos 24 termos de maior peso c-TF-IDF em cada
-tópico, segundo~\eqref{eq:ctfidf}. O tamanho representa o peso dentro da nuvem;
-por isso, palavras maiores são mais características daquele tópico, mas os
+tópico, segundo~\eqref{eq:ctfidf}. O tamanho representa o peso dentro da nuvem.
+Palavras maiores são mais características daquele tópico, mas os
 tamanhos não devem ser comparados diretamente entre nuvens. A
 Figura~\ref{fig:nuvens} mostra quatro exemplos. A seleção de uma nuvem destaca
-no mapa as disciplinas do tópico correspondente; uma segunda seleção remove o
-filtro. A mesma seleção pode ser feita pelo rótulo do tópico no treemap.
+no mapa as disciplinas do tópico correspondente.
 
 \begin{figure}[htbp]
   \centering
@@ -356,54 +358,47 @@ filtro. A mesma seleção pode ser feita pelo rótulo do tópico no treemap.
   \label{fig:nuvens}
 \end{figure}
 
-\newpage
-
 \subsection{Similaridade entre disciplinas}
 
-A Figura~\ref{fig:similaridade} mostra, para uma referência escolhida pelo
-usuário, as disciplinas acima do limiar de similaridade, inicialmente 0,619, o
-percentil 90 de $s$, uma linha por tópico. A posição horizontal é a
-similaridade $s$, e o
-deslocamento vertical apenas evita a sobreposição. As linhas são ordenadas pela
-maior similaridade de cada tópico, e as cinco disciplinas mais próximas recebem
-numeração e um índice textual, sendo exibidas mesmo abaixo do limiar. Em
-relação ao mapa, o \emph{beeswarm} explicita a magnitude da similaridade e
-permite comparar tópicos em uma escala comum. Um controle deslizante permite
-alterar o limiar entre 0,500 e 0,850 e atualiza imediatamente as disciplinas
-exibidas. As cinco mais próximas permanecem visíveis mesmo abaixo do limite,
-para preservar a comparação local.
+A Figura~\ref{fig:similaridade} mostra as disciplinas semelhantes à referência
+escolhida pelo usuário. O limiar inicial é 0,836, o percentil 90 de $s$. Cada
+linha corresponde a um tópico e é ordenada pela maior similaridade encontrada
+nele. A posição horizontal representa $s$, enquanto o deslocamento vertical
+evita a sobreposição dos pontos.
+
+As cinco disciplinas mais próximas recebem números e aparecem em um índice
+textual, mesmo quando ficam abaixo do limiar. O \emph{beeswarm} permite comparar
+os valores em uma escala comum. Um controle deslizante altera o limiar e
+atualiza as disciplinas exibidas.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\linewidth]{figures/similaridade.png}
-  \caption{Distribuição exibida após selecionar Cálculo I como referência,
-  agrupada por tópico. A posição horizontal representa a similaridade de
-  cosseno, e o índice identifica as cinco disciplinas mais próximas.}
+  \includegraphics[width=\linewidth,trim=0 180bp 0 0,clip]{figures/similaridade.png}
+  \caption{Similaridade com Cálculo I, por tópico. Os números identificam as
+  cinco disciplinas mais próximas.}
   \label{fig:similaridade}
 \end{figure}
 
 \subsection{Grade e requisitos}
 
-Como requisitos são relações dirigidas que se distribuem ao longo do curso, a
-grade dispõe as disciplinas por semestre ideal, de modo que a ordem curricular
-fique visível. A Figura~\ref{fig:grade} organiza a grade escolhida em colunas de semestre ideal.
-Disciplinas obrigatórias têm preenchimento intenso, e optativas têm
-preenchimento claro e contorno tracejado. Ao selecionar uma disciplina, o usuário vê seus
-requisitos diretos e indiretos e as disciplinas que ela libera. São consideradas
-as relações de requisito e de requisito fraco entre disciplinas da grade.
-Indicações de conjunto são excluídas, pois pedem que duas disciplinas sejam
-cursadas juntas e não estabelecem precedência. As relações não
-são desenhadas permanentemente, pois 897 pares distribuídos por 12 grades
-causariam sobreposição.
+Como os requisitos estabelecem uma ordem entre disciplinas, a
+Figura~\ref{fig:grade} organiza a grade escolhida por semestre ideal. As
+obrigatórias têm preenchimento intenso, enquanto as optativas aparecem em tom
+claro e com contorno tracejado.
 
-\begin{figure}[htbp]
+Ao selecionar uma disciplina, o usuário vê seus requisitos diretos e indiretos
+e as disciplinas que ela libera. A visualização considera requisitos e
+requisitos fracos entre disciplinas da grade.
+
+\begin{figure}[!htbp]
   \centering
   \includegraphics[width=\linewidth]{figures/grade.png}
-  \caption{Grade exibida após selecionar Ciência de Dados, antes de destacar
-  uma disciplina. As colunas representam os semestres ideais e as cores indicam
-  os tópicos das disciplinas.}
+  \caption{Grade de Ciência de Dados por semestre ideal, com tópicos indicados
+  por cor.}
   \label{fig:grade}
 \end{figure}
+
+\FloatBarrier
 
 \subsection{Composição por tópico}
 
@@ -413,6 +408,7 @@ porcentagem de um tópico usa como denominador a soma das cargas horárias
 exibidas. O controle de curso e o filtro de obrigatórias são compartilhados
 com a grade, de modo que as duas visões mudam juntas. As disciplinas
 obrigatórias têm preenchimento intenso e as optativas, preenchimento claro.
+
 Ao selecionar uma disciplina no treemap, o mapa e a comparação de similaridade
 passam a usar a mesma referência. A Figura~\ref{fig:treemap} mostra apenas as
 disciplinas obrigatórias de Ciência de Dados.
@@ -420,9 +416,8 @@ disciplinas obrigatórias de Ciência de Dados.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\linewidth]{figures/treemap.png}
-  \caption{Composição temática das 30 disciplinas obrigatórias de Ciência de
-  Dados com carga horária informada. A área corresponde à carga horária, e as
-  porcentagens referem-se às 3.180 horas exibidas.}
+  \caption{Composição das 30 disciplinas obrigatórias de Ciência de Dados,
+  totalizando 3.180 horas.}
   \label{fig:treemap}
 \end{figure}
 
@@ -430,71 +425,65 @@ disciplinas obrigatórias de Ciência de Dados.
 
 \subsection{Coordenação entre visões}
 
-A seleção de uma disciplina na busca, no mapa, na comparação de similaridade ou
-no treemap atualiza a ficha, marca a disciplina no mapa e no treemap e a usa
-como referência para a comparação de similaridade. A seleção de um tópico na
-nuvem de palavras ou no treemap esmaece os demais tópicos no mapa e na
-composição. Esses destaques coordenados permitem voltar do termo característico
-ao conjunto de disciplinas e de uma disciplina à sua vizinhança textual. O
-limiar ajustável da comparação constitui uma segunda forma de interação: uma
-consulta dinâmica que modifica a quantidade e a distribuição dos pontos
-enquanto o usuário explora a similaridade.
+A seleção de uma disciplina na busca, no mapa, na comparação ou no treemap
+atualiza sua ficha. A disciplina também é destacada no mapa e no treemap e
+passa a ser a referência da comparação de similaridade.
+
+A seleção de um tópico na nuvem de palavras ou no treemap destaca as disciplinas
+desse grupo no mapa e na composição. Assim, é possível partir de um tópico para
+examinar suas disciplinas e suas vizinhas textuais. O controle deslizante ajusta
+o limiar da comparação e atualiza os pontos exibidos.
 
 \section{Resultados e discussão}
 
-Esta seção responde às três questões levantadas na introdução e discute o
-alcance de cada resposta.
+Esta seção retoma as três questões da introdução e examina os resultados
+obtidos para cada uma. A discussão relaciona os achados às visualizações e
+interações que os evidenciam e considera os limites de cada interpretação.
 
 \subsection{Agrupamento das disciplinas}
 
-Os 24 tópicos têm entre 8 e 37 disciplinas. A associação entre tópico e
-departamento, identificado pelo prefixo do código, é moderada, com informação
-mútua normalizada de 0,47 e, ajustada ao acaso, de 0,40: o texto recupera parte
-da organização departamental, mas não a reproduz. Há tópicos concentrados, como
-Probabilidade e estatística, com 30 de 32 disciplinas do SME, e tópicos que
-atravessam unidades, como Física, mecânica e termodinâmica, que reúne
-disciplinas de dez siglas, entre elas IFSC, SLC, SEM e SEL.
+Os 26 tópicos têm entre 9 e 69 disciplinas. Para verificar se reproduzem a
+divisão por departamentos, comparamos o tópico de cada disciplina com a sigla
+associada ao seu código. A informação mútua normalizada foi 0,50, em uma escala
+na qual 0 indica ausência de associação e 1 indica grupos idênticos. Após o
+ajuste para associações esperadas ao acaso, o valor foi 0,43. A correspondência
+é, portanto, parcial. Probabilidade e estatística concentra 27 de suas 30
+disciplinas no SME, enquanto Robótica e controle reúne disciplinas de sete
+siglas, entre elas SSC, SEL e SEM.
 
-A associação apenas moderada indica que departamentos e tópicos organizam as
-disciplinas por critérios diferentes. Os departamentos refletem a estrutura
+Os departamentos refletem a estrutura
 administrativa e a área dos docentes, enquanto os tópicos refletem o conteúdo
 descrito nas ementas. Assim, os tópicos que atravessam unidades evidenciam
 conteúdos compartilhados que a organização departamental não mostra, como a
-física ensinada pelo IFSC, por departamentos da EESC e pela Licenciatura em
-Ciências Exatas. Os tópicos, porém, descrevem o texto das ementas, e não o que é
+robótica presente em disciplinas de computação, eletrônica e engenharia
+mecânica. Os tópicos, porém, descrevem o texto das ementas, e não o que é
 efetivamente ensinado em sala.
 
 As nuvens ajudam a interpretar os nomes atribuídos aos tópicos. Em
 Probabilidade e estatística, \emph{modelos}, \emph{testes} e \emph{regressão}
-estão entre os termos de maior peso. Em Bases de dados, mineração e ciência de
-dados, destacam-se \emph{dados}, \emph{mineração} e \emph{visualização}. A
-leitura conjunta do nome e dos termos permite reconhecer o conteúdo que
-motivou a classificação sem depender apenas da posição no mapa.
+estão entre os termos de maior peso. Em Mineração e visualização de dados,
+destacam-se \emph{dados}, \emph{mineração} e \emph{visualização}. A leitura
+conjunta do nome e dos termos permite reconhecer o conteúdo que motivou a
+classificação sem depender apenas da posição no mapa.
 
 \subsection{Similaridade entre disciplinas}
 
-Na comparação de similaridade, as cinco disciplinas mais próximas de Cálculo I
-pertencem ao mesmo tópico e têm similaridade entre 0,75 e 0,79: Análise I,
-Cálculo II, Análise para Licenciatura, Análise e Análise II. A comparação
-aproxima ementas de conteúdo comum, e não apenas sequências de mesmo nome.
+Na comparação de Cálculo I, as cinco disciplinas mais similares são Cálculo II,
+Análise para Licenciatura, Análise, Análise II e Análise I. Todas pertencem a
+Cálculo e análise, com valores entre 0,878 e 0,910. O conjunto mostra que
+ementas próximas podem ter nomes diferentes. Ao mesmo tempo, Cálculo II exige
+Cálculo I como requisito, de modo que a proximidade textual não indica
+equivalência curricular.
 
-O mesmo exemplo mostra o limite da medida. Cálculo I supera o limiar com 136
-disciplinas de 18 tópicos, pois o vocabulário de funções, limites e derivadas
-aparece em ementas de muitas áreas. Além disso, a similaridade mede proximidade
-textual, e não equivalência curricular: Cálculo II é a segunda disciplina mais
-próxima de Cálculo I, mas depende dela como requisito. A visão indica, portanto,
-disciplinas comparáveis, e não substituíveis.
-
-Com o limiar inicial de 0,619, a comparação de Cálculo I reúne 136 disciplinas
-de 18 tópicos. Ao elevá-lo a 0,700, restam 12 disciplinas, todas no tópico
-Cálculo, análise e equações. Essa mudança mostra que a vizinhança mais próxima
-é temática, enquanto a cauda de similaridades menores alcança outras áreas.
-O controle torna visível a sensibilidade da resposta ao limiar escolhido.
+O limiar permite examinar até onde essa vizinhança se estende. No valor inicial
+de 0,836, 15 disciplinas de três tópicos superam o limite. Ao elevá-lo a 0,880,
+restam quatro, todas em Cálculo e análise. O ajuste revela um núcleo mais
+próximo no mesmo tópico, enquanto a vizinhança mais ampla alcança outras áreas.
 
 \subsection{Encadeamentos e composição curricular}
 
-Os 897 pares de requisito têm similaridade mediana de 0,64, acima da mediana da
-mesma grade (0,56) e do conjunto (0,54): requisitos tendem a ligar textos
+Os 897 pares de requisito têm similaridade mediana de 0,85, acima da mediana da
+mesma grade (0,81) e do conjunto (0,80): requisitos tendem a ligar textos
 próximos. As cadeias mais longas têm de quatro a sete etapas, e as disciplinas
 de maior alcance são Cálculo I, em matemática e estatística, e as introdutórias
 de programação, em computação.
@@ -507,35 +496,42 @@ requisitos também expressam decisões pedagógicas.
 
 O treemap complementa a leitura dos requisitos com a distribuição da carga
 horária entre os tópicos. Entre as disciplinas obrigatórias de Ciência de
-Dados, Bases de dados, mineração e ciência de dados reúne 990 das 3.180 horas
-exibidas (31,1\%),
-seguido por Algoritmos, otimização e aprendizado de máquina, com 630 horas
-(19,8\%), e Probabilidade e estatística, com 510 horas (16,0\%). No
-Bacharelado em Estatística e Ciência de Dados, a concentração é diferente:
-Probabilidade e estatística corresponde a 1.230 das 2.700 horas obrigatórias
-(45,6\%), enquanto Bases de dados, mineração e ciência de dados soma 210 horas
-(7,8\%). A comparação evidencia ênfases distintas em cursos que compartilham
-a expressão \emph{Ciência de Dados} no nome.
+Dados, Algoritmos e programação reúne 570 das 3.180 horas exibidas (17,9\%),
+seguido por Práticas em ciência de dados, com 540 horas (17,0\%), e Estágios,
+projetos e pesquisa, com 360 horas (11,3\%). No Bacharelado em Estatística e
+Ciência de Dados, a concentração é diferente: Probabilidade e estatística
+corresponde a 1.110 das 2.700 horas obrigatórias (41,1\%), enquanto Mineração
+e visualização de dados soma 390 horas (14,4\%). A comparação evidencia
+ênfases distintas em cursos que compartilham a expressão \emph{Ciência de Dados}
+no nome.
 
 Ao incluir todas as optativas ofertadas em Ciência de Dados, os três tópicos
-mais extensos passam a ter parcelas próximas: 17,4\% em Algoritmos,
-otimização e aprendizado de máquina, 17,1\% em Bases de dados, mineração e
-ciência de dados e 17,0\% em Probabilidade e estatística. A oferta optativa
-amplia a variedade temática disponível, mas essa soma não representa um
-percurso individual, pois cada estudante cursa apenas parte das optativas.
+mais extensos passam a ser Sistemas computacionais e redes (15,2\%),
+Probabilidade e estatística (13,9\%) e Estágios, projetos e pesquisa (12,7\%).
+A oferta optativa amplia a variedade temática disponível, mas essa soma não
+representa um percurso individual, pois cada estudante cursa apenas parte das
+optativas.
 
 \section{Limitações}
 
 Os resultados dependem do conteúdo do JúpiterWeb e da redação das ementas. Os
 limiares de consolidação, os parâmetros do UMAP e do HDBSCAN e os nomes dos
-tópicos influenciam os agrupamentos. Além disso, 74 disciplinas (14\%) foram
+tópicos influenciam os agrupamentos. Além disso, 57 disciplinas (11\%) foram
 classificadas como ruído pelo HDBSCAN e atribuídas ao tópico de centroide mais
 próximo. Disciplinas homônimas com sobreposição parcial, como Física II do IFSC e
 Física 2 da Licenciatura em Ciências Exatas, permanecem unidas.
 
+A similaridade de cosseno não corresponde a uma porcentagem de conteúdo em
+comum. Sua escala depende do modelo e dos textos comparados. Neste conjunto, a
+mediana entre todos os pares é 0,799. Probabilidade I e Laboratório de Química
+Orgânica, por exemplo, têm similaridade de 0,762, embora tratem de assuntos
+distintos. Esse valor está abaixo de cerca de 91\% dos pares. Por isso, a
+interpretação considera a posição do par na distribuição e a leitura das
+ementas, além do valor isolado.
+
 As nuvens exibem termos característicos segundo c-TF-IDF, e não uma lista de
 todos os assuntos ensinados. No treemap, as porcentagens dependem do filtro e
-da carga horária informada para cada disciplina; registros sem carga horária
+da carga horária informada para cada disciplina. Registros sem carga horária
 são omitidos. A opção \emph{todas} soma as optativas ofertadas na grade,
 inclusive alternativas que um mesmo estudante não cursaria conjuntamente.
 Portanto, a área não equivale à carga horária necessária para concluir o curso.
@@ -547,11 +543,9 @@ consolidação dos códigos, Cálculo I apareceria seis vezes e distorceria tóp
 similaridades e requisitos, e uma consolidação apenas pelo nome uniria
 disciplinas distintas, como Física III e Física 3.
 
-A escolha do modelo de linguagem também afetou os resultados. Um modelo com
-janela de 128 tokens exigiria dividir os textos em blocos, e o BGE-M3 permitiu
-representar cada disciplina por inteiro. Como a escala da similaridade muda de
-um modelo para outro, os limiares passaram a ser definidos por percentis, e não
-por valores fixos.
+A representação em 768 dimensões exigiu normalizar os vetores antes do cálculo
+do cosseno. Como a escala da similaridade depende do modelo, os limiares
+passaram a ser definidos por percentis, e não por valores fixos.
 
 Por fim, a legibilidade exigiu decisões de projeto em cada visão: a repulsão
 entre pontos e a numeração das vizinhas no mapa, a exibição sob demanda dos
@@ -560,7 +554,7 @@ requisitos na grade e o uso de rótulos junto às cores. Esses ajustes foram mai
 
 Na segunda entrega, a coordenação entre as visões mostrou-se útil para
 relacionar escalas de análise diferentes. A nuvem permite partir de um termo
-característico para localizar o tópico no mapa; o treemap permite partir da
+característico para localizar o tópico no mapa. O treemap permite partir da
 composição de um curso para examinar disciplinas e suas vizinhas textuais. O
 limiar ajustável expõe quanto a comparação de similaridade depende do recorte
 adotado.
@@ -574,6 +568,8 @@ distribuição temática dos cursos. A seleção coordenada e a consulta dinâmi
 ligam essas leituras, sem transformar similaridade textual em equivalência
 curricular nem a oferta optativa em carga obrigatória.
 
+\newpage
+
 \begin{thebibliography}{11}
 
 \bibitem{jupiterweb}
@@ -581,10 +577,9 @@ UNIVERSIDADE DE SÃO PAULO. \textbf{JúpiterWeb: Sistema de Gestão Acadêmica d
 Pró-Reitoria de Graduação}. Disponível em:
 \url{https://uspdigital.usp.br/jupiterweb/}. Acesso em: 7 nov. 2026.
 
-\bibitem{chen2024}
-CHEN, J., XIAO, S., ZHANG, P., LUO, K., LIAN, D. e LIU, Z. BGE M3-Embedding:
-multi-lingual, multi-functionality, multi-granularity text embeddings through
-self-knowledge distillation. \textbf{arXiv preprint arXiv:2402.03216}, 2024.
+\bibitem{geminiembedding}
+GOOGLE. \textbf{Gemini Embeddings}. Disponível em:
+\url{https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001}. Acesso em: 27 nov. 2026.
 
 \bibitem{grootendorst2022}
 GROOTENDORST, M. BERTopic: neural topic modeling with a class-based TF-IDF
