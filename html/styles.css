@@ -593,6 +593,25 @@ svg {
 .similarity-picker .find {
   width: 100%;
 }
+.similarity-threshold {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: var(--ink-3);
+  font: 500 10px var(--mono);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.similarity-threshold input {
+  width: min(280px, 45vw);
+  accent-color: var(--ink);
+}
+.similarity-threshold output {
+  color: var(--ink);
+  font: 500 12px var(--mono);
+  letter-spacing: 0;
+}
 .similarity svg {
   width: 100%;
   height: auto;

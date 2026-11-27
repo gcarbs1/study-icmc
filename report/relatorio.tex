@@ -81,7 +81,7 @@
     \vfill
 
     {\normalsize São Carlos\par}
-    {\normalsize 10 de novembro de 2026\par}
+    {\normalsize 26 de novembro de 2026\par}
   \end{center}
 \end{titlingpage}
 \hypersetup{pageanchor=true}
@@ -104,21 +104,21 @@ carga horária entre assuntos. Como consequência, perguntas e análises
 comparativas exigem percorrer várias páginas de maneira manual.
 
 Este projeto organiza essas informações em um conjunto de dados único e propõe
-uma exploração visual das disciplinas do ICMC. A primeira entrega tem
-dois objetivos: documentar a criação e o processamento desse conjunto e avaliar
-se três visualizações interativas permitem reconhecer agrupamentos temáticos,
-comparar diretamente a similaridade entre ementas e examinar encadeamentos
-curriculares. O sistema foi implementado como uma página em D3, publicado no
-github pages.
+uma exploração visual das disciplinas do ICMC. A primeira entrega documentou a
+criação e o processamento desse conjunto e avaliou três visualizações
+interativas para reconhecer agrupamentos temáticos, comparar a similaridade
+entre ementas e examinar encadeamentos curriculares. A segunda entrega
+acrescenta nuvens de palavras, uma composição da carga horária por tópico e
+mecanismos de seleção coordenada e consulta dinâmica. O sistema foi
+implementado como uma página em D3, publicada no GitHub Pages.
 
 \subsection{Coleta dos dados}
 
-A coleta parte das 12 grades curriculares selecionadas no JúpiterWeb. Para cada
-código encontrado, são consultadas as páginas da disciplina
-e de seus requisitos. Novos códigos identificados nesse percurso são adicionados
-à coleta até que nenhuma disciplina permaneça pendente. As respostas HTML são
-mantidas em cache para que a extração possa ser reproduzida sem repetir as
-consultas ao sistema.
+Os cursos foram selecionados a partir do site do ICMC, e suas 12 grades
+curriculares foram consultadas no JúpiterWeb. Para cada código encontrado nas
+grades, são consultadas as páginas da disciplina e de seus requisitos.
+As respostas HTML são mantidas em cache para que a extração possa ser
+reproduzida sem repetir as consultas ao sistema.
 
 As grades reúnem 1.089 registros curriculares, correspondentes a 582 códigos
 distintos. O percurso pelas relações de requisito acrescenta 54 códigos que não
@@ -157,24 +157,50 @@ A análise foi organizada em torno de três questões:
 \begin{enumerate}
   \item Como as disciplinas se agrupam a partir de suas ementas?
   \item Quais disciplinas são mais semelhantes a uma disciplina de interesse?
-  \item Como as disciplinas de cada curso se encadeiam por requisitos?
+  \item Como a grade de cada curso organiza as disciplinas por requisitos e
+  distribui sua carga horária entre os tópicos?
 \end{enumerate}
 
-A primeira questão trata da estrutura global das emantas das disciplinas. A segunda torna
-explícitos os valores de similaridade em torno de uma disciplina. E A terceira,
-introduz a ordem curricular e as relações dirigidas.
+A primeira questão trata da estrutura global das ementas das disciplinas. A
+segunda torna explícitos os valores de similaridade em torno de uma disciplina.
+A terceira trata dos requisitos e da distribuição da carga horária por tópico
+em cada curso.
 
 \section{Metodologia}
 
 A metodologia converte os registros coletados em disciplinas únicas, representa
-seus textos em um espaço vetorial comum e deriva desse espaço as medidas usadas
-pelas três visualizações. A análise utiliza exclusivamente o texto de cada
-disciplina, formado pela concatenação de ementa, objetivos e conteúdo
-programático. Nome, departamento, carga horária e requisitos não participam da
-representação, do agrupamento nem das medidas de similaridade. Esses atributos
-são anexados depois, para identificar, filtrar e interpretar os resultados.
-Quatro registros sem texto em nenhum desses campos foram excluídos, restando 632
-códigos com texto.
+seus textos em um espaço vetorial comum e deriva desse espaço as medidas de
+agrupamento e similaridade.
+
+\subsection{Tratamento dos dados}
+
+Os campos textuais são normalizados em Unicode NFC e têm espaços repetidos
+removidos. Em seguida, ementa, objetivos e conteúdo programático são
+concatenados para cada código. Como mostra a Tabela~\ref{tab:textos}, essa
+combinação preserva 11 dos 15 registros sem ementa, que ainda contêm objetivos
+ou conteúdo programático. Os quatro registros sem texto ficam abaixo do mínimo
+de 80 caracteres e são excluídos, restando 632 códigos para análise.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Disponibilidade dos campos textuais nos 636 registros coletados.}
+  \label{tab:textos}
+  \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X r}
+    \toprule
+    \textbf{Campo} & \textbf{Registros com texto} \\
+    \midrule
+    Ementa & 621 \\
+    Objetivos & 632 \\
+    Conteúdo programático & 632 \\
+    Pelo menos um dos três campos & 632 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Nome, departamento, carga horária e requisitos não compõem o texto representado
+nem as medidas de agrupamento e similaridade. Esses atributos permanecem
+associados aos registros para identificação, filtragem e interpretação dos
+resultados.
 
 \subsection{Disciplinas únicas}
 
@@ -257,10 +283,11 @@ modelo.
 
 \section{Visualizações interativas}
 
-O sistema é uma página web construída com D3 \cite{bostock2011} e reúne três
-visualizações, uma para cada questão: um mapa de agrupamentos, uma comparação de
-similaridade a partir de uma disciplina de referência e a grade curricular com
-seus requisitos. As três compartilham uma paleta de 24 cores, uma por tópico,
+O sistema é uma página web construída com D3 \cite{bostock2011} e reúne cinco
+visualizações: um mapa de agrupamentos, nuvens de palavras por tópico, uma
+comparação de similaridade a partir de uma disciplina de referência, a grade
+curricular com seus requisitos e um treemap da composição de cada curso. As
+cinco compartilham uma paleta de 24 cores, uma por tópico,
 ordenada para que tópicos próximos recebam matizes vizinhos, de modo que cada
 disciplina mantém a mesma cor em todas as visões.
 
@@ -311,18 +338,40 @@ ao usuário são sempre calculados nos embeddings.
   \label{fig:mapa}
 \end{figure}
 
+\subsection{Palavras de cada tópico}
+
+As nuvens de palavras partem dos 24 termos de maior peso c-TF-IDF em cada
+tópico, segundo~\eqref{eq:ctfidf}. O tamanho representa o peso dentro da nuvem;
+por isso, palavras maiores são mais características daquele tópico, mas os
+tamanhos não devem ser comparados diretamente entre nuvens. A
+Figura~\ref{fig:nuvens} mostra quatro exemplos. A seleção de uma nuvem destaca
+no mapa as disciplinas do tópico correspondente; uma segunda seleção remove o
+filtro. A mesma seleção pode ser feita pelo rótulo do tópico no treemap.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/nuvens.png}
+  \caption{Nuvens de palavras de quatro tópicos. A dimensão dos termos
+  representa seus pesos c-TF-IDF em cada tópico.}
+  \label{fig:nuvens}
+\end{figure}
+
 \newpage
 
 \subsection{Similaridade entre disciplinas}
 
 A Figura~\ref{fig:similaridade} mostra, para uma referência escolhida pelo
-usuário, as disciplinas com similaridade de pelo menos 0,619, o percentil 90 de
-$s$, uma linha por tópico. A posição horizontal é a similaridade $s$, e o
+usuário, as disciplinas acima do limiar de similaridade, inicialmente 0,619, o
+percentil 90 de $s$, uma linha por tópico. A posição horizontal é a
+similaridade $s$, e o
 deslocamento vertical apenas evita a sobreposição. As linhas são ordenadas pela
 maior similaridade de cada tópico, e as cinco disciplinas mais próximas recebem
 numeração e um índice textual, sendo exibidas mesmo abaixo do limiar. Em
 relação ao mapa, o \emph{beeswarm} explicita a magnitude da similaridade e
-permite comparar tópicos em uma escala comum.
+permite comparar tópicos em uma escala comum. Um controle deslizante permite
+alterar o limiar entre 0,500 e 0,850 e atualiza imediatamente as disciplinas
+exibidas. As cinco mais próximas permanecem visíveis mesmo abaixo do limite,
+para preservar a comparação local.
 
 \begin{figure}[htbp]
   \centering
@@ -356,6 +405,41 @@ causariam sobreposição.
   \label{fig:grade}
 \end{figure}
 
+\subsection{Composição por tópico}
+
+O treemap organiza as disciplinas da grade escolhida dentro de seus tópicos.
+A área de cada retângulo é proporcional à carga horária da disciplina, e a
+porcentagem de um tópico usa como denominador a soma das cargas horárias
+exibidas. O controle de curso e o filtro de obrigatórias são compartilhados
+com a grade, de modo que as duas visões mudam juntas. As disciplinas
+obrigatórias têm preenchimento intenso e as optativas, preenchimento claro.
+Ao selecionar uma disciplina no treemap, o mapa e a comparação de similaridade
+passam a usar a mesma referência. A Figura~\ref{fig:treemap} mostra apenas as
+disciplinas obrigatórias de Ciência de Dados.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/treemap.png}
+  \caption{Composição temática das 30 disciplinas obrigatórias de Ciência de
+  Dados com carga horária informada. A área corresponde à carga horária, e as
+  porcentagens referem-se às 3.180 horas exibidas.}
+  \label{fig:treemap}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Coordenação entre visões}
+
+A seleção de uma disciplina na busca, no mapa, na comparação de similaridade ou
+no treemap atualiza a ficha, marca a disciplina no mapa e no treemap e a usa
+como referência para a comparação de similaridade. A seleção de um tópico na
+nuvem de palavras ou no treemap esmaece os demais tópicos no mapa e na
+composição. Esses destaques coordenados permitem voltar do termo característico
+ao conjunto de disciplinas e de uma disciplina à sua vizinhança textual. O
+limiar ajustável da comparação constitui uma segunda forma de interação: uma
+consulta dinâmica que modifica a quantidade e a distribuição dos pontos
+enquanto o usuário explora a similaridade.
+
 \section{Resultados e discussão}
 
 Esta seção responde às três questões levantadas na introdução e discute o
@@ -380,6 +464,13 @@ física ensinada pelo IFSC, por departamentos da EESC e pela Licenciatura em
 Ciências Exatas. Os tópicos, porém, descrevem o texto das ementas, e não o que é
 efetivamente ensinado em sala.
 
+As nuvens ajudam a interpretar os nomes atribuídos aos tópicos. Em
+Probabilidade e estatística, \emph{modelos}, \emph{testes} e \emph{regressão}
+estão entre os termos de maior peso. Em Bases de dados, mineração e ciência de
+dados, destacam-se \emph{dados}, \emph{mineração} e \emph{visualização}. A
+leitura conjunta do nome e dos termos permite reconhecer o conteúdo que
+motivou a classificação sem depender apenas da posição no mapa.
+
 \subsection{Similaridade entre disciplinas}
 
 Na comparação de similaridade, as cinco disciplinas mais próximas de Cálculo I
@@ -394,7 +485,13 @@ textual, e não equivalência curricular: Cálculo II é a segunda disciplina ma
 próxima de Cálculo I, mas depende dela como requisito. A visão indica, portanto,
 disciplinas comparáveis, e não substituíveis.
 
-\subsection{Encadeamentos curriculares}
+Com o limiar inicial de 0,619, a comparação de Cálculo I reúne 136 disciplinas
+de 18 tópicos. Ao elevá-lo a 0,700, restam 12 disciplinas, todas no tópico
+Cálculo, análise e equações. Essa mudança mostra que a vizinhança mais próxima
+é temática, enquanto a cauda de similaridades menores alcança outras áreas.
+O controle torna visível a sensibilidade da resposta ao limiar escolhido.
+
+\subsection{Encadeamentos e composição curricular}
 
 Os 897 pares de requisito têm similaridade mediana de 0,64, acima da mediana da
 mesma grade (0,56) e do conjunto (0,54): requisitos tendem a ligar textos
@@ -408,6 +505,25 @@ currículo. Ainda assim, a similaridade não determina os requisitos: disciplina
 introdutórias liberam conteúdos aplicados com vocabulário diferente, e os
 requisitos também expressam decisões pedagógicas.
 
+O treemap complementa a leitura dos requisitos com a distribuição da carga
+horária entre os tópicos. Entre as disciplinas obrigatórias de Ciência de
+Dados, Bases de dados, mineração e ciência de dados reúne 990 das 3.180 horas
+exibidas (31,1\%),
+seguido por Algoritmos, otimização e aprendizado de máquina, com 630 horas
+(19,8\%), e Probabilidade e estatística, com 510 horas (16,0\%). No
+Bacharelado em Estatística e Ciência de Dados, a concentração é diferente:
+Probabilidade e estatística corresponde a 1.230 das 2.700 horas obrigatórias
+(45,6\%), enquanto Bases de dados, mineração e ciência de dados soma 210 horas
+(7,8\%). A comparação evidencia ênfases distintas em cursos que compartilham
+a expressão \emph{Ciência de Dados} no nome.
+
+Ao incluir todas as optativas ofertadas em Ciência de Dados, os três tópicos
+mais extensos passam a ter parcelas próximas: 17,4\% em Algoritmos,
+otimização e aprendizado de máquina, 17,1\% em Bases de dados, mineração e
+ciência de dados e 17,0\% em Probabilidade e estatística. A oferta optativa
+amplia a variedade temática disponível, mas essa soma não representa um
+percurso individual, pois cada estudante cursa apenas parte das optativas.
+
 \section{Limitações}
 
 Os resultados dependem do conteúdo do JúpiterWeb e da redação das ementas. Os
@@ -416,6 +532,13 @@ tópicos influenciam os agrupamentos. Além disso, 74 disciplinas (14\%) foram
 classificadas como ruído pelo HDBSCAN e atribuídas ao tópico de centroide mais
 próximo. Disciplinas homônimas com sobreposição parcial, como Física II do IFSC e
 Física 2 da Licenciatura em Ciências Exatas, permanecem unidas.
+
+As nuvens exibem termos característicos segundo c-TF-IDF, e não uma lista de
+todos os assuntos ensinados. No treemap, as porcentagens dependem do filtro e
+da carga horária informada para cada disciplina; registros sem carga horária
+são omitidos. A opção \emph{todas} soma as optativas ofertadas na grade,
+inclusive alternativas que um mesmo estudante não cursaria conjuntamente.
+Portanto, a área não equivale à carga horária necessária para concluir o curso.
 
 \section{Lições aprendidas}
 
@@ -435,20 +558,21 @@ entre pontos e a numeração das vizinhas no mapa, a exibição sob demanda dos
 requisitos na grade e o uso de rótulos junto às cores. Esses ajustes foram mais
 úteis que efeitos de animação para tornar as visualizações interpretáveis.
 
-\section{Próximas etapas}
+Na segunda entrega, a coordenação entre as visões mostrou-se útil para
+relacionar escalas de análise diferentes. A nuvem permite partir de um termo
+característico para localizar o tópico no mapa; o treemap permite partir da
+composição de um curso para examinar disciplinas e suas vizinhas textuais. O
+limiar ajustável expõe quanto a comparação de similaridade depende do recorte
+adotado.
 
-A próxima entrega prevê três extensões:
+\section{Conclusão}
 
-\begin{itemize}
-  \item Uma nuvem de palavras por tópico, construída com os pesos
-  de~\eqref{eq:ctfidf}, para explicitar o vocabulário que caracteriza cada
-  grupo.
-  \item Um treemap tópico $\rightarrow$ disciplina que mostre quanto de cada
-  curso cada tópico ocupa, separando carga obrigatória e oferta optativa.
-  \item Ferramentas de \emph{brushing and linking}, para que uma seleção em uma
-  visão destaque as mesmas disciplinas e tópicos nas demais, complementadas por
-  consultas dinâmicas sobre curso, departamento, tipo, semestre e similaridade.
-\end{itemize}
+As cinco visualizações permitem examinar as disciplinas como grupos temáticos,
+vizinhanças textuais, sequências de requisitos e parcelas da carga horária das
+grades. As novas visões tornam explícitos o vocabulário de cada tópico e a
+distribuição temática dos cursos. A seleção coordenada e a consulta dinâmica
+ligam essas leituras, sem transformar similaridade textual em equivalência
+curricular nem a oferta optativa em carga obrigatória.
 
 \begin{thebibliography}{11}
 

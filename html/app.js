@@ -61,6 +61,7 @@
 
   const $ = (s) => document.querySelector(s);
   const formatSimilarity = (value) => value.toFixed(2).replace(".", ",");
+  const formatSimilarityThreshold = (value) => value.toFixed(3).replace(".", ",");
   const escapeHtml = (value) =>
     String(value ?? "").replace(
       /[&<>"]/g,
@@ -81,7 +82,7 @@
     mapState.selectedTopic === null ||
     subjects[subjectIndex].topic === mapState.selectedTopic;
 
-  // Tooltip compartilhado pelas três visualizações.
+  // Tooltip compartilhado pelas visualizações.
   const tooltip = $("#tip");
   const showTip = (e, head, body) => {
     tooltip.hidden = false;
@@ -640,6 +641,16 @@
   // 5. Q2 · Comparação visual de similaridade textual
   const similaritySearchInput = $("#similarity-find");
   const similarityState = mapState;
+  const similarityThresholdInput = $("#similarity-threshold");
+  const similarityThresholdValue = $("#similarity-threshold-value");
+  similarityThresholdInput.value = String(data.meta.p90All);
+  similarityThresholdValue.textContent = formatSimilarityThreshold(data.meta.p90All);
+  similarityThresholdInput.addEventListener("input", () => {
+    similarityThresholdValue.textContent = formatSimilarityThreshold(
+      Number(similarityThresholdInput.value),
+    );
+    drawSubjectSimilarity();
+  });
   createSubjectFinder(
     similaritySearchInput,
     $("#similarity-find-list"),
@@ -670,8 +681,9 @@
     // Beeswarm: uma linha por tópico e um ponto por disciplina, posicionado pela
     // semelhança com a disciplina de referência. Os tópicos com a disciplina mais
     // parecida aparecem primeiro; as cinco mais parecidas têm o número dentro da bolinha, repetido no índice.
-    // O limiar é o percentil 90 de todos os pares; as cinco mais parecidas aparecem mesmo abaixo dele.
-    const FLOOR = data.meta.p90All;
+    // O limiar começa no percentil 90 de todos os pares e pode ser ajustado;
+    // as cinco mais parecidas aparecem mesmo abaixo dele.
+    const FLOOR = Number(similarityThresholdInput.value);
     const TOP = 5;
     const similarities = data.sim[referenceIndex];
     const items = subjects
@@ -711,7 +723,7 @@
     }
     const height = y0 + 4;
     const svg = d3.select(fig).append("svg").attr("viewBox", `0 0 ${width} ${height}`).attr("role", "img")
-      .attr("aria-label", `Beeswarm das ${items.length} disciplinas com semelhança de pelo menos ${formatSimilarity(FLOOR)} com ${reference.name}, agrupadas em ${rows.length} tópicos. A mais parecida é ${items.length ? subjects[items[0].subjectIndex].name : "nenhuma"}`);
+      .attr("aria-label", `Beeswarm de ${items.length} disciplinas após aplicar a similaridade mínima de ${formatSimilarityThreshold(FLOOR)} com ${reference.name}; as cinco mais próximas aparecem mesmo abaixo do limite. Agrupadas em ${rows.length} tópicos. A mais parecida é ${items.length ? subjects[items[0].subjectIndex].name : "nenhuma"}`);
 
     // eixo de semelhança
     const axis = svg.append("g").attr("class", "sim-axis");
@@ -1222,7 +1234,7 @@
       );
   }
 
-  // 7. Construção independente das visualizações desta entrega
+  // 7. Construção das visualizações e atualização do estado compartilhado
   function buildVisualizations() {
     hideTip();
     drawSimilarityMap();

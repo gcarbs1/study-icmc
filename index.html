@@ -22,7 +22,7 @@
         <div class="titles">
           <h1>Estudo de disciplinas <em>semelhantes</em></h1>
           <p class="deck">
-            Uma exploração inicial das disciplinas de graduação do ICMC-USP a
+            Uma exploração das disciplinas de graduação do ICMC-USP a
             partir do texto de suas ementas.
           </p>
           <ul class="authors" aria-label="Autores">
@@ -63,7 +63,7 @@
     </nav>
 
     <main class="wrap grid">
-      <!-- Ficha da disciplina encontrada na busca (independente das visualizações) -->
+      <!-- Ficha da disciplina selecionada nas visualizações -->
       <section
         class="detail span-12"
         id="detail"
@@ -142,15 +142,21 @@
               ></ul>
             </div>
           </div>
+          <div class="similarity-threshold">
+            <label for="similarity-threshold">Similaridade mínima</label>
+            <input id="similarity-threshold" type="range" min="0.500" max="0.850" step="0.001" value="0.619" />
+            <output id="similarity-threshold-value" for="similarity-threshold">0,619</output>
+          </div>
           <div id="similarity" class="similarity"></div>
         </div>
       </section>
 
-      <!-- 5. Q3: grade curricular e relações de requisito -->
+      <!-- 5. Q3: grade, requisitos e composição por tópico -->
       <h2 class="question span-12">
         <span class="q-label">Q3</span
         ><span class="question-text"
-          >Como as disciplinas de cada curso se encadeiam por requisitos?</span
+          >Como a grade de cada curso organiza as disciplinas por requisitos e
+          distribui sua carga horária entre os tópicos?</span
         >
       </h2>
 
